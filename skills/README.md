@@ -43,3 +43,4 @@
 - `~/.openclaw/skills/` - 官方安装
 - `~/.openclaw/workspace/skills/` - 工作区技能
 - `~/.openclaw/workspace/.claude/skills/` - Claude 技能
+-  - BNB Chain MCP (区块/交易/合约/Token/NFT/钱包/ERC-8004/Greenfield)
