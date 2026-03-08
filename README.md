@@ -30,3 +30,11 @@
 | agent-browser | 无头浏览器 + 可访问性树 (~/.agent-browser/) |
 | actionbook | 预计算操作手册自动化网站 |
 | browser-use | Python 库高级浏览器自动化 |
+
+---
+
+## 移动端
+
+| 工具 | 功能 |
+|------|------|
+| BotDrop | 在安卓手机上运行 OpenClaw (旧手机变 AI 助手) |
