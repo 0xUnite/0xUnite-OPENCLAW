@@ -20,3 +20,13 @@
 | binance-ai-assistant | ✅ | 币安AI交易助手 |
 | okx-onchain-assistant | ✅ | OKX OnchainOS AI 助手 (参赛作品) |
 
+
+---
+
+## 浏览器自动化工具
+
+| 工具 | 功能 |
+|------|------|
+| agent-browser | 无头浏览器 + 可访问性树 (~/.agent-browser/) |
+| actionbook | 预计算操作手册自动化网站 |
+| browser-use | Python 库高级浏览器自动化 |
