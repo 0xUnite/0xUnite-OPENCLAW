@@ -1,3 +1,11 @@
+#!/bin/bash
+# OpenClaw Memory Sync Script
+# Syncs to 0xUnite-OPENCLAW repo twice daily
+
+cd ~/0xUnite-OPENCLAW || exit 1
+
+# Update README with current status
+cat > README.md << 'EOF'
 # 0xUnite OpenCLAW 记忆库
 
 > 个人 AI 助手 OpenClaw 的功能记忆库
@@ -20,3 +28,16 @@
 | binance-ai-assistant | ✅ | 币安AI交易助手 |
 | okx-onchain-assistant | ✅ | OKX OnchainOS AI 助手 (参赛作品) |
 
+EOF
+
+# Add and commit
+git add -A
+git commit -m "docs: $(date '+%Y-%m-%d %H:%M') - 内存同步" 2>/dev/null
+
+# Push
+git push origin main 2>/dev/null
+
+echo "Memory synced at $(date)"
+EOF
+
+chmod +x ~/0xUnite-OPENCLAW/sync.sh
