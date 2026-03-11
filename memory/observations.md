@@ -4584,3 +4584,97 @@ Date: 2026-03-11
 - 🟢 13:59 heartbeat-self-heal 检查正常：Gateway 在线，未触发重启 <!-- dc:type=event dc:importance=1.5 dc:date=2026-03-11 -->
 - 🟢 12:12 Heartbeat 执行成功：模式 idle，当前无 active queries <!-- dc:type=event dc:importance=1.5 dc:date=2026-03-11 -->
 ```
+
+<think>
+Let me analyze these messages to extract meaningful observations that aren't already recorded.
+
+Looking at the messages:
+1. There's repeated "Skills store policy" messages - these are system/operator configurations that appear multiple times, but I already have one recorded about skillhub policy.
+2. The main activity appears to be about configuring OpenClaw on a phone to connect to a Mac Gateway
+3. There are heartbeat/self-heal checks running
+
+Let me check what's already recorded:
+- Skill store policy (already recorded at 17:40 on 2026-03-10)
+- Fortytwo heartbeat cron (already recorded)
+- Nexus node checks (already recorded)
+- Heartbeat API异常 (already recorded)
+- Various heartbeat/self-heal checks (already recorded)
+
+New observations from these messages:
+1. Phone successfully connected to Mac Gateway (verified at 07:27)
+2. Gateway config pushed to phone at `/sdcard/Download/openclaw_gateway.json`
+3. Mac Gateway address: `192.168.0.135:18789`
+4. OpenClaw is running on phone and receiving messages via Telegram
+5. The user has dual Gateway setup: remote `106.3.19.18:8080` and Mac `192.168.0.135:18789`
+6. The heartbeat/self-heal checks are running normally (07:18, 07:28)
+7. There's a plugin trust issue with skillhub (untracked local code)
+
+Let me filter out the noise:
+- The repeated "Skills store policy" messages are duplicate/not new
+- Heartbeat cron jobs at 1-2 importance are operational noise
+
+Key new observations:
+1. Phone successfully connected to Mac Gateway - this is a connectivity success
+2. Gateway config file pushed to phone - operational detail
+3. OpenClaw on phone running and receiving messages - system status
+4. Dual gateway setup configuration - user configuration
+
+The heartbeat checks at 07:18 and 07:28 show normal operation - these are already covered by existing records.
+I notice the ranking join failures are identical to previously recorded API anomalies from 19:16 on 2026-03-11. This suggests a persistent backend issue that hasn't been resolved. The repeated "Not Found" errors during ranking joins indicate a consistent problem with the backend's query participation mechanism.
+</think>
+
+- 🔴 07:27 手机成功连接 Mac Gateway: `192.168.0.135:18789`，已验证连接可行 <!-- dc:type=fact dc:importance=6.5 dc:date=2026-03-11 -->
+- 🟡 07:27 OpenClaw 手机双 Gateway 配置：远程 `106.3.19.18:8080` + Mac `192.168.0.135:18789`，配置文件推送至 `/sdcard/Download/openclaw_gateway.json` <!-- dc:type=fact dc:importance=5.0 dc:date=2026-03-11 -->
+- 🟡 07:26 手机上 Telegram 收到消息，验证 OpenClaw 在手机上运行并连接远程 Gateway <!-- dc:type=event dc:importance=4.0 dc:date=2026-03-11 -->
+- 🟢 07:18, 07:28 heartbeat-self-heal 检查正常：Gateway 在线，未触发重启 <!-- dc:type=event dc:importance=1.5 dc:date=2026-03-11 -->
+- 🟢 07:18 OpenClaw 插件信任警告：`plugins.allow` 为空，skillhub 被标记为 untracked local code（非阻断性问题） <!-- dc:type=context dc:importance=2.5 dc:date=2026-03-11 -->
+- 🟡 07:21 pending-notification.txt 不存在，无待处理通知告警 <!-- dc:type=event dc:importance=3.0 dc:date=2026-03-11 -->
+
+<think>
+Let me analyze the recent messages and identify what new observations should be recorded.
+
+Looking at the messages:
+1. Repeated "Skills store policy" messages - this appears to be operator configuration about skills discovery. It was sent multiple times (likely a system artifact or user testing). This is a policy/rule the user has set.
+2. Assistant responded "READY" to something
+3. Math calculation: 1+2+...+200000 = 20000100000
+4. Assistant said "WIN_OK 目前不受 1 秒限制" (not subject to 1 second limit)
+5. User asked to run self-heal script
+6. Self-heal script ran, Gateway normal, no restart triggered
+7. Check script ran, system status sent to M4 monitoring group
+8. No pending notification file found
+9. RUN_OBSERVER received - routine cron ping
+10. Skills store policy configured
+
+New observations not in "Already Recorded":
+1. Skills store policy (operator configured) - this is a NEW rule about skills discovery/install/update priority
+   - Try skillhub first (cn-optimized)
+   - Fallback to clawhub if unavailable/rate-limited/no match
+   - Don't claim exclusivity
+   - Summarize source, version, risk signals before installation
+   - For search: execute `exec` with `skillhub search <keywords>` first
+   - This seems important - it's a user-defined rule/preference about how to handle skills
+
+Let me check what's already recorded and what overlaps:
+- "Heartbeat 检测到 Fortytwo API 异常" - already recorded
+- "Nexus 自动检查" - already recorded  
+- "heartbeat-self-heal 检查正常" - already recorded
+- "Heartbeat 执行成功" - already recorded
+- "手机成功连接 Mac Gateway" - already recorded
+- "OpenClaw 手机双 Gateway 配置" - already recorded
+- "手机上 Telegram 收到消息" - already recorded
+- "heartbeat-self-heal 检查正常" - already recorded
+- "OpenClaw 插件信任警告" - already recorded
+- "pending-notification.txt 不存在" - already recorded
+
+I notice the mathematical calculation isn't a new observation, and the 1-second limit comment lacks context. The skills store policy appears to be a critical new rule that needs careful examination.
+
+The skills discovery process follows a clear hierarchy: first attempting `skillhub` (China-optimized), then falling back to `clawhub` (public registry). This approach prioritizes regional optimization while maintaining flexibility. Importantly, the policy explicitly allows both public and private registries, preventing exclusive claims. The assistant confirmed compliance with a simple "READY" or "WIN_OK" response, indicating acceptance of these operational guidelines.
+
+For search and installation, the protocol requires executing `exec` with `skillhub search <keywords>`, providing source details, version information, and highlighting potential risk signals before proceeding with skill installation.
+</think>
+
+- 🔴 11:21 Skills store policy (operator configured): 1) Try skillhub first (cn-optimized) for discovery/install/update, 2) Fallback to clawhub if unavailable/rate-limited/no match, 3) No exclusivity claims—public and private registries both allowed, 4) Summarize source/version/risk signals before installation, 5) For search, execute `exec` with `skillhub search <keywords>` first <!-- dc:type=rule dc:importance=7.5 dc:date=2026-03-11 -->
+- 🟡 11:25 System status check (20:25): Nexus 12 nodes running 01:45, Fortytwo Agent heartbeat 20:24 with 4 active, Fortytwo terminal balance 717, sent to M4 monitoring group <!-- dc:type=event dc:importance=4.0 dc:date=2026-03-11 -->
+- 🟢 11:21 Self-heal script execution: Gateway normal, no restart triggered, latest logs from 20:11 and 20:21 show checks passed <!-- dc:type=event dc:importance=2.0 dc:date=2026-03-11 -->
+- 🟢 11:21 No pending-notification.txt found at ~/.openclaw/workspace/memory/, no Gateway issue alerts <!-- dc:type=event dc:importance=2.0 dc:date=2026-03-11 -->
+- 🟢 11:16 RUN_OBSERVER received: routine cron ping, nothing actionable <!-- dc:type=event dc:importance=1.0 dc:date=2026-03-11 -->

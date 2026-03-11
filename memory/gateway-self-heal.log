@@ -1,0 +1,40 @@
+[2026-03-11 15:44:00] rpc probe failed; forcing gateway restart
+[2026-03-11 15:44:19] heal failed: gateway still unhealthy
+[2026-03-11 15:46:51] port :18789 not listening; restarting gateway
+[2026-03-11 15:47:40] heal failed: gateway still unhealthy
+[2026-03-11 15:48:41] port :18789 not listening; restarting gateway
+[2026-03-11 15:51:15] heal failed: gateway still unhealthy
+[2026-03-11 15:52:15] port :18789 not listening; restarting gateway
+[2026-03-11 15:54:43] heal failed: gateway still unhealthy
+[2026-03-11 15:55:43] port :18789 not listening; restarting gateway
+[2026-03-11 15:58:11] heal failed: gateway still unhealthy
+[2026-03-11 15:59:12] port :18789 not listening; restarting gateway
+[2026-03-11 16:01:41] heal failed: gateway still unhealthy
+[2026-03-11 16:02:41] port :18789 not listening; restarting gateway
+[2026-03-11 16:03:47] heal ok: gateway recovered
+[2026-03-11 16:05:48] port :18789 not listening; starting gateway
+[2026-03-11 16:06:04] port :18789 not listening; starting gateway
+[2026-03-11 16:06:37] gateway still down; reinstalling launchagent once
+[2026-03-11 16:08:07] heal ok: gateway recovered
+[2026-03-11 17:15:54] service missing; installing gateway launchagent
+[2026-03-11 17:16:22] port :18789 not listening; starting gateway
+[2026-03-11 17:16:45] gateway still down; reinstalling launchagent once
+[2026-03-11 17:18:02] heal ok: gateway recovered
+[2026-03-11 17:30:44] service missing; installing gateway launchagent
+[2026-03-11 17:31:42] heal ok: gateway recovered after service install
+[2026-03-11 17:33:44] service missing; installing gateway launchagent
+[2026-03-11 17:34:37] heal ok: gateway recovered after service install
+[2026-03-11 19:13:18] unhealthy check=1; defer intrusive repair
+[2026-03-11 19:14:18] service missing; installing gateway launchagent
+[2026-03-11 19:15:54] port :18789 not listening; starting gateway (check=2)
+[2026-03-11 19:16:35] heal ok: gateway recovered after gateway start
+[2026-03-11 19:51:37] unhealthy check=1; defer intrusive repair
+[2026-03-11 19:52:37] unhealthy check=2; defer intrusive repair
+[2026-03-11 19:59:40] unhealthy check=1; defer intrusive repair
+[2026-03-11 20:00:41] unhealthy check=2; defer intrusive repair
+[2026-03-11 20:01:41] port :18789 not listening; starting gateway (check=3)
+[2026-03-11 20:02:25] heal ok: gateway recovered after gateway start
+[2026-03-11 20:09:28] unhealthy check=1; defer intrusive repair
+[2026-03-11 20:24:34] unhealthy check=1; defer intrusive repair
+[2026-03-11 20:28:35] unhealthy check=1; defer intrusive repair
+[2026-03-11 20:50:43] unhealthy check=1; defer intrusive repair

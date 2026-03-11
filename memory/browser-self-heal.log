@@ -791,3 +791,459 @@
 [2026-03-11 13:11:38] ok: CDP healthy on :18800
 [2026-03-11 13:12:39] heal start: browser CDP is not responsive
 [2026-03-11 13:14:30] heal step1 failed: browser start did not recover CDP; restarting gateway
+[2026-03-11 13:16:25] heal step2 failed: reinstalling gateway service and retrying browser start
+[2026-03-11 13:18:29] heal failed: manual intervention required
+[2026-03-11 13:19:29] heal start: browser CDP is not responsive
+[2026-03-11 13:21:41] heal step1 failed: browser start did not recover CDP; restarting gateway
+[2026-03-11 13:22:21] heal ok: recovered after gateway restart
+[2026-03-11 13:23:21] ok: CDP healthy on :18800
+[2026-03-11 13:24:21] ok: CDP healthy on :18800
+[2026-03-11 13:25:21] ok: CDP healthy on :18800
+[2026-03-11 13:26:21] ok: CDP healthy on :18800
+[2026-03-11 13:27:21] ok: CDP healthy on :18800
+[2026-03-11 13:28:21] ok: CDP healthy on :18800
+[2026-03-11 13:29:21] ok: CDP healthy on :18800
+[2026-03-11 13:30:21] ok: CDP healthy on :18800
+[2026-03-11 13:31:21] ok: CDP healthy on :18800
+[2026-03-11 13:32:21] ok: CDP healthy on :18800
+[2026-03-11 13:33:21] ok: CDP healthy on :18800
+[2026-03-11 13:34:22] ok: CDP healthy on :18800
+[2026-03-11 13:35:22] ok: CDP healthy on :18800
+[2026-03-11 13:36:22] ok: CDP healthy on :18800
+[2026-03-11 13:37:22] ok: CDP healthy on :18800
+[2026-03-11 13:38:22] ok: CDP healthy on :18800
+[2026-03-11 13:39:22] ok: CDP healthy on :18800
+[2026-03-11 13:40:22] ok: CDP healthy on :18800
+[2026-03-11 13:41:22] ok: CDP healthy on :18800
+[2026-03-11 13:42:22] ok: CDP healthy on :18800
+[2026-03-11 13:43:22] ok: CDP healthy on :18800
+[2026-03-11 13:44:22] ok: CDP healthy on :18800
+[2026-03-11 13:45:22] ok: CDP healthy on :18800
+[2026-03-11 13:46:22] ok: CDP healthy on :18800
+[2026-03-11 13:47:22] ok: CDP healthy on :18800
+[2026-03-11 13:48:22] ok: CDP healthy on :18800
+[2026-03-11 13:49:22] ok: CDP healthy on :18800
+[2026-03-11 13:50:22] ok: CDP healthy on :18800
+[2026-03-11 13:51:23] ok: CDP healthy on :18800
+[2026-03-11 13:52:23] ok: CDP healthy on :18800
+[2026-03-11 13:53:23] ok: CDP healthy on :18800
+[2026-03-11 13:54:23] ok: CDP healthy on :18800
+[2026-03-11 13:55:23] ok: CDP healthy on :18800
+[2026-03-11 13:56:23] ok: CDP healthy on :18800
+[2026-03-11 13:57:23] ok: CDP healthy on :18800
+[2026-03-11 13:58:23] ok: CDP healthy on :18800
+[2026-03-11 13:59:23] ok: CDP healthy on :18800
+[2026-03-11 14:00:23] ok: CDP healthy on :18800
+[2026-03-11 14:01:23] ok: CDP healthy on :18800
+[2026-03-11 14:02:23] ok: CDP healthy on :18800
+[2026-03-11 14:03:23] ok: CDP healthy on :18800
+[2026-03-11 14:04:23] ok: CDP healthy on :18800
+[2026-03-11 14:05:23] ok: CDP healthy on :18800
+[2026-03-11 14:06:23] ok: CDP healthy on :18800
+[2026-03-11 14:07:23] ok: CDP healthy on :18800
+[2026-03-11 14:08:24] ok: CDP healthy on :18800
+[2026-03-11 14:09:24] ok: CDP healthy on :18800
+[2026-03-11 14:10:24] ok: CDP healthy on :18800
+[2026-03-11 14:11:24] ok: CDP healthy on :18800
+[2026-03-11 14:12:24] ok: CDP healthy on :18800
+[2026-03-11 14:13:24] ok: CDP healthy on :18800
+[2026-03-11 14:14:24] ok: CDP healthy on :18800
+[2026-03-11 14:15:24] ok: CDP healthy on :18800
+[2026-03-11 14:16:24] ok: CDP healthy on :18800
+[2026-03-11 14:17:24] ok: CDP healthy on :18800
+[2026-03-11 14:18:24] ok: CDP healthy on :18800
+[2026-03-11 14:19:24] ok: CDP healthy on :18800
+[2026-03-11 14:20:24] ok: CDP healthy on :18800
+[2026-03-11 14:21:24] ok: CDP healthy on :18800
+[2026-03-11 14:22:24] ok: CDP healthy on :18800
+[2026-03-11 14:23:24] ok: CDP healthy on :18800
+[2026-03-11 14:24:24] ok: CDP healthy on :18800
+[2026-03-11 14:25:25] ok: CDP healthy on :18800
+[2026-03-11 14:26:25] ok: CDP healthy on :18800
+[2026-03-11 14:27:25] ok: CDP healthy on :18800
+[2026-03-11 14:28:25] ok: CDP healthy on :18800
+[2026-03-11 14:29:25] ok: CDP healthy on :18800
+[2026-03-11 14:30:25] ok: CDP healthy on :18800
+[2026-03-11 14:31:25] ok: CDP healthy on :18800
+[2026-03-11 14:32:25] ok: CDP healthy on :18800
+[2026-03-11 14:33:25] ok: CDP healthy on :18800
+[2026-03-11 14:34:25] ok: CDP healthy on :18800
+[2026-03-11 14:35:25] ok: CDP healthy on :18800
+[2026-03-11 14:36:25] ok: CDP healthy on :18800
+[2026-03-11 14:37:25] ok: CDP healthy on :18800
+[2026-03-11 14:38:25] ok: CDP healthy on :18800
+[2026-03-11 14:39:25] ok: CDP healthy on :18800
+[2026-03-11 14:40:25] ok: CDP healthy on :18800
+[2026-03-11 14:41:25] ok: CDP healthy on :18800
+[2026-03-11 14:42:26] ok: CDP healthy on :18800
+[2026-03-11 14:43:26] ok: CDP healthy on :18800
+[2026-03-11 14:44:26] ok: CDP healthy on :18800
+[2026-03-11 14:45:26] ok: CDP healthy on :18800
+[2026-03-11 14:46:26] ok: CDP healthy on :18800
+[2026-03-11 14:47:26] ok: CDP healthy on :18800
+[2026-03-11 14:48:26] ok: CDP healthy on :18800
+[2026-03-11 14:49:26] ok: CDP healthy on :18800
+[2026-03-11 14:50:26] ok: CDP healthy on :18800
+[2026-03-11 14:51:26] ok: CDP healthy on :18800
+[2026-03-11 14:52:26] ok: CDP healthy on :18800
+[2026-03-11 14:53:26] ok: CDP healthy on :18800
+[2026-03-11 14:54:26] ok: CDP healthy on :18800
+[2026-03-11 14:55:26] ok: CDP healthy on :18800
+[2026-03-11 14:56:26] ok: CDP healthy on :18800
+[2026-03-11 14:57:26] ok: CDP healthy on :18800
+[2026-03-11 14:58:26] ok: CDP healthy on :18800
+[2026-03-11 14:59:26] ok: CDP healthy on :18800
+[2026-03-11 15:00:27] ok: CDP healthy on :18800
+[2026-03-11 15:01:27] ok: CDP healthy on :18800
+[2026-03-11 15:02:27] ok: CDP healthy on :18800
+[2026-03-11 15:03:27] ok: CDP healthy on :18800
+[2026-03-11 15:04:27] ok: CDP healthy on :18800
+[2026-03-11 15:05:27] ok: CDP healthy on :18800
+[2026-03-11 15:06:27] ok: CDP healthy on :18800
+[2026-03-11 15:07:27] ok: CDP healthy on :18800
+[2026-03-11 15:08:27] ok: CDP healthy on :18800
+[2026-03-11 15:09:27] ok: CDP healthy on :18800
+[2026-03-11 15:10:27] ok: CDP healthy on :18800
+[2026-03-11 15:11:27] ok: CDP healthy on :18800
+[2026-03-11 15:12:27] ok: CDP healthy on :18800
+[2026-03-11 15:13:27] ok: CDP healthy on :18800
+[2026-03-11 15:14:27] ok: CDP healthy on :18800
+[2026-03-11 15:15:28] ok: CDP healthy on :18800
+[2026-03-11 15:16:28] ok: CDP healthy on :18800
+[2026-03-11 15:17:28] ok: CDP healthy on :18800
+[2026-03-11 15:18:28] ok: CDP healthy on :18800
+[2026-03-11 15:19:28] ok: CDP healthy on :18800
+[2026-03-11 15:20:28] ok: CDP healthy on :18800
+[2026-03-11 15:21:28] ok: CDP healthy on :18800
+[2026-03-11 15:22:28] ok: CDP healthy on :18800
+[2026-03-11 15:23:28] ok: CDP healthy on :18800
+[2026-03-11 15:24:29] ok: CDP healthy on :18800
+[2026-03-11 15:25:29] ok: CDP healthy on :18800
+[2026-03-11 15:26:29] ok: CDP healthy on :18800
+[2026-03-11 15:27:29] ok: CDP healthy on :18800
+[2026-03-11 15:28:29] ok: CDP healthy on :18800
+[2026-03-11 15:29:29] ok: CDP healthy on :18800
+[2026-03-11 15:30:29] ok: CDP healthy on :18800
+[2026-03-11 15:31:29] ok: CDP healthy on :18800
+[2026-03-11 15:32:29] ok: CDP healthy on :18800
+[2026-03-11 15:33:29] ok: CDP healthy on :18800
+[2026-03-11 15:34:29] ok: CDP healthy on :18800
+[2026-03-11 15:35:29] ok: CDP healthy on :18800
+[2026-03-11 15:36:29] ok: CDP healthy on :18800
+[2026-03-11 15:37:29] heal start: browser CDP is not responsive
+[2026-03-11 15:39:18] heal step1 failed: browser start did not recover CDP; restarting gateway
+[2026-03-11 15:41:08] heal step2 failed: reinstalling gateway service and retrying browser start
+[2026-03-11 15:43:40] heal failed: manual intervention required
+[2026-03-11 15:44:40] heal start: browser CDP is not responsive
+[2026-03-11 15:46:42] heal step1 failed: browser start did not recover CDP; restarting gateway
+[2026-03-11 15:50:35] heal step2 failed: reinstalling gateway service and retrying browser start
+[2026-03-11 15:53:01] heal failed: manual intervention required
+[2026-03-11 15:54:01] heal start: browser CDP is not responsive
+[2026-03-11 15:56:03] heal step1 failed: browser start did not recover CDP; restarting gateway
+[2026-03-11 15:59:14] heal step2 failed: reinstalling gateway service and retrying browser start
+[2026-03-11 16:01:40] heal failed: manual intervention required
+[2026-03-11 16:02:40] heal start: browser CDP is not responsive
+[2026-03-11 16:05:03] heal step1 failed: browser start did not recover CDP; restarting gateway
+[2026-03-11 16:05:56] skip: another self-heal run is in progress
+[2026-03-11 16:06:02] heal start: browser CDP is not responsive
+[2026-03-11 16:08:22] heal step1 failed: browser start did not recover CDP
+[2026-03-11 16:08:22] gateway healthy on :18789; skip gateway restart
+[2026-03-11 16:08:48] heal ok: recovered after targeted retry
+[2026-03-11 16:09:07] ok: CDP healthy on :18800
+[2026-03-11 16:10:07] ok: CDP healthy on :18800
+[2026-03-11 16:11:07] ok: CDP healthy on :18800
+[2026-03-11 16:11:17] ok: CDP healthy on :18800
+[2026-03-11 16:12:07] ok: CDP healthy on :18800
+[2026-03-11 16:13:08] ok: CDP healthy on :18800
+[2026-03-11 16:14:08] ok: CDP healthy on :18800
+[2026-03-11 16:15:08] ok: CDP healthy on :18800
+[2026-03-11 16:16:08] ok: CDP healthy on :18800
+[2026-03-11 16:17:08] ok: CDP healthy on :18800
+[2026-03-11 16:18:08] ok: CDP healthy on :18800
+[2026-03-11 16:19:08] ok: CDP healthy on :18800
+[2026-03-11 16:20:08] ok: CDP healthy on :18800
+[2026-03-11 16:21:08] ok: CDP healthy on :18800
+[2026-03-11 16:22:08] ok: CDP healthy on :18800
+[2026-03-11 16:23:08] ok: CDP healthy on :18800
+[2026-03-11 16:24:08] ok: CDP healthy on :18800
+[2026-03-11 16:25:08] ok: CDP healthy on :18800
+[2026-03-11 16:26:08] ok: CDP healthy on :18800
+[2026-03-11 16:27:08] ok: CDP healthy on :18800
+[2026-03-11 16:28:08] ok: CDP healthy on :18800
+[2026-03-11 16:29:08] ok: CDP healthy on :18800
+[2026-03-11 16:30:08] ok: CDP healthy on :18800
+[2026-03-11 16:31:09] ok: CDP healthy on :18800
+[2026-03-11 16:32:09] ok: CDP healthy on :18800
+[2026-03-11 16:33:09] ok: CDP healthy on :18800
+[2026-03-11 16:34:09] ok: CDP healthy on :18800
+[2026-03-11 16:35:09] ok: CDP healthy on :18800
+[2026-03-11 16:36:09] ok: CDP healthy on :18800
+[2026-03-11 16:37:09] ok: CDP healthy on :18800
+[2026-03-11 16:38:09] ok: CDP healthy on :18800
+[2026-03-11 16:39:09] ok: CDP healthy on :18800
+[2026-03-11 16:40:09] ok: CDP healthy on :18800
+[2026-03-11 16:41:09] ok: CDP healthy on :18800
+[2026-03-11 16:42:09] ok: CDP healthy on :18800
+[2026-03-11 16:43:09] ok: CDP healthy on :18800
+[2026-03-11 16:44:09] ok: CDP healthy on :18800
+[2026-03-11 16:45:09] ok: CDP healthy on :18800
+[2026-03-11 16:46:09] ok: CDP healthy on :18800
+[2026-03-11 16:47:09] ok: CDP healthy on :18800
+[2026-03-11 16:48:10] ok: CDP healthy on :18800
+[2026-03-11 16:49:10] ok: CDP healthy on :18800
+[2026-03-11 16:50:10] ok: CDP healthy on :18800
+[2026-03-11 16:51:10] ok: CDP healthy on :18800
+[2026-03-11 16:52:10] ok: CDP healthy on :18800
+[2026-03-11 16:53:10] ok: CDP healthy on :18800
+[2026-03-11 16:54:10] ok: CDP healthy on :18800
+[2026-03-11 16:55:10] ok: CDP healthy on :18800
+[2026-03-11 16:56:10] ok: CDP healthy on :18800
+[2026-03-11 16:57:10] ok: CDP healthy on :18800
+[2026-03-11 16:58:10] ok: CDP healthy on :18800
+[2026-03-11 16:59:10] ok: CDP healthy on :18800
+[2026-03-11 17:00:10] ok: CDP healthy on :18800
+[2026-03-11 17:01:10] ok: CDP healthy on :18800
+[2026-03-11 17:02:10] ok: CDP healthy on :18800
+[2026-03-11 17:03:10] ok: CDP healthy on :18800
+[2026-03-11 17:04:10] ok: CDP healthy on :18800
+[2026-03-11 17:05:10] ok: CDP healthy on :18800
+[2026-03-11 17:06:11] ok: CDP healthy on :18800
+[2026-03-11 17:07:11] ok: CDP healthy on :18800
+[2026-03-11 17:08:11] ok: CDP healthy on :18800
+[2026-03-11 17:09:11] ok: CDP healthy on :18800
+[2026-03-11 17:10:11] ok: CDP healthy on :18800
+[2026-03-11 17:11:11] ok: CDP healthy on :18800
+[2026-03-11 17:12:11] ok: CDP healthy on :18800
+[2026-03-11 17:13:11] ok: CDP healthy on :18800
+[2026-03-11 17:14:11] ok: CDP healthy on :18800
+[2026-03-11 17:15:11] ok: CDP healthy on :18800
+[2026-03-11 17:16:11] heal start: browser CDP is not responsive
+[2026-03-11 17:18:11] heal step1 failed: browser start did not recover CDP
+[2026-03-11 17:18:12] gateway healthy on :18789; skip gateway restart
+[2026-03-11 17:18:42] heal ok: recovered after targeted retry
+[2026-03-11 17:19:28] ok: CDP healthy on :18800
+[2026-03-11 17:20:28] ok: CDP healthy on :18800
+[2026-03-11 17:21:29] ok: CDP healthy on :18800
+[2026-03-11 17:22:29] ok: CDP healthy on :18800
+[2026-03-11 17:23:29] ok: CDP healthy on :18800
+[2026-03-11 17:24:29] heal start: browser CDP is not responsive
+[2026-03-11 17:25:10] heal ok: CDP recovered on :18800
+[2026-03-11 17:26:10] ok: CDP healthy on :18800
+[2026-03-11 17:27:10] ok: CDP healthy on :18800
+[2026-03-11 17:28:10] ok: CDP healthy on :18800
+[2026-03-11 17:29:10] ok: CDP healthy on :18800
+[2026-03-11 17:30:11] ok: CDP healthy on :18800
+[2026-03-11 17:31:11] heal start: browser CDP is not responsive
+[2026-03-11 17:33:33] heal step1 failed: browser start did not recover CDP
+[2026-03-11 17:33:33] gateway healthy on :18789; skip gateway restart
+[2026-03-11 17:35:16] gateway healthy but CDP still unavailable; skip gateway reinstall
+[2026-03-11 17:35:16] heal failed: manual intervention required
+[2026-03-11 17:36:16] heal start: browser CDP is not responsive
+[2026-03-11 17:36:31] removed stale profile lock: /Users/sudi/.openclaw/browser/openclaw/user-data/SingletonLock
+[2026-03-11 17:36:31] removed stale profile lock: /Users/sudi/.openclaw/browser/openclaw/user-data/SingletonCookie
+[2026-03-11 17:36:31] removed stale profile lock: /Users/sudi/.openclaw/browser/openclaw/user-data/SingletonSocket
+[2026-03-11 17:36:31] removed stale profile lock: /Users/sudi/.openclaw/browser/openclaw/user-data/RunningChromeVersion
+[2026-03-11 17:36:55] heal ok: CDP recovered on :18800
+[2026-03-11 17:37:54] ok: CDP healthy on :18800
+[2026-03-11 17:38:54] ok: CDP healthy on :18800
+[2026-03-11 17:39:54] ok: CDP healthy on :18800
+[2026-03-11 17:40:54] ok: CDP healthy on :18800
+[2026-03-11 17:41:54] ok: CDP healthy on :18800
+[2026-03-11 17:42:54] ok: CDP healthy on :18800
+[2026-03-11 17:43:54] ok: CDP healthy on :18800
+[2026-03-11 17:44:54] ok: CDP healthy on :18800
+[2026-03-11 17:45:54] ok: CDP healthy on :18800
+[2026-03-11 17:46:54] ok: CDP healthy on :18800
+[2026-03-11 17:47:54] ok: CDP healthy on :18800
+[2026-03-11 17:48:54] ok: CDP healthy on :18800
+[2026-03-11 17:49:54] ok: CDP healthy on :18800
+[2026-03-11 17:50:54] ok: CDP healthy on :18800
+[2026-03-11 17:51:55] ok: CDP healthy on :18800
+[2026-03-11 17:52:55] ok: CDP healthy on :18800
+[2026-03-11 17:53:55] ok: CDP healthy on :18800
+[2026-03-11 17:54:55] ok: CDP healthy on :18800
+[2026-03-11 17:55:55] ok: CDP healthy on :18800
+[2026-03-11 17:56:55] ok: CDP healthy on :18800
+[2026-03-11 17:57:55] ok: CDP healthy on :18800
+[2026-03-11 17:58:55] ok: CDP healthy on :18800
+[2026-03-11 17:59:55] ok: CDP healthy on :18800
+[2026-03-11 18:00:55] ok: CDP healthy on :18800
+[2026-03-11 18:01:55] ok: CDP healthy on :18800
+[2026-03-11 18:02:55] ok: CDP healthy on :18800
+[2026-03-11 18:03:55] ok: CDP healthy on :18800
+[2026-03-11 18:04:55] ok: CDP healthy on :18800
+[2026-03-11 18:05:55] ok: CDP healthy on :18800
+[2026-03-11 18:06:55] ok: CDP healthy on :18800
+[2026-03-11 18:07:56] ok: CDP healthy on :18800
+[2026-03-11 18:08:56] ok: CDP healthy on :18800
+[2026-03-11 18:09:56] ok: CDP healthy on :18800
+[2026-03-11 18:10:56] ok: CDP healthy on :18800
+[2026-03-11 18:11:56] ok: CDP healthy on :18800
+[2026-03-11 18:12:56] ok: CDP healthy on :18800
+[2026-03-11 18:13:56] ok: CDP healthy on :18800
+[2026-03-11 18:14:56] ok: CDP healthy on :18800
+[2026-03-11 18:15:56] ok: CDP healthy on :18800
+[2026-03-11 18:16:56] ok: CDP healthy on :18800
+[2026-03-11 18:17:56] ok: CDP healthy on :18800
+[2026-03-11 18:18:56] ok: CDP healthy on :18800
+[2026-03-11 18:19:57] ok: CDP healthy on :18800
+[2026-03-11 18:20:57] ok: CDP healthy on :18800
+[2026-03-11 18:21:57] ok: CDP healthy on :18800
+[2026-03-11 18:22:57] ok: CDP healthy on :18800
+[2026-03-11 18:23:57] ok: CDP healthy on :18800
+[2026-03-11 18:24:57] ok: CDP healthy on :18800
+[2026-03-11 18:25:57] ok: CDP healthy on :18800
+[2026-03-11 18:26:57] ok: CDP healthy on :18800
+[2026-03-11 18:27:57] ok: CDP healthy on :18800
+[2026-03-11 18:28:57] ok: CDP healthy on :18800
+[2026-03-11 18:29:57] ok: CDP healthy on :18800
+[2026-03-11 18:30:57] ok: CDP healthy on :18800
+[2026-03-11 18:31:57] ok: CDP healthy on :18800
+[2026-03-11 18:32:57] ok: CDP healthy on :18800
+[2026-03-11 18:33:57] ok: CDP healthy on :18800
+[2026-03-11 18:34:57] ok: CDP healthy on :18800
+[2026-03-11 18:35:57] ok: CDP healthy on :18800
+[2026-03-11 18:36:58] ok: CDP healthy on :18800
+[2026-03-11 18:37:58] ok: CDP healthy on :18800
+[2026-03-11 18:38:58] ok: CDP healthy on :18800
+[2026-03-11 18:39:58] ok: CDP healthy on :18800
+[2026-03-11 18:40:58] ok: CDP healthy on :18800
+[2026-03-11 18:41:58] ok: CDP healthy on :18800
+[2026-03-11 18:42:58] ok: CDP healthy on :18800
+[2026-03-11 18:43:58] ok: CDP healthy on :18800
+[2026-03-11 18:44:58] ok: CDP healthy on :18800
+[2026-03-11 18:45:58] ok: CDP healthy on :18800
+[2026-03-11 18:46:58] ok: CDP healthy on :18800
+[2026-03-11 18:47:58] ok: CDP healthy on :18800
+[2026-03-11 18:48:58] ok: CDP healthy on :18800
+[2026-03-11 18:50:01] ok: CDP healthy on :18800
+[2026-03-11 18:51:01] ok: CDP healthy on :18800
+[2026-03-11 18:52:01] ok: CDP healthy on :18800
+[2026-03-11 18:53:01] ok: CDP healthy on :18800
+[2026-03-11 18:54:01] ok: CDP healthy on :18800
+[2026-03-11 18:55:01] ok: CDP healthy on :18800
+[2026-03-11 18:56:01] ok: CDP healthy on :18800
+[2026-03-11 18:57:02] ok: CDP healthy on :18800
+[2026-03-11 18:58:02] ok: CDP healthy on :18800
+[2026-03-11 18:59:02] ok: CDP healthy on :18800
+[2026-03-11 19:00:02] ok: CDP healthy on :18800
+[2026-03-11 19:01:02] ok: CDP healthy on :18800
+[2026-03-11 19:02:02] ok: CDP healthy on :18800
+[2026-03-11 19:03:02] ok: CDP healthy on :18800
+[2026-03-11 19:04:02] ok: CDP healthy on :18800
+[2026-03-11 19:05:02] ok: CDP healthy on :18800
+[2026-03-11 19:06:02] ok: CDP healthy on :18800
+[2026-03-11 19:07:02] ok: CDP healthy on :18800
+[2026-03-11 19:08:02] ok: CDP healthy on :18800
+[2026-03-11 19:09:02] ok: CDP healthy on :18800
+[2026-03-11 19:10:02] ok: CDP healthy on :18800
+[2026-03-11 19:11:02] ok: CDP healthy on :18800
+[2026-03-11 19:12:02] ok: CDP healthy on :18800
+[2026-03-11 19:13:02] heal start: browser CDP is not responsive
+[2026-03-11 19:14:48] heal step1 failed: browser start did not recover CDP
+[2026-03-11 19:14:48] gateway not listening on :18789; starting gateway
+[2026-03-11 19:16:58] gateway healthy but CDP still unavailable; skip gateway reinstall
+[2026-03-11 19:16:58] heal failed: manual intervention required
+[2026-03-11 19:17:58] heal start: browser CDP is not responsive
+[2026-03-11 19:18:10] heal start: browser CDP is not responsive
+[2026-03-11 19:20:17] heal step1 failed: browser start did not recover CDP
+[2026-03-11 19:20:27] skip: another self-heal run is in progress
+[2026-03-11 19:21:27] skip: another self-heal run is in progress
+[2026-03-11 19:22:27] skip: another self-heal run is in progress
+[2026-03-11 19:23:27] skip: another self-heal run is in progress
+[2026-03-11 19:24:27] skip: another self-heal run is in progress
+[2026-03-11 19:25:27] skip: another self-heal run is in progress
+[2026-03-11 19:26:27] skip: another self-heal run is in progress
+[2026-03-11 19:27:27] skip: another self-heal run is in progress
+[2026-03-11 19:28:27] skip: another self-heal run is in progress
+[2026-03-11 19:29:27] skip: another self-heal run is in progress
+[2026-03-11 19:30:27] skip: another self-heal run is in progress
+[2026-03-11 19:31:27] skip: another self-heal run is in progress
+[2026-03-11 19:32:27] skip: another self-heal run is in progress
+[2026-03-11 19:33:27] skip: another self-heal run is in progress
+[2026-03-11 19:34:27] skip: another self-heal run is in progress
+[2026-03-11 19:35:27] skip: another self-heal run is in progress
+[2026-03-11 19:36:27] skip: another self-heal run is in progress
+[2026-03-11 19:37:27] skip: another self-heal run is in progress
+[2026-03-11 19:38:27] skip: another self-heal run is in progress
+[2026-03-11 19:39:27] skip: another self-heal run is in progress
+[2026-03-11 19:40:27] skip: another self-heal run is in progress
+[2026-03-11 19:41:27] skip: another self-heal run is in progress
+[2026-03-11 19:42:27] skip: another self-heal run is in progress
+[2026-03-11 19:43:27] skip: another self-heal run is in progress
+[2026-03-11 19:44:28] skip: another self-heal run is in progress
+[2026-03-11 19:45:28] skip: another self-heal run is in progress
+[2026-03-11 19:46:28] skip: another self-heal run is in progress
+[2026-03-11 19:47:28] skip: another self-heal run is in progress
+[2026-03-11 19:48:28] skip: another self-heal run is in progress
+[2026-03-11 19:49:28] skip: another self-heal run is in progress
+[2026-03-11 19:50:28] skip: another self-heal run is in progress
+[2026-03-11 19:51:28] skip: another self-heal run is in progress
+[2026-03-11 19:52:28] skip: another self-heal run is in progress
+[2026-03-11 19:53:28] skip: another self-heal run is in progress
+[2026-03-11 19:54:28] skip: another self-heal run is in progress
+[2026-03-11 19:55:28] skip: another self-heal run is in progress
+[2026-03-11 19:56:28] skip: another self-heal run is in progress
+[2026-03-11 19:57:28] skip: another self-heal run is in progress
+[2026-03-11 19:58:28] skip: another self-heal run is in progress
+[2026-03-11 19:59:28] skip: another self-heal run is in progress
+[2026-03-11 20:00:28] skip: another self-heal run is in progress
+[2026-03-11 20:01:28] skip: another self-heal run is in progress
+[2026-03-11 20:02:28] skip: another self-heal run is in progress
+[2026-03-11 20:03:28] skip: another self-heal run is in progress
+[2026-03-11 20:04:28] skip: another self-heal run is in progress
+[2026-03-11 20:05:28] skip: another self-heal run is in progress
+[2026-03-11 20:06:28] skip: another self-heal run is in progress
+[2026-03-11 20:07:28] skip: another self-heal run is in progress
+[2026-03-11 20:08:29] skip: another self-heal run is in progress
+[2026-03-11 20:09:29] skip: another self-heal run is in progress
+[2026-03-11 20:10:29] skip: another self-heal run is in progress
+[2026-03-11 20:11:29] skip: another self-heal run is in progress
+[2026-03-11 20:12:29] skip: another self-heal run is in progress
+[2026-03-11 20:13:29] skip: another self-heal run is in progress
+[2026-03-11 20:14:29] skip: another self-heal run is in progress
+[2026-03-11 20:15:29] skip: another self-heal run is in progress
+[2026-03-11 20:16:29] skip: another self-heal run is in progress
+[2026-03-11 20:17:29] skip: another self-heal run is in progress
+[2026-03-11 20:18:29] skip: another self-heal run is in progress
+[2026-03-11 20:19:29] skip: another self-heal run is in progress
+[2026-03-11 20:20:29] skip: another self-heal run is in progress
+[2026-03-11 20:21:29] skip: another self-heal run is in progress
+[2026-03-11 20:22:29] skip: another self-heal run is in progress
+[2026-03-11 20:23:29] skip: another self-heal run is in progress
+[2026-03-11 20:24:29] skip: another self-heal run is in progress
+[2026-03-11 20:25:29] skip: another self-heal run is in progress
+[2026-03-11 20:26:29] skip: another self-heal run is in progress
+[2026-03-11 20:27:29] skip: another self-heal run is in progress
+[2026-03-11 20:28:30] skip: another self-heal run is in progress
+[2026-03-11 20:29:30] skip: another self-heal run is in progress
+[2026-03-11 20:30:30] skip: another self-heal run is in progress
+[2026-03-11 20:31:30] skip: another self-heal run is in progress
+[2026-03-11 20:32:30] skip: another self-heal run is in progress
+[2026-03-11 20:33:30] skip: another self-heal run is in progress
+[2026-03-11 20:34:30] skip: another self-heal run is in progress
+[2026-03-11 20:35:30] skip: another self-heal run is in progress
+[2026-03-11 20:36:30] skip: another self-heal run is in progress
+[2026-03-11 20:37:30] skip: another self-heal run is in progress
+[2026-03-11 20:38:30] skip: another self-heal run is in progress
+[2026-03-11 20:39:30] skip: another self-heal run is in progress
+[2026-03-11 20:40:30] skip: another self-heal run is in progress
+[2026-03-11 20:41:30] skip: another self-heal run is in progress
+[2026-03-11 20:42:30] skip: another self-heal run is in progress
+[2026-03-11 20:43:30] skip: another self-heal run is in progress
+[2026-03-11 20:44:30] skip: another self-heal run is in progress
+[2026-03-11 20:45:30] skip: another self-heal run is in progress
+[2026-03-11 20:46:30] skip: another self-heal run is in progress
+[2026-03-11 20:47:30] skip: another self-heal run is in progress
+[2026-03-11 20:48:30] skip: another self-heal run is in progress
+[2026-03-11 20:49:30] skip: another self-heal run is in progress
+[2026-03-11 20:50:31] skip: another self-heal run is in progress
+[2026-03-11 20:51:31] skip: another self-heal run is in progress
+[2026-03-11 20:52:31] skip: another self-heal run is in progress
+[2026-03-11 20:53:31] skip: another self-heal run is in progress
+[2026-03-11 20:54:31] skip: another self-heal run is in progress
+[2026-03-11 20:55:31] skip: another self-heal run is in progress
+[2026-03-11 20:56:31] skip: another self-heal run is in progress
+[2026-03-11 20:57:31] skip: another self-heal run is in progress
+[2026-03-11 20:58:31] skip: another self-heal run is in progress
+[2026-03-11 20:59:31] skip: another self-heal run is in progress

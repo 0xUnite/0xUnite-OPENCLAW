@@ -1,0 +1,2 @@
+/Users/sudi/.openclaw/scripts/gateway-self-heal.sh: line 172: syntax error near unexpected token `('
+/Users/sudi/.openclaw/scripts/gateway-self-heal.sh: line 172: `    log "service missing and gateway still down; reinstalling launchagent once (check=${fail_count})"'
