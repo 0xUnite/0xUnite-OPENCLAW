@@ -1,0 +1,626 @@
+[
+  {
+    "id": "e32bd1d3-9c20-4215-9ad7-64a48f7810db",
+    "side": "yes",
+    "cost": 5.073462103690872,
+    "question": "Bitcoin Up or Down - February 19, 1:55AM-2:00AM ET",
+    "timestamp": 1771484273,
+    "resolved": false
+  },
+  {
+    "id": "5c9998b8-fcdf-45ac-a428-07be4e305689",
+    "side": "yes",
+    "cost": 5.264749037131878,
+    "question": "Bitcoin Up or Down - February 19, 2:05AM-2:10AM ET",
+    "timestamp": 1771484878,
+    "resolved": false
+  },
+  {
+    "id": "dea7f999-0dd9-4931-b4e3-09277bbcbed3",
+    "side": "no",
+    "cost": 21.200498756889147,
+    "question": "Bitcoin Up or Down - February 19, 2:10AM-2:15AM ET",
+    "timestamp": 1771485474,
+    "resolved": false
+  },
+  {
+    "id": "cc57f410-1705-4284-acd2-d4cd6c6ebb2d",
+    "side": "no",
+    "cost": 5.061241131384804,
+    "question": "Bitcoin Up or Down - February 19, 2:20AM-2:25AM ET",
+    "timestamp": 1771485779,
+    "resolved": false
+  },
+  {
+    "id": "dad65d59-cb10-4853-9240-73acf610380c",
+    "side": "yes",
+    "cost": 5.134031338315708,
+    "question": "Bitcoin Up or Down - February 19, 2:40AM-2:45AM ET",
+    "timestamp": 1771486983,
+    "resolved": false
+  },
+  {
+    "id": "13276f5e-7af5-4c39-9ede-05a8a22a47a9",
+    "side": "no",
+    "cost": 21.200498756889147,
+    "question": "Bitcoin Up or Down - February 19, 2:45AM-2:50AM ET",
+    "timestamp": 1771487585,
+    "resolved": false
+  },
+  {
+    "id": "28b7a401-4e81-4975-b1c6-9e9f8c8f47df",
+    "side": "yes",
+    "cost": 5.0041075266435655,
+    "question": "Will Bitcoin be above $100000.00 by Jan 1, 2027 at 12:00AM ET - Before January 2027?",
+    "timestamp": 1771489689,
+    "resolved": false
+  },
+  {
+    "id": "70da638a-b3f9-46f2-a2cd-7664b3168178",
+    "side": "yes",
+    "cost": 5.0152772469082265,
+    "question": "Will Bitcoin be above $100000 by October 1, 2026 at 12:00AM ET - Before October 2026?",
+    "timestamp": 1771489988,
+    "resolved": false
+  },
+  {
+    "id": "28b7a401-4e81-4975-b1c6-9e9f8c8f47df",
+    "side": "yes",
+    "cost": 5.012128644550103,
+    "question": "Will Bitcoin be above $100000.00 by Jan 1, 2027 at 12:00AM ET - Before January 2027?",
+    "timestamp": 1771490291,
+    "resolved": false
+  },
+  {
+    "id": "70da638a-b3f9-46f2-a2cd-7664b3168178",
+    "side": "yes",
+    "cost": 5.015165065238762,
+    "question": "Will Bitcoin be above $100000 by October 1, 2026 at 12:00AM ET - Before October 2026?",
+    "timestamp": 1771490591,
+    "resolved": false
+  },
+  {
+    "id": "28b7a401-4e81-4975-b1c6-9e9f8c8f47df",
+    "side": "yes",
+    "cost": 5.012054767037625,
+    "question": "Will Bitcoin be above $100000.00 by Jan 1, 2027 at 12:00AM ET - Before January 2027?",
+    "timestamp": 1771490894,
+    "resolved": false
+  },
+  {
+    "id": "630e50de-a853-464a-998a-bbb00897e300",
+    "side": "no",
+    "cost": 5.158741127671249,
+    "question": "Bitcoin Up or Down - February 19, 4:00AM-4:05AM ET",
+    "timestamp": 1771492098,
+    "resolved": false
+  },
+  {
+    "id": "28b7a401-4e81-4975-b1c6-9e9f8c8f47df",
+    "side": "yes",
+    "cost": 5.011972346463153,
+    "question": "Will Bitcoin be above $100000.00 by Jan 1, 2027 at 12:00AM ET - Before January 2027?",
+    "timestamp": 1771492396,
+    "resolved": false
+  },
+  {
+    "id": "23aed28c-1d98-4815-9845-50c38779b6d3",
+    "side": "no",
+    "cost": 5.063761694366406,
+    "question": "Bitcoin Up or Down - February 19, 4:55AM-5:00AM ET",
+    "timestamp": 1771493301,
+    "resolved": false
+  },
+  {
+    "id": "28b7a401-4e81-4975-b1c6-9e9f8c8f47df",
+    "side": "yes",
+    "cost": 5.0099345555318,
+    "question": "Will Bitcoin be above $100000.00 by Jan 1, 2027 at 12:00AM ET - Before January 2027?",
+    "timestamp": 1771493603,
+    "resolved": false
+  },
+  {
+    "id": "5fdc12e8-5c3d-4fc9-affb-5ed51622c57e",
+    "side": "yes",
+    "cost": 6.0065268426674265,
+    "question": "Bitcoin Up or Down - February 19, 4:45AM-4:50AM ET",
+    "timestamp": 1771494504,
+    "resolved": false
+  },
+  {
+    "id": "28b7a401-4e81-4975-b1c6-9e9f8c8f47df",
+    "side": "yes",
+    "cost": 5.00988271821916,
+    "question": "Will Bitcoin be above $100000.00 by Jan 1, 2027 at 12:00AM ET - Before January 2027?",
+    "timestamp": 1771494805,
+    "resolved": false
+  },
+  {
+    "id": "519edc0a-1a04-431d-9d9a-3a47b8a892a1",
+    "side": "no",
+    "cost": 6.006526842667199,
+    "question": "Bitcoin Up or Down - February 19, 5:30AM-5:45AM ET",
+    "timestamp": 1771498109,
+    "resolved": false
+  },
+  {
+    "id": "6d09dc33-8069-4b61-8548-853e335e92b7",
+    "side": "yes",
+    "cost": 6.0065268426674265,
+    "question": "Bitcoin Up or Down - February 19, 8:05AM-8:10AM ET",
+    "timestamp": 1771506524,
+    "resolved": false
+  },
+  {
+    "id": "08d18940-2bae-4cb9-bb84-1785df37bfe5",
+    "side": "no",
+    "cost": 5.175882809795098,
+    "question": "Bitcoin Up or Down - February 19, 8:10AM-8:15AM ET",
+    "timestamp": 1771506825,
+    "resolved": false
+  },
+  {
+    "id": "adbee705-ca00-43cd-bfa6-c75dfc7bd2b5",
+    "side": "yes",
+    "cost": 5.273711533907999,
+    "question": "Will the price of Bitcoin be above $68,000 on February 20?",
+    "timestamp": 1771507421,
+    "resolved": false
+  },
+  {
+    "id": "89177815-4b18-4bbb-b7f5-fe8832af9578",
+    "side": "no",
+    "cost": 5.130946811521881,
+    "question": "Bitcoin Up or Down - February 19, 8:25AM-8:30AM ET",
+    "timestamp": 1771507722,
+    "resolved": false
+  },
+  {
+    "id": "adbee705-ca00-43cd-bfa6-c75dfc7bd2b5",
+    "side": "yes",
+    "cost": 5.273711533907999,
+    "question": "Will the price of Bitcoin be above $68,000 on February 20?",
+    "timestamp": 1771508025,
+    "resolved": false
+  },
+  {
+    "id": "89177815-4b18-4bbb-b7f5-fe8832af9578",
+    "side": "no",
+    "cost": 5.07198534684926,
+    "question": "Bitcoin Up or Down - February 19, 8:25AM-8:30AM ET",
+    "timestamp": 1771508330,
+    "resolved": false
+  },
+  {
+    "id": "d907ef04-1403-4c6c-ae27-fb09a682eb4a",
+    "side": "no",
+    "cost": 5.002711199260375,
+    "question": "Bitcoin Up or Down - February 19, 8:00AM-12:00PM ET",
+    "timestamp": 1771512832,
+    "resolved": false
+  },
+  {
+    "id": "99d76ae4-d1f0-4df4-89f3-70ffe74cff27",
+    "side": "yes",
+    "cost": 5.33986074096515,
+    "question": "Bitcoin Up or Down - February 19, 10:00AM-10:15AM ET",
+    "timestamp": 1771515238,
+    "resolved": false
+  },
+  {
+    "id": "48869cfb-c4c6-4cc0-b50e-c990d794f835",
+    "side": "yes",
+    "cost": 5.213312099720156,
+    "question": "Bitcoin Up or Down - February 19, 11:25AM-11:30AM ET",
+    "timestamp": 1771518820,
+    "resolved": false
+  },
+  {
+    "id": "849b98bd-2d6d-4622-8cdf-18e091670236",
+    "side": "yes",
+    "cost": 5.078095164169554,
+    "question": "Bitcoin Up or Down - February 19, 4:00PM-4:05PM ET",
+    "timestamp": 1771535329,
+    "resolved": false
+  },
+  {
+    "id": "a0acea13-0966-42f3-9ab5-da4d2e6b7979",
+    "side": "yes",
+    "cost": 5.134031338315708,
+    "question": "Bitcoin Up or Down - February 19, 4:20PM-4:25PM ET",
+    "timestamp": 1771536222,
+    "resolved": false
+  },
+  {
+    "id": "9e421a13-047c-439d-92b9-9e6c4f034a4b",
+    "side": "no",
+    "cost": 5.104724498702296,
+    "question": "Bitcoin Up or Down - February 19, 4:55PM-5:00PM ET",
+    "timestamp": 1771538326,
+    "resolved": false
+  },
+  {
+    "id": "808785a4-43c5-4984-a8cc-332727d12a3d",
+    "side": "yes",
+    "cost": 5.096132987221836,
+    "question": "Bitcoin Up or Down - February 19, 5:25PM-5:30PM ET",
+    "timestamp": 1771540125,
+    "resolved": false
+  },
+  {
+    "id": "ebe881ef-38d4-4ff7-9deb-6efa794e10c9",
+    "side": "no",
+    "cost": 21.200498756889147,
+    "question": "Bitcoin Up or Down - February 19, 6:20PM-6:25PM ET",
+    "timestamp": 1771543728,
+    "resolved": false
+  },
+  {
+    "id": "af14ddd8-fe24-4cff-971f-e95fef6ecb8e",
+    "side": "no",
+    "cost": 5.240522676323508,
+    "question": "Bitcoin Up or Down - February 19, 7:00PM-7:05PM ET",
+    "timestamp": 1771546136,
+    "resolved": false
+  },
+  {
+    "id": "2a55658a-7fb7-4536-bb02-d4655ba88ad9",
+    "side": "yes",
+    "cost": 21.2004987568896,
+    "question": "Bitcoin Up or Down - February 19, 10:05PM-10:10PM ET",
+    "timestamp": 1771557235,
+    "resolved": false
+  },
+  {
+    "id": "0ff3e0f1-f2d1-4375-a56f-55221507fad0",
+    "side": "no",
+    "cost": 5.158741127671249,
+    "question": "Bitcoin Up or Down - February 19, 11:20PM-11:25PM ET",
+    "timestamp": 1771561434,
+    "resolved": false
+  },
+  {
+    "id": "6b4143aa-6d65-44f2-9bda-f5501e201058",
+    "side": "no",
+    "cost": 5.060018513591729,
+    "question": "Bitcoin Up or Down - February 19, 11:50PM-11:55PM ET",
+    "timestamp": 1771563544,
+    "resolved": false
+  },
+  {
+    "id": "b4de6778-7495-40ed-9372-abd35f3f2d09",
+    "side": "yes",
+    "cost": 5.018554827719754,
+    "question": "Bitcoin Up or Down - February 20, 12:25AM-12:30AM ET",
+    "timestamp": 1771565631,
+    "resolved": false
+  },
+  {
+    "id": "8d601bea-42cc-4aa9-9d67-241d0181e0f4",
+    "side": "yes",
+    "cost": 5.008058011541721,
+    "question": "Bitcoin Up or Down - February 20, 1:30AM-1:35AM ET",
+    "timestamp": 1771570133,
+    "resolved": false
+  },
+  {
+    "id": "df19422f-ea99-47b7-bb39-37f1abd6700e",
+    "side": "no",
+    "cost": 21.200498756889147,
+    "question": "Bitcoin Up or Down - February 20, 1:45AM-1:50AM ET",
+    "timestamp": 1771570438,
+    "resolved": false
+  },
+  {
+    "id": "cb0e1515-16be-47f4-850b-cfd2d1988ccf",
+    "side": "yes",
+    "cost": 5.224275304586172,
+    "question": "MicroStrategy sells any Bitcoin by December 31, 2026?",
+    "timestamp": 1771867771,
+    "resolved": false
+  },
+  {
+    "id": "b33f8dc9-db6d-45e2-b712-21baf924c70e",
+    "side": "no",
+    "cost": 5.322390168697893,
+    "question": "Will the price of Bitcoin be above $68,000 on February 13?",
+    "timestamp": 1771975341,
+    "resolved": false
+  },
+  {
+    "id": "07c05f80-d54a-45bd-9655-b06e4c1d8b8c",
+    "side": "no",
+    "cost": 5.218435383652832,
+    "question": "Will the price of Bitcoin be above $68,000 on February 25?",
+    "timestamp": 1772038750,
+    "resolved": false
+  },
+  {
+    "id": "347efea0-9722-4d23-83b0-a691275228a0",
+    "side": "no",
+    "cost": 5.000216753202949,
+    "question": "When will Bitcoin hit $150k - Before March 2026?",
+    "timestamp": 1772342046,
+    "resolved": false
+  },
+  {
+    "id": "bcb6fa0a-2dec-40b0-b08f-982327ff43af",
+    "side": "no",
+    "cost": 5.020958307281035,
+    "question": "Will the price of Bitcoin be above $64,000 on March 3?",
+    "timestamp": 1772424506,
+    "resolved": false
+  },
+  {
+    "id": "103d2d2c-c4a7-4649-b0bf-fa9dd4f45041",
+    "side": "no",
+    "cost": 5.0540519261448935,
+    "question": "Will the price of Bitcoin be above $62,000 on March 3?",
+    "timestamp": 1772424807,
+    "resolved": false
+  },
+  {
+    "id": "bcb6fa0a-2dec-40b0-b08f-982327ff43af",
+    "side": "no",
+    "cost": 5.020958307281035,
+    "question": "Will the price of Bitcoin be above $64,000 on March 3?",
+    "timestamp": 1772425102,
+    "resolved": false
+  },
+  {
+    "id": "103d2d2c-c4a7-4649-b0bf-fa9dd4f45041",
+    "side": "no",
+    "cost": 5.0540519261448935,
+    "question": "Will the price of Bitcoin be above $62,000 on March 3?",
+    "timestamp": 1772425403,
+    "resolved": false
+  },
+  {
+    "id": "bcb6fa0a-2dec-40b0-b08f-982327ff43af",
+    "side": "no",
+    "cost": 5.020958307281035,
+    "question": "Will the price of Bitcoin be above $64,000 on March 3?",
+    "timestamp": 1772425710,
+    "resolved": false
+  },
+  {
+    "id": "c82797c6-03e9-40e8-9298-bfb2a728c21d",
+    "side": "yes",
+    "cost": 5.0253540892699675,
+    "question": "Will the price of Bitcoin be above $70,000 on March 3?",
+    "timestamp": 1772426013,
+    "resolved": false
+  },
+  {
+    "id": "bcb6fa0a-2dec-40b0-b08f-982327ff43af",
+    "side": "yes",
+    "cost": 4.988252830124111,
+    "question": "Will the price of Bitcoin be above $64,000 on March 3?",
+    "timestamp": 1772433207,
+    "resolved": false
+  },
+  {
+    "id": "103d2d2c-c4a7-4649-b0bf-fa9dd4f45041",
+    "side": "yes",
+    "cost": 4.971963866488295,
+    "question": "Will the price of Bitcoin be above $62,000 on March 3?",
+    "timestamp": 1772436220,
+    "resolved": false
+  },
+  {
+    "id": "1903a3d2-b2e0-4102-8e03-6a77d30b0fa9",
+    "side": "yes",
+    "cost": 5.322390168697893,
+    "question": "Will the price of Bitcoin be above $72,000 on March 3?",
+    "timestamp": 1772449076,
+    "resolved": false
+  },
+  {
+    "id": "c82797c6-03e9-40e8-9298-bfb2a728c21d",
+    "side": "yes",
+    "cost": 5.055667601202003,
+    "question": "Will the price of Bitcoin be above $70,000 on March 3?",
+    "timestamp": 1772449399,
+    "resolved": false
+  },
+  {
+    "id": "1903a3d2-b2e0-4102-8e03-6a77d30b0fa9",
+    "side": "yes",
+    "cost": 5.322390168697893,
+    "question": "Will the price of Bitcoin be above $72,000 on March 3?",
+    "timestamp": 1772449675,
+    "resolved": false
+  },
+  {
+    "id": "c82797c6-03e9-40e8-9298-bfb2a728c21d",
+    "side": "yes",
+    "cost": 5.055667601202003,
+    "question": "Will the price of Bitcoin be above $70,000 on March 3?",
+    "timestamp": 1772454172,
+    "resolved": false
+  },
+  {
+    "id": "1903a3d2-b2e0-4102-8e03-6a77d30b0fa9",
+    "side": "yes",
+    "cost": 5.322390168697893,
+    "question": "Will the price of Bitcoin be above $72,000 on March 3?",
+    "timestamp": 1772454472,
+    "resolved": false
+  },
+  {
+    "id": "c82797c6-03e9-40e8-9298-bfb2a728c21d",
+    "side": "no",
+    "cost": 4.990775979687896,
+    "question": "Will the price of Bitcoin be above $70,000 on March 3?",
+    "timestamp": 1772464976,
+    "resolved": false
+  },
+  {
+    "id": "bcb6fa0a-2dec-40b0-b08f-982327ff43af",
+    "side": "no",
+    "cost": 5.075718552696344,
+    "question": "Will the price of Bitcoin be above $64,000 on March 3?",
+    "timestamp": 1772465277,
+    "resolved": false
+  },
+  {
+    "id": "103d2d2c-c4a7-4649-b0bf-fa9dd4f45041",
+    "side": "no",
+    "cost": 5.152260474620562,
+    "question": "Will the price of Bitcoin be above $62,000 on March 3?",
+    "timestamp": 1772465889,
+    "resolved": false
+  },
+  {
+    "id": "1903a3d2-b2e0-4102-8e03-6a77d30b0fa9",
+    "side": "no",
+    "cost": 4.978566490719459,
+    "question": "Will the price of Bitcoin be above $72,000 on March 3?",
+    "timestamp": 1772466176,
+    "resolved": false
+  },
+  {
+    "id": "2526a8d7-b6fa-4d11-9d16-c3b6031135aa",
+    "side": "no",
+    "cost": 5.045198643096228,
+    "question": "Will the price of Bitcoin be above $66,000 on March 3?",
+    "timestamp": 1772469172,
+    "resolved": false
+  },
+  {
+    "id": "1903a3d2-b2e0-4102-8e03-6a77d30b0fa9",
+    "side": "yes",
+    "cost": 5.030583699059207,
+    "question": "Will the price of Bitcoin be above $72,000 on March 3?",
+    "timestamp": 1772473672,
+    "resolved": false
+  },
+  {
+    "id": "2526a8d7-b6fa-4d11-9d16-c3b6031135aa",
+    "side": "yes",
+    "cost": 4.971963866488295,
+    "question": "Will the price of Bitcoin be above $66,000 on March 3?",
+    "timestamp": 1772475172,
+    "resolved": false
+  },
+  {
+    "id": "1903a3d2-b2e0-4102-8e03-6a77d30b0fa9",
+    "side": "yes",
+    "cost": 5.052522672267514,
+    "question": "Will the price of Bitcoin be above $72,000 on March 3?",
+    "timestamp": 1772479973,
+    "resolved": false
+  },
+  {
+    "id": "3facd5ba-8cd0-43f5-b087-130db8eb151a",
+    "side": "yes",
+    "cost": 5.001398892178258,
+    "question": "Will the price of Bitcoin be above $68,000 on March 3?",
+    "timestamp": 1772498272,
+    "resolved": false
+  },
+  {
+    "id": "bcb6fa0a-2dec-40b0-b08f-982327ff43af",
+    "side": "no",
+    "cost": 5.144891886346159,
+    "question": "Will the price of Bitcoin be above $64,000 on March 3?",
+    "timestamp": 1772507875,
+    "resolved": false
+  },
+  {
+    "id": "c82797c6-03e9-40e8-9298-bfb2a728c21d",
+    "side": "no",
+    "cost": 4.979758388361006,
+    "question": "Will the price of Bitcoin be above $70,000 on March 3?",
+    "timestamp": 1772523186,
+    "resolved": false
+  },
+  {
+    "id": "2526a8d7-b6fa-4d11-9d16-c3b6031135aa",
+    "side": "yes",
+    "cost": 1.365422901686543,
+    "question": "Will the price of Bitcoin be above $66,000 on March 3?",
+    "timestamp": 1772527375,
+    "resolved": false
+  },
+  {
+    "id": "c82797c6-03e9-40e8-9298-bfb2a728c21d",
+    "side": "yes",
+    "cost": 5.04446180130617,
+    "question": "Will the price of Bitcoin be above $70,000 on March 3?",
+    "timestamp": 1772527671,
+    "resolved": false
+  },
+  {
+    "id": "2526a8d7-b6fa-4d11-9d16-c3b6031135aa",
+    "side": "yes",
+    "cost": 5.001009017099932,
+    "question": "Will the price of Bitcoin be above $66,000 on March 3?",
+    "timestamp": 1772527977,
+    "resolved": false
+  },
+  {
+    "id": "c82797c6-03e9-40e8-9298-bfb2a728c21d",
+    "side": "yes",
+    "cost": 5.065340873374225,
+    "question": "Will the price of Bitcoin be above $70,000 on March 3?",
+    "timestamp": 1772528602,
+    "resolved": false
+  },
+  {
+    "id": "3facd5ba-8cd0-43f5-b087-130db8eb151a",
+    "side": "yes",
+    "cost": 5.018459544427969,
+    "question": "Will the price of Bitcoin be above $68,000 on March 3?",
+    "timestamp": 1772533671,
+    "resolved": false
+  },
+  {
+    "id": "103d2d2c-c4a7-4649-b0bf-fa9dd4f45041",
+    "side": "no",
+    "cost": 5.322390168697893,
+    "question": "Will the price of Bitcoin be above $62,000 on March 3?",
+    "timestamp": 1772541775,
+    "resolved": false
+  },
+  {
+    "id": "2526a8d7-b6fa-4d11-9d16-c3b6031135aa",
+    "side": "no",
+    "cost": 4.999465078484718,
+    "question": "Will the price of Bitcoin be above $66,000 on March 3?",
+    "timestamp": 1772542078,
+    "resolved": false
+  },
+  {
+    "id": "c82797c6-03e9-40e8-9298-bfb2a728c21d",
+    "side": "yes",
+    "cost": 5.112104787309363,
+    "question": "Will the price of Bitcoin be above $70,000 on March 3?",
+    "timestamp": 1772544485,
+    "resolved": false
+  },
+  {
+    "id": "3facd5ba-8cd0-43f5-b087-130db8eb151a",
+    "side": "no",
+    "cost": 4.989831940149088,
+    "question": "Will the price of Bitcoin be above $68,000 on March 3?",
+    "timestamp": 1772547477,
+    "resolved": false
+  },
+  {
+    "id": "2526a8d7-b6fa-4d11-9d16-c3b6031135aa",
+    "side": "yes",
+    "cost": 5.001334195816526,
+    "question": "Will the price of Bitcoin be above $66,000 on March 3?",
+    "timestamp": 1772549274,
+    "resolved": false
+  },
+  {
+    "id": "3facd5ba-8cd0-43f5-b087-130db8eb151a",
+    "side": "no",
+    "cost": 4.999963653008308,
+    "question": "Will the price of Bitcoin be above $68,000 on March 3?",
+    "timestamp": 1772558274,
+    "resolved": false
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "id": "cb0e1515-16be-47f4-850b-cfd2d1988ccf",
+    "side": "yes",
+    "cost": 5.224275304586172,
+    "question": "MicroStrategy sells any Bitcoin by December 31, 2026?",
+    "timestamp": 1772635372,
+    "resolved": false
+  },
+  {
+    "id": "bbcf9b0f-00c9-4f4d-9bb5-390e2f4632f0",
+    "side": "no",
+    "cost": 5.210842204625806,
+    "question": "Will the price of Bitcoin be above $70,000 on March 4?",
+    "timestamp": 1772639276,
+    "resolved": true,
+    "outcome": true,
+    "profit": -5.21
+  },
+  {
+    "id": "cb0e1515-16be-47f4-850b-cfd2d1988ccf",
+    "side": "yes",
+    "cost": 5.350402406151034,
+    "question": "MicroStrategy sells any Bitcoin by December 31, 2026?",
+    "timestamp": 1772649777,
+    "resolved": false
+  }
+]

@@ -1,0 +1,3 @@
+5 */2 * * * /Users/sudi/.openclaw/scripts/youtube-monitor.sh >> /Users/sudi/.openclaw/workspace/memory/youtube-monitor.log 2>&1
+0 9,21 * * * /Users/sudi/0xUnite-OPENCLAW/sync.sh >> /Users/sudi/.openclaw/workspace/memory/memory-sync.log 2>&1
+10 9,21 * * * /Users/sudi/.openclaw/scripts/binance-post.sh >> /Users/sudi/.openclaw/workspace/memory/binance-post.log 2>&1

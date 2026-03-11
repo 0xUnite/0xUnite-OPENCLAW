@@ -1,0 +1,702 @@
+[
+  {
+    "time": "2026-03-06 16:03:41",
+    "symbol": "BTCUSDT",
+    "price": 70789.01,
+    "price_change_4h": -0.4099162103522939,
+    "vol_change": 0.7862802324112046
+  },
+  {
+    "time": "2026-03-06 16:03:41",
+    "symbol": "ETHUSDT",
+    "price": 2078.99,
+    "price_change_4h": -0.2308282944620597,
+    "vol_change": 0.8629023834386298
+  },
+  {
+    "time": "2026-03-06 16:08:41",
+    "symbol": "BTCUSDT",
+    "price": 70725.43,
+    "price_change_4h": -0.4993642408777381,
+    "vol_change": 0.7971353195759293
+  },
+  {
+    "time": "2026-03-06 16:08:41",
+    "symbol": "ETHUSDT",
+    "price": 2076.9,
+    "price_change_4h": -0.3311258278145739,
+    "vol_change": 0.8845079080311287
+  },
+  {
+    "time": "2026-03-06 16:13:41",
+    "symbol": "BTCUSDT",
+    "price": 70545.46,
+    "price_change_4h": -0.7525564719828428,
+    "vol_change": 0.8241474327751909
+  },
+  {
+    "time": "2026-03-06 16:13:41",
+    "symbol": "ETHUSDT",
+    "price": 2070.65,
+    "price_change_4h": -0.6310586428640028,
+    "vol_change": 0.9070252607723115
+  },
+  {
+    "time": "2026-03-06 16:18:42",
+    "symbol": "BTCUSDT",
+    "price": 70643.22,
+    "price_change_4h": -0.6150220356165843,
+    "vol_change": 0.8329226794851659
+  },
+  {
+    "time": "2026-03-06 16:18:42",
+    "symbol": "ETHUSDT",
+    "price": 2073.04,
+    "price_change_4h": -0.5163643343891072,
+    "vol_change": 0.9169161706706292
+  },
+  {
+    "time": "2026-03-06 16:23:42",
+    "symbol": "BTCUSDT",
+    "price": 70747.5,
+    "price_change_4h": -0.4683148852046157,
+    "vol_change": 0.846367136378203
+  },
+  {
+    "time": "2026-03-06 16:23:42",
+    "symbol": "ETHUSDT",
+    "price": 2078.11,
+    "price_change_4h": -0.2730588348210027,
+    "vol_change": 0.9301093536424179
+  },
+  {
+    "time": "2026-03-06 16:28:42",
+    "symbol": "BTCUSDT",
+    "price": 70861.13,
+    "price_change_4h": -0.3084536126565446,
+    "vol_change": 0.8652115604551193
+  },
+  {
+    "time": "2026-03-06 16:28:42",
+    "symbol": "ETHUSDT",
+    "price": 2083.36,
+    "price_change_4h": -0.021115270179482414,
+    "vol_change": 0.9707001241674007
+  },
+  {
+    "time": "2026-03-06 16:33:42",
+    "symbol": "BTCUSDT",
+    "price": 70983.99,
+    "price_change_4h": -0.1356070409302812,
+    "vol_change": 0.8823710967418847
+  },
+  {
+    "time": "2026-03-06 16:33:42",
+    "symbol": "ETHUSDT",
+    "price": 2083.18,
+    "price_change_4h": -0.02975333525291993,
+    "vol_change": 0.993070753348059
+  },
+  {
+    "time": "2026-03-06 16:38:42",
+    "symbol": "BTCUSDT",
+    "price": 70968.3,
+    "price_change_4h": -0.15768064267523857,
+    "vol_change": 0.9075208165735265
+  },
+  {
+    "time": "2026-03-06 16:38:42",
+    "symbol": "ETHUSDT",
+    "price": 2082.9,
+    "price_change_4h": -0.043190325367122126,
+    "vol_change": 1.0206007912307014
+  },
+  {
+    "time": "2026-03-06 16:43:43",
+    "symbol": "BTCUSDT",
+    "price": 71041.69,
+    "price_change_4h": -0.05443133534176706,
+    "vol_change": 0.9294125509083929
+  },
+  {
+    "time": "2026-03-06 16:43:43",
+    "symbol": "ETHUSDT",
+    "price": 2085.37,
+    "price_change_4h": 0.07534312314040258,
+    "vol_change": 1.0554459003389265
+  },
+  {
+    "time": "2026-03-06 16:48:43",
+    "symbol": "BTCUSDT",
+    "price": 71106.0,
+    "price_change_4h": 0.03604370151087451,
+    "vol_change": 0.9620713294311427
+  },
+  {
+    "time": "2026-03-06 16:48:43",
+    "symbol": "ETHUSDT",
+    "price": 2083.66,
+    "price_change_4h": -0.006718495057122921,
+    "vol_change": 1.1085392683610666
+  },
+  {
+    "time": "2026-03-06 16:53:43",
+    "symbol": "BTCUSDT",
+    "price": 71082.52,
+    "price_change_4h": 0.0030106760824849524,
+    "vol_change": 0.9795981090146687
+  },
+  {
+    "time": "2026-03-06 16:53:43",
+    "symbol": "ETHUSDT",
+    "price": 2082.87,
+    "price_change_4h": -0.04463000287936899,
+    "vol_change": 1.1325714059138647
+  },
+  {
+    "time": "2026-03-06 16:58:43",
+    "symbol": "BTCUSDT",
+    "price": 71066.03,
+    "price_change_4h": -0.0201884120484525,
+    "vol_change": 1.0047780480317523
+  },
+  {
+    "time": "2026-03-06 16:58:43",
+    "symbol": "ETHUSDT",
+    "price": 2083.03,
+    "price_change_4h": -0.03695172281408877,
+    "vol_change": 1.1535964790025754
+  },
+  {
+    "time": "2026-03-06 17:03:45",
+    "symbol": "BTCUSDT",
+    "price": 70992.94,
+    "price_change_4h": -0.08936558037526225,
+    "vol_change": 0.01769421868458382
+  },
+  {
+    "time": "2026-03-06 17:03:45",
+    "symbol": "ETHUSDT",
+    "price": 2081.16,
+    "price_change_4h": -0.0801793713361183,
+    "vol_change": 0.01221290300214918
+  },
+  {
+    "time": "2026-03-06 17:08:45",
+    "symbol": "BTCUSDT",
+    "price": 70911.4,
+    "price_change_4h": -0.20411942956895693,
+    "vol_change": 0.04838100689436859
+  },
+  {
+    "time": "2026-03-06 17:08:45",
+    "symbol": "ETHUSDT",
+    "price": 2079.51,
+    "price_change_4h": -0.15939851068016636,
+    "vol_change": 0.0259286933963036
+  },
+  {
+    "time": "2026-03-06 17:13:45",
+    "symbol": "BTCUSDT",
+    "price": 70935.8,
+    "price_change_4h": -0.16978052939325333,
+    "vol_change": 0.06594554235796093
+  },
+  {
+    "time": "2026-03-06 17:13:45",
+    "symbol": "ETHUSDT",
+    "price": 2079.78,
+    "price_change_4h": -0.14643537878750196,
+    "vol_change": 0.05329377865951956
+  },
+  {
+    "time": "2026-03-06 17:18:45",
+    "symbol": "BTCUSDT",
+    "price": 70905.31,
+    "price_change_4h": -0.21269008129313072,
+    "vol_change": 0.07398394939180526
+  },
+  {
+    "time": "2026-03-06 17:18:45",
+    "symbol": "ETHUSDT",
+    "price": 2078.84,
+    "price_change_4h": -0.1915662824138207,
+    "vol_change": 0.06275543803896035
+  },
+  {
+    "time": "2026-03-06 17:23:46",
+    "symbol": "BTCUSDT",
+    "price": 70894.18,
+    "price_change_4h": -0.22835368616836038,
+    "vol_change": 0.08458176580862832
+  },
+  {
+    "time": "2026-03-06 17:23:46",
+    "symbol": "ETHUSDT",
+    "price": 2080.09,
+    "price_change_4h": -0.13155178291074077,
+    "vol_change": 0.07697445388008471
+  },
+  {
+    "time": "2026-03-06 17:28:46",
+    "symbol": "BTCUSDT",
+    "price": 70884.41,
+    "price_change_4h": -0.24210331955836634,
+    "vol_change": 0.09626882944984042
+  },
+  {
+    "time": "2026-03-06 17:28:46",
+    "symbol": "ETHUSDT",
+    "price": 2077.24,
+    "price_change_4h": -0.2683848417777805,
+    "vol_change": 0.08909421143330272
+  },
+  {
+    "time": "2026-03-06 17:33:46",
+    "symbol": "BTCUSDT",
+    "price": 70965.19,
+    "price_change_4h": -0.12841904266523907,
+    "vol_change": 0.1126715351581324
+  },
+  {
+    "time": "2026-03-06 17:33:46",
+    "symbol": "ETHUSDT",
+    "price": 2078.81,
+    "price_change_4h": -0.19300663040190424,
+    "vol_change": 0.11517981063797747
+  },
+  {
+    "time": "2026-03-06 17:38:46",
+    "symbol": "BTCUSDT",
+    "price": 70902.95,
+    "price_change_4h": -0.21601138475274756,
+    "vol_change": 0.12069805680109534
+  },
+  {
+    "time": "2026-03-06 17:38:46",
+    "symbol": "ETHUSDT",
+    "price": 2077.21,
+    "price_change_4h": -0.2698251897658422,
+    "vol_change": 0.12609960792102565
+  },
+  {
+    "time": "2026-03-06 17:43:46",
+    "symbol": "BTCUSDT",
+    "price": 70917.77,
+    "price_change_4h": -0.19515472489192853,
+    "vol_change": 0.13404009059530428
+  },
+  {
+    "time": "2026-03-06 17:43:46",
+    "symbol": "ETHUSDT",
+    "price": 2079.44,
+    "price_change_4h": -0.1627593226523467,
+    "vol_change": 0.1334548220761875
+  },
+  {
+    "time": "2026-03-06 17:48:47",
+    "symbol": "BTCUSDT",
+    "price": 70918.05,
+    "price_change_4h": -0.19476067193909435,
+    "vol_change": 0.15725331091634218
+  },
+  {
+    "time": "2026-03-06 17:48:47",
+    "symbol": "ETHUSDT",
+    "price": 2081.35,
+    "price_change_4h": -0.07105716741164753,
+    "vol_change": 0.13958761316283888
+  },
+  {
+    "time": "2026-03-06 17:53:47",
+    "symbol": "BTCUSDT",
+    "price": 70806.61,
+    "price_change_4h": -0.3515937471677469,
+    "vol_change": 0.17011003133687938
+  },
+  {
+    "time": "2026-03-06 17:53:47",
+    "symbol": "ETHUSDT",
+    "price": 2077.94,
+    "price_change_4h": -0.23477672205604264,
+    "vol_change": 0.1469027282717986
+  },
+  {
+    "time": "2026-03-06 17:58:47",
+    "symbol": "BTCUSDT",
+    "price": 70740.54,
+    "price_change_4h": -0.44457617071726185,
+    "vol_change": 0.18264719332355978
+  },
+  {
+    "time": "2026-03-06 17:58:47",
+    "symbol": "ETHUSDT",
+    "price": 2075.0,
+    "price_change_4h": -0.3759308248872893,
+    "vol_change": 0.1582113025649482
+  },
+  {
+    "time": "2026-03-06 18:03:47",
+    "symbol": "BTCUSDT",
+    "price": 70767.4,
+    "price_change_4h": -0.4067752338845123,
+    "vol_change": 0.19299586489742682
+  },
+  {
+    "time": "2026-03-06 18:03:47",
+    "symbol": "ETHUSDT",
+    "price": 2076.24,
+    "price_change_4h": -0.3163964413802445,
+    "vol_change": 0.17073041387639148
+  },
+  {
+    "time": "2026-03-06 18:08:47",
+    "symbol": "BTCUSDT",
+    "price": 70714.29,
+    "price_change_4h": -0.4815186350456183,
+    "vol_change": 0.21448701655836738
+  },
+  {
+    "time": "2026-03-06 18:08:47",
+    "symbol": "ETHUSDT",
+    "price": 2073.58,
+    "price_change_4h": -0.44410729632279156,
+    "vol_change": 0.18242068354287455
+  },
+  {
+    "time": "2026-03-06 18:13:47",
+    "symbol": "BTCUSDT",
+    "price": 70549.5,
+    "price_change_4h": -0.7134328711092229,
+    "vol_change": 0.2482803053191645
+  },
+  {
+    "time": "2026-03-06 18:13:47",
+    "symbol": "ETHUSDT",
+    "price": 2064.89,
+    "price_change_4h": -0.8613280968682061,
+    "vol_change": 0.23142041870982186
+  },
+  {
+    "time": "2026-03-06 18:18:48",
+    "symbol": "BTCUSDT",
+    "price": 70514.47,
+    "price_change_4h": -0.762731710172929,
+    "vol_change": 0.2654956194189343
+  },
+  {
+    "time": "2026-03-06 18:18:48",
+    "symbol": "ETHUSDT",
+    "price": 2060.21,
+    "price_change_4h": -1.0860223830077294,
+    "vol_change": 0.30882724722018373
+  },
+  {
+    "time": "2026-03-06 18:23:48",
+    "symbol": "BTCUSDT",
+    "price": 70472.54,
+    "price_change_4h": -0.8217411398601009,
+    "vol_change": 0.276367090453965
+  },
+  {
+    "time": "2026-03-06 18:23:48",
+    "symbol": "ETHUSDT",
+    "price": 2059.29,
+    "price_change_4h": -1.1301930546419998,
+    "vol_change": 0.3338128592891943
+  },
+  {
+    "time": "2026-03-06 18:28:48",
+    "symbol": "BTCUSDT",
+    "price": 70382.34,
+    "price_change_4h": -0.9486824839522016,
+    "vol_change": 0.2953798153307428
+  },
+  {
+    "time": "2026-03-06 18:28:48",
+    "symbol": "ETHUSDT",
+    "price": 2055.74,
+    "price_change_4h": -1.3006342332307554,
+    "vol_change": 0.3701308131196258
+  },
+  {
+    "time": "2026-03-06 18:33:48",
+    "symbol": "BTCUSDT",
+    "price": 70420.26,
+    "price_change_4h": -0.8953164554824412,
+    "vol_change": 0.3129763184917801
+  },
+  {
+    "time": "2026-03-06 18:33:48",
+    "symbol": "ETHUSDT",
+    "price": 2057.19,
+    "price_change_4h": -1.23101741380717,
+    "vol_change": 0.3949885080149616
+  },
+  {
+    "time": "2026-03-06 18:38:49",
+    "symbol": "BTCUSDT",
+    "price": 70423.32,
+    "price_change_4h": -0.8910100196407185,
+    "vol_change": 0.3341065491044417
+  },
+  {
+    "time": "2026-03-06 18:38:49",
+    "symbol": "ETHUSDT",
+    "price": 2051.19,
+    "price_change_4h": -1.5190870114219535,
+    "vol_change": 0.4906032062029173
+  },
+  {
+    "time": "2026-03-06 18:43:49",
+    "symbol": "BTCUSDT",
+    "price": 70510.21,
+    "price_change_4h": -0.7687269443839234,
+    "vol_change": 0.35680221355005315
+  },
+  {
+    "time": "2026-03-06 18:43:49",
+    "symbol": "ETHUSDT",
+    "price": 2053.71,
+    "price_change_4h": -1.398097780423745,
+    "vol_change": 0.5449077713785792
+  },
+  {
+    "time": "2026-03-06 18:48:49",
+    "symbol": "BTCUSDT",
+    "price": 70502.95,
+    "price_change_4h": -0.7789441745181791,
+    "vol_change": 0.36822444595822407
+  },
+  {
+    "time": "2026-03-06 18:48:49",
+    "symbol": "ETHUSDT",
+    "price": 2053.38,
+    "price_change_4h": -1.4139416082925549,
+    "vol_change": 0.5721578451343587
+  },
+  {
+    "time": "2026-03-06 18:53:49",
+    "symbol": "BTCUSDT",
+    "price": 70570.13,
+    "price_change_4h": -0.6843996124770643,
+    "vol_change": 0.37663064829983506
+  },
+  {
+    "time": "2026-03-06 18:53:49",
+    "symbol": "ETHUSDT",
+    "price": 2058.56,
+    "price_change_4h": -1.1652415223517993,
+    "vol_change": 0.6065469198261825
+  },
+  {
+    "time": "2026-03-06 18:58:49",
+    "symbol": "BTCUSDT",
+    "price": 70577.64,
+    "price_change_4h": -0.6738305493492257,
+    "vol_change": 0.3871798225457911
+  },
+  {
+    "time": "2026-03-06 18:58:49",
+    "symbol": "ETHUSDT",
+    "price": 2059.28,
+    "price_change_4h": -1.130673170638013,
+    "vol_change": 0.6264178129920918
+  },
+  {
+    "time": "2026-03-06 19:03:50",
+    "symbol": "BTCUSDT",
+    "price": 70636.17,
+    "price_change_4h": -0.5914594088868005,
+    "vol_change": 0.40052077513297474
+  },
+  {
+    "time": "2026-03-06 19:03:50",
+    "symbol": "ETHUSDT",
+    "price": 2063.03,
+    "price_change_4h": -0.9506296721287731,
+    "vol_change": 0.6608174755764977
+  },
+  {
+    "time": "2026-03-06 19:08:50",
+    "symbol": "BTCUSDT",
+    "price": 70640.89,
+    "price_change_4h": -0.5848168019675667,
+    "vol_change": 0.40698957137616587
+  },
+  {
+    "time": "2026-03-06 19:08:50",
+    "symbol": "ETHUSDT",
+    "price": 2062.12,
+    "price_change_4h": -0.9943202277670303,
+    "vol_change": 0.6747105892703587
+  },
+  {
+    "time": "2026-03-06 19:13:50",
+    "symbol": "BTCUSDT",
+    "price": 70640.0,
+    "price_change_4h": -0.586069327424794,
+    "vol_change": 0.4110635812334668
+  },
+  {
+    "time": "2026-03-06 19:13:50",
+    "symbol": "ETHUSDT",
+    "price": 2063.41,
+    "price_change_4h": -0.9323852642798536,
+    "vol_change": 0.6924978419042344
+  },
+  {
+    "time": "2026-03-06 19:18:50",
+    "symbol": "BTCUSDT",
+    "price": 70723.78,
+    "price_change_4h": -0.468163054608426,
+    "vol_change": 0.42365548050444807
+  },
+  {
+    "time": "2026-03-06 19:18:50",
+    "symbol": "ETHUSDT",
+    "price": 2065.64,
+    "price_change_4h": -0.825319397166358,
+    "vol_change": 0.7091953006270609
+  },
+  {
+    "time": "2026-03-06 19:23:50",
+    "symbol": "BTCUSDT",
+    "price": 70735.4,
+    "price_change_4h": -0.45180985706574683,
+    "vol_change": 0.4297958346261431
+  },
+  {
+    "time": "2026-03-06 19:23:50",
+    "symbol": "ETHUSDT",
+    "price": 2066.61,
+    "price_change_4h": -0.7787481455519557,
+    "vol_change": 0.7235375984938599
+  },
+  {
+    "time": "2026-03-06 19:28:51",
+    "symbol": "BTCUSDT",
+    "price": 70726.27,
+    "price_change_4h": -0.4646587979921289,
+    "vol_change": 0.4380384961876925
+  },
+  {
+    "time": "2026-03-06 19:28:51",
+    "symbol": "ETHUSDT",
+    "price": 2066.08,
+    "price_change_4h": -0.8041942933412713,
+    "vol_change": 0.7420788246374053
+  },
+  {
+    "time": "2026-03-06 19:33:51",
+    "symbol": "BTCUSDT",
+    "price": 70624.06,
+    "price_change_4h": -0.6085021990969498,
+    "vol_change": 0.4522042373148853
+  },
+  {
+    "time": "2026-03-06 19:33:51",
+    "symbol": "ETHUSDT",
+    "price": 2064.33,
+    "price_change_4h": -0.8882145926455831,
+    "vol_change": 0.7602946212092779
+  },
+  {
+    "time": "2026-03-06 19:38:51",
+    "symbol": "BTCUSDT",
+    "price": 70546.93,
+    "price_change_4h": -0.7170497142834756,
+    "vol_change": 0.4619953757377604
+  },
+  {
+    "time": "2026-03-06 19:38:51",
+    "symbol": "ETHUSDT",
+    "price": 2063.1,
+    "price_change_4h": -0.9472688601566147,
+    "vol_change": 0.7725930693107274
+  },
+  {
+    "time": "2026-03-06 19:43:51",
+    "symbol": "BTCUSDT",
+    "price": 70509.9,
+    "price_change_4h": -0.7691632172960089,
+    "vol_change": 0.468103579112361
+  },
+  {
+    "time": "2026-03-06 19:43:51",
+    "symbol": "ETHUSDT",
+    "price": 2062.8,
+    "price_change_4h": -0.9616723400373408,
+    "vol_change": 0.7820247962587263
+  },
+  {
+    "time": "2026-03-06 19:48:51",
+    "symbol": "BTCUSDT",
+    "price": 70571.04,
+    "price_change_4h": -0.6831189403803635,
+    "vol_change": 0.4811394803868238
+  },
+  {
+    "time": "2026-03-06 19:48:51",
+    "symbol": "ETHUSDT",
+    "price": 2065.29,
+    "price_change_4h": -0.842123457027216,
+    "vol_change": 0.7931644953780618
+  },
+  {
+    "time": "2026-03-06 19:53:52",
+    "symbol": "BTCUSDT",
+    "price": 70578.89,
+    "price_change_4h": -0.6720713843812087,
+    "vol_change": 0.49967743049373226
+  },
+  {
+    "time": "2026-03-06 19:53:52",
+    "symbol": "ETHUSDT",
+    "price": 2066.88,
+    "price_change_4h": -0.7657850136592914,
+    "vol_change": 0.8126651994484615
+  },
+  {
+    "time": "2026-03-06 19:58:52",
+    "symbol": "BTCUSDT",
+    "price": 70556.81,
+    "price_change_4h": -0.703145274376263,
+    "vol_change": 0.539307087067781
+  },
+  {
+    "time": "2026-03-06 19:58:52",
+    "symbol": "ETHUSDT",
+    "price": 2063.44,
+    "price_change_4h": -0.9309449162917699,
+    "vol_change": 0.8280822373243008
+  },
+  {
+    "time": "2026-03-06 20:03:52",
+    "symbol": "BTCUSDT",
+    "price": 70453.06,
+    "price_change_4h": -0.8491559667216717,
+    "vol_change": 0.5522601954586752
+  },
+  {
+    "time": "2026-03-06 20:03:52",
+    "symbol": "ETHUSDT",
+    "price": 2060.61,
+    "price_change_4h": -1.0668177431667396,
+    "vol_change": 0.8474235561350462
+  },
+  {
+    "time": "2026-03-06 20:08:52",
+    "symbol": "BTCUSDT",
+    "price": 70453.33,
+    "price_change_4h": -0.8487759870885743,
+    "vol_change": 0.5618461749568573
+  },
+  {
+    "time": "2026-03-06 20:08:52",
+    "symbol": "ETHUSDT",
+    "price": 2058.9,
+    "price_change_4h": -1.1489175784869547,
+    "vol_change": 0.8693874765652184
+  }
+]

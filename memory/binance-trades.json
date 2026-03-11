@@ -1,0 +1,14 @@
+[
+  {
+    "time": "2026-02-23 10:07:05",
+    "symbol": "ETHUSDT",
+    "type": "BUY",
+    "entry_price": 1899.53,
+    "stop_loss": 1804.5535,
+    "take_profit": 2013.5018,
+    "price_change_4h": -2.977291068637564,
+    "vol_change": 2.370016506749989,
+    "cost": 125.0,
+    "mode": "MOCK"
+  }
+]
