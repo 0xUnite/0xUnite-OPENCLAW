@@ -1,0 +1,387 @@
+2026-03-07 20:31:25 Reflector agent starting
+2026-03-07 20:31:25 Current observations:       15 words
+2026-03-07 20:31:25 Under threshold (      15 < 8000 words), skipping
+2026-03-07 21:31:25 Reflector agent starting
+2026-03-07 21:31:25 Current observations:       15 words
+2026-03-07 21:31:25 Under threshold (      15 < 8000 words), skipping
+2026-03-07 22:31:26 Reflector agent starting
+2026-03-07 22:31:26 Current observations:       15 words
+2026-03-07 22:31:26 Under threshold (      15 < 8000 words), skipping
+2026-03-07 23:31:26 Reflector agent starting
+2026-03-07 23:31:26 Current observations:       15 words
+2026-03-07 23:31:26 Under threshold (      15 < 8000 words), skipping
+2026-03-08 00:31:26 Reflector agent starting
+2026-03-08 00:31:26 Current observations:       15 words
+2026-03-08 00:31:26 Under threshold (      15 < 8000 words), skipping
+2026-03-08 01:31:26 Reflector agent starting
+2026-03-08 01:31:26 Current observations:      327 words
+2026-03-08 01:31:26 Under threshold (     327 < 8000 words), skipping
+2026-03-08 02:31:26 Reflector agent starting
+2026-03-08 02:31:26 Current observations:      327 words
+2026-03-08 02:31:26 Under threshold (     327 < 8000 words), skipping
+2026-03-08 03:31:26 Reflector agent starting
+2026-03-08 03:31:26 Current observations:      327 words
+2026-03-08 03:31:26 Under threshold (     327 < 8000 words), skipping
+2026-03-08 04:31:27 Reflector agent starting
+2026-03-08 04:31:27 Current observations:      327 words
+2026-03-08 04:31:27 Under threshold (     327 < 8000 words), skipping
+2026-03-08 05:31:27 Reflector agent starting
+2026-03-08 05:31:27 Current observations:      327 words
+2026-03-08 05:31:27 Under threshold (     327 < 8000 words), skipping
+2026-03-08 06:31:27 Reflector agent starting
+2026-03-08 06:31:27 Current observations:      327 words
+2026-03-08 06:31:27 Under threshold (     327 < 8000 words), skipping
+2026-03-08 07:31:27 Reflector agent starting
+2026-03-08 07:31:27 Current observations:      327 words
+2026-03-08 07:31:27 Under threshold (     327 < 8000 words), skipping
+2026-03-08 08:31:27 Reflector agent starting
+2026-03-08 08:31:27 Current observations:      327 words
+2026-03-08 08:31:27 Under threshold (     327 < 8000 words), skipping
+/Users/sudi/.openclaw/workspace/skills/total-recall/scripts/reflector-agent.sh: line 33: OPENROUTER_API_KEY: unbound variable
+2026-03-08 10:31:27 Reflector agent starting
+2026-03-08 10:31:27 Current observations:     1311 words
+2026-03-08 10:31:27 Under threshold (    1311 < 8000 words), skipping
+2026-03-08 11:31:28 Reflector agent starting
+2026-03-08 11:31:28 Current observations:     1311 words
+2026-03-08 11:31:28 Under threshold (    1311 < 8000 words), skipping
+2026-03-08 12:31:28 Reflector agent starting
+2026-03-08 12:31:28 Current observations:     1703 words
+2026-03-08 12:31:28 Under threshold (    1703 < 8000 words), skipping
+2026-03-08 13:31:28 Reflector agent starting
+2026-03-08 13:31:28 Current observations:     3380 words
+2026-03-08 13:31:28 Under threshold (    3380 < 8000 words), skipping
+2026-03-08 14:31:28 Reflector agent starting
+2026-03-08 14:31:28 Current observations:     4541 words
+2026-03-08 14:31:28 Under threshold (    4541 < 8000 words), skipping
+2026-03-08 15:31:28 Reflector agent starting
+2026-03-08 15:31:28 Current observations:     6095 words
+2026-03-08 15:31:28 Under threshold (    6095 < 8000 words), skipping
+2026-03-08 16:31:28 Reflector agent starting
+2026-03-08 16:31:28 Current observations:     7396 words
+2026-03-08 16:31:28 Under threshold (    7396 < 8000 words), skipping
+2026-03-08 17:16:01 Reflector agent starting
+2026-03-08 17:16:01 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-08 17:31:28 Reflector agent starting
+2026-03-08 17:31:28 Current observations:     8186 words
+2026-03-08 17:31:28 Backed up to /Users/sudi/.openclaw/workspace/memory/observation-backups/observations-20260308-173128.md
+2026-03-08 17:31:29 API attempt 1 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-08 17:31:35 API attempt 2 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-08 17:31:35 ERROR: Reflector returned empty response after retries
+2026-03-08 17:44:39 Reflector agent starting
+2026-03-08 17:44:39 Lock file exists (1s old) — another reflector/observer running, skipping
+2026-03-08 17:45:43 Reflector agent starting
+2026-03-08 17:45:43 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-08 17:59:54 Reflector agent starting
+2026-03-08 17:59:54 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-08 18:15:18 Reflector agent starting
+2026-03-08 18:15:18 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-08 18:30:50 Reflector agent starting
+2026-03-08 18:30:50 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-08 18:31:35 Reflector agent starting
+2026-03-08 18:31:35 Current observations:    10620 words
+2026-03-08 18:31:36 Backed up to /Users/sudi/.openclaw/workspace/memory/observation-backups/observations-20260308-183136.md
+2026-03-08 18:31:37 API attempt 1 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-08 18:31:43 API attempt 2 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-08 18:31:43 ERROR: Reflector returned empty response after retries
+2026-03-08 18:46:03 Reflector agent starting
+2026-03-08 18:46:03 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-08 19:01:25 Reflector agent starting
+2026-03-08 19:01:25 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-08 19:15:50 Reflector agent starting
+2026-03-08 19:15:50 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-08 19:31:43 Reflector agent starting
+2026-03-08 19:31:43 Current observations:    11960 words
+2026-03-08 19:31:43 Backed up to /Users/sudi/.openclaw/workspace/memory/observation-backups/observations-20260308-193143.md
+2026-03-08 19:31:44 API attempt 1 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-08 19:31:50 API attempt 2 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-08 19:31:50 ERROR: Reflector returned empty response after retries
+2026-03-08 19:32:57 Reflector agent starting
+2026-03-08 19:32:57 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-08 19:48:10 Reflector agent starting
+2026-03-08 19:48:10 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-08 20:15:42 Reflector agent starting
+2026-03-08 20:15:42 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-08 20:18:50 Reflector agent starting
+2026-03-08 20:18:50 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-08 20:31:50 Reflector agent starting
+2026-03-08 20:31:50 Current observations:    13306 words
+2026-03-08 20:31:50 Backed up to /Users/sudi/.openclaw/workspace/memory/observation-backups/observations-20260308-203150.md
+2026-03-08 20:31:51 API attempt 1 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-08 20:31:57 API attempt 2 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-08 20:31:57 ERROR: Reflector returned empty response after retries
+2026-03-08 20:49:36 Reflector agent starting
+2026-03-08 20:49:36 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-08 21:05:00 Reflector agent starting
+2026-03-08 21:05:00 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-08 21:31:57 Reflector agent starting
+2026-03-08 21:31:57 Current observations:    14677 words
+2026-03-08 21:31:57 Backed up to /Users/sudi/.openclaw/workspace/memory/observation-backups/observations-20260308-213157.md
+2026-03-08 21:31:58 API attempt 1 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-08 21:32:00 Reflector agent starting
+2026-03-08 21:32:00 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-08 21:32:04 API attempt 2 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-08 21:32:04 ERROR: Reflector returned empty response after retries
+2026-03-08 21:35:26 Reflector agent starting
+2026-03-08 21:35:26 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-08 22:02:59 Reflector agent starting
+2026-03-08 22:02:59 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-08 22:03:29 Reflector agent starting
+2026-03-08 22:03:29 Current observations:    15815 words
+2026-03-08 22:03:29 Backed up to /Users/sudi/.openclaw/workspace/memory/observation-backups/observations-20260308-220329.md
+2026-03-08 22:03:31 API attempt 1 failed: insufficient balance (1008)
+2026-03-08 22:03:37 API attempt 2 failed: insufficient balance (1008)
+2026-03-08 22:03:37 ERROR: Reflector returned empty response after retries
+2026-03-08 22:21:41 Reflector agent starting
+2026-03-08 22:21:41 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-08 22:32:05 Reflector agent starting
+2026-03-08 22:32:05 Current observations:    16449 words
+2026-03-08 22:32:05 Backed up to /Users/sudi/.openclaw/workspace/memory/observation-backups/observations-20260308-223205.md
+2026-03-08 22:32:08 API attempt 1 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-08 22:32:15 API attempt 2 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-08 22:32:15 ERROR: Reflector returned empty response after retries
+2026-03-08 22:37:19 Reflector agent starting
+2026-03-08 22:37:19 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-08 22:53:01 Reflector agent starting
+2026-03-08 22:53:02 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-08 23:23:52 Reflector agent starting
+2026-03-08 23:23:52 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-08 23:32:16 Reflector agent starting
+2026-03-08 23:32:16 Current observations:    17957 words
+2026-03-08 23:32:17 Backed up to /Users/sudi/.openclaw/workspace/memory/observation-backups/observations-20260308-233216.md
+2026-03-08 23:32:19 API attempt 1 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-08 23:32:26 API attempt 2 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-08 23:32:26 ERROR: Reflector returned empty response after retries
+2026-03-08 23:33:38 Reflector agent starting
+2026-03-08 23:33:39 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-08 23:39:25 Reflector agent starting
+2026-03-08 23:39:26 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-08 23:54:54 Reflector agent starting
+2026-03-08 23:54:55 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-09 00:10:19 Reflector agent starting
+2026-03-09 00:10:20 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-09 00:32:27 Reflector agent starting
+2026-03-09 00:32:27 Current observations:    19707 words
+2026-03-09 00:32:27 Backed up to /Users/sudi/.openclaw/workspace/memory/observation-backups/observations-20260309-003227.md
+2026-03-09 00:32:29 API attempt 1 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-09 00:32:36 API attempt 2 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-09 00:32:36 ERROR: Reflector returned empty response after retries
+2026-03-09 01:32:38 Reflector agent starting
+2026-03-09 01:32:38 Current observations:    19774 words
+2026-03-09 01:32:39 Backed up to /Users/sudi/.openclaw/workspace/memory/observation-backups/observations-20260309-013238.md
+2026-03-09 01:32:42 API attempt 1 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-09 01:32:50 API attempt 2 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-09 01:32:50 ERROR: Reflector returned empty response after retries
+2026-03-09 02:14:14 Reflector agent starting
+2026-03-09 02:14:14 Lock file exists (1s old) — another reflector/observer running, skipping
+2026-03-09 02:29:57 Reflector agent starting
+2026-03-09 02:29:57 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-09 02:32:51 Reflector agent starting
+2026-03-09 02:32:51 Current observations:    20468 words
+2026-03-09 02:32:51 Backed up to /Users/sudi/.openclaw/workspace/memory/observation-backups/observations-20260309-023251.md
+2026-03-09 02:32:54 API attempt 1 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-09 02:33:01 API attempt 2 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-09 02:33:02 ERROR: Reflector returned empty response after retries
+2026-03-09 02:45:52 Reflector agent starting
+2026-03-09 02:45:53 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-09 03:33:03 Reflector agent starting
+2026-03-09 03:33:03 Current observations:    20855 words
+2026-03-09 03:33:03 Backed up to /Users/sudi/.openclaw/workspace/memory/observation-backups/observations-20260309-033303.md
+2026-03-09 03:33:06 API attempt 1 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-09 03:33:13 API attempt 2 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-09 03:33:13 ERROR: Reflector returned empty response after retries
+2026-03-09 04:02:05 Reflector agent starting
+2026-03-09 04:02:05 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-09 04:33:14 Reflector agent starting
+2026-03-09 04:33:14 Current observations:    21318 words
+2026-03-09 04:33:15 Backed up to /Users/sudi/.openclaw/workspace/memory/observation-backups/observations-20260309-043315.md
+2026-03-09 04:33:18 API attempt 1 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-09 04:33:25 API attempt 2 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-09 04:33:25 ERROR: Reflector returned empty response after retries
+2026-03-09 04:48:05 Reflector agent starting
+2026-03-09 04:48:05 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-09 05:33:26 Reflector agent starting
+2026-03-09 05:33:26 Current observations:    21698 words
+2026-03-09 05:33:26 Backed up to /Users/sudi/.openclaw/workspace/memory/observation-backups/observations-20260309-053326.md
+2026-03-09 05:33:29 API attempt 1 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-09 05:33:36 API attempt 2 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-09 05:33:36 ERROR: Reflector returned empty response after retries
+2026-03-09 06:04:03 Reflector agent starting
+2026-03-09 06:04:03 Lock file exists (1s old) — another reflector/observer running, skipping
+2026-03-09 06:33:37 Reflector agent starting
+2026-03-09 06:33:38 Current observations:    22331 words
+2026-03-09 06:33:38 Backed up to /Users/sudi/.openclaw/workspace/memory/observation-backups/observations-20260309-063338.md
+2026-03-09 06:33:41 API attempt 1 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-09 06:33:48 API attempt 2 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-09 06:33:48 ERROR: Reflector returned empty response after retries
+2026-03-09 06:34:45 Reflector agent starting
+2026-03-09 06:34:45 Lock file exists (1s old) — another reflector/observer running, skipping
+2026-03-09 07:21:06 Reflector agent starting
+2026-03-09 07:21:06 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-09 07:33:49 Reflector agent starting
+2026-03-09 07:33:49 Current observations:    23107 words
+2026-03-09 07:33:49 Backed up to /Users/sudi/.openclaw/workspace/memory/observation-backups/observations-20260309-073349.md
+2026-03-09 07:33:52 API attempt 1 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-09 07:34:00 API attempt 2 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-09 07:34:00 ERROR: Reflector returned empty response after retries
+2026-03-09 07:51:38 Reflector agent starting
+2026-03-09 07:51:38 Lock file exists (1s old) — another reflector/observer running, skipping
+2026-03-09 08:07:05 Reflector agent starting
+2026-03-09 08:07:06 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-09 08:22:35 Reflector agent starting
+2026-03-09 08:22:36 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-09 08:34:01 Reflector agent starting
+2026-03-09 08:34:01 Current observations:    24499 words
+2026-03-09 08:34:01 Backed up to /Users/sudi/.openclaw/workspace/memory/observation-backups/observations-20260309-083401.md
+2026-03-09 08:34:04 API attempt 1 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-09 08:34:12 API attempt 2 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-09 08:34:12 ERROR: Reflector returned empty response after retries
+2026-03-09 09:24:43 Reflector agent starting
+2026-03-09 09:24:43 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-09 09:34:13 Reflector agent starting
+2026-03-09 09:34:13 Current observations:    25109 words
+2026-03-09 09:34:13 Backed up to /Users/sudi/.openclaw/workspace/memory/observation-backups/observations-20260309-093413.md
+2026-03-09 09:34:16 API attempt 1 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-09 09:34:24 API attempt 2 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-09 09:34:24 ERROR: Reflector returned empty response after retries
+2026-03-09 09:48:26 Reflector agent starting
+2026-03-09 09:48:26 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-09 10:26:38 Reflector agent starting
+2026-03-09 10:26:38 Lock file exists (1s old) — another reflector/observer running, skipping
+2026-03-09 10:34:25 Reflector agent starting
+2026-03-09 10:34:26 Current observations:    25794 words
+2026-03-09 10:34:26 Backed up to /Users/sudi/.openclaw/workspace/memory/observation-backups/observations-20260309-103426.md
+2026-03-09 10:34:29 API attempt 1 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-09 10:34:36 API attempt 2 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-09 10:34:36 ERROR: Reflector returned empty response after retries
+2026-03-09 10:42:15 Reflector agent starting
+2026-03-09 10:42:15 Lock file exists (1s old) — another reflector/observer running, skipping
+2026-03-09 11:34:37 Reflector agent starting
+2026-03-09 11:34:37 Current observations:    26202 words
+2026-03-09 11:34:37 Backed up to /Users/sudi/.openclaw/workspace/memory/observation-backups/observations-20260309-113437.md
+2026-03-09 11:34:40 API attempt 1 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-09 11:34:47 API attempt 2 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-09 11:34:47 ERROR: Reflector returned empty response after retries
+2026-03-09 12:14:58 Reflector agent starting
+2026-03-09 12:14:59 Lock file exists (1s old) — another reflector/observer running, skipping
+2026-03-09 12:30:42 Reflector agent starting
+2026-03-09 12:30:43 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-09 12:31:32 Reflector agent starting
+2026-03-09 12:31:33 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-09 12:34:48 Reflector agent starting
+2026-03-09 12:34:49 Current observations:    27307 words
+2026-03-09 12:34:49 Backed up to /Users/sudi/.openclaw/workspace/memory/observation-backups/observations-20260309-123449.md
+2026-03-09 12:34:51 API attempt 1 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-09 12:34:59 API attempt 2 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-09 12:34:59 ERROR: Reflector returned empty response after retries
+2026-03-09 12:46:23 Reflector agent starting
+2026-03-09 12:46:24 Lock file exists (1s old) — another reflector/observer running, skipping
+2026-03-09 13:02:05 Reflector agent starting
+2026-03-09 13:02:05 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-09 13:33:03 Reflector agent starting
+2026-03-09 13:33:04 Lock file exists (1s old) — another reflector/observer running, skipping
+2026-03-09 13:35:00 Reflector agent starting
+2026-03-09 13:35:00 Current observations:    28817 words
+2026-03-09 13:35:01 Backed up to /Users/sudi/.openclaw/workspace/memory/observation-backups/observations-20260309-133500.md
+2026-03-09 13:35:03 API attempt 1 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-09 13:35:11 API attempt 2 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-09 13:35:11 ERROR: Reflector returned empty response after retries
+2026-03-09 13:46:14 Reflector agent starting
+2026-03-09 13:46:15 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-09 14:19:37 Reflector agent starting
+2026-03-09 14:19:38 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-09 14:35:12 Reflector agent starting
+2026-03-09 14:35:12 Current observations:    30156 words
+2026-03-09 14:35:12 Backed up to /Users/sudi/.openclaw/workspace/memory/observation-backups/observations-20260309-143512.md
+2026-03-09 14:35:15 API attempt 1 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-09 14:35:22 API attempt 2 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-09 14:35:22 ERROR: Reflector returned empty response after retries
+2026-03-09 14:51:17 Reflector agent starting
+2026-03-09 14:51:17 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-09 15:35:23 Reflector agent starting
+2026-03-09 15:35:23 Current observations:    30611 words
+2026-03-09 15:35:24 Backed up to /Users/sudi/.openclaw/workspace/memory/observation-backups/observations-20260309-153523.md
+2026-03-09 15:35:26 API attempt 1 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-09 15:35:33 API attempt 2 failed: invalid params, unknown model 'google/gemini-2.5-flash' (2013)
+2026-03-09 15:35:33 ERROR: Reflector returned empty response after retries
+2026-03-09 15:37:51 Reflector agent starting
+2026-03-09 15:37:51 Lock file exists (1s old) — another reflector/observer running, skipping
+2026-03-09 17:16:03 Reflector agent starting
+2026-03-09 17:16:04 Lock file exists (1s old) — another reflector/observer running, skipping
+2026-03-09 21:32:21 Reflector agent starting
+2026-03-09 21:32:21 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-09 21:46:28 Reflector agent starting
+2026-03-09 21:46:28 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-09 23:03:58 Reflector agent starting
+2026-03-09 23:03:58 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-10 01:32:18 Reflector agent starting
+2026-03-10 01:32:18 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-10 03:15:51 Reflector agent starting
+2026-03-10 03:15:51 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-10 06:02:33 Reflector agent starting
+2026-03-10 06:02:33 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-10 08:32:52 Reflector agent starting
+2026-03-10 08:32:52 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-10 09:15:34 Reflector agent starting
+2026-03-10 09:15:34 Lock file exists (1s old) — another reflector/observer running, skipping
+2026-03-10 10:16:30 Reflector agent starting
+2026-03-10 10:16:30 Lock file exists (1s old) — another reflector/observer running, skipping
+2026-03-10 11:32:21 Reflector agent starting
+2026-03-10 11:32:21 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-10 11:47:13 Reflector agent starting
+2026-03-10 11:47:13 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-10 12:02:24 Reflector agent starting
+2026-03-10 12:02:24 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-10 12:16:04 Reflector agent starting
+2026-03-10 12:16:04 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-10 13:04:39 Reflector agent starting
+2026-03-10 13:04:39 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-10 13:30:48 Reflector agent starting
+2026-03-10 13:30:48 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-10 14:16:12 Reflector agent starting
+2026-03-10 14:16:12 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-10 16:33:50 Reflector agent starting
+2026-03-10 16:33:50 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-10 19:07:05 Reflector agent starting
+2026-03-10 19:07:05 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-10 19:33:41 Reflector agent starting
+2026-03-10 19:33:41 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-10 20:17:57 Reflector agent starting
+2026-03-10 20:17:57 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-10 20:31:24 Reflector agent starting
+2026-03-10 20:31:24 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-10 20:46:20 Reflector agent starting
+2026-03-10 20:46:20 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-10 22:17:02 Reflector agent starting
+2026-03-10 22:17:02 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-11 00:31:06 Reflector agent starting
+2026-03-11 00:31:06 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-11 01:17:16 Reflector agent starting
+2026-03-11 01:17:16 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-11 03:03:01 Reflector agent starting
+2026-03-11 03:03:01 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-11 04:45:41 Reflector agent starting
+2026-03-11 04:45:41 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-11 16:31:22 Reflector agent starting
+2026-03-11 16:31:22 Lock file exists (1s old) — another reflector/observer running, skipping
+2026-03-11 20:31:45 Reflector agent starting
+2026-03-11 20:31:45 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-11 21:17:25 Reflector agent starting
+2026-03-11 21:17:25 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-11 21:33:09 Reflector agent starting
+2026-03-11 21:33:09 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-11 21:46:01 Reflector agent starting
+2026-03-11 21:46:01 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-11 23:04:34 Reflector agent starting
+2026-03-11 23:04:34 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-12 00:01:29 Reflector agent starting
+2026-03-12 00:01:29 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-12 03:00:52 Reflector agent starting
+2026-03-12 03:00:52 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-12 08:02:50 Reflector agent starting
+2026-03-12 08:02:50 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-12 10:46:12 Reflector agent starting
+2026-03-12 10:46:12 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-12 11:46:28 Reflector agent starting
+2026-03-12 11:46:28 Lock file exists (0s old) — another reflector/observer running, skipping
+2026-03-12 12:16:38 Reflector agent starting
+2026-03-12 12:16:39 Lock file exists (0s old) — another reflector/observer running, skipping

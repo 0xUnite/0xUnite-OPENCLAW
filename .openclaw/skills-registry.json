@@ -1,0 +1,1994 @@
+{
+  "generatedAt": "2026-03-11T02:16:42Z",
+  "workspaceDir": "/Users/sudi/.openclaw/workspace",
+  "fallbackRepo": "0xUnite/0xUnite-OPENCLAW",
+  "fallbackDir": "/Users/sudi/.openclaw/workspace/.agents/skills-fallback-repo",
+  "installed": [
+    {
+      "name": "1password",
+      "description": "Set up and use 1Password CLI (op). Use when installing the CLI, enabling desktop app integration, signing in (single or multi-account), or reading/injecting/running secrets via op.",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": false,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [
+          "op"
+        ],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "Agent Browser",
+      "description": "A fast Rust-based headless browser automation CLI with Node.js fallback that enables AI agents to navigate, click, type, and snapshot pages via structured commands.",
+      "source": "openclaw-managed",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "actionbook",
+      "description": "Activate when the user needs to interact with any website — browser automation, web scraping, screenshots, form filling, UI testing, monitoring, or building AI agents. Provides pre-verified page actions with step-by-step instructions and tested selectors.",
+      "source": "openclaw-managed",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "agent-reach",
+      "description": "Give your AI agent eyes to see the entire internet. Install and configure upstream tools for Twitter/X, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu, Douyin, LinkedIn, Boss直聘, WeChat (微信公众号), RSS, and any web page — then call them directly. Use when: (1) setting up platform access tools for the first time, (2) checking which platforms are available, (3) user asks to configure/enable a platform channel. Triggers: \"帮我配\", \"帮我添加\", \"帮我安装\", \"agent reach\", \"install channels\", \"configure twitter\", \"enable reddit\".\n",
+      "source": "agents-skills-personal",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "apple-notes",
+      "description": "Manage Apple Notes via the `memo` CLI on macOS (create, view, edit, delete, search, move, and export notes). Use when a user asks OpenClaw to add a note, list notes, search notes, or manage note folders.",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "apple-reminders",
+      "description": "Manage Apple Reminders via remindctl CLI (list, add, edit, complete, delete). Supports lists, date filters, and JSON/plain output.",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "bear-notes",
+      "description": "Create, search, and manage Bear notes via grizzly CLI.",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "bird",
+      "description": "X/Twitter CLI for reading, searching, and posting via cookies or Sweetistics.",
+      "source": "openclaw-workspace",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "blogwatcher",
+      "description": "Monitor blogs and RSS/Atom feeds for updates using the blogwatcher CLI.",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "blucli",
+      "description": "BluOS CLI (blu) for discovery, playback, grouping, and volume.",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": false,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [
+          "blu"
+        ],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "bluebubbles",
+      "description": "Use when you need to send or manage iMessages via BlueBubbles (recommended iMessage integration). Calls go through the generic message tool with channel=\"bluebubbles\".",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": false,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [
+          "channels.bluebubbles"
+        ],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "bnbchain-mcp",
+      "description": "BNB Chain MCP server connection and tool usage. Covers npx @bnb-chain/mcp@latest, PRIVATE_KEY and RPC, and every MCP tool — blocks, transactions, contracts, ERC20/NFT transfers, wallet, ERC-8004 agent registration, Greenfield. Use when connecting to bnbchain-mcp, querying or transacting on BNB Chain/opBNB/EVM, registering as ERC-8004 agent, or using Greenfield.",
+      "source": "agents-skills-project",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": "bnb-chain/bnbchain-skills",
+      "githubSourceType": "github"
+    },
+    {
+      "name": "browser-use",
+      "description": "Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, or extract information from web pages.",
+      "source": "openclaw-managed",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "camsnap",
+      "description": "Capture frames or clips from RTSP/ONVIF cameras.",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": false,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [
+          "camsnap"
+        ],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "clawhub",
+      "description": "Use the ClawHub CLI to search, install, update, and publish agent skills from clawhub.com. Use when you need to fetch new skills on the fly, sync installed skills to latest or a specific version, or publish new/updated skill folders with the npm-installed clawhub CLI.",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "coding-agent",
+      "description": "Delegate coding tasks to Codex, Claude Code, or Pi agents via background process. Use when: (1) building/creating new features or apps, (2) reviewing PRs (spawn in temp dir), (3) refactoring large codebases, (4) iterative coding that needs file exploration. NOT for: simple one-liner fixes (just edit), reading code (use read tool), thread-bound ACP harness requests in chat (for example spawn/run Codex or Claude Code in a Discord thread; use sessions_spawn with runtime:\"acp\"), or any work in ~/clawd workspace (never spawn agents here). Claude Code: use --print --permission-mode bypassPermissions (no PTY). Codex/Pi/OpenCode: pty:true required.",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "crypto-market-rank",
+      "description": "Crypto market rankings and leaderboards. Query trending tokens, top searched tokens, Binance Alpha tokens,\ntokenized stocks, social hype sentiment ranks, smart money inflow token rankings,\ntop meme token rankings from Pulse launchpad, and top trader PnL leaderboards.\nUse this skill when users ask about token rankings, market trends, social buzz, meme rankings, breakout meme tokens, or top traders.\n",
+      "source": "agents-skills-project",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": "binance/binance-skills-hub",
+      "githubSourceType": "github"
+    },
+    {
+      "name": "discord",
+      "description": "Discord ops via the message tool (channel=discord).",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": false,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [
+          "channels.discord.token"
+        ],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "eightctl",
+      "description": "Control Eight Sleep pods (status, temperature, alarms, schedules).",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": false,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [
+          "eightctl"
+        ],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "find-skills",
+      "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.",
+      "source": "openclaw-workspace",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "fortytwo",
+      "description": "Fortytwo AI Swarm Network - Decentralized AI inference where multiple agents collaborate on queries. Earn Energy by answering, spend it by asking. Auto-participation via heartbeat.",
+      "source": "openclaw-managed",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "gemini",
+      "description": "Gemini CLI for one-shot Q&A, summaries, and generation.",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "gh-issues",
+      "description": "Fetch GitHub issues, spawn sub-agents to implement fixes and open PRs, then monitor and address PR review comments. Usage: /gh-issues [owner/repo] [--label bug] [--limit 5] [--milestone v1.0] [--assignee @me] [--fork user/repo] [--watch] [--interval 5] [--reviews-only] [--cron] [--dry-run] [--model glm-5] [--notify-channel -1002381931352]",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "gifgrep",
+      "description": "Search GIF providers with CLI/TUI, download results, and extract stills/sheets.",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": false,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [
+          "gifgrep"
+        ],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "github",
+      "description": "GitHub operations via `gh` CLI: issues, PRs, CI runs, code review, API queries. Use when: (1) checking PR status or CI, (2) creating/commenting on issues, (3) listing/filtering PRs or issues, (4) viewing run logs. NOT for: complex web UI interactions requiring manual browser flows (use browser tooling when available), bulk operations across many repos (script with gh api), or when gh auth is not configured.",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "github-trending-cn",
+      "description": "GitHub 趋势监控 | GitHub Trending Monitor. 获取 GitHub 热门项目、编程语言趋势、开源动态 | Get GitHub trending repos, language trends, open source updates. 触发词：GitHub、trending、开源、热门项目.",
+      "source": "openclaw-workspace",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "gog",
+      "description": "Google Workspace CLI for Gmail, Calendar, Drive, Contacts, Sheets, and Docs.",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": false,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [
+          "gog"
+        ],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "google-calendar",
+      "description": "Manage Google Calendar events, create meetings, check availability, and sync schedules. Use when agents need to create calendar events, check free/busy times, manage meeting invites, or integrate scheduling workflows with Google Calendar.",
+      "source": "openclaw-managed",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "goplaces",
+      "description": "Query Google Places API (New) via the goplaces CLI for text search, place details, resolve, and reviews. Use for human-friendly place lookup or JSON output for scripts.",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": false,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [
+          "goplaces"
+        ],
+        "anyBins": [],
+        "env": [
+          "GOOGLE_PLACES_API_KEY"
+        ],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "healthcheck",
+      "description": "Host security hardening and risk-tolerance configuration for OpenClaw deployments. Use when a user asks for security audits, firewall/SSH/update hardening, risk posture, exposure review, OpenClaw cron scheduling for periodic checks, or version status checks on a machine running OpenClaw (laptop, workstation, Pi, VPS).",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "himalaya",
+      "description": "CLI to manage emails via IMAP/SMTP. Use `himalaya` to list, read, write, reply, forward, search, and organize emails from the terminal. Supports multiple accounts and message composition with MML (MIME Meta Language).",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "imsg",
+      "description": "iMessage/SMS CLI for listing chats, history, and sending messages via Messages.app.",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": false,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [
+          "imsg"
+        ],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "jina-cli",
+      "description": "Reads web content and searches the web using Jina AI Reader API. Use when extracting content from URLs, reading social media posts (X/Twitter), or web searching for current information.",
+      "source": "openclaw-workspace",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "keyword-model-router",
+      "description": "Hard keyword routing for model/tool selection. Trigger when message includes whole-word WIN or GO. WIN routes to GPT-5.4 subagent; GO routes to Gemini CLI.",
+      "source": "openclaw-workspace",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "mcporter",
+      "description": "Use the mcporter CLI to list, configure, auth, and call MCP servers/tools directly (HTTP or stdio), including ad-hoc servers, config edits, and CLI/type generation.",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "meme-rush",
+      "description": "Meme token fast-trading assistant with two core capabilities:\n1. Meme Rush - Real-time meme token lists from launchpads (Pump.fun, Four.meme, etc.) across new, finalizing, and migrated stages\n2. Topic Rush - AI-powered market hot topics with associated tokens ranked by net inflow\nUse this skill when users ask about new meme tokens, meme launches, bonding curve, migration status,\npump.fun tokens, four.meme tokens, fast meme trading, market hot topics, or trending narratives.\n",
+      "source": "agents-skills-project",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": "binance/binance-skills-hub",
+      "githubSourceType": "github"
+    },
+    {
+      "name": "mm-music-maker",
+      "description": "Create music with MiniMax music models (e.g., music-2.5). Use when generating songs or instrumental tracks from lyrics and style prompts, or when integrating MiniMax Music Generation API into scripts.",
+      "source": "openclaw-workspace",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "mm-voice-maker",
+      "description": "Enables voice synthesis, voice cloning, voice design, and audio post-processing using MiniMax Voice API and FFmpeg. Use when converting text to speech, creating custom voices, or processing/merging audio.",
+      "source": "openclaw-workspace",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "model-usage",
+      "description": "Use CodexBar CLI local cost usage to summarize per-model usage for Codex or Claude, including the current (most recent) model or a full model breakdown. Trigger when asked for model-level usage/cost data from codexbar, or when you need a scriptable per-model summary from codexbar cost JSON.",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": false,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [
+          "codexbar"
+        ],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "moltbook",
+      "description": "The social network for AI agents. Post, comment, upvote, and create communities.",
+      "source": "openclaw-managed",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "nano-banana-pro",
+      "description": "Generate or edit images via Gemini 3 Pro Image (Nano Banana Pro).",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": false,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [
+          "GEMINI_API_KEY"
+        ],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "nano-pdf",
+      "description": "Edit PDFs with natural-language instructions using the nano-pdf CLI.",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": false,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [
+          "nano-pdf"
+        ],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "notion",
+      "description": "Notion API for creating and managing pages, databases, and blocks.",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": false,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [
+          "NOTION_API_KEY"
+        ],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "obsidian",
+      "description": "Work with Obsidian vaults (plain Markdown notes) and automate via obsidian-cli.",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "okx-cex-bot",
+      "description": "This skill should be used when the user asks to 'start a grid bot', 'create a grid bot', 'stop the grid bot', 'show my grid bots', 'grid bot status', 'grid bot P&L', 'create a DCA bot', 'start a DCA bot', 'set up a martingale bot', 'show my DCA bots', 'stop the DCA bot', 'DCA P&L', or any request involving creating, stopping, querying, or monitoring grid or DCA (Dollar Cost Averaging / Martingale) bots on OKX CEX. Grid covers both spot and contract variants. DCA is contract-only (leveraged Martingale on futures/swaps). Requires API credentials. Do NOT use for regular spot/swap/futures orders (use okx-cex-trade), market data (use okx-cex-market), or account balance/portfolio (use okx-cex-portfolio).",
+      "source": "agents-skills-project",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": "okx/agent-skills",
+      "githubSourceType": "github"
+    },
+    {
+      "name": "okx-cex-market",
+      "description": "This skill should be used when the user asks for 'price of BTC', 'ETH ticker', 'show me the orderbook', 'market depth', 'BTC candles', 'OHLCV chart data', 'funding rate', 'open interest', 'mark price', 'index price', 'recent trades', 'price limit', 'list instruments', 'what instruments are available', or any request to query public market data on OKX CEX. All commands are read-only and do NOT require API credentials. Do NOT use for account balance/positions (use okx-cex-portfolio), placing/cancelling orders (use okx-cex-trade), or grid/DCA bots (use okx-cex-bot).",
+      "source": "agents-skills-project",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": "okx/agent-skills",
+      "githubSourceType": "github"
+    },
+    {
+      "name": "okx-cex-portfolio",
+      "description": "This skill should be used when the user asks about 'account balance', 'how much USDT do I have', 'my funding account', 'show my positions', 'open positions', 'position P&L', 'unrealized PnL', 'closed positions', 'position history', 'realized PnL', 'account bills', 'transaction history', 'trading fees', 'fee tier', 'account config', 'max order size', 'how much can I buy', 'withdrawable amount', 'transfer funds', 'move USDT to trading account', or 'switch position mode'. Requires API credentials. Do NOT use for market prices (use okx-cex-market), placing/cancelling orders (use okx-cex-trade), or grid/DCA bots (use okx-cex-bot).",
+      "source": "agents-skills-project",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": "okx/agent-skills",
+      "githubSourceType": "github"
+    },
+    {
+      "name": "okx-cex-trade",
+      "description": "This skill should be used when the user asks to 'buy BTC', 'sell ETH', 'place a limit order', 'place a market order', 'cancel my order', 'amend my order', 'long BTC perp', 'short ETH swap', 'open a position', 'close a position', 'set take profit', 'set stop loss', 'add a trailing stop', 'set leverage', 'check my orders', 'order status', 'fill history', 'trade history', 'buy a call', 'sell a put', 'buy call option', 'sell put option', 'option chain', 'implied volatility', 'IV', 'option Greeks', 'delta', 'gamma', 'theta', 'vega', 'delta hedge', 'option order', 'option position', 'option fills', or any request to place/cancel/amend spot, perpetual swap, delivery futures, or options orders on OKX CEX. Covers spot trading, swap/perpetual contracts, delivery futures, options (calls/puts, Greeks, IV), and conditional (TP/SL/trailing) algo orders. Requires API credentials. Do NOT use for market data (use okx-cex-market), account balance/positions (use okx-cex-portfolio), or grid/DCA bots (use okx-cex-bot).",
+      "source": "agents-skills-project",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": "okx/agent-skills",
+      "githubSourceType": "github"
+    },
+    {
+      "name": "okx-dex-market",
+      "description": "Use this skill when users want live on-chain market data: token prices, price charts (K-line, OHLC), trade history, swap activity. Also, it covers on-chain signals — smart money, whale, and KOL wallet activity, large trades, and signal-supported chains. For meme tokens: scanning new launches, checking dev wallets, developer reputation, rug pull detection, rug pull history, tokens by same creator, detecting bundles or snipers, bonding curves %, flagging suspicious launches, and meme token safety checks. For token search, market cap, liquidity, trending tokens, or holder distribution, use okx-dex-token instead.",
+      "source": "agents-skills-project",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": "okx/onchainos-skills",
+      "githubSourceType": "github"
+    },
+    {
+      "name": "okx-dex-swap",
+      "description": "This skill should be used when the user asks to 'swap tokens', 'trade OKB for USDC', 'buy tokens', 'sell tokens', 'exchange crypto', 'convert tokens', 'swap SOL for USDC', 'get a swap quote', 'execute a trade', 'find the best swap route', 'cheapest way to swap', 'optimal swap', 'compare swap rates', or mentions swapping, trading, buying, selling, or exchanging tokens on XLayer, Solana, Ethereum, Base, BSC, Arbitrum, Polygon, or any of 20+ supported chains. Aggregates liquidity from 500+ DEX sources for optimal routing and price. Supports slippage control, price impact protection, and cross-DEX route optimization. Do NOT use for general programming questions about swap code, or for analytical questions about historical swap volume.",
+      "source": "agents-skills-project",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": "okx/onchainos-skills",
+      "githubSourceType": "github"
+    },
+    {
+      "name": "okx-dex-token",
+      "description": "This skill should be used when the user asks to 'find a token', 'search for a token', 'look up PEPE', 'what\\'s trending', 'top tokens', 'trending tokens on Solana', 'token rankings', 'who holds this token', 'holder distribution', 'token market cap', 'token liquidity', 'research a token', 'tell me about this token', 'token info', or mentions searching for tokens by name or address, discovering trending tokens, viewing token rankings, checking holder distribution, or analyzing token market cap and liquidity. Covers token search, metadata, market cap, liquidity, volume, trending token rankings, and holder analysis across XLayer, Solana, Ethereum, Base, BSC, Arbitrum, Polygon, and 20+ other chains. Do NOT use when the user says only a single generic word like 'tokens' or 'crypto' without specifying a token name, action, or question. For simple current price checks, price charts, candlestick data, or trade history, use okx-dex-market instead. For meme token safety analysis, developer reputation, rug pull checks, bundle/sniper detection, or finding tokens by same creator, use okx-dex-market instead.",
+      "source": "agents-skills-project",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": "okx/onchainos-skills",
+      "githubSourceType": "github"
+    },
+    {
+      "name": "okx-mcp-skill",
+      "description": "Use OKX OnchainOS MCP through UXC for token discovery, market data, wallet balance, and swap execution planning. Use when tasks need OKX MCP tools such as token search/ranking/holder, price/trades/candlesticks/index, balance queries, and DEX quote/swap flows with help-first schema inspection and safe auth handling.",
+      "source": "openclaw-workspace",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "okx-onchain-gateway",
+      "description": "This skill should be used when the user asks to 'broadcast transaction', 'send tx', 'estimate gas', 'simulate transaction', 'check tx status', 'track my transaction', 'get gas price', 'gas limit', 'broadcast signed tx', or mentions broadcasting transactions, sending transactions on-chain, gas estimation, transaction simulation, tracking broadcast orders, or checking transaction status. Covers gas price, gas limit estimation, transaction simulation, transaction broadcasting, and order tracking across XLayer, Solana, Ethereum, Base, BSC, Arbitrum, Polygon, and 20+ other chains. Do NOT use for swap quote or execution — use okx-dex-swap instead. Do NOT use for general programming questions about transaction handling.",
+      "source": "agents-skills-project",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": "okx/onchainos-skills",
+      "githubSourceType": "github"
+    },
+    {
+      "name": "okx-wallet-portfolio",
+      "description": "This skill should be used when the user asks to 'check my wallet balance', 'show my token holdings', 'how much OKB do I have', 'what tokens do I have', 'check my portfolio value', 'view my assets', 'how much is my portfolio worth', 'what\\'s in my wallet', or mentions checking wallet balance, total assets, token holdings, portfolio value, remaining funds, DeFi positions, or multi-chain balance lookup. Supports XLayer, Solana, Ethereum, Base, BSC, Arbitrum, Polygon, and 20+ other chains. Do NOT use for general programming questions about balance variables or API documentation. Do NOT use when the user is asking how to build or integrate a balance feature into code.",
+      "source": "agents-skills-project",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": "okx/onchainos-skills",
+      "githubSourceType": "github"
+    },
+    {
+      "name": "openai-image-gen",
+      "description": "Batch-generate images via OpenAI Images API. Random prompt sampler + `index.html` gallery.",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": false,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [
+          "OPENAI_API_KEY"
+        ],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "openai-whisper",
+      "description": "Local speech-to-text with the Whisper CLI (no API key).",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "openai-whisper-api",
+      "description": "Transcribe audio via OpenAI Audio Transcriptions API (Whisper).",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": false,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [
+          "OPENAI_API_KEY"
+        ],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "openhue",
+      "description": "Control Philips Hue lights and scenes via the OpenHue CLI.",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": false,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [
+          "openhue"
+        ],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "opennews",
+      "description": "Crypto news search, AI ratings, trading signals, and real-time updates via the OpenNews 6551 API. Supports keyword search, coin filtering, source filtering, AI score ranking, and WebSocket live feeds.",
+      "source": "openclaw-workspace",
+      "bundled": false,
+      "eligible": false,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [
+          "OPENNEWS_TOKEN"
+        ],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "oracle",
+      "description": "Best practices for using the oracle CLI (prompt + file bundling, engines, sessions, and file attachment patterns).",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": false,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [
+          "oracle"
+        ],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "ordercli",
+      "description": "Foodora-only CLI for checking past orders and active order status (Deliveroo WIP).",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": false,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [
+          "ordercli"
+        ],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "peekaboo",
+      "description": "Capture and automate macOS UI with the Peekaboo CLI.",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": false,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [
+          "peekaboo"
+        ],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "proactive-agent",
+      "description": "Transform AI agents from task-followers into proactive partners that anticipate needs and continuously improve. Includes memory architecture with pre-compaction flush (so context survives when the window fills), reverse prompting (surfaces ideas you didn't know to ask for), security hardening, self-healing patterns (diagnoses and fixes its own issues), and alignment systems (stays on mission, remembers who it serves). Battle-tested patterns for agents that learn from every interaction and create value without being asked.",
+      "source": "openclaw-workspace",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "query-address-info",
+      "description": "Query any on-chain wallet address token balances and positions. Retrieves all token holdings for a specified wallet address on a given chain,\nincluding token name, symbol, price, 24h price change, and holding quantity.\nUse this skill when users ask about wallet balance, token holds, portfolio, or asset positions for any blockchain address.\n",
+      "source": "agents-skills-project",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": "binance/binance-skills-hub",
+      "githubSourceType": "github"
+    },
+    {
+      "name": "query-token-audit",
+      "description": "Query token security audit to detect scams, honeypots, and malicious contracts before trading.\nReturns comprehensive security analysis including contract risks, trading risks, and scam detection.\nUse when users ask \"is this token safe?\", \"check token security\", \"audit token\", or before any swap.\n",
+      "source": "agents-skills-project",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": "binance/binance-skills-hub",
+      "githubSourceType": "github"
+    },
+    {
+      "name": "query-token-info",
+      "description": "Query token details by keyword, contract address, or chain. Search tokens, get metadata and social links,\nretrieve real-time market data (price, price trend, volume, holders, liquidity), and fetch K-Line candlestick charts.\nUse this skill when users search tokens, check token prices, view market data, or request kline/candlestick charts.\n",
+      "source": "agents-skills-project",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": "binance/binance-skills-hub",
+      "githubSourceType": "github"
+    },
+    {
+      "name": "sag",
+      "description": "ElevenLabs text-to-speech with mac-style say UX.",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": false,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [
+          "sag"
+        ],
+        "anyBins": [],
+        "env": [
+          "ELEVENLABS_API_KEY"
+        ],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "session-logs",
+      "description": "Search and analyze your own session logs (older/parent conversations) using jq.",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "sherpa-onnx-tts",
+      "description": "Local text-to-speech via sherpa-onnx (offline, no cloud)",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": false,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [
+          "SHERPA_ONNX_RUNTIME_DIR",
+          "SHERPA_ONNX_MODEL_DIR"
+        ],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "simmer",
+      "description": "The best prediction market interface for AI agents. Trade on Polymarket with self-custody wallets, safety rails, and smart context.",
+      "source": "openclaw-workspace",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "skill-auto-iteration",
+      "description": "Automatically learn from errors and improve OpenClaw Skills through iteration.",
+      "source": "openclaw-workspace",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "skill-creator",
+      "description": "Create or update AgentSkills. Use when designing, structuring, or packaging skills with scripts, references, and assets.",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "slack",
+      "description": "Use when you need to control Slack from OpenClaw via the slack tool, including reacting to messages or pinning/unpinning items in Slack channels or DMs.",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": false,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [
+          "channels.slack"
+        ],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "songsee",
+      "description": "Generate spectrograms and feature-panel visualizations from audio with the songsee CLI.",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": false,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [
+          "songsee"
+        ],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "sonoscli",
+      "description": "Control Sonos speakers (discover/status/play/volume/group).",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": false,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [
+          "sonos"
+        ],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "spot",
+      "description": "Binance Spot request using the Binance API. Authentication requires API key and secret key. Supports testnet and mainnet.",
+      "source": "agents-skills-project",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": "binance/binance-skills-hub",
+      "githubSourceType": "github"
+    },
+    {
+      "name": "spotify-player",
+      "description": "Terminal Spotify playback/search via spogo (preferred) or spotify_player.",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": false,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [
+          "spogo",
+          "spotify_player"
+        ],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "square-post",
+      "description": "Post content to Binance Square (Binance social platform for sharing trading insights).\nAuto-run on messages like 'post to square', 'square post'.\nSupports pure text posts.\n",
+      "source": "agents-skills-project",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": "binance/binance-skills-hub",
+      "githubSourceType": "github"
+    },
+    {
+      "name": "summarize",
+      "description": "Summarize or extract text/transcripts from URLs, podcasts, and local files (great fallback for “transcribe this YouTube/video”).",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": false,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [
+          "summarize"
+        ],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "tavily",
+      "description": "AI-optimized web search via Tavily API. Returns concise, relevant results for AI agents.",
+      "source": "openclaw-workspace",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "things-mac",
+      "description": "Manage Things 3 via the `things` CLI on macOS (add/update projects+todos via URL scheme; read/search/list from the local Things database). Use when a user asks OpenClaw to add a task to Things, list inbox/today/upcoming, search tasks, or inspect projects/areas/tags.",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "tmux",
+      "description": "Remote-control tmux sessions for interactive CLIs by sending keystrokes and scraping pane output.",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": false,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [
+          "tmux"
+        ],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "total-recall",
+      "description": "The only memory skill that watches on its own. No database. No vectors. No manual saves. Just an LLM observer that compresses your conversations into prioritised notes, consolidates when they grow, and recovers anything missed. Five layers of redundancy, zero maintenance. ~$0.10/month. While other memory skills ask you to remember to remember, this one just pays attention.",
+      "source": "openclaw-workspace",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "trading-signal",
+      "description": "Subscribe and retrieve on-chain Smart Money signals. Monitor trading activities of smart money addresses,\nincluding buy/sell signals, trigger price, current price, max gain, and exit rate.\nUse this skill when users are looking for investment opportunities — smart money signals can serve as valuable references for potential trades.\n",
+      "source": "agents-skills-project",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": "binance/binance-skills-hub",
+      "githubSourceType": "github"
+    },
+    {
+      "name": "trello",
+      "description": "Manage Trello boards, lists, and cards via the Trello REST API.",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": false,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [
+          "TRELLO_API_KEY",
+          "TRELLO_TOKEN"
+        ],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "video-frames",
+      "description": "Extract frames or short clips from videos using ffmpeg.",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "voice-call",
+      "description": "Start voice calls via the OpenClaw voice-call plugin.",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": false,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [
+          "plugins.entries.voice-call.enabled"
+        ],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "wacli",
+      "description": "Send WhatsApp messages to other people or search/sync WhatsApp history via the wacli CLI (not for normal user chats).",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": false,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [
+          "wacli"
+        ],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "weather",
+      "description": "Get current weather and forecasts via wttr.in or Open-Meteo. Use when: user asks about weather, temperature, or forecasts for any location. NOT for: historical weather data, severe weather alerts, or detailed meteorological analysis. No API key needed.",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "x-collect",
+      "description": "Collect and research materials for X (Twitter) content creation using multi-round web search strategy. Use when user wants to gather trending topics, research subjects for X posts, or mentions \"collect materials\", \"research topic\", \"find content for X\", \"x-collect\". Performs 4-round deep research mimicking human research workflow.",
+      "source": "openclaw-managed",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "x-create",
+      "description": "Create viral X (Twitter) posts including short tweets, threads, and replies. Use when user wants to write X content, create posts, or mentions \"create tweet\", \"write thread\", \"x-create\", \"写推文\", \"创作推文\". Supports 5 post styles with customizable templates, plus a mandatory humanize pass to reduce AI-sounding phrasing. First-time users go through onboarding to set up profile.",
+      "source": "openclaw-managed",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "x-filter",
+      "description": "Score and filter topics for X content creation using weighted criteria. Use when user wants to evaluate collected materials, filter topics by score, or mentions \"filter topics\", \"score materials\", \"x-filter\", \"选题筛选\". Applies 10-point scoring system with customizable weights.",
+      "source": "openclaw-managed",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "x-publish",
+      "description": "Publish tweets and threads to X (Twitter) draft using browser automation. Use when user wants to publish content to X, save to drafts, or mentions \"publish to X\", \"post tweet\", \"x-publish\", \"发布推文\". Supports short tweets and threads. NEVER auto-publish, always saves to draft.",
+      "source": "openclaw-managed",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "x-tweet-fetcher",
+      "description": "Fetch tweets, replies, and user timelines from X/Twitter without login or API keys. Also supports Chinese platforms (Weibo, Bilibili, CSDN, WeChat). Includes camofox_search() for zero-cost Google search without API keys. Basic tweet fetching: zero dependencies. Replies/timelines/search: requires Camofox.\n",
+      "source": "openclaw-managed",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "xhs-auth",
+      "description": "小红书认证管理技能。检查登录状态、登录（二维码或手机号）、多账号管理。\n当用户要求登录小红书、检查登录状态、切换账号时触发。\n",
+      "source": "openclaw-workspace",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "xhs-content-ops",
+      "description": "小红书复合内容运营技能。组合搜索、详情、发布、互动等能力完成运营工作流。\n当用户要求竞品分析、热点追踪、内容创作、互动管理等复合任务时触发。\n",
+      "source": "openclaw-workspace",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "xhs-explore",
+      "description": "小红书内容发现与分析技能。搜索笔记、浏览首页、查看详情、获取用户资料。\n当用户要求搜索小红书、查看笔记详情、浏览首页、查看用户主页时触发。\n",
+      "source": "openclaw-workspace",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "xhs-interact",
+      "description": "小红书社交互动技能。发表评论、回复评论、点赞、收藏。\n当用户要求评论、回复、点赞或收藏小红书帖子时触发。\n",
+      "source": "openclaw-workspace",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "xhs-publish",
+      "description": "小红书内容发布技能。支持图文发布、视频发布、长文发布、定时发布、标签、可见性设置。\n当用户要求发布内容到小红书、上传图文、上传视频、发长文时触发。\n",
+      "source": "openclaw-workspace",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "xiaohongshu-skills",
+      "description": "小红书自动化技能集合。支持认证登录、内容发布、搜索发现、社交互动、复合运营。\n当用户要求操作小红书（发布、搜索、评论、登录、分析、点赞、收藏）时触发。\n",
+      "source": "openclaw-workspace",
+      "bundled": false,
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "xurl",
+      "description": "A CLI tool for making authenticated requests to the X (Twitter) API. Use this skill when you need to post tweets, reply, quote, search, read posts, manage followers, send DMs, upload media, or interact with any X API v2 endpoint.",
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "eligible": false,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [
+          "xurl"
+        ],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    },
+    {
+      "name": "youtube-full",
+      "description": "Complete YouTube toolkit — transcripts, search, channels, playlists, and metadata all in one skill. Use when you need comprehensive YouTube access, want to search and then get transcripts, browse channel content, work with playlists, or need the full suite of YouTube data endpoints. The all-in-one YouTube skill for agents.",
+      "source": "openclaw-workspace",
+      "bundled": false,
+      "eligible": false,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [
+          "TRANSCRIPT_API_KEY"
+        ],
+        "config": [
+          "~/.openclaw/openclaw.json"
+        ],
+        "os": []
+      },
+      "githubSource": null,
+      "githubSourceType": null
+    }
+  ],
+  "fallbackRepoSkills": [
+    {
+      "name": "bnbchain-mcp",
+      "relPath": "skills/README.md",
+      "sourceRepo": "0xUnite/0xUnite-OPENCLAW"
+    },
+    {
+      "name": "fortytwo",
+      "relPath": "skills/README.md",
+      "sourceRepo": "0xUnite/0xUnite-OPENCLAW"
+    },
+    {
+      "name": "google-calendar",
+      "relPath": "skills/README.md",
+      "sourceRepo": "0xUnite/0xUnite-OPENCLAW"
+    },
+    {
+      "name": "moltbook",
+      "relPath": "skills/README.md",
+      "sourceRepo": "0xUnite/0xUnite-OPENCLAW"
+    },
+    {
+      "name": "onchainos-skills",
+      "relPath": "skills/README.md",
+      "sourceRepo": "0xUnite/0xUnite-OPENCLAW"
+    },
+    {
+      "name": "reminder",
+      "relPath": "skills/README.md",
+      "sourceRepo": "0xUnite/0xUnite-OPENCLAW"
+    },
+    {
+      "name": "square-post",
+      "relPath": "skills/README.md",
+      "sourceRepo": "0xUnite/0xUnite-OPENCLAW"
+    },
+    {
+      "name": "x-publish",
+      "relPath": "skills/README.md",
+      "sourceRepo": "0xUnite/0xUnite-OPENCLAW"
+    },
+    {
+      "name": "x-tweet-fetcher",
+      "relPath": "skills/README.md",
+      "sourceRepo": "0xUnite/0xUnite-OPENCLAW"
+    }
+  ],
+  "summary": {
+    "totalInstalled": 102,
+    "eligibleInstalled": 68,
+    "bySource": [
+      {
+        "source": "agents-skills-personal",
+        "count": 1
+      },
+      {
+        "source": "agents-skills-project",
+        "count": 18
+      },
+      {
+        "source": "openclaw-bundled",
+        "count": 51
+      },
+      {
+        "source": "openclaw-managed",
+        "count": 11
+      },
+      {
+        "source": "openclaw-workspace",
+        "count": 21
+      }
+    ]
+  }
+}

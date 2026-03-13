@@ -1,0 +1,210 @@
+/* ========================================
+   🌾 星露谷主题选择器样式
+   Stardew Valley Theme Selector Styles
+   ======================================== */
+
+/* 主题切换包装器 */
+.theme-toggle-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* 星露谷主题下拉菜单 */
+.stardew-theme-dropdown {
+  position: relative;
+}
+
+.stardew-theme-trigger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--bg-elevated);
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.15s ease;
+}
+
+.stardew-theme-trigger:hover {
+  border-color: var(--border-strong);
+  background: var(--bg-hover);
+}
+
+.stardew-theme-trigger.active {
+  border-color: var(--accent);
+  background: var(--accent-subtle);
+  box-shadow: 0 0 0 2px var(--accent-subtle);
+}
+
+.stardew-theme-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 8px;
+  padding: 8px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-8px);
+  transition: all 0.15s ease;
+  z-index: 1000;
+  min-width: 140px;
+}
+
+.stardew-theme-dropdown:hover .stardew-theme-menu,
+.stardew-theme-dropdown:focus-within .stardew-theme-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.stardew-theme-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 8px 12px;
+  border: none;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.1s ease;
+  text-align: left;
+}
+
+.stardew-theme-option:hover {
+  background: var(--bg-hover);
+}
+
+.stardew-theme-option.active {
+  background: var(--accent-subtle);
+  color: var(--accent);
+}
+
+.stardew-theme-option .stardew-theme-emoji {
+  font-size: 18px;
+}
+
+.stardew-theme-option .stardew-theme-name {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* 星露谷主题激活时的下拉菜单样式 */
+:root[data-theme^="stardew-"] .stardew-theme-trigger {
+  border: 2px solid var(--border);
+}
+
+:root[data-theme^="stardew-"] .stardew-theme-menu {
+  border: 3px solid var(--border-strong);
+  box-shadow: var(--shadow-lg);
+}
+
+:root[data-theme^="stardew-"] .stardew-theme-option {
+  font-family: var(--font-body);
+}
+
+/* 原有的选择器样式（保留用于其他地方） */
+.stardew-theme-selector {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  margin-top: 16px;
+}
+
+.stardew-theme-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-strong);
+  letter-spacing: 0.02em;
+}
+
+.stardew-theme-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+.stardew-theme-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 12px 8px;
+  border: 2px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--bg-elevated);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.stardew-theme-btn:hover {
+  border-color: var(--border-strong);
+  background: var(--bg-hover);
+  transform: translateY(-2px);
+}
+
+.stardew-theme-btn.active {
+  border-color: var(--accent);
+  background: var(--accent-subtle);
+  box-shadow: 0 0 0 2px var(--accent-subtle);
+}
+
+.stardew-theme-emoji {
+  font-size: 24px;
+  line-height: 1;
+}
+
+.stardew-theme-name {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--muted);
+}
+
+.stardew-theme-btn.active .stardew-theme-name {
+  color: var(--accent);
+}
+
+/* 星露谷主题激活时的特殊样式 */
+:root[data-theme^="stardew-"] .stardew-theme-selector {
+  border: 3px solid var(--border-strong);
+  box-shadow: var(--shadow-md);
+}
+
+:root[data-theme^="stardew-"] .stardew-theme-btn {
+  border: 3px solid var(--border);
+  font-family: var(--font-body);
+}
+
+:root[data-theme^="stardew-"] .stardew-theme-btn:hover {
+  box-shadow: var(--shadow-sm);
+}
+
+:root[data-theme^="stardew-"] .stardew-theme-btn.active {
+  border-color: var(--accent);
+  box-shadow: var(--shadow-md), 0 0 10px var(--accent-glow);
+}
+
+:root[data-theme^="stardew-"] .stardew-theme-label {
+  font-family: var(--font-display);
+  font-size: 12px;
+}
+
+/* 响应式 */
+@media (max-width: 480px) {
+  .stardew-theme-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

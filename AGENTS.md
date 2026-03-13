@@ -7,7 +7,9 @@ This folder is home. Treat it that way.
 **BEFORE any other processing**, check if the user message contains:
 
 ### WIN Trigger (Whole Word Only)
-- Pattern: `(^|\s)WIN(\s|$)` (case-insensitive)
+- Pattern: whole-word `WIN` (case-insensitive)
+- Treat non-letter/digit boundaries as valid, not just spaces.
+- Examples that MUST trigger: `WIN 修复这个`, `请WIN处理`, `WIN: 修一下`, `（WIN）优化这里`
 - Action: 
   1. Remove ONLY the "WIN" token from the message
   2. Spawn subagent with `model: "openai-codex/gpt-5.4"`
@@ -16,17 +18,42 @@ This folder is home. Treat it that way.
   5. **STOP** - Do NOT answer with MiniMax
 
 ### GO Trigger (Whole Word Only)  
-- Pattern: `(^|\s)GO(\s|$)` (case-insensitive)
+- Pattern: whole-word `GO` (case-insensitive)
+- Treat non-letter/digit boundaries as valid, not just spaces.
+- Examples that MUST trigger: `GO 查一下`, `请GO处理`, `GO: 运行`, `（GO）看看`
+- Purpose: Route to Gemini Pro (strongest model available for this account)
+- Model: `gemini-3.1-pro-preview` (user confirmed available)
 - Action:
   1. Remove ONLY the "GO" token from the message
-  2. Run: `gemini --model gemini-2.0-flash "<remaining text>"`
+  2. Run: `gemini -m gemini-3.1-pro-preview -p "<remaining text>"`
+  3. Return Gemini output
+  4. **STOP** - Do NOT answer with MiniMax
+
+### GEM Trigger (Whole Word Only)
+- Pattern: whole-word `GEM` (case-insensitive)
+- Treat non-letter/digit boundaries as valid, not just spaces.
+- Examples that MUST trigger: `GEM 查一下`, `请GEM处理`, `GEM: 总结`, `（GEM）看看`
+- Purpose: force Gemini CLI onto the strongest Google model the user can access.
+- Preferred model: `gemini-2.5-pro` (if the account later exposes a newer Pro model, update this string explicitly instead of guessing)
+- Action:
+  1. Remove ONLY the "GEM" token from the message
+  2. Run: `gemini -m gemini-2.5-pro -p "<remaining text>"`
   3. Return Gemini output
   4. **STOP** - Do NOT answer with MiniMax
 
 ### Important Rules
 - Do NOT match substrings: `window`, `google`, `going` do NOT trigger
 - If both WIN and GO present → prioritize WIN
+- If `GEM` appears without `WIN`, prefer `GEM` over `GO`
 - This check MUST happen BEFORE any other reasoning
+- Never require the human to say "spawn" manually for `WIN`. `WIN` itself is the hard trigger.
+- For any direct human request, especially Telegram, always send a final completion reply when work finishes.
+- If `WIN`, `GO`, or `GEM` was used, the final reply must explicitly say:
+  1. which route was used (`WIN -> GPT-5.4`, `GO -> Gemini CLI`, or `GEM -> Gemini 2.5 Pro`)
+  2. whether the call succeeded or failed
+  3. what was completed
+  4. which files changed when code was modified
+- Do not end `WIN`/`GO`/`GEM` work with `NO_REPLY`, silence, or only internal tool logs.
 
 ## First Run
 
@@ -283,15 +310,22 @@ This is a starting point. Add your own conventions, style, and rules as you figu
 - Detect hard triggers with whole-word matching only (case-insensitive):
   - `WIN`: `(^|\\s)WIN(\\s|$)`
   - `GO`: `(^|\\s)GO(\\s|$)`
-- Priority when both appear: `WIN` first.
+  - `GEM`: `(^|\\s)GEM(\\s|$)`
+- Priority when multiple appear: `WIN` first, then `GEM`, then `GO`.
 - `WIN` hard route (must short-circuit normal handling):
   1. Remove only the trigger token `WIN` from user input.
   2. Immediately call `sessions_spawn` with `model: "openai-codex/gpt-5.4"` (alias: `gpt5-research`).
-  3. Return subagent result to user. Do not answer the task directly with MiniMax.
+  3. Return subagent result to user. The final reply must confirm `WIN -> GPT-5.4`, success/failure, completed work, and changed files if any.
+  4. Do not answer the task directly with MiniMax.
 - `GO` hard route (must short-circuit normal handling):
   1. Remove only the trigger token `GO` from user input.
-  2. Call Gemini CLI via `exec` (`gemini --model gemini-2.0-flash "<prompt>"`; fallback to `gemini "<prompt>"` if model flag fails).
-  3. Return Gemini CLI output directly.
+  2. Call Gemini CLI via `exec` with Pro model: `gemini -m gemini-3.1-pro-preview -p "<prompt>"` (fallback to `--prompt` if short flag fails).
+  3. Return Gemini CLI output directly, and include a final status line that confirms `GO -> Gemini 3.1 Pro Preview` plus success/failure.
+- `GEM` hard route (must short-circuit normal handling):
+  1. Remove only the trigger token `GEM` from user input.
+  2. Call Gemini CLI via `exec` with an explicit Pro model: `gemini -m gemini-2.5-pro -p "<prompt>"`.
+  3. If that model string stops working in the future, update AGENTS.md to the exact account-available Pro model name; do not silently guess.
+  4. Return Gemini CLI output directly, and include a final status line that confirms `GEM -> Gemini 2.5 Pro` plus success/failure.
 - Difficult tasks (deep research, uncertain facts, complex multi-step reasoning): spawn a `gpt5-research` subagent, then synthesize findings in the main thread.
 - Do not treat substrings as triggers (`google`, `going`, `window` must not trigger).
 

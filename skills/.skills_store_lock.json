@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "github-trending-cn": {
+      "name": "Github Trending Cn",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=github-trending-cn",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "okx-mcp-skill": {
+      "name": "OKX MCP Skill",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=okx-mcp-skill",
+      "source": "skillhub",
+      "version": "1.0.1"
+    }
+  }
+}

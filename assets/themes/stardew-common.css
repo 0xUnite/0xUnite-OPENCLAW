@@ -1,0 +1,494 @@
+/* ========================================
+   🎮 星露谷物语 - 像素风格通用样式
+   Stardew Valley Pixel Style Overrides
+   ======================================== */
+
+/* 导入方舟像素字体 */
+@import "../../fonts/ark-pixel.css";
+
+/* 导入像素UI素材样式 */
+@import "./stardew-sprites.css";
+
+/* 导入季节装饰样式 */
+@import "./stardew-decorations.css";
+
+/* 导入农场装饰样式 */
+@import "./stardew-farm-decorations.css";
+
+/* 导入像素光标系统 */
+@import "./stardew-cursors.css";
+
+/* 导入农作物生长进度条 */
+@import "./stardew-crop-progress.css";
+
+/* 导入书卷/羊皮纸风格 */
+@import "./stardew-scroll.css";
+
+/* 导入真实时间系统 */
+@import "./stardew-realtime.css";
+
+/* 导入天气效果 */
+@import "./stardew-weather.css";
+
+/* 应用于所有星露谷主题 */
+:root[data-theme^="stardew-"] {
+  /* ========================================
+     🎮 像素字体变量
+     ======================================== */
+  --font-pixel: 'Ark Pixel', 'Fusion Pixel', monospace;
+  --font-body: var(--font-pixel);
+  --font-display: var(--font-pixel);
+  --font-mono: var(--font-pixel);
+}
+
+:root[data-theme^="stardew-"] body {
+  font-family: var(--font-pixel) !important;
+  font-size: 12px !important;
+  letter-spacing: 0.02em !important;
+  image-rendering: pixelated !important;
+  -webkit-font-smoothing: none !important;
+  -moz-osx-font-smoothing: unset !important;
+}
+
+/* 全局文字样式 */
+:root[data-theme^="stardew-"] * {
+  font-family: var(--font-pixel) !important;
+}
+
+/* 标题使用更大的像素字体 */
+:root[data-theme^="stardew-"] .page-title,
+:root[data-theme^="stardew-"] .brand-title,
+:root[data-theme^="stardew-"] .card-title,
+:root[data-theme^="stardew-"] .config-section-card__title,
+:root[data-theme^="stardew-"] .config-section-hero__title,
+:root[data-theme^="stardew-"] .nav-label,
+:root[data-theme^="stardew-"] .sidebar-title {
+  font-family: var(--font-pixel) !important;
+  font-size: 14px !important;
+  line-height: 1.8 !important;
+  letter-spacing: 0.05em !important;
+}
+
+/* ========================================
+   🏠 木质边框效果
+   ======================================== */
+
+:root[data-theme^="stardew-"] .card,
+:root[data-theme^="stardew-"] .config-section-card,
+:root[data-theme^="stardew-"] .list-item,
+:root[data-theme^="stardew-"] .chat-bubble,
+:root[data-theme^="stardew-"] .stat,
+:root[data-theme^="stardew-"] .log-stream,
+:root[data-theme^="stardew-"] .callout {
+  border: 3px solid var(--border-strong) !important;
+  border-radius: var(--radius) !important;
+  box-shadow: var(--shadow-md) !important;
+}
+
+:root[data-theme^="stardew-"] .card:hover,
+:root[data-theme^="stardew-"] .config-section-card:hover,
+:root[data-theme^="stardew-"] .list-item:hover {
+  border-color: var(--accent) !important;
+  box-shadow: var(--shadow-lg), 0 0 15px var(--accent-glow) !important;
+}
+
+/* ========================================
+   🌟 按钮 - 像素游戏风格
+   ======================================== */
+
+:root[data-theme^="stardew-"] .btn {
+  border: 3px solid var(--border-strong) !important;
+  border-radius: var(--radius) !important;
+  background: linear-gradient(180deg, var(--card) 0%, var(--bg-elevated) 100%) !important;
+  box-shadow: var(--shadow-sm) !important;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5) !important;
+  font-family: var(--font-pixel) !important;
+  font-size: 12px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.1em !important;
+  transition: all 0.1s ease !important;
+}
+
+:root[data-theme^="stardew-"] .btn:hover {
+  transform: translate(1px, 1px) !important;
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5) !important;
+}
+
+:root[data-theme^="stardew-"] .btn:active {
+  transform: translate(2px, 2px) !important;
+  box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5) !important;
+}
+
+:root[data-theme^="stardew-"] .btn.primary {
+  background: linear-gradient(180deg, var(--accent-hover) 0%, var(--accent) 100%) !important;
+  border-color: var(--accent) !important;
+  color: var(--accent-foreground) !important;
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3) !important;
+}
+
+/* ========================================
+   📜 导航栏 - 木质标签风格
+   ======================================== */
+
+:root[data-theme^="stardew-"] .nav-item {
+  border: 2px solid transparent !important;
+  border-radius: var(--radius) !important;
+  font-family: var(--font-pixel) !important;
+  font-size: 12px !important;
+  text-transform: uppercase !important;
+}
+
+:root[data-theme^="stardew-"] .nav-item:hover {
+  background: var(--accent-subtle) !important;
+  border-color: var(--border-strong) !important;
+}
+
+:root[data-theme^="stardew-"] .nav-item.active {
+  background: var(--accent-subtle) !important;
+  border-color: var(--accent) !important;
+  box-shadow: var(--shadow-sm) !important;
+}
+
+:root[data-theme^="stardew-"] .nav-item.active .nav-item__icon {
+  color: var(--accent) !important;
+}
+
+/* ========================================
+   💬 聊天气泡 - 对话框风格
+   ======================================== */
+
+:root[data-theme^="stardew-"] .chat-bubble {
+  border: 3px solid var(--border-strong) !important;
+  border-radius: var(--radius) !important;
+  background: var(--card) !important;
+  box-shadow: var(--shadow-md) !important;
+}
+
+:root[data-theme^="stardew-"] .chat-group.user .chat-bubble {
+  background: linear-gradient(180deg, var(--accent) 0%, var(--accent-hover) 100%) !important;
+  border-color: var(--accent) !important;
+  color: var(--accent-foreground) !important;
+}
+
+:root[data-theme^="stardew-"] .chat-avatar {
+  border: 3px solid var(--border-strong) !important;
+  border-radius: var(--radius) !important;
+  background: var(--bg-elevated) !important;
+  box-shadow: var(--shadow-sm) !important;
+  image-rendering: pixelated !important;
+}
+
+:root[data-theme^="stardew-"] .chat-avatar.user {
+  background: linear-gradient(180deg, var(--accent) 0%, var(--accent-hover) 100%) !important;
+  border-color: var(--accent) !important;
+  color: var(--accent-foreground) !important;
+}
+
+/* ========================================
+   📊 状态指示器 - 像素风格
+   ======================================== */
+
+:root[data-theme^="stardew-"] .statusDot {
+  border-radius: 2px !important;
+  box-shadow: 0 0 0 2px var(--bg), 0 0 8px currentColor !important;
+}
+
+:root[data-theme^="stardew-"] .pill,
+:root[data-theme^="stardew-"] .chip {
+  border: 2px solid var(--border-strong) !important;
+  border-radius: var(--radius) !important;
+  font-family: var(--font-pixel) !important;
+  text-transform: uppercase !important;
+  font-size: 11px !important;
+}
+
+/* ========================================
+   📝 输入框 - 羊皮纸风格
+   ======================================== */
+
+:root[data-theme^="stardew-"] .field input,
+:root[data-theme^="stardew-"] .field textarea,
+:root[data-theme^="stardew-"] .field select,
+:root[data-theme^="stardew-"] .cfg-input,
+:root[data-theme^="stardew-"] .cfg-textarea,
+:root[data-theme^="stardew-"] .cfg-select,
+:root[data-theme^="stardew-"] .chat-compose__field textarea {
+  border: 3px solid var(--border-strong) !important;
+  border-radius: var(--radius) !important;
+  background: var(--bg-elevated) !important;
+  color: var(--text) !important;
+  font-family: var(--font-pixel) !important;
+  font-size: 12px !important;
+  box-shadow: inset 2px 2px 0 rgba(0, 0, 0, 0.2) !important;
+}
+
+:root[data-theme^="stardew-"] .field input:focus,
+:root[data-theme^="stardew-"] .field textarea:focus,
+:root[data-theme^="stardew-"] .field select:focus,
+:root[data-theme^="stardew-"] .cfg-input:focus,
+:root[data-theme^="stardew-"] .cfg-textarea:focus,
+:root[data-theme^="stardew-"] .cfg-select:focus,
+:root[data-theme^="stardew-"] .chat-compose__field textarea:focus {
+  border-color: var(--accent) !important;
+  box-shadow: inset 2px 2px 0 rgba(0, 0, 0, 0.2), 0 0 0 2px var(--accent-subtle) !important;
+}
+
+/* ========================================
+   🎨 顶部栏 - 木质横梁
+   ======================================== */
+
+:root[data-theme^="stardew-"] .topbar {
+  background: linear-gradient(180deg, var(--bg-elevated) 0%, var(--bg-accent) 100%) !important;
+  border-bottom: 4px solid var(--border) !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4) !important;
+}
+
+:root[data-theme^="stardew-"] .brand-title {
+  color: var(--accent) !important;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.8) !important;
+  font-family: var(--font-pixel) !important;
+}
+
+/* ========================================
+   📋 表格和列表 - 木板条纹
+   ======================================== */
+
+:root[data-theme^="stardew-"] .table-row:nth-child(even),
+:root[data-theme^="stardew-"] .log-row:nth-child(even) {
+  background: rgba(255, 255, 255, 0.03) !important;
+}
+
+:root[data-theme^="stardew-"] .log-row:hover {
+  background: var(--accent-subtle) !important;
+}
+
+/* ========================================
+   🌈 主题切换按钮
+   ======================================== */
+
+:root[data-theme^="stardew-"] .theme-toggle__track {
+  border: 2px solid var(--border-strong) !important;
+  border-radius: var(--radius) !important;
+  background: var(--bg-elevated) !important;
+}
+
+:root[data-theme^="stardew-"] .theme-toggle__indicator {
+  border-radius: 2px !important;
+  background: var(--accent) !important;
+}
+
+/* ========================================
+   ⚙️ 配置页面
+   ======================================== */
+
+:root[data-theme^="stardew-"] .config-sidebar {
+  background: linear-gradient(180deg, var(--bg-accent) 0%, var(--bg) 100%) !important;
+  border-right: 4px solid var(--border) !important;
+}
+
+:root[data-theme^="stardew-"] .config-nav__item.active {
+  background: var(--accent-subtle) !important;
+  border-left: 4px solid var(--accent) !important;
+}
+
+:root[data-theme^="stardew-"] .config-section-card__header {
+  background: linear-gradient(180deg, var(--bg-hover) 0%, var(--bg-elevated) 100%) !important;
+  border-bottom: 3px solid var(--border) !important;
+}
+
+/* ========================================
+   ✨ 动画效果 - 像素风格
+   ======================================== */
+
+@keyframes pixel-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+:root[data-theme^="stardew-"] .chat-bubble.streaming {
+  animation: pixel-pulse 1s steps(2) infinite !important;
+  border-color: var(--accent) !important;
+}
+
+:root[data-theme^="stardew-"] .chat-reading-indicator__dots span {
+  border-radius: 2px !important;
+  animation: pixel-pulse 1.2s steps(3) infinite !important;
+}
+
+/* ========================================
+   🎪 滚动条 - 木质风格
+   ======================================== */
+
+:root[data-theme^="stardew-"] ::-webkit-scrollbar {
+  width: 12px !important;
+  height: 12px !important;
+}
+
+:root[data-theme^="stardew-"] ::-webkit-scrollbar-track {
+  background: var(--bg-accent) !important;
+  border: 2px solid var(--border) !important;
+}
+
+:root[data-theme^="stardew-"] ::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--border-strong) 0%, var(--border) 100%) !important;
+  border: 2px solid var(--bg-elevated) !important;
+  border-radius: 2px !important;
+}
+
+:root[data-theme^="stardew-"] ::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, var(--border-hover) 0%, var(--border-strong) 100%) !important;
+}
+
+/* ========================================
+   🎵 选中效果
+   ======================================== */
+
+:root[data-theme^="stardew-"] ::selection {
+  background: var(--accent-subtle) !important;
+  color: var(--text-strong) !important;
+}
+
+/* ========================================
+   🎛️ 仪表盘样式覆盖
+   ======================================== */
+
+:root[data-theme^="stardew-"] .dashboard-container {
+  font-family: var(--font-pixel) !important;
+}
+
+:root[data-theme^="stardew-"] .dashboard-title {
+  font-family: var(--font-pixel) !important;
+  font-size: 20px !important;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5) !important;
+}
+
+:root[data-theme^="stardew-"] .dashboard-subtitle {
+  font-family: var(--font-pixel) !important;
+  font-size: 11px !important;
+}
+
+:root[data-theme^="stardew-"] .dashboard-stat-card,
+:root[data-theme^="stardew-"] .dashboard-module-card,
+:root[data-theme^="stardew-"] .system-card {
+  border: 3px solid var(--border-strong) !important;
+  border-radius: var(--radius) !important;
+  box-shadow: var(--shadow-md) !important;
+  image-rendering: pixelated !important;
+}
+
+:root[data-theme^="stardew-"] .dashboard-stat-card:hover,
+:root[data-theme^="stardew-"] .dashboard-module-card:hover {
+  box-shadow: var(--shadow-lg), 0 0 15px var(--accent-glow) !important;
+}
+
+:root[data-theme^="stardew-"] .stat-value {
+  font-family: var(--font-pixel) !important;
+}
+
+:root[data-theme^="stardew-"] .module-icon {
+  border-radius: var(--radius) !important;
+}
+
+:root[data-theme^="stardew-"] .module-title {
+  font-family: var(--font-pixel) !important;
+  font-size: 14px !important;
+}
+
+:root[data-theme^="stardew-"] .progress-bar {
+  border: 2px solid var(--border-strong) !important;
+  border-radius: 4px !important;
+  background: var(--bg-elevated) !important;
+}
+
+:root[data-theme^="stardew-"] .progress-fill {
+  border-radius: 2px !important;
+}
+
+:root[data-theme^="stardew-"] .dashboard-status-bar {
+  border: 3px solid var(--border-strong) !important;
+  border-radius: var(--radius) !important;
+}
+
+:root[data-theme^="stardew-"] .quick-access-item {
+  border: 2px solid var(--border-strong) !important;
+  border-radius: var(--radius) !important;
+}
+
+:root[data-theme^="stardew-"] .quick-access-item:hover {
+  border-color: var(--accent) !important;
+  transform: translate(1px, 1px) !important;
+}
+
+:root[data-theme^="stardew-"] .dashboard-modal-content {
+  border: 4px solid var(--border-strong) !important;
+  border-radius: var(--radius) !important;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5) !important;
+}
+
+:root[data-theme^="stardew-"] .module-toggle {
+  border: 2px solid var(--border-strong) !important;
+  border-radius: var(--radius) !important;
+}
+
+:root[data-theme^="stardew-"] .layout-option {
+  border: 2px solid var(--border-strong) !important;
+  border-radius: var(--radius) !important;
+}
+
+:root[data-theme^="stardew-"] .layout-option:has(input:checked) {
+  border-color: var(--accent) !important;
+  background: var(--accent-subtle) !important;
+}
+
+:root[data-theme^="stardew-"] .modal-close {
+  font-family: var(--font-pixel) !important;
+}
+
+/* Dashboard settings button - high visibility version */
+:root[data-theme^="stardew-"] .dashboard-actions .btn.dashboard-settings-btn,
+:root[data-theme^="stardew-"] .dashboard-settings-btn {
+  background: linear-gradient(180deg, var(--accent) 0%, color-mix(in srgb, var(--accent) 70%, #000) 100%) !important;
+  border: 3px solid #fff !important;
+  color: #fff !important;
+  font-family: var(--font-pixel) !important;
+  font-size: 12px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.1em !important;
+  padding: 10px 20px !important;
+  image-rendering: pixelated !important;
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.5) !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.2),
+    0 4px 0 color-mix(in srgb, var(--accent) 50%, #000),
+    0 5px 8px rgba(0,0,0,0.3) !important;
+  position: relative;
+  top: 0;
+  transition: all 0.1s ease !important;
+  display: inline-flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+:root[data-theme^="stardew-"] .dashboard-actions .btn.dashboard-settings-btn:hover,
+:root[data-theme^="stardew-"] .dashboard-settings-btn:hover {
+  background: linear-gradient(180deg, color-mix(in srgb, var(--accent) 90%, #fff) 0%, var(--accent) 100%) !important;
+  transform: translateY(-2px) !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.3),
+    0 6px 0 color-mix(in srgb, var(--accent) 50%, #000),
+    0 7px 10px rgba(0,0,0,0.4) !important;
+}
+
+:root[data-theme^="stardew-"] .dashboard-actions .btn.dashboard-settings-btn:active,
+:root[data-theme^="stardew-"] .dashboard-settings-btn:active {
+  transform: translateY(4px) !important;
+  box-shadow:
+    inset 0 2px 4px rgba(0,0,0,0.2),
+    0 0 0 color-mix(in srgb, var(--accent) 50%, #000),
+    0 1px 2px rgba(0,0,0,0.3) !important;
+}
+
+:root[data-theme^="stardew-"] .dashboard-title {
+  color: var(--accent) !important;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.8) !important;
+}

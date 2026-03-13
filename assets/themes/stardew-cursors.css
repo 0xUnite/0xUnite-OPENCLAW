@@ -1,0 +1,170 @@
+/*
+ * Stardew Valley Pixel Cursor System
+ * Custom pixel-art cursors for different interactions
+ */
+
+/* ============================================
+   BASE CURSOR - Default (Crosshair/Pointer)
+   ============================================ */
+
+[data-theme^="stardew"] {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Cpath d='M11 0h2v24h-2z' fill='%23000'/%3E%3Cpath d='M0 11h24v2H0z' fill='%23000'/%3E%3Cpath d='M11 1h2v22h-2z' fill='%23fff'/%3E%3Cpath d='M1 11h22v2H1z' fill='%23fff'/%3E%3C/svg%3E") 12 12, crosshair;
+}
+
+/* ============================================
+   LINK CURSOR - Hand/Glove
+   ============================================ */
+
+[data-theme^="stardew"] a,
+[data-theme^="stardew"] button,
+[data-theme^="stardew"] [role="button"],
+[data-theme^="stardew"] .btn,
+[data-theme^="stardew"] .nav-item,
+[data-theme^="stardew"] .tab,
+[data-theme^="stardew"] summary,
+[data-theme^="stardew"] .list-item-clickable {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Cpath d='M8 4v12H6V6H4v12H2v6h16v-6h-2V8h-2v8h-2V4h-4z' fill='%23000'/%3E%3Cpath d='M8 5v11H6V7H5v11H3v4h12v-4h-2V9h-1v9h-2V5h-2z' fill='%23f4c430'/%3E%3C/svg%3E") 4 4, pointer;
+}
+
+/* ============================================
+   TEXT CURSOR - I-Beam with pixel style
+   ============================================ */
+
+[data-theme^="stardew"] input,
+[data-theme^="stardew"] textarea,
+[data-theme^="stardew"] [contenteditable="true"] {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='24'%3E%3Cpath d='M6 0h4v24H6z' fill='%23000'/%3E%3Cpath d='M7 1h2v22H7z' fill='%23fff'/%3E%3C/svg%3E") 8 12, text;
+}
+
+/* ============================================
+   GRAB CURSOR - For draggable elements
+   ============================================ */
+
+[data-theme^="stardew"] [draggable="true"],
+[data-theme^="stardew"] .drag-handle {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Cpath d='M8 6v12H6V8H4v12H2v4h16v-4h-2V8h-2v10h-2V6h-4z' fill='%23000'/%3E%3Cpath d='M8 7v10H6V9H5v11H3v2h12v-2h-2V9h-1v10h-2V7h-2z' fill='%23c49a6c'/%3E%3C/svg%3E") 12 12, grab;
+}
+
+[data-theme^="stardew"] [draggable="true"]:active,
+[data-theme^="stardew"] .drag-handle:active {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Cpath d='M8 8v10H6V10H4v10H2v2h16v-2h-2V10h-2v8h-2V8h-4z' fill='%23000'/%3E%3Cpath d='M8 9v8H6v-6H5v9H3v0h12v0h-2v-9h-1v8h-2V9h-2z' fill='%23a07050'/%3E%3C/svg%3E") 12 12, grabbing;
+}
+
+/* ============================================
+   TOOL CURSORS - Context specific
+   ============================================ */
+
+/* Hoe cursor for "edit" or "work" actions */
+[data-theme^="stardew"] .action-edit,
+[data-theme^="stardew"] button[title*="编辑"],
+[data-theme^="stardew"] button[title*="Edit"] {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Cpath d='M2 2l20 20M4 4l16 16' stroke='%23000' stroke-width='3'/%3E%3Cpath d='M3 3l18 18' stroke='%238b4513' stroke-width='1'/%3E%3C/svg%3E") 2 2, crosshair;
+}
+
+/* Watering can for "refresh" or "apply" */
+[data-theme^="stardew"] .action-refresh,
+[data-theme^="stardew"] button:has-text("刷新"),
+[data-theme^="stardew"] button:has-text("Refresh"),
+[data-theme^="stardew"] button[title*="apply" i] {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Crect x='4' y='4' width='12' height='16' fill='%23000'/%3E%3Crect x='5' y='5' width='10' height='14' fill='%234169e1'/%3E%3Crect x='16' y='8' width='6' height='4' fill='%23000'/%3E%3C/svg%3E") 4 4, pointer;
+}
+
+/* Axe for delete/remove */
+[data-theme^="stardew"] .action-delete,
+[data-theme^="stardew"] .btn.danger,
+[data-theme^="stardew"] button[title*="删除"],
+[data-theme^="stardew"] button[title*="Delete"] {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Cpath d='M4 4l16 16M20 4L4 20' stroke='%23000' stroke-width='4'/%3E%3Cpath d='M5 5l14 14M19 5L5 19' stroke='%238b0000' stroke-width='2'/%3E%3C/svg%3E") 12 12, not-allowed;
+}
+
+/* Pickaxe for "mining"/deep actions */
+[data-theme^="stardew"] .action-deep,
+[data-theme^="stardew"] .btn.primary {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Cpath d='M12 2l-2 8h4z' fill='%23000'/%3E%3Crect x='10' y='10' width='4' height='12' fill='%23000'/%3E%3Cpath d='M12 3l-1 6h2z' fill='%23ffd700'/%3E%3Crect x='11' y='9' width='2' height='12' fill='%23555'/%3E%3C/svg%3E") 12 2, pointer;
+}
+
+/* Seed bag for "add" or "create" */
+[data-theme^="stardew"] .action-add,
+[data-theme^="stardew"] button:has-text("添加"),
+[data-theme^="stardew"] button:has-text("Add") {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Crect x='6' y='8' width='12' height='14' fill='%23000'/%3E%3Crect x='7' y='9' width='10' height='12' fill='%238b4513'/%3E%3Ccircle cx='12' cy='6' r='3' fill='%23000'/%3E%3Ccircle cx='12' cy='6' r='2' fill='%2332cd32'/%3E%3C/svg%3E") 12 12, pointer;
+}
+
+/* ============================================
+   WAIT CURSOR - Hourglass/Pixel spinner
+   ============================================ */
+
+[data-theme^="stardew"].waiting,
+[data-theme^="stardew"] .loading {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Crect x='8' y='2' width='8' height='20' fill='%23000'/%3E%3Crect x='9' y='3' width='6' height='18' fill='%23f4c430'/%3E%3Crect x='10' y='5' width='4' height='4' fill='%23000'/%3E%3Crect x='10' y='15' width='4' height='4' fill='%23000'/%3E%3C/svg%3E") 12 12, wait;
+}
+
+/* ============================================
+   HOVER EFFECTS - Enhanced feedback
+   ============================================ */
+
+/* Button press effect on hover */
+[data-theme^="stardew"] .btn:hover {
+  transform: translate(1px, 1px);
+}
+
+[data-theme^="stardew"] .btn:active {
+  transform: translate(2px, 2px);
+}
+
+/* Cursor trail effect (subtle) */
+[data-theme^="stardew"] * {
+  --cursor-x: 0px;
+  --cursor-y: 0px;
+}
+
+/* ============================================
+   CUSTOM SCROLLBAR CURSOR
+   ============================================ */
+
+[data-theme^="stardew"] ::-webkit-scrollbar-thumb {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Crect x='6' y='2' width='4' height='12' fill='%23000'/%3E%3Crect x='7' y='3' width='2' height='10' fill='%23c49a6c'/%3E%3C/svg%3E") 8 8, ns-resize;
+}
+
+[data-theme^="stardew"] ::-webkit-scrollbar-thumb:hover {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Crect x='6' y='2' width='4' height='12' fill='%23000'/%3E%3Crect x='7' y='3' width='2' height='10' fill='%23d4aa7c'/%3E%3C/svg%3E") 8 8, ns-resize;
+}
+
+/* ============================================
+   RESIZE CURSORS
+   ============================================ */
+
+[data-theme^="stardew"] [resize="both"] {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Cpath d='M8 0v16M0 8h16' stroke='%23000' stroke-width='2'/%3E%3C/svg%3E") 8 8, se-resize;
+}
+
+/* ============================================
+   DISABLED CURSOR
+   ============================================ */
+
+[data-theme^="stardew"] :disabled,
+[data-theme^="stardew"] [disabled] {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Ccircle cx='12' cy='12' r='10' fill='none' stroke='%23000' stroke-width='2'/%3E%3Cline x1='4' y1='4' x2='20' y2='20' stroke='%23000' stroke-width='2'/%3E%3C/svg%3E") 12 12, not-allowed;
+  opacity: 0.6;
+}
+
+/* ============================================
+   HELP CURSOR - Question mark
+   ============================================ */
+
+[data-theme^="stardew"] [title]:hover,
+[data-theme^="stardew"] .help-icon {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Ccircle cx='12' cy='12' r='10' fill='%23000'/%3E%3Ccircle cx='12' cy='12' r='8' fill='%23f4c430'/%3E%3Ctext x='12' y='17' text-anchor='middle' font-size='12' fill='%23000'%3E?%3C/text%3E%3C/svg%3E") 12 12, help;
+}
+
+/* ============================================
+   ZOOM CURSORS - For images/maps
+   ============================================ */
+
+[data-theme^="stardew"] .zoom-in {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Ccircle cx='10' cy='10' r='8' fill='none' stroke='%23000' stroke-width='2'/%3E%3Cline x1='10' y1='6' x2='10' y2='14' stroke='%23000' stroke-width='2'/%3E%3Cline x1='6' y1='10' x2='14' y2='10' stroke='%23000' stroke-width='2'/%3E%3Cline x1='16' y1='16' x2='22' y2='22' stroke='%23000' stroke-width='3'/%3E%3C/svg%3E") 12 12, zoom-in;
+}
+
+[data-theme^="stardew"] .zoom-out {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Ccircle cx='10' cy='10' r='8' fill='none' stroke='%23000' stroke-width='2'/%3E%3Cline x1='6' y1='10' x2='14' y2='10' stroke='%23000' stroke-width='2'/%3E%3Cline x1='16' y1='16' x2='22' y2='22' stroke='%23000' stroke-width='3'/%3E%3C/svg%3E") 12 12, zoom-out;
+}

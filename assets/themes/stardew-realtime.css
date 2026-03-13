@@ -1,0 +1,78 @@
+/*
+ * Stardew Valley Real-Time System
+ * Automatic season switching and time-of-day lighting
+ */
+
+/* ============================================
+   SEASON AUTO-SWITCH (based on real month)
+   ============================================ */
+
+/* Spring: March, April, May (3-5) */
+@media (min-resolution: 1dppx) {
+  :root:has([data-auto-season="true"]):is(
+    [data-month="3"],
+    [data-month="4"],
+    [data-month="5"]
+  ) {
+    --bg: #3d5c3d;
+    --bg-accent: #2a402a;
+    --accent: #ff9ecd;
+    --accent-hover: #ffb8dc;
+  }
+}
+
+/* Summer: June, July, August (6-8) */
+:root:has([data-auto-season="true"]):is(
+  [data-month="6"],
+  [data-month="7"],
+  [data-month="8"]
+) {
+  --bg: #2d4a5a;
+  --bg-accent: #1a3040;
+  --accent: #50c0ff;
+  --accent-hover: #70d0ff;
+}
+
+/* Autumn: September, October, November (9-11) */
+:root:has([data-auto-season="true"]):is(
+  [data-month="9"],
+  [data-month="10"],
+  [data-month="11"]
+) {
+  --bg: #5a4a3a;
+  --bg-accent: #3d3025;
+  --accent: #f4a020;
+  --accent-hover: #ffb040;
+}
+
+/* Winter: December, January, February (12,1,2) */
+:root:has([data-auto-season="true"]):is(
+  [data-month="12"],
+  [data-month="1"],
+  [data-month="2"]
+) {
+  --bg: #3a4a5a;
+  --bg-accent: #253040;
+  --accent: #a0d0ff;
+  --accent-hover: #c0e0ff;
+}
+
+/* ============================================
+   TIME OF DAY COLOR FILTERS - DISABLED
+   ============================================ */
+
+/* Time of day decorations have been removed */
+
+/* ============================================
+   TIME DISPLAY - DISABLED
+   ============================================ */
+
+/* Time and season indicators have been removed */
+
+/* ============================================
+   TRANSITION SMOOTHING
+   ============================================ */
+
+[data-theme^="stardew"] {
+  transition: filter 2s ease;
+}

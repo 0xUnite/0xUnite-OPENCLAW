@@ -38,3 +38,92 @@
 [2026-03-11 20:24:34] unhealthy check=1; defer intrusive repair
 [2026-03-11 20:28:35] unhealthy check=1; defer intrusive repair
 [2026-03-11 20:50:43] unhealthy check=1; defer intrusive repair
+[2026-03-11 23:10:19] unhealthy check=1; defer intrusive repair
+[2026-03-11 23:11:19] unhealthy check=2; defer intrusive repair
+[2026-03-11 23:12:20] port :18789 not listening; starting gateway (check=3)
+[2026-03-11 23:13:25] heal failed: gateway still unhealthy
+[2026-03-11 23:14:25] service missing; installing gateway launchagent
+[2026-03-11 23:15:45] port :18789 not listening; starting gateway (check=4)
+[2026-03-11 23:16:26] heal ok: gateway recovered after gateway start
+[2026-03-11 23:18:27] unhealthy check=1; defer intrusive repair
+[2026-03-11 23:51:37] unhealthy check=1; defer intrusive repair
+[2026-03-11 23:52:37] unhealthy check=2; defer intrusive repair
+[2026-03-11 23:53:38] port :18789 not listening; starting gateway (check=3)
+[2026-03-11 23:54:45] heal ok: gateway recovered after gateway start
+[2026-03-11 23:55:45] unhealthy check=1; defer intrusive repair
+[2026-03-12 00:05:49] normalized config compatibility (bind=lan, removed legacy keys)
+[2026-03-12 00:05:49] unhealthy check=1; defer intrusive repair
+[2026-03-12 00:06:49] unhealthy check=2; defer intrusive repair
+[2026-03-12 00:07:49] port :18789 not listening; starting gateway (check=3)
+[2026-03-12 00:08:20] heal ok: gateway recovered after gateway start
+[2026-03-12 00:12:22] normalized config compatibility (bind=lan, removed legacy keys)
+[2026-03-12 00:12:22] unhealthy check=1; defer intrusive repair
+[2026-03-12 00:13:22] unhealthy check=2; defer intrusive repair
+[2026-03-12 00:14:23] port :18789 not listening; starting gateway (check=3)
+[2026-03-12 00:15:05] heal ok: gateway recovered after gateway start
+[2026-03-12 00:25:57] normalized config compatibility (bind=lan, removed legacy keys)
+[2026-03-12 00:25:57] config changed; ensuring gateway service is up immediately
+[2026-03-12 00:26:30] service missing; installing gateway launchagent (check=1)
+[2026-03-12 00:27:07] heal ok: gateway recovered after service install
+[2026-03-12 14:55:14] openclaw binary not found
+[2026-03-12 14:55:29] openclaw binary not found
+[2026-03-12 14:55:44] openclaw binary not found
+[2026-03-12 14:55:59] openclaw binary not found
+[2026-03-12 14:56:14] openclaw binary not found
+[2026-03-12 14:56:29] openclaw binary not found
+[2026-03-12 14:56:44] openclaw binary not found
+[2026-03-12 14:56:59] openclaw binary not found
+[2026-03-12 14:57:14] openclaw binary not found
+[2026-03-12 14:58:15] openclaw binary not found
+[2026-03-12 14:58:30] openclaw binary not found
+[2026-03-12 14:58:45] openclaw binary not found
+[2026-03-12 14:59:00] openclaw binary not found
+[2026-03-12 14:59:15] openclaw binary not found
+[2026-03-12 14:59:30] openclaw binary not found
+[2026-03-12 14:59:45] openclaw binary not found
+[2026-03-12 15:00:00] openclaw binary not found
+[2026-03-12 15:00:15] openclaw binary not found
+[2026-03-12 15:00:31] openclaw binary not found
+[2026-03-12 15:00:46] openclaw binary not found
+[2026-03-12 15:01:01] openclaw binary not found
+[2026-03-12 15:01:16] openclaw binary not found
+[2026-03-12 15:01:31] openclaw binary not found
+[2026-03-12 15:01:46] openclaw binary not found
+[2026-03-12 15:04:49] port :18789 not listening; starting gateway (check=1)
+[2026-03-12 15:05:42] heal failed: gateway still unhealthy
+[2026-03-12 15:07:14] port :18789 not listening; starting gateway (check=1)
+[2026-03-12 15:08:12] heal failed: gateway still unhealthy
+[2026-03-13 00:48:54] failed to normalize gateway config
+[2026-03-13 00:49:10] failed to normalize gateway config
+[2026-03-13 00:49:25] failed to normalize gateway config
+[2026-03-13 00:49:40] normalized config compatibility (bind=lan, removed legacy keys)
+[2026-03-13 00:49:40] config changed; ensuring gateway service is up immediately
+[2026-03-13 00:50:05] heal ok: gateway running after config normalization
+[2026-03-13 00:55:57] port :18789 not listening; starting gateway (check=1)
+[2026-03-13 00:56:24] heal ok: gateway recovered after gateway start
+[2026-03-13 01:05:40] port :18789 not listening; starting gateway (check=1)
+[2026-03-13 01:06:44] heal failed: gateway still unhealthy
+[2026-03-13 01:09:49] port :18789 not listening; starting gateway (check=1)
+[2026-03-13 01:10:02] heal ok: gateway recovered after gateway start
+[2026-03-13 01:11:20] port :18789 not listening; starting gateway (check=1)
+[2026-03-13 01:12:13] heal ok: gateway recovered after gateway start
+[2026-03-13 01:12:28] port :18789 not listening; starting gateway (check=1)
+[2026-03-13 01:13:09] heal ok: gateway recovered after gateway start
+[2026-03-13 01:32:53] port :18789 not listening; starting gateway (check=1)
+[2026-03-13 01:33:39] heal ok: gateway recovered after gateway start
+[2026-03-13 01:42:39] port :18789 not listening; starting gateway (check=1)
+[2026-03-13 01:43:37] heal ok: gateway recovered after gateway start
+[2026-03-13 02:41:09] port :18789 not listening; starting gateway (check=1)
+[2026-03-13 02:41:45] heal ok: gateway recovered after gateway start
+[2026-03-13 14:12:52] port :18789 not listening; starting gateway (check=1)
+[2026-03-13 14:13:41] heal ok: gateway recovered after gateway start
+[2026-03-13 18:24:40] port :18789 not listening; starting gateway (check=1)
+[2026-03-13 18:25:25] heal ok: gateway recovered after gateway start
+[2026-03-13 18:26:45] port :18789 not listening; starting gateway (check=1)
+[2026-03-13 18:28:05] heal failed: gateway still unhealthy
+[2026-03-13 18:28:21] port :18789 not listening; starting gateway (check=2)
+[2026-03-13 18:29:05] heal ok: gateway recovered after gateway start
+[2026-03-13 18:31:56] service missing; installing gateway launchagent (check=1)
+[2026-03-13 18:33:35] heal ok: gateway recovered after service install
+[2026-03-13 20:22:36] port :18789 not listening; starting gateway (check=1)
+[2026-03-13 20:23:19] heal ok: gateway recovered after gateway start

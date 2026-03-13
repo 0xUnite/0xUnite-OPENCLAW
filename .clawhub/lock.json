@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "skills": {
+    "tavily-search": {
+      "version": "1.0.0",
+      "installedAt": 1770532791178
+    },
+    "find-skills": {
+      "version": "0.1.0",
+      "installedAt": 1770532792989
+    },
+    "proactive-agent-1-2-4": {
+      "version": "1.0.0",
+      "installedAt": 1770532795303
+    },
+    "simmer": {
+      "version": "1.13.0",
+      "installedAt": 1771161471580
+    },
+    "youtube-full": {
+      "version": "1.4.1",
+      "installedAt": 1771169776350
+    },
+    "opennews-mcp": {
+      "version": "1.0.0",
+      "installedAt": 1772180740452
+    },
+    "mm-voice-maker": {
+      "version": "1.0.1",
+      "installedAt": 1773029843300
+    },
+    "mm-music-maker": {
+      "version": "1.0.0",
+      "installedAt": 1773029927341
+    },
+    "github-trending-cn": {
+      "version": "1.0.0",
+      "installedAt": 1773145927487
+    },
+    "okx-mcp-skill": {
+      "version": "1.0.1",
+      "installedAt": 1773156717873
+    }
+  }
+}

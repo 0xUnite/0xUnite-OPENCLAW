@@ -19409,3 +19409,1770 @@
 [03-11 20:56:52] 开始: 综合监控
 /Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
 [03-11 20:56:52] ❌ 失败: 综合监控 (exit 127)
+[03-11 21:01:52] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-11 21:01:52] ❌ 失败: 综合监控 (exit 127)
+[03-11 21:06:52] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-11 21:06:52] ❌ 失败: 综合监控 (exit 127)
+[03-11 21:11:52] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-11 21:11:52] ❌ 失败: 综合监控 (exit 127)
+[03-11 21:15:12] 开始: Nexus监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-11 21:15:12] ❌ 失败: Nexus监控 (exit 127)
+[03-11 21:16:52] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-11 21:16:52] ❌ 失败: 综合监控 (exit 127)
+[03-11 21:21:52] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-11 21:21:52] ❌ 失败: 综合监控 (exit 127)
+[03-11 21:26:52] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-11 21:26:52] ❌ 失败: 综合监控 (exit 127)
+[03-11 21:31:52] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-11 21:31:52] ❌ 失败: 综合监控 (exit 127)
+[03-11 21:36:52] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-11 21:36:52] ❌ 失败: 综合监控 (exit 127)
+[03-11 21:41:52] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-11 21:41:52] ❌ 失败: 综合监控 (exit 127)
+[03-11 21:46:52] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-11 21:46:52] ❌ 失败: 综合监控 (exit 127)
+[03-11 21:51:52] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-11 21:51:52] ❌ 失败: 综合监控 (exit 127)
+[03-11 21:56:52] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-11 21:56:52] ❌ 失败: 综合监控 (exit 127)
+[03-11 22:01:52] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-11 22:01:52] ❌ 失败: 综合监控 (exit 127)
+[03-11 22:06:52] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-11 22:06:52] ❌ 失败: 综合监控 (exit 127)
+[03-11 22:11:52] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-11 22:11:52] ❌ 失败: 综合监控 (exit 127)
+[03-11 22:16:52] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-11 22:16:52] ❌ 失败: 综合监控 (exit 127)
+[03-11 22:21:52] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-11 22:21:52] ❌ 失败: 综合监控 (exit 127)
+[03-11 22:26:52] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-11 22:26:52] ❌ 失败: 综合监控 (exit 127)
+[03-11 22:31:52] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-11 22:31:52] ❌ 失败: 综合监控 (exit 127)
+[03-11 22:36:52] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-11 22:36:52] ❌ 失败: 综合监控 (exit 127)
+[03-11 22:41:52] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-11 22:41:52] ❌ 失败: 综合监控 (exit 127)
+[03-11 22:46:52] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-11 22:46:52] ❌ 失败: 综合监控 (exit 127)
+[03-11 22:51:52] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-11 22:51:52] ❌ 失败: 综合监控 (exit 127)
+[03-11 22:56:52] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-11 22:56:52] ❌ 失败: 综合监控 (exit 127)
+[03-11 23:01:52] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-11 23:01:52] ❌ 失败: 综合监控 (exit 127)
+[03-11 23:06:52] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-11 23:06:52] ❌ 失败: 综合监控 (exit 127)
+[03-11 23:11:52] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-11 23:11:52] ❌ 失败: 综合监控 (exit 127)
+[03-11 23:16:52] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-11 23:16:52] ❌ 失败: 综合监控 (exit 127)
+[03-11 23:21:52] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-11 23:21:52] ❌ 失败: 综合监控 (exit 127)
+[03-11 23:26:52] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-11 23:26:52] ❌ 失败: 综合监控 (exit 127)
+[03-11 23:31:52] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-11 23:31:52] ❌ 失败: 综合监控 (exit 127)
+[03-11 23:36:52] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-11 23:36:52] ❌ 失败: 综合监控 (exit 127)
+[03-11 23:41:52] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-11 23:41:52] ❌ 失败: 综合监控 (exit 127)
+[03-11 23:46:52] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-11 23:46:52] ❌ 失败: 综合监控 (exit 127)
+[03-11 23:51:53] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-11 23:51:53] ❌ 失败: 综合监控 (exit 127)
+[03-11 23:56:53] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-11 23:56:53] ❌ 失败: 综合监控 (exit 127)
+[03-12 00:01:53] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 00:01:53] ❌ 失败: 综合监控 (exit 127)
+[03-12 00:06:53] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 00:06:53] ❌ 失败: 综合监控 (exit 127)
+[03-12 00:11:53] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 00:11:53] ❌ 失败: 综合监控 (exit 127)
+[03-12 00:16:53] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 00:16:53] ❌ 失败: 综合监控 (exit 127)
+[03-12 00:21:53] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 00:21:53] ❌ 失败: 综合监控 (exit 127)
+[03-12 00:26:53] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 00:26:53] ❌ 失败: 综合监控 (exit 127)
+[03-12 00:31:53] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 00:31:53] ❌ 失败: 综合监控 (exit 127)
+[03-12 00:36:53] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 00:36:53] ❌ 失败: 综合监控 (exit 127)
+[03-12 00:41:53] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 00:41:53] ❌ 失败: 综合监控 (exit 127)
+[03-12 00:46:53] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 00:46:53] ❌ 失败: 综合监控 (exit 127)
+[03-12 00:51:53] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 00:51:53] ❌ 失败: 综合监控 (exit 127)
+[03-12 00:56:53] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 00:56:53] ❌ 失败: 综合监控 (exit 127)
+[03-12 01:01:53] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 01:01:53] ❌ 失败: 综合监控 (exit 127)
+[03-12 01:06:53] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 01:06:53] ❌ 失败: 综合监控 (exit 127)
+[03-12 01:11:53] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 01:11:53] ❌ 失败: 综合监控 (exit 127)
+[03-12 01:16:53] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 01:16:53] ❌ 失败: 综合监控 (exit 127)
+[03-12 01:21:53] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 01:21:53] ❌ 失败: 综合监控 (exit 127)
+[03-12 01:26:53] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 01:26:53] ❌ 失败: 综合监控 (exit 127)
+[03-12 01:31:53] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 01:31:53] ❌ 失败: 综合监控 (exit 127)
+[03-12 01:36:53] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 01:36:53] ❌ 失败: 综合监控 (exit 127)
+[03-12 01:41:53] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 01:41:53] ❌ 失败: 综合监控 (exit 127)
+[03-12 01:46:53] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 01:46:53] ❌ 失败: 综合监控 (exit 127)
+[03-12 01:51:53] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 01:51:53] ❌ 失败: 综合监控 (exit 127)
+[03-12 01:56:53] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 01:56:53] ❌ 失败: 综合监控 (exit 127)
+[03-12 02:01:53] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 02:01:53] ❌ 失败: 综合监控 (exit 127)
+[03-12 02:06:53] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 02:06:53] ❌ 失败: 综合监控 (exit 127)
+[03-12 02:11:53] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 02:11:53] ❌ 失败: 综合监控 (exit 127)
+[03-12 02:16:53] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 02:16:53] ❌ 失败: 综合监控 (exit 127)
+[03-12 02:21:53] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 02:21:53] ❌ 失败: 综合监控 (exit 127)
+[03-12 02:26:53] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 02:26:53] ❌ 失败: 综合监控 (exit 127)
+[03-12 02:31:53] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 02:31:53] ❌ 失败: 综合监控 (exit 127)
+[03-12 02:36:53] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 02:36:53] ❌ 失败: 综合监控 (exit 127)
+[03-12 02:41:53] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 02:41:53] ❌ 失败: 综合监控 (exit 127)
+[03-12 02:46:53] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 02:46:53] ❌ 失败: 综合监控 (exit 127)
+[03-12 02:51:54] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 02:51:54] ❌ 失败: 综合监控 (exit 127)
+[03-12 02:56:54] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 02:56:54] ❌ 失败: 综合监控 (exit 127)
+[03-12 03:01:54] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 03:01:54] ❌ 失败: 综合监控 (exit 127)
+[03-12 03:06:54] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 03:06:54] ❌ 失败: 综合监控 (exit 127)
+[03-12 03:11:54] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 03:11:54] ❌ 失败: 综合监控 (exit 127)
+[03-12 03:16:54] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 03:16:54] ❌ 失败: 综合监控 (exit 127)
+[03-12 03:21:54] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 03:21:54] ❌ 失败: 综合监控 (exit 127)
+[03-12 03:26:54] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 03:26:54] ❌ 失败: 综合监控 (exit 127)
+[03-12 03:31:54] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 03:31:54] ❌ 失败: 综合监控 (exit 127)
+[03-12 03:36:54] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 03:36:54] ❌ 失败: 综合监控 (exit 127)
+[03-12 03:41:54] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 03:41:54] ❌ 失败: 综合监控 (exit 127)
+[03-12 03:46:54] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 03:46:54] ❌ 失败: 综合监控 (exit 127)
+[03-12 03:51:54] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 03:51:54] ❌ 失败: 综合监控 (exit 127)
+[03-12 03:55:04] 开始: Nexus监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 03:55:04] ❌ 失败: Nexus监控 (exit 127)
+[03-12 03:56:54] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 03:56:54] ❌ 失败: 综合监控 (exit 127)
+[03-12 04:01:54] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 04:01:54] ❌ 失败: 综合监控 (exit 127)
+[03-12 04:06:54] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 04:06:54] ❌ 失败: 综合监控 (exit 127)
+[03-12 04:11:54] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 04:11:54] ❌ 失败: 综合监控 (exit 127)
+[03-12 04:16:54] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 04:16:54] ❌ 失败: 综合监控 (exit 127)
+[03-12 04:21:54] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 04:21:54] ❌ 失败: 综合监控 (exit 127)
+[03-12 04:26:54] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 04:26:54] ❌ 失败: 综合监控 (exit 127)
+[03-12 04:31:54] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 04:31:54] ❌ 失败: 综合监控 (exit 127)
+[03-12 04:36:54] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 04:36:54] ❌ 失败: 综合监控 (exit 127)
+[03-12 04:41:54] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 04:41:54] ❌ 失败: 综合监控 (exit 127)
+[03-12 04:46:54] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 04:46:54] ❌ 失败: 综合监控 (exit 127)
+[03-12 04:51:54] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 04:51:54] ❌ 失败: 综合监控 (exit 127)
+[03-12 04:56:54] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 04:56:54] ❌ 失败: 综合监控 (exit 127)
+[03-12 05:01:54] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 05:01:54] ❌ 失败: 综合监控 (exit 127)
+[03-12 05:06:54] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 05:06:54] ❌ 失败: 综合监控 (exit 127)
+[03-12 05:11:54] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 05:11:54] ❌ 失败: 综合监控 (exit 127)
+[03-12 05:16:54] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 05:16:54] ❌ 失败: 综合监控 (exit 127)
+[03-12 05:21:54] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 05:21:54] ❌ 失败: 综合监控 (exit 127)
+[03-12 05:26:54] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 05:26:54] ❌ 失败: 综合监控 (exit 127)
+[03-12 05:31:54] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 05:31:54] ❌ 失败: 综合监控 (exit 127)
+[03-12 05:36:54] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 05:36:54] ❌ 失败: 综合监控 (exit 127)
+[03-12 05:41:54] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 05:41:54] ❌ 失败: 综合监控 (exit 127)
+[03-12 05:46:54] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 05:46:54] ❌ 失败: 综合监控 (exit 127)
+[03-12 05:51:54] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 05:51:54] ❌ 失败: 综合监控 (exit 127)
+[03-12 05:56:54] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 05:56:54] ❌ 失败: 综合监控 (exit 127)
+[03-12 06:01:54] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 06:01:55] ❌ 失败: 综合监控 (exit 127)
+[03-12 06:06:55] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 06:06:55] ❌ 失败: 综合监控 (exit 127)
+[03-12 06:11:55] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 06:11:55] ❌ 失败: 综合监控 (exit 127)
+[03-12 06:15:14] 开始: Nexus监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 06:15:14] ❌ 失败: Nexus监控 (exit 127)
+[03-12 06:16:55] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 06:16:55] ❌ 失败: 综合监控 (exit 127)
+[03-12 06:21:55] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 06:21:55] ❌ 失败: 综合监控 (exit 127)
+[03-12 06:26:55] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 06:26:55] ❌ 失败: 综合监控 (exit 127)
+[03-12 06:31:55] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 06:31:55] ❌ 失败: 综合监控 (exit 127)
+[03-12 06:36:55] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 06:36:55] ❌ 失败: 综合监控 (exit 127)
+[03-12 06:41:55] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 06:41:55] ❌ 失败: 综合监控 (exit 127)
+[03-12 06:46:55] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 06:46:55] ❌ 失败: 综合监控 (exit 127)
+[03-12 06:51:55] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 06:51:55] ❌ 失败: 综合监控 (exit 127)
+[03-12 06:56:55] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 06:56:55] ❌ 失败: 综合监控 (exit 127)
+[03-12 07:01:55] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 07:01:55] ❌ 失败: 综合监控 (exit 127)
+[03-12 07:06:55] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 07:06:55] ❌ 失败: 综合监控 (exit 127)
+[03-12 07:11:55] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 07:11:55] ❌ 失败: 综合监控 (exit 127)
+[03-12 07:16:55] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 07:16:55] ❌ 失败: 综合监控 (exit 127)
+[03-12 07:21:55] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 07:21:55] ❌ 失败: 综合监控 (exit 127)
+[03-12 07:26:55] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 07:26:55] ❌ 失败: 综合监控 (exit 127)
+[03-12 07:31:55] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 07:31:55] ❌ 失败: 综合监控 (exit 127)
+[03-12 07:35:08] 开始: Nexus监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 07:35:08] ❌ 失败: Nexus监控 (exit 127)
+[03-12 07:35:24] 开始: Nexus监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 07:35:24] ❌ 失败: Nexus监控 (exit 127)
+[03-12 07:36:55] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 07:36:55] ❌ 失败: 综合监控 (exit 127)
+[03-12 07:41:55] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 07:41:55] ❌ 失败: 综合监控 (exit 127)
+[03-12 07:46:55] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 07:46:55] ❌ 失败: 综合监控 (exit 127)
+[03-12 07:51:55] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 07:51:55] ❌ 失败: 综合监控 (exit 127)
+[03-12 07:56:55] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 07:56:55] ❌ 失败: 综合监控 (exit 127)
+[03-12 08:01:55] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 08:01:55] ❌ 失败: 综合监控 (exit 127)
+[03-12 08:06:55] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 08:06:55] ❌ 失败: 综合监控 (exit 127)
+[03-12 08:11:55] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 08:11:55] ❌ 失败: 综合监控 (exit 127)
+[03-12 08:16:55] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 08:16:55] ❌ 失败: 综合监控 (exit 127)
+[03-12 08:21:55] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 08:21:55] ❌ 失败: 综合监控 (exit 127)
+[03-12 08:26:55] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 08:26:55] ❌ 失败: 综合监控 (exit 127)
+[03-12 08:31:55] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 08:31:55] ❌ 失败: 综合监控 (exit 127)
+[03-12 08:36:55] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 08:36:55] ❌ 失败: 综合监控 (exit 127)
+[03-12 08:41:55] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 08:41:55] ❌ 失败: 综合监控 (exit 127)
+[03-12 08:46:55] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 08:46:55] ❌ 失败: 综合监控 (exit 127)
+[03-12 08:51:55] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 08:51:55] ❌ 失败: 综合监控 (exit 127)
+[03-12 08:56:55] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 08:56:55] ❌ 失败: 综合监控 (exit 127)
+[03-12 09:01:55] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 09:01:55] ❌ 失败: 综合监控 (exit 127)
+[03-12 09:06:55] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 09:06:55] ❌ 失败: 综合监控 (exit 127)
+[03-12 09:11:55] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 09:11:55] ❌ 失败: 综合监控 (exit 127)
+[03-12 09:16:55] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 09:16:55] ❌ 失败: 综合监控 (exit 127)
+[03-12 09:21:56] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 09:21:56] ❌ 失败: 综合监控 (exit 127)
+[03-12 09:26:56] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 09:26:56] ❌ 失败: 综合监控 (exit 127)
+[03-12 09:31:56] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 09:31:56] ❌ 失败: 综合监控 (exit 127)
+[03-12 09:36:56] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 09:36:56] ❌ 失败: 综合监控 (exit 127)
+[03-12 09:41:56] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 09:41:56] ❌ 失败: 综合监控 (exit 127)
+[03-12 09:46:56] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 09:46:56] ❌ 失败: 综合监控 (exit 127)
+[03-12 09:51:56] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 09:51:56] ❌ 失败: 综合监控 (exit 127)
+[03-12 09:56:56] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 09:56:56] ❌ 失败: 综合监控 (exit 127)
+[03-12 10:01:56] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 10:01:56] ❌ 失败: 综合监控 (exit 127)
+[03-12 10:06:56] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 10:06:56] ❌ 失败: 综合监控 (exit 127)
+[03-12 10:11:56] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 10:11:56] ❌ 失败: 综合监控 (exit 127)
+[03-12 10:16:56] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 10:16:56] ❌ 失败: 综合监控 (exit 127)
+[03-12 10:21:56] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 10:21:56] ❌ 失败: 综合监控 (exit 127)
+[03-12 10:26:56] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 10:26:56] ❌ 失败: 综合监控 (exit 127)
+[03-12 10:31:56] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 10:31:56] ❌ 失败: 综合监控 (exit 127)
+[03-12 10:36:56] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 10:36:56] ❌ 失败: 综合监控 (exit 127)
+[03-12 10:41:56] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 10:41:56] ❌ 失败: 综合监控 (exit 127)
+[03-12 10:46:56] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 10:46:56] ❌ 失败: 综合监控 (exit 127)
+[03-12 10:51:56] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 10:51:56] ❌ 失败: 综合监控 (exit 127)
+[03-12 10:56:56] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 10:56:56] ❌ 失败: 综合监控 (exit 127)
+[03-12 11:01:56] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 11:01:56] ❌ 失败: 综合监控 (exit 127)
+[03-12 11:06:56] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 11:06:56] ❌ 失败: 综合监控 (exit 127)
+[03-12 11:11:56] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 11:11:56] ❌ 失败: 综合监控 (exit 127)
+[03-12 11:16:56] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 11:16:56] ❌ 失败: 综合监控 (exit 127)
+[03-12 11:21:56] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 11:21:56] ❌ 失败: 综合监控 (exit 127)
+[03-12 11:26:56] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 11:26:56] ❌ 失败: 综合监控 (exit 127)
+[03-12 11:31:56] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 11:31:56] ❌ 失败: 综合监控 (exit 127)
+[03-12 11:36:56] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 11:36:56] ❌ 失败: 综合监控 (exit 127)
+[03-12 11:41:56] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 11:41:56] ❌ 失败: 综合监控 (exit 127)
+[03-12 11:46:56] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 11:46:56] ❌ 失败: 综合监控 (exit 127)
+[03-12 11:51:56] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 11:51:56] ❌ 失败: 综合监控 (exit 127)
+[03-12 11:56:56] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 11:56:56] ❌ 失败: 综合监控 (exit 127)
+[03-12 12:01:56] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 12:01:56] ❌ 失败: 综合监控 (exit 127)
+[03-12 12:06:56] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 12:06:56] ❌ 失败: 综合监控 (exit 127)
+[03-12 12:11:56] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 12:11:56] ❌ 失败: 综合监控 (exit 127)
+[03-12 12:16:56] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 12:16:56] ❌ 失败: 综合监控 (exit 127)
+[03-12 12:21:56] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 12:21:57] ❌ 失败: 综合监控 (exit 127)
+[03-12 12:26:57] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 12:26:57] ❌ 失败: 综合监控 (exit 127)
+[03-12 12:31:57] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 12:31:57] ❌ 失败: 综合监控 (exit 127)
+[03-12 12:36:57] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 12:36:57] ❌ 失败: 综合监控 (exit 127)
+[03-12 12:41:57] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 12:41:57] ❌ 失败: 综合监控 (exit 127)
+[03-12 12:46:57] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 12:46:57] ❌ 失败: 综合监控 (exit 127)
+[03-12 12:51:57] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 12:51:57] ❌ 失败: 综合监控 (exit 127)
+[03-12 12:56:57] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 12:56:57] ❌ 失败: 综合监控 (exit 127)
+[03-12 13:01:57] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 13:01:57] ❌ 失败: 综合监控 (exit 127)
+[03-12 13:06:57] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 13:06:57] ❌ 失败: 综合监控 (exit 127)
+[03-12 13:11:57] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 13:11:57] ❌ 失败: 综合监控 (exit 127)
+[03-12 13:16:57] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 13:16:57] ❌ 失败: 综合监控 (exit 127)
+[03-12 13:18:14] 开始: Nexus监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 13:18:14] ❌ 失败: Nexus监控 (exit 127)
+[03-12 13:21:57] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 13:21:57] ❌ 失败: 综合监控 (exit 127)
+[03-12 13:26:57] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 13:26:57] ❌ 失败: 综合监控 (exit 127)
+[03-12 13:31:57] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 13:31:57] ❌ 失败: 综合监控 (exit 127)
+[03-12 13:36:57] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 13:36:57] ❌ 失败: 综合监控 (exit 127)
+[03-12 13:41:57] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 13:41:57] ❌ 失败: 综合监控 (exit 127)
+[03-12 13:46:57] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 13:46:57] ❌ 失败: 综合监控 (exit 127)
+[03-12 13:51:57] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 13:51:57] ❌ 失败: 综合监控 (exit 127)
+[03-12 13:56:57] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 13:56:57] ❌ 失败: 综合监控 (exit 127)
+[03-12 14:01:57] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 14:01:57] ❌ 失败: 综合监控 (exit 127)
+[03-12 14:06:57] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 14:06:57] ❌ 失败: 综合监控 (exit 127)
+[03-12 14:11:57] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 14:11:57] ❌ 失败: 综合监控 (exit 127)
+[03-12 14:16:57] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 14:16:57] ❌ 失败: 综合监控 (exit 127)
+[03-12 14:21:57] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 14:21:57] ❌ 失败: 综合监控 (exit 127)
+[03-12 14:26:57] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 14:26:57] ❌ 失败: 综合监控 (exit 127)
+[03-12 14:31:57] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 14:31:57] ❌ 失败: 综合监控 (exit 127)
+[03-12 14:36:57] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 14:36:57] ❌ 失败: 综合监控 (exit 127)
+[03-12 14:41:57] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 14:41:57] ❌ 失败: 综合监控 (exit 127)
+[03-12 14:46:57] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 14:46:57] ❌ 失败: 综合监控 (exit 127)
+[03-12 14:51:57] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 14:51:57] ❌ 失败: 综合监控 (exit 127)
+[03-12 14:56:57] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 14:56:57] ❌ 失败: 综合监控 (exit 127)
+[03-12 15:01:57] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 15:01:57] ❌ 失败: 综合监控 (exit 127)
+[03-12 15:06:57] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 15:06:57] ❌ 失败: 综合监控 (exit 127)
+[03-12 15:11:58] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 15:11:58] ❌ 失败: 综合监控 (exit 127)
+[03-12 15:16:58] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 15:16:58] ❌ 失败: 综合监控 (exit 127)
+[03-12 15:21:58] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 15:21:58] ❌ 失败: 综合监控 (exit 127)
+[03-12 15:26:58] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 15:26:58] ❌ 失败: 综合监控 (exit 127)
+[03-12 15:31:58] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 15:31:58] ❌ 失败: 综合监控 (exit 127)
+[03-12 15:36:58] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 15:36:58] ❌ 失败: 综合监控 (exit 127)
+[03-12 15:41:58] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 15:41:58] ❌ 失败: 综合监控 (exit 127)
+[03-12 15:46:58] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 15:46:58] ❌ 失败: 综合监控 (exit 127)
+[03-12 15:51:58] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 15:51:58] ❌ 失败: 综合监控 (exit 127)
+[03-12 15:56:58] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 15:56:58] ❌ 失败: 综合监控 (exit 127)
+[03-12 16:01:58] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 16:01:58] ❌ 失败: 综合监控 (exit 127)
+[03-12 16:06:58] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 16:06:58] ❌ 失败: 综合监控 (exit 127)
+[03-12 16:11:58] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 16:11:58] ❌ 失败: 综合监控 (exit 127)
+[03-12 16:16:58] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 16:16:58] ❌ 失败: 综合监控 (exit 127)
+[03-12 16:21:58] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 16:21:58] ❌ 失败: 综合监控 (exit 127)
+[03-12 16:26:58] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 16:26:58] ❌ 失败: 综合监控 (exit 127)
+[03-12 16:31:58] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 16:31:58] ❌ 失败: 综合监控 (exit 127)
+[03-12 16:36:58] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 16:36:58] ❌ 失败: 综合监控 (exit 127)
+[03-12 16:41:58] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 16:41:58] ❌ 失败: 综合监控 (exit 127)
+[03-12 16:46:58] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 16:46:58] ❌ 失败: 综合监控 (exit 127)
+[03-12 16:51:58] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 16:51:58] ❌ 失败: 综合监控 (exit 127)
+[03-12 16:56:58] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 16:56:58] ❌ 失败: 综合监控 (exit 127)
+[03-12 17:01:58] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 17:01:58] ❌ 失败: 综合监控 (exit 127)
+[03-12 17:06:58] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 17:06:58] ❌ 失败: 综合监控 (exit 127)
+[03-12 17:11:58] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 17:11:58] ❌ 失败: 综合监控 (exit 127)
+[03-12 17:16:58] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 17:16:58] ❌ 失败: 综合监控 (exit 127)
+[03-12 17:21:58] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 17:21:58] ❌ 失败: 综合监控 (exit 127)
+[03-12 17:26:58] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 17:26:58] ❌ 失败: 综合监控 (exit 127)
+[03-12 17:31:58] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 17:31:58] ❌ 失败: 综合监控 (exit 127)
+[03-12 17:36:58] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 17:36:58] ❌ 失败: 综合监控 (exit 127)
+[03-12 17:41:58] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 17:41:58] ❌ 失败: 综合监控 (exit 127)
+[03-12 17:46:58] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 17:46:58] ❌ 失败: 综合监控 (exit 127)
+[03-12 17:51:58] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 17:51:58] ❌ 失败: 综合监控 (exit 127)
+[03-12 17:56:58] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 17:56:58] ❌ 失败: 综合监控 (exit 127)
+[03-12 18:01:58] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 18:01:58] ❌ 失败: 综合监控 (exit 127)
+[03-12 18:06:58] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 18:06:58] ❌ 失败: 综合监控 (exit 127)
+[03-12 18:11:58] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 18:11:58] ❌ 失败: 综合监控 (exit 127)
+[03-12 18:16:58] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 18:16:58] ❌ 失败: 综合监控 (exit 127)
+[03-12 18:21:59] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 18:21:59] ❌ 失败: 综合监控 (exit 127)
+[03-12 18:26:59] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 18:26:59] ❌ 失败: 综合监控 (exit 127)
+[03-12 18:31:59] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 18:31:59] ❌ 失败: 综合监控 (exit 127)
+[03-12 18:36:59] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 18:36:59] ❌ 失败: 综合监控 (exit 127)
+[03-12 18:41:59] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 18:41:59] ❌ 失败: 综合监控 (exit 127)
+[03-12 18:46:59] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 18:46:59] ❌ 失败: 综合监控 (exit 127)
+[03-12 18:51:59] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 18:51:59] ❌ 失败: 综合监控 (exit 127)
+[03-12 18:56:59] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 18:56:59] ❌ 失败: 综合监控 (exit 127)
+[03-12 19:01:59] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 19:01:59] ❌ 失败: 综合监控 (exit 127)
+[03-12 19:06:59] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 19:06:59] ❌ 失败: 综合监控 (exit 127)
+[03-12 19:11:59] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 19:11:59] ❌ 失败: 综合监控 (exit 127)
+[03-12 19:16:59] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 19:16:59] ❌ 失败: 综合监控 (exit 127)
+[03-12 19:21:59] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 19:21:59] ❌ 失败: 综合监控 (exit 127)
+[03-12 19:26:59] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 19:26:59] ❌ 失败: 综合监控 (exit 127)
+[03-12 19:31:59] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 19:31:59] ❌ 失败: 综合监控 (exit 127)
+[03-12 19:36:59] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 19:36:59] ❌ 失败: 综合监控 (exit 127)
+[03-12 19:38:27] 开始: Nexus监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 19:38:27] ❌ 失败: Nexus监控 (exit 127)
+[03-12 19:41:59] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 19:41:59] ❌ 失败: 综合监控 (exit 127)
+[03-12 19:46:59] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 19:46:59] ❌ 失败: 综合监控 (exit 127)
+[03-12 19:51:59] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 19:51:59] ❌ 失败: 综合监控 (exit 127)
+[03-12 19:56:59] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 19:56:59] ❌ 失败: 综合监控 (exit 127)
+[03-12 20:01:59] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 20:01:59] ❌ 失败: 综合监控 (exit 127)
+[03-12 20:06:59] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 20:06:59] ❌ 失败: 综合监控 (exit 127)
+[03-12 20:11:59] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 20:11:59] ❌ 失败: 综合监控 (exit 127)
+[03-12 20:16:59] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 20:16:59] ❌ 失败: 综合监控 (exit 127)
+[03-12 20:18:21] 开始: Nexus监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 20:18:21] ❌ 失败: Nexus监控 (exit 127)
+[03-12 20:21:59] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 20:21:59] ❌ 失败: 综合监控 (exit 127)
+[03-12 20:26:59] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 20:26:59] ❌ 失败: 综合监控 (exit 127)
+[03-12 20:31:59] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 20:31:59] ❌ 失败: 综合监控 (exit 127)
+[03-12 20:36:59] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 20:36:59] ❌ 失败: 综合监控 (exit 127)
+[03-12 20:41:59] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 20:41:59] ❌ 失败: 综合监控 (exit 127)
+[03-12 20:46:59] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 20:46:59] ❌ 失败: 综合监控 (exit 127)
+[03-12 20:51:59] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 20:51:59] ❌ 失败: 综合监控 (exit 127)
+[03-12 20:56:59] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 20:56:59] ❌ 失败: 综合监控 (exit 127)
+[03-12 21:01:59] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 21:01:59] ❌ 失败: 综合监控 (exit 127)
+[03-12 21:06:59] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 21:06:59] ❌ 失败: 综合监控 (exit 127)
+[03-12 21:11:59] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 21:11:59] ❌ 失败: 综合监控 (exit 127)
+[03-12 21:17:00] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 21:17:00] ❌ 失败: 综合监控 (exit 127)
+[03-12 21:22:00] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 21:22:00] ❌ 失败: 综合监控 (exit 127)
+[03-12 21:27:00] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 21:27:00] ❌ 失败: 综合监控 (exit 127)
+[03-12 21:32:00] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 21:32:00] ❌ 失败: 综合监控 (exit 127)
+[03-12 21:37:00] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 21:37:00] ❌ 失败: 综合监控 (exit 127)
+[03-12 21:42:00] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 21:42:00] ❌ 失败: 综合监控 (exit 127)
+[03-12 21:47:00] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 21:47:00] ❌ 失败: 综合监控 (exit 127)
+[03-12 21:52:00] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 21:52:00] ❌ 失败: 综合监控 (exit 127)
+[03-12 21:57:00] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 21:57:00] ❌ 失败: 综合监控 (exit 127)
+[03-12 21:58:19] 开始: Nexus监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 21:58:19] ❌ 失败: Nexus监控 (exit 127)
+[03-12 22:02:00] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 22:02:00] ❌ 失败: 综合监控 (exit 127)
+[03-12 22:07:00] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 22:07:00] ❌ 失败: 综合监控 (exit 127)
+[03-12 22:12:00] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 22:12:00] ❌ 失败: 综合监控 (exit 127)
+[03-12 22:17:00] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 22:17:00] ❌ 失败: 综合监控 (exit 127)
+[03-12 22:22:00] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 22:22:00] ❌ 失败: 综合监控 (exit 127)
+[03-12 22:27:00] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 22:27:00] ❌ 失败: 综合监控 (exit 127)
+[03-12 22:32:00] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 22:32:00] ❌ 失败: 综合监控 (exit 127)
+[03-12 22:37:00] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 22:37:00] ❌ 失败: 综合监控 (exit 127)
+[03-12 22:38:23] 开始: Nexus监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 22:38:23] ❌ 失败: Nexus监控 (exit 127)
+[03-12 22:42:00] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 22:42:00] ❌ 失败: 综合监控 (exit 127)
+[03-12 22:47:00] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 22:47:00] ❌ 失败: 综合监控 (exit 127)
+[03-12 22:52:00] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 22:52:00] ❌ 失败: 综合监控 (exit 127)
+[03-12 22:57:00] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 22:57:00] ❌ 失败: 综合监控 (exit 127)
+[03-12 23:02:00] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 23:02:00] ❌ 失败: 综合监控 (exit 127)
+[03-12 23:07:00] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 23:07:00] ❌ 失败: 综合监控 (exit 127)
+[03-12 23:12:00] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 23:12:00] ❌ 失败: 综合监控 (exit 127)
+[03-12 23:17:00] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 23:17:00] ❌ 失败: 综合监控 (exit 127)
+[03-12 23:22:00] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 23:22:00] ❌ 失败: 综合监控 (exit 127)
+[03-12 23:27:00] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 23:27:00] ❌ 失败: 综合监控 (exit 127)
+[03-12 23:32:00] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 23:32:00] ❌ 失败: 综合监控 (exit 127)
+[03-12 23:37:00] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 23:37:00] ❌ 失败: 综合监控 (exit 127)
+[03-12 23:42:00] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 23:42:00] ❌ 失败: 综合监控 (exit 127)
+[03-12 23:47:00] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 23:47:00] ❌ 失败: 综合监控 (exit 127)
+[03-12 23:52:00] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 23:52:00] ❌ 失败: 综合监控 (exit 127)
+[03-12 23:57:00] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-12 23:57:00] ❌ 失败: 综合监控 (exit 127)
+[03-13 00:02:00] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 00:02:00] ❌ 失败: 综合监控 (exit 127)
+[03-13 00:07:00] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 00:07:00] ❌ 失败: 综合监控 (exit 127)
+[03-13 00:12:01] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 00:12:01] ❌ 失败: 综合监控 (exit 127)
+[03-13 00:17:01] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 00:17:01] ❌ 失败: 综合监控 (exit 127)
+[03-13 00:22:01] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 00:22:01] ❌ 失败: 综合监控 (exit 127)
+[03-13 00:27:01] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 00:27:01] ❌ 失败: 综合监控 (exit 127)
+[03-13 00:32:01] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 00:32:01] ❌ 失败: 综合监控 (exit 127)
+[03-13 00:37:01] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 00:37:01] ❌ 失败: 综合监控 (exit 127)
+[03-13 00:42:01] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 00:42:01] ❌ 失败: 综合监控 (exit 127)
+[03-13 00:47:01] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 00:47:01] ❌ 失败: 综合监控 (exit 127)
+[03-13 00:52:01] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 00:52:01] ❌ 失败: 综合监控 (exit 127)
+[03-13 00:57:01] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 00:57:01] ❌ 失败: 综合监控 (exit 127)
+[03-13 01:02:01] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 01:02:01] ❌ 失败: 综合监控 (exit 127)
+[03-13 01:07:01] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 01:07:01] ❌ 失败: 综合监控 (exit 127)
+[03-13 01:12:01] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 01:12:01] ❌ 失败: 综合监控 (exit 127)
+[03-13 01:17:01] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 01:17:01] ❌ 失败: 综合监控 (exit 127)
+[03-13 01:22:01] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 01:22:01] ❌ 失败: 综合监控 (exit 127)
+[03-13 01:27:01] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 01:27:01] ❌ 失败: 综合监控 (exit 127)
+[03-13 01:32:01] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 01:32:01] ❌ 失败: 综合监控 (exit 127)
+[03-13 01:37:01] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 01:37:01] ❌ 失败: 综合监控 (exit 127)
+[03-13 01:42:01] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 01:42:01] ❌ 失败: 综合监控 (exit 127)
+[03-13 01:47:01] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 01:47:01] ❌ 失败: 综合监控 (exit 127)
+[03-13 01:52:01] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 01:52:01] ❌ 失败: 综合监控 (exit 127)
+[03-13 01:57:01] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 01:57:01] ❌ 失败: 综合监控 (exit 127)
+[03-13 02:02:01] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 02:02:01] ❌ 失败: 综合监控 (exit 127)
+[03-13 02:07:01] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 02:07:01] ❌ 失败: 综合监控 (exit 127)
+[03-13 02:12:01] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 02:12:01] ❌ 失败: 综合监控 (exit 127)
+[03-13 02:17:01] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 02:17:01] ❌ 失败: 综合监控 (exit 127)
+[03-13 02:22:01] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 02:22:01] ❌ 失败: 综合监控 (exit 127)
+[03-13 02:27:01] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 02:27:01] ❌ 失败: 综合监控 (exit 127)
+[03-13 02:32:01] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 02:32:01] ❌ 失败: 综合监控 (exit 127)
+[03-13 02:37:01] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 02:37:01] ❌ 失败: 综合监控 (exit 127)
+[03-13 02:42:01] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 02:42:01] ❌ 失败: 综合监控 (exit 127)
+[03-13 02:47:01] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 02:47:01] ❌ 失败: 综合监控 (exit 127)
+[03-13 02:52:01] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 02:52:01] ❌ 失败: 综合监控 (exit 127)
+[03-13 02:57:01] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 02:57:01] ❌ 失败: 综合监控 (exit 127)
+[03-13 02:58:21] 开始: Nexus监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 02:58:21] ❌ 失败: Nexus监控 (exit 127)
+[03-13 03:02:01] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 03:02:01] ❌ 失败: 综合监控 (exit 127)
+[03-13 03:07:01] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 03:07:01] ❌ 失败: 综合监控 (exit 127)
+[03-13 03:12:01] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 03:12:01] ❌ 失败: 综合监控 (exit 127)
+[03-13 03:17:01] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 03:17:01] ❌ 失败: 综合监控 (exit 127)
+[03-13 03:22:02] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 03:22:02] ❌ 失败: 综合监控 (exit 127)
+[03-13 03:27:02] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 03:27:02] ❌ 失败: 综合监控 (exit 127)
+[03-13 03:32:02] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 03:32:02] ❌ 失败: 综合监控 (exit 127)
+[03-13 03:37:02] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 03:37:02] ❌ 失败: 综合监控 (exit 127)
+[03-13 03:42:02] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 03:42:02] ❌ 失败: 综合监控 (exit 127)
+[03-13 03:47:02] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 03:47:02] ❌ 失败: 综合监控 (exit 127)
+[03-13 03:52:02] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 03:52:02] ❌ 失败: 综合监控 (exit 127)
+[03-13 03:57:02] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 03:57:02] ❌ 失败: 综合监控 (exit 127)
+[03-13 04:02:02] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 04:02:02] ❌ 失败: 综合监控 (exit 127)
+[03-13 04:07:02] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 04:07:02] ❌ 失败: 综合监控 (exit 127)
+[03-13 04:12:02] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 04:12:02] ❌ 失败: 综合监控 (exit 127)
+[03-13 04:17:02] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 04:17:02] ❌ 失败: 综合监控 (exit 127)
+[03-13 04:18:24] 开始: Nexus监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 04:18:24] ❌ 失败: Nexus监控 (exit 127)
+[03-13 04:22:02] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 04:22:02] ❌ 失败: 综合监控 (exit 127)
+[03-13 04:27:02] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 04:27:02] ❌ 失败: 综合监控 (exit 127)
+[03-13 04:32:02] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 04:32:02] ❌ 失败: 综合监控 (exit 127)
+[03-13 04:37:02] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 04:37:02] ❌ 失败: 综合监控 (exit 127)
+[03-13 04:42:02] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 04:42:02] ❌ 失败: 综合监控 (exit 127)
+[03-13 04:47:02] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 04:47:02] ❌ 失败: 综合监控 (exit 127)
+[03-13 04:52:02] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 04:52:02] ❌ 失败: 综合监控 (exit 127)
+[03-13 04:57:02] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 04:57:02] ❌ 失败: 综合监控 (exit 127)
+[03-13 05:02:02] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 05:02:02] ❌ 失败: 综合监控 (exit 127)
+[03-13 05:07:02] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 05:07:02] ❌ 失败: 综合监控 (exit 127)
+[03-13 05:12:02] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 05:12:02] ❌ 失败: 综合监控 (exit 127)
+[03-13 05:17:02] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 05:17:02] ❌ 失败: 综合监控 (exit 127)
+[03-13 05:18:24] 开始: Nexus监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 05:18:24] ❌ 失败: Nexus监控 (exit 127)
+[03-13 05:22:02] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 05:22:02] ❌ 失败: 综合监控 (exit 127)
+[03-13 05:27:02] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 05:27:02] ❌ 失败: 综合监控 (exit 127)
+[03-13 05:32:02] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 05:32:02] ❌ 失败: 综合监控 (exit 127)
+[03-13 05:37:02] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 05:37:02] ❌ 失败: 综合监控 (exit 127)
+[03-13 05:42:02] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 05:42:02] ❌ 失败: 综合监控 (exit 127)
+[03-13 05:47:02] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 05:47:02] ❌ 失败: 综合监控 (exit 127)
+[03-13 05:52:02] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 05:52:02] ❌ 失败: 综合监控 (exit 127)
+[03-13 05:57:02] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 05:57:02] ❌ 失败: 综合监控 (exit 127)
+[03-13 06:02:02] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 06:02:02] ❌ 失败: 综合监控 (exit 127)
+[03-13 06:07:02] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 06:07:02] ❌ 失败: 综合监控 (exit 127)
+[03-13 06:12:02] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 06:12:02] ❌ 失败: 综合监控 (exit 127)
+[03-13 06:17:02] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 06:17:02] ❌ 失败: 综合监控 (exit 127)
+[03-13 06:18:21] 开始: Nexus监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 06:18:21] ❌ 失败: Nexus监控 (exit 127)
+[03-13 06:22:02] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 06:22:03] ❌ 失败: 综合监控 (exit 127)
+[03-13 06:27:03] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 06:27:03] ❌ 失败: 综合监控 (exit 127)
+[03-13 06:32:03] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 06:32:03] ❌ 失败: 综合监控 (exit 127)
+[03-13 06:37:03] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 06:37:03] ❌ 失败: 综合监控 (exit 127)
+[03-13 06:38:28] 开始: Nexus监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 06:38:28] ❌ 失败: Nexus监控 (exit 127)
+[03-13 06:42:03] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 06:42:03] ❌ 失败: 综合监控 (exit 127)
+[03-13 06:47:03] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 06:47:03] ❌ 失败: 综合监控 (exit 127)
+[03-13 06:52:03] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 06:52:03] ❌ 失败: 综合监控 (exit 127)
+[03-13 06:57:03] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 06:57:03] ❌ 失败: 综合监控 (exit 127)
+[03-13 07:02:03] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 07:02:03] ❌ 失败: 综合监控 (exit 127)
+[03-13 07:07:03] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 07:07:03] ❌ 失败: 综合监控 (exit 127)
+[03-13 07:12:03] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 07:12:03] ❌ 失败: 综合监控 (exit 127)
+[03-13 07:17:03] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 07:17:03] ❌ 失败: 综合监控 (exit 127)
+[03-13 07:22:03] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 07:22:03] ❌ 失败: 综合监控 (exit 127)
+[03-13 07:27:03] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 07:27:03] ❌ 失败: 综合监控 (exit 127)
+[03-13 07:32:03] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 07:32:03] ❌ 失败: 综合监控 (exit 127)
+[03-13 07:37:03] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 07:37:03] ❌ 失败: 综合监控 (exit 127)
+[03-13 07:42:03] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 07:42:03] ❌ 失败: 综合监控 (exit 127)
+[03-13 07:47:03] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 07:47:03] ❌ 失败: 综合监控 (exit 127)
+[03-13 07:52:03] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 07:52:03] ❌ 失败: 综合监控 (exit 127)
+[03-13 07:57:03] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 07:57:03] ❌ 失败: 综合监控 (exit 127)
+[03-13 08:02:03] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 08:02:03] ❌ 失败: 综合监控 (exit 127)
+[03-13 08:07:03] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 08:07:03] ❌ 失败: 综合监控 (exit 127)
+[03-13 08:12:03] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 08:12:03] ❌ 失败: 综合监控 (exit 127)
+[03-13 08:17:03] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 08:17:03] ❌ 失败: 综合监控 (exit 127)
+[03-13 08:22:03] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 08:22:03] ❌ 失败: 综合监控 (exit 127)
+[03-13 08:27:03] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 08:27:03] ❌ 失败: 综合监控 (exit 127)
+[03-13 08:32:03] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 08:32:03] ❌ 失败: 综合监控 (exit 127)
+[03-13 08:37:03] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 08:37:03] ❌ 失败: 综合监控 (exit 127)
+[03-13 08:42:03] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 08:42:03] ❌ 失败: 综合监控 (exit 127)
+[03-13 08:47:03] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 08:47:03] ❌ 失败: 综合监控 (exit 127)
+[03-13 08:52:03] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 08:52:03] ❌ 失败: 综合监控 (exit 127)
+[03-13 08:57:03] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 08:57:03] ❌ 失败: 综合监控 (exit 127)
+[03-13 09:02:03] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 09:02:03] ❌ 失败: 综合监控 (exit 127)
+[03-13 09:07:03] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 09:07:03] ❌ 失败: 综合监控 (exit 127)
+[03-13 09:12:03] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 09:12:03] ❌ 失败: 综合监控 (exit 127)
+[03-13 09:17:03] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 09:17:03] ❌ 失败: 综合监控 (exit 127)
+[03-13 09:22:03] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 09:22:03] ❌ 失败: 综合监控 (exit 127)
+[03-13 09:27:03] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 09:27:03] ❌ 失败: 综合监控 (exit 127)
+[03-13 09:32:04] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 09:32:04] ❌ 失败: 综合监控 (exit 127)
+[03-13 09:37:04] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 09:37:04] ❌ 失败: 综合监控 (exit 127)
+[03-13 09:42:04] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 09:42:04] ❌ 失败: 综合监控 (exit 127)
+[03-13 09:47:04] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 09:47:04] ❌ 失败: 综合监控 (exit 127)
+[03-13 09:52:04] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 09:52:04] ❌ 失败: 综合监控 (exit 127)
+[03-13 09:57:04] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 09:57:04] ❌ 失败: 综合监控 (exit 127)
+[03-13 10:02:04] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 10:02:04] ❌ 失败: 综合监控 (exit 127)
+[03-13 10:07:04] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 10:07:04] ❌ 失败: 综合监控 (exit 127)
+[03-13 10:12:04] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 10:12:04] ❌ 失败: 综合监控 (exit 127)
+[03-13 10:17:04] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 10:17:04] ❌ 失败: 综合监控 (exit 127)
+[03-13 10:22:04] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 10:22:04] ❌ 失败: 综合监控 (exit 127)
+[03-13 10:27:04] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 10:27:04] ❌ 失败: 综合监控 (exit 127)
+[03-13 10:32:04] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 10:32:04] ❌ 失败: 综合监控 (exit 127)
+[03-13 10:37:04] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 10:37:04] ❌ 失败: 综合监控 (exit 127)
+[03-13 10:38:24] 开始: Nexus监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 10:38:24] ❌ 失败: Nexus监控 (exit 127)
+[03-13 10:42:04] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 10:42:04] ❌ 失败: 综合监控 (exit 127)
+[03-13 10:47:04] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 10:47:04] ❌ 失败: 综合监控 (exit 127)
+[03-13 10:52:04] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 10:52:04] ❌ 失败: 综合监控 (exit 127)
+[03-13 10:57:04] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 10:57:04] ❌ 失败: 综合监控 (exit 127)
+[03-13 11:02:04] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 11:02:04] ❌ 失败: 综合监控 (exit 127)
+[03-13 11:07:04] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 11:07:04] ❌ 失败: 综合监控 (exit 127)
+[03-13 11:12:04] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 11:12:04] ❌ 失败: 综合监控 (exit 127)
+[03-13 11:17:04] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 11:17:04] ❌ 失败: 综合监控 (exit 127)
+[03-13 11:22:04] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 11:22:04] ❌ 失败: 综合监控 (exit 127)
+[03-13 11:27:04] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 11:27:04] ❌ 失败: 综合监控 (exit 127)
+[03-13 11:32:04] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 11:32:04] ❌ 失败: 综合监控 (exit 127)
+[03-13 11:37:04] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 11:37:04] ❌ 失败: 综合监控 (exit 127)
+[03-13 11:42:04] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 11:42:04] ❌ 失败: 综合监控 (exit 127)
+[03-13 11:47:04] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 11:47:04] ❌ 失败: 综合监控 (exit 127)
+[03-13 11:52:04] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 11:52:04] ❌ 失败: 综合监控 (exit 127)
+[03-13 11:57:04] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 11:57:04] ❌ 失败: 综合监控 (exit 127)
+[03-13 12:02:04] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 12:02:04] ❌ 失败: 综合监控 (exit 127)
+[03-13 12:07:04] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 12:07:04] ❌ 失败: 综合监控 (exit 127)
+[03-13 12:12:04] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 12:12:04] ❌ 失败: 综合监控 (exit 127)
+[03-13 12:17:04] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 12:17:04] ❌ 失败: 综合监控 (exit 127)
+[03-13 12:22:04] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 12:22:04] ❌ 失败: 综合监控 (exit 127)
+[03-13 12:27:04] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 12:27:04] ❌ 失败: 综合监控 (exit 127)
+[03-13 12:32:04] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 12:32:05] ❌ 失败: 综合监控 (exit 127)
+[03-13 12:37:05] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 12:37:05] ❌ 失败: 综合监控 (exit 127)
+[03-13 12:42:05] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 12:42:05] ❌ 失败: 综合监控 (exit 127)
+[03-13 12:47:05] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 12:47:05] ❌ 失败: 综合监控 (exit 127)
+[03-13 12:52:05] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 12:52:05] ❌ 失败: 综合监控 (exit 127)
+[03-13 12:57:05] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 12:57:05] ❌ 失败: 综合监控 (exit 127)
+[03-13 13:02:05] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 13:02:05] ❌ 失败: 综合监控 (exit 127)
+[03-13 13:07:05] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 13:07:05] ❌ 失败: 综合监控 (exit 127)
+[03-13 13:12:05] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 13:12:05] ❌ 失败: 综合监控 (exit 127)
+[03-13 13:17:05] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 13:17:05] ❌ 失败: 综合监控 (exit 127)
+[03-13 13:22:05] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 13:22:05] ❌ 失败: 综合监控 (exit 127)
+[03-13 13:27:05] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 13:27:05] ❌ 失败: 综合监控 (exit 127)
+[03-13 13:32:05] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 13:32:05] ❌ 失败: 综合监控 (exit 127)
+[03-13 13:37:05] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 13:37:05] ❌ 失败: 综合监控 (exit 127)
+[03-13 13:42:05] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 13:42:05] ❌ 失败: 综合监控 (exit 127)
+[03-13 13:47:05] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 13:47:05] ❌ 失败: 综合监控 (exit 127)
+[03-13 13:52:05] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 13:52:05] ❌ 失败: 综合监控 (exit 127)
+[03-13 13:57:05] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 13:57:05] ❌ 失败: 综合监控 (exit 127)
+[03-13 14:02:05] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 14:02:05] ❌ 失败: 综合监控 (exit 127)
+[03-13 14:07:05] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 14:07:05] ❌ 失败: 综合监控 (exit 127)
+[03-13 14:12:05] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 14:12:05] ❌ 失败: 综合监控 (exit 127)
+[03-13 14:17:05] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 14:17:05] ❌ 失败: 综合监控 (exit 127)
+[03-13 14:22:05] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 14:22:05] ❌ 失败: 综合监控 (exit 127)
+[03-13 14:27:05] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 14:27:05] ❌ 失败: 综合监控 (exit 127)
+[03-13 14:32:05] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 14:32:05] ❌ 失败: 综合监控 (exit 127)
+[03-13 14:37:05] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 14:37:05] ❌ 失败: 综合监控 (exit 127)
+[03-13 14:42:05] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 14:42:05] ❌ 失败: 综合监控 (exit 127)
+[03-13 14:47:05] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 14:47:05] ❌ 失败: 综合监控 (exit 127)
+[03-13 14:52:05] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 14:52:05] ❌ 失败: 综合监控 (exit 127)
+[03-13 14:57:05] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 14:57:05] ❌ 失败: 综合监控 (exit 127)
+[03-13 15:02:05] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 15:02:05] ❌ 失败: 综合监控 (exit 127)
+[03-13 15:07:05] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 15:07:05] ❌ 失败: 综合监控 (exit 127)
+[03-13 15:12:05] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 15:12:05] ❌ 失败: 综合监控 (exit 127)
+[03-13 15:17:05] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 15:17:05] ❌ 失败: 综合监控 (exit 127)
+[03-13 15:18:35] 开始: Nexus监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 15:18:35] ❌ 失败: Nexus监控 (exit 127)
+[03-13 15:22:05] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 15:22:05] ❌ 失败: 综合监控 (exit 127)
+[03-13 15:27:05] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 15:27:05] ❌ 失败: 综合监控 (exit 127)
+[03-13 15:32:05] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 15:32:05] ❌ 失败: 综合监控 (exit 127)
+[03-13 15:37:06] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 15:37:06] ❌ 失败: 综合监控 (exit 127)
+[03-13 15:42:06] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 15:42:06] ❌ 失败: 综合监控 (exit 127)
+[03-13 15:47:06] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 15:47:06] ❌ 失败: 综合监控 (exit 127)
+[03-13 15:52:06] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 15:52:06] ❌ 失败: 综合监控 (exit 127)
+[03-13 15:57:06] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 15:57:06] ❌ 失败: 综合监控 (exit 127)
+[03-13 16:02:06] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 16:02:06] ❌ 失败: 综合监控 (exit 127)
+[03-13 16:07:06] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 16:07:06] ❌ 失败: 综合监控 (exit 127)
+[03-13 16:12:06] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 16:12:06] ❌ 失败: 综合监控 (exit 127)
+[03-13 16:17:06] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 16:17:06] ❌ 失败: 综合监控 (exit 127)
+[03-13 16:22:06] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 16:22:06] ❌ 失败: 综合监控 (exit 127)
+[03-13 16:27:06] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 16:27:06] ❌ 失败: 综合监控 (exit 127)
+[03-13 16:32:06] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 16:32:06] ❌ 失败: 综合监控 (exit 127)
+[03-13 16:37:06] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 16:37:06] ❌ 失败: 综合监控 (exit 127)
+[03-13 16:42:06] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 16:42:06] ❌ 失败: 综合监控 (exit 127)
+[03-13 16:47:06] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 16:47:06] ❌ 失败: 综合监控 (exit 127)
+[03-13 16:52:06] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 16:52:06] ❌ 失败: 综合监控 (exit 127)
+[03-13 16:57:06] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 16:57:06] ❌ 失败: 综合监控 (exit 127)
+[03-13 17:02:06] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 17:02:06] ❌ 失败: 综合监控 (exit 127)
+[03-13 17:07:06] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 17:07:06] ❌ 失败: 综合监控 (exit 127)
+[03-13 17:12:06] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 17:12:06] ❌ 失败: 综合监控 (exit 127)
+[03-13 17:17:06] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 17:17:06] ❌ 失败: 综合监控 (exit 127)
+[03-13 17:22:06] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 17:22:06] ❌ 失败: 综合监控 (exit 127)
+[03-13 17:27:06] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 17:27:06] ❌ 失败: 综合监控 (exit 127)
+[03-13 17:32:06] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 17:32:06] ❌ 失败: 综合监控 (exit 127)
+[03-13 17:37:06] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 17:37:06] ❌ 失败: 综合监控 (exit 127)
+[03-13 17:42:06] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 17:42:06] ❌ 失败: 综合监控 (exit 127)
+[03-13 17:47:06] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 17:47:06] ❌ 失败: 综合监控 (exit 127)
+[03-13 17:52:06] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 17:52:06] ❌ 失败: 综合监控 (exit 127)
+[03-13 17:57:06] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 17:57:06] ❌ 失败: 综合监控 (exit 127)
+[03-13 18:02:06] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 18:02:06] ❌ 失败: 综合监控 (exit 127)
+[03-13 18:07:07] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 18:07:07] ❌ 失败: 综合监控 (exit 127)
+[03-13 18:12:07] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 18:12:07] ❌ 失败: 综合监控 (exit 127)
+[03-13 18:17:07] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 18:17:07] ❌ 失败: 综合监控 (exit 127)
+[03-13 18:22:07] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 18:22:07] ❌ 失败: 综合监控 (exit 127)
+[03-13 18:27:07] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 18:27:07] ❌ 失败: 综合监控 (exit 127)
+[03-13 18:32:07] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 18:32:07] ❌ 失败: 综合监控 (exit 127)
+[03-13 18:37:07] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 18:37:07] ❌ 失败: 综合监控 (exit 127)
+[03-13 18:42:07] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 18:42:07] ❌ 失败: 综合监控 (exit 127)
+[03-13 18:47:07] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 18:47:07] ❌ 失败: 综合监控 (exit 127)
+[03-13 18:52:07] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 18:52:07] ❌ 失败: 综合监控 (exit 127)
+[03-13 18:57:07] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 18:57:07] ❌ 失败: 综合监控 (exit 127)
+[03-13 19:02:07] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 19:02:07] ❌ 失败: 综合监控 (exit 127)
+[03-13 19:07:07] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 19:07:07] ❌ 失败: 综合监控 (exit 127)
+[03-13 19:12:07] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 19:12:07] ❌ 失败: 综合监控 (exit 127)
+[03-13 19:17:07] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 19:17:07] ❌ 失败: 综合监控 (exit 127)
+[03-13 19:22:07] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 19:22:07] ❌ 失败: 综合监控 (exit 127)
+[03-13 19:27:07] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 19:27:07] ❌ 失败: 综合监控 (exit 127)
+[03-13 19:32:07] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 19:32:07] ❌ 失败: 综合监控 (exit 127)
+[03-13 19:37:07] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 19:37:07] ❌ 失败: 综合监控 (exit 127)
+[03-13 19:42:07] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 19:42:07] ❌ 失败: 综合监控 (exit 127)
+[03-13 19:47:07] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 19:47:07] ❌ 失败: 综合监控 (exit 127)
+[03-13 19:52:07] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 19:52:07] ❌ 失败: 综合监控 (exit 127)
+[03-13 19:57:07] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 19:57:07] ❌ 失败: 综合监控 (exit 127)
+[03-13 20:02:07] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 20:02:07] ❌ 失败: 综合监控 (exit 127)
+[03-13 20:07:07] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 20:07:07] ❌ 失败: 综合监控 (exit 127)
+[03-13 20:12:07] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 20:12:07] ❌ 失败: 综合监控 (exit 127)
+[03-13 20:17:07] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 20:17:07] ❌ 失败: 综合监控 (exit 127)
+[03-13 20:22:07] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 20:22:07] ❌ 失败: 综合监控 (exit 127)
+[03-13 20:27:07] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 20:27:07] ❌ 失败: 综合监控 (exit 127)
+[03-13 20:32:07] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 20:32:07] ❌ 失败: 综合监控 (exit 127)
+[03-13 20:37:07] 开始: 综合监控
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 15: timeout: command not found
+[03-13 20:37:07] ❌ 失败: 综合监控 (exit 127)
