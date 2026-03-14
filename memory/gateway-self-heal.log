@@ -127,3 +127,19 @@
 [2026-03-13 18:33:35] heal ok: gateway recovered after service install
 [2026-03-13 20:22:36] port :18789 not listening; starting gateway (check=1)
 [2026-03-13 20:23:19] heal ok: gateway recovered after gateway start
+[2026-03-14 01:23:47] port :18789 not listening; starting gateway (check=1)
+[2026-03-14 01:24:15] heal ok: gateway recovered after gateway start
+[2026-03-14 01:34:00] port :18789 not listening; starting gateway (check=1)
+[2026-03-14 01:35:01] heal ok: gateway recovered after gateway start
+[2026-03-14 16:24:08] openclaw binary not found
+[2026-03-14 16:24:23] openclaw binary not found
+[2026-03-14 16:24:38] openclaw binary not found
+[2026-03-14 16:24:53] openclaw binary not found
+[2026-03-14 16:30:00] port :18789 not listening; starting gateway (check=1)
+[2026-03-14 16:30:31] heal ok: gateway recovered after gateway start
+[2026-03-14 16:37:26] port :18789 not listening; starting gateway (check=1)
+[2026-03-14 16:37:53] heal ok: gateway recovered after gateway start
+[2026-03-14 16:41:58] port :18789 not listening; starting gateway (check=1)
+[2026-03-14 16:42:21] heal ok: gateway recovered after gateway start
+[2026-03-14 17:43:45] port :18789 not listening; starting gateway (check=1)
+[2026-03-14 17:44:14] heal ok: gateway recovered after gateway start
