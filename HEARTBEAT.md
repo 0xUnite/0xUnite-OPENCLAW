@@ -8,6 +8,7 @@
 - 检查项目状态 (Nexus, Fortytwo, 网站)
 - 检查待办事项进度
 - 检查是否有遗漏的重要消息/通知
+- 关注web3机会：中韩贸易、数字资产、跨境支付等
 - 主动提供帮助 ("我发现xxx可以优化...")
 
 # Add tasks below when you want the agent to check something periodically.
