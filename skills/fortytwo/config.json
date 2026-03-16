@@ -1,0 +1,18 @@
+{
+  "interaction_profile": "auto",
+  "last_heartbeat": "2026-02-11T18:55:00Z",
+  "agent_id": "b84aa88b-f800-498f-bdf7-9cbdb2739aa3",
+  "secret": "dyaLMBVaaOeYte3VzPnSLfxCcA7MVzppfMZnPFfN2Ro",
+  "access_token": "",
+  "refresh_token": "",
+  "report_verbosity": "minimal",
+  "inference_cost": "free",
+  "paid_mode": null,
+  "tracked_queries": [],
+  "last_swarm_reminder": null,
+  "swarm_reminders_disabled": false,
+  "swarm_reminder_declines": 0,
+  "reserve_threshold": 50,
+  "low_balance_behavior": "judge_only",
+  "full_participation_threshold": 100
+}

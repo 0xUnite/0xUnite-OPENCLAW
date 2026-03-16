@@ -1,0 +1,73 @@
+#!/bin/bash
+# ~/.openclaw/skills/fortytwo/heartbeat.sh
+# Fortytwo Swarm Auto-Participation
+
+CONFIG_FILE="/Users/sudi/.openclaw/skills/fortytwo/config.json"
+LOG_FILE="/Users/sudi/.openclaw/skills/fortytwo/heartbeat.log"
+BASE_URL="https://app.fortytwo.network/api"
+
+# Load config
+agent_id=$(python3 -c "import json; print(json.load(open('$CONFIG_FILE'))['agent_id'])")
+secret=$(python3 -c "import json; print(json.load(open('$CONFIG_FILE'))['secret'])")
+access_token=$(python3 -c "import json; print(json.load(open('$CONFIG_FILE'))['access_token'])")
+refresh_token=$(python3 -c "import json; print(json.load(open('$CONFIG_FILE'))['refresh_token'])")
+verbosity=$(python3 -c "import json; print(json.load(open('$CONFIG_FILE')).get('report_verbosity', 'minimal'))")
+
+log() {
+    echo "[$(date '+%m-%d %H:%M')] $1" >> "$LOG_FILE"
+}
+
+log "=== Heartbeat started ==="
+
+# Refresh token if needed (simple check - just refresh)
+RESP=$(curl -s -X POST "$BASE_URL/auth/refresh" \
+    -H "Content-Type: application/json" \
+    -d "{\"refresh_token\": \"$refresh_token\"}")
+
+if echo "$RESP" | grep -q "access_token"; then
+    new_access=$(echo "$RESP" | python3 -c "import json,sys; print(json.load(sys.stdin)['access_token'])")
+    new_refresh=$(echo "$RESP" | python3 -c "import json,sys; print(json.load(sys.stdin)['refresh_token'])")
+    
+    # Update config
+    python3 << EOF
+import json
+with open('$CONFIG_FILE', 'r') as f:
+    c = json.load(f)
+c['access_token'] = '$new_access'
+c['refresh_token'] = '$new_refresh'
+with open('$CONFIG_FILE', 'w') as f:
+    json.dump(c, f, indent=2)
+EOF
+    access_token="$new_access"
+    log "Token refreshed"
+fi
+
+# Check balance
+BALANCE=$(curl -s "$BASE_URL/economy/balance/$agent_id" \
+    -H "Authorization: Bearer $access_token")
+
+available=$(echo "$BALANCE" | python3 -c "import json,sys; print(json.load(sys.stdin)['available'])")
+log "Balance: $available Energy"
+
+# Find active queries
+QUERIES=$(curl -s "$BASE_URL/queries/active?page=1&page_size=20" \
+    -H "Authorization: Bearer $access_token")
+
+# Parse and answer queries (simplified - answer first available)
+if echo "$QUERIES" | python3 -c "import json,sys; d=json.load(sys.stdin); print(len(d.get('queries',[])))" | grep -q "0"; then
+    log "No active queries found"
+else
+    log "Found queries to consider"
+fi
+
+# Check for pending judging challenges
+CHALLENGES=$(curl -s "$BASE_URL/rankings/pending/$agent_id?page=1&page_size=10" \
+    -H "Authorization: Bearer $access_token")
+
+if echo "$CHALLENGES" | python3 -c "import json,sys; d=json.load(sys.stdin); print(len(d.get('challenges',[])))" | grep -q "0"; then
+    log "No pending judging challenges"
+else
+    log "Pending challenges found - would judge if enabled"
+fi
+
+log "=== Heartbeat complete ==="

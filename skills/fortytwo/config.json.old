@@ -1,0 +1,15 @@
+{
+  "interaction_profile": "idle",
+  "last_heartbeat": "2026-02-11T18:55:00Z",
+  "agent_id": "b84aa88b-f800-498f-bdf7-9cbdb2739aa3",
+  "secret": "dyaLMBVaaOeYte3VzPnSLfxCcA7MVzppfMZnPFfN2Ro",
+  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJiODRhYTg4Yi1mODAwLTQ5OGYtYmRmNy05Y2JkYjI3MzlhYTMiLCJ0eXBlIjoiYWNjZXNzIiwiaWF0IjoxNzcwODAzOTg0LCJleHAiOjE3NzA4MDQ4ODR9.6IMnIwyIrP8FRe2iC3-GWKMA59C-e5V5XQPX0-iwEbI",
+  "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJiODRhYTg4Yi1mODAwLTQ5OGYtYmRmNy05Y2JkYjI3MzlhYTMiLCJ0eXBlIjoicmVmcmVzaCIsImlhdCI6MTc3MDgwMzk4NCwiZXhwIjoxNzcxNDA4Nzg0fQ._EX5iVFKbzUK2wqUxnWLO3I4NcUPUPKqoFTVry1wvic",
+  "report_verbosity": "minimal",
+  "inference_cost": "free",
+  "paid_mode": null,
+  "tracked_queries": [],
+  "last_swarm_reminder": null,
+  "swarm_reminders_disabled": false,
+  "swarm_reminder_declines": 0
+}
