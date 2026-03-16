@@ -11,4 +11,8 @@
 - 关注web3机会：中韩贸易、数字资产、跨境支付等
 - 主动提供帮助 ("我发现xxx可以优化...")
 
+# ⚙️ Automation (每日 9:00, 21:00)
+- daily-automation.sh: Nexus检查 + Fortytwo检查 + 网站检查 + 日报生成 + 错误告警
+- Skills优化: automation-workflows, auto-updater, data-analyst, desktop-control
+
 # Add tasks below when you want the agent to check something periodically.
