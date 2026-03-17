@@ -1,95 +1,85 @@
 # MEMORY.md - 精简版
 
-## 关于 User
-- 名字: 0xUnite
+## 关于布布大王
+- 名字: 布布大王
 - 身份: 管理学博士生 (AI服务失误研究方向)
 - 时区: Asia/Seoul (GMT+9)
+- 沟通风格: 简洁直接，追问时详细解释
+- 实时沟通 (0-8点外)，凌晨勿扰
+- 踩坑: 必须做好备份，防止数据丢失
+- 目标: 通过合作实现睡后收入，躺平生活
 
 ## 核心项目
 | 项目 | 状态 | 备注 |
 |------|------|------|
+| Nexus | ✅ 12节点运行中 | 2026年3月从6节点扩展 |
 | KoreaRealEstate网站 | ✅ 运行中 | 端口3000+Cloudflare |
-| Nexus | ✅ 6节点运行中 | |
-| Fortytwo | ⚠️ 运行但API异常 | 余额717.5 Energy |
-| OKX OnchainOS AI | 🔥 开发中 | 截止3/11 23:59 |
+| Fortytwo | ⚠️ 运行但API异常 | 717.5 Energy, join报Insufficient funds |
+| OKX OnchainOS AI | ✅ 已提交 | 截止3/11 23:59 |
 | Binance AI Assistant | 🔥 开发中 | 截止3/18 |
+| 600589大位科技 | 📈 监控中 | 今日收盘10.71 (0.00%) |
 
-## 已停止项目 (2026-03-06)
+## 已停止项目
 - Simmer V2 - 已禁用 (交易策略优化后仍有问题)
 - WTT 模拟盘 - 已禁用
 - MOLT Mint - 已禁用
 - binance_arb_scanner - 已停止
 - binance_v3 - 已停止
 
-## 待办事项 (Active TODOs)
-- OKX OnchainOS AI Hackathon - 截止2026-03-11 23:59
+## 待办事项
 - 0xUnite Twitter账号运营
 - MiniMax API余额问题排查
 - Fortytwo "Insufficient funds" API问题排查
+- OKX API Key配置 (新API)
 
 ## 教训
-- Simmer旧策略: 买Bitcoin高价，胜率18%，亏损$998
-- 优化: 只买低概率(yes<15% 或 yes>85%)
-- MOLT API变更: moltbook.com移除submolt/tags，改用submolt_name字段
-- MiniMax API余额问题: 导致Weekly Memory Compound、自动记忆检查点失败
-- Fortytwo API问题: 717.5 Energy但Join Query报"Insufficient funds"
+- 2026-03-17: CDP浏览器超时问题 - OpenClaw browser + browser-use均有兼容性问题
+- 2026-03-16: A股监控使用腾讯财经API (qt.gtimg.cn)
+- 2026-03-16: Onboarding完成 - 布布大王12个问题已回答
+- 2026-03-16: 主动模式(proactive-agent)已启用
+- 2026-03-16: daily-stock-analysis skill安装
+- 2026-03-16: okx-trade-mcp/cli安装 (需配置API Key)
+- 2026-03-16: 股票分时监控脚本创建 (600589, 9:30-10:00, 14:30-14:50)
+- 2026-03-15: 浏览器操作最佳实践 - 使用 profile="openclaw" + targetId
+- 2026-03-13: WIN/GEM 触发器不会自动执行 - 需要手动spawn
+- 2026-03-13: Gemini 模型名确认: gemini-3.1-pro-preview
+- 2026-03-13: x-tweet-fetcher安装 - 推文获取工具(免费)
+- 2026-02-18: Fortytwo质量优先模式 - 信心度<70%跳过
 
-## 更新日志
-- 2026-03-11: Skills Store policy 更新 — skills discovery/install/update 优先 `skillhub`，失败/限流/无结果再 fallback `clawhub`；安装前需总结 source、version、risk signals；搜索请求先执行 `skillhub search <keywords>` 并报告原始输出
-- 2026-03-10: github-trending-cn skill安装成功
-- 2026-03-09: ADB手机控制已配置 (scrcpy可用)
-- 2026-03-08: OKX OnchainOS参赛作品开发中 (截止3/11)
-- 2026-03-06: binance-ai-assistant升级v4.7 - 改用OpenClaw AI
-- 2026-03-06: 批量项目停止: Simmer V2, WTT模拟盘, MOLT Mint
-- 2026-02-18: MOLT API修复 (submolt_name字段)，添加速率限制处理
-- 2026-02-17: 添加Simmer V2策略，修复任务追踪
+## 已安装Skills
+| Skill | 用途 |
+|-------|------|
+| proactive-agent | 主动模式 |
+| automation-workflows | 自动化工作流 |
+| auto-updater | 自动更新 |
+| daily-stock-analysis | 股票分析 |
+| okx-trade-mcp | 币安交易 |
+| x-tweet-fetcher | Twitter获取 |
+| actionbook | 浏览器自动化 |
+| browser-use | 浏览器自动化 |
 
-## 已安装Skills (2026-02-17)
-- fortytwo: AI Agent (2026-02-18 更新为 idle 模式)
-- moltbook: MOLT代币
-- google-calendar: 日历管理 (新安装)
-- reminder: 提醒功能 (新创建)
+## 工具配置
+- 浏览器: OpenClaw内置 (profile="openclaw")
+- TTS: sherpa-onnx (御姐音)
+- 搜索: skillhub优先，失败则clawhub
 
-## Agent Reach 社交媒体集成 (2026-03-06)
-- 安装位置: ~/.agent-reach/
-- 抖音 MCP: localhost:18070
-- 小红书: 使用 redbook CLI (npm)，需要 Chrome 登录后 `redbook whoami` 授权
-- LinkedIn/Boss直聘: 暂未配置（需手动浏览器登录）
-
-## OKX OnchainOS 参赛作品 (2026-03-08)
-- GitHub: https://github.com/0xUnite/okx-onchain-assistant
-- 版本: v2.1 (持续更新中)
-- 功能: 钱包+新币扫描+合约审计+Gas预测+聪明钱雷达+Holder分析+池子分析+交易机器人
-- 截止日期: 2026-03-11 23:59
-
-## 参赛作品文案风格 (2026-03-08)
-- 第一人称 AI 视角
-- 情感化叙事（有自己的名字、个性）
-- 真实使用场景 + 具体命令提示词
-- 真实成果/成就
-- 时间线成长记录
-- 参考: https://x.com/0X0CLOWN/status/2029445310989386127
-
-## Binance 参赛作品 (2026-03-06)
+## 参赛作品
+### Binance AI Assistant
 - GitHub: https://github.com/0xUnite/binance-ai-assistant
-- 版本: v4.3 (持续更新中)
 - 功能: Web仪表盘+Telegram Bot+技术分析+巨鲸追踪+多链热点+Honeypot检测+策略回测+模拟交易+共同账户+社交跟单
-- 截止日期: 2026-03-18
+- 截止: 2026-03-18
 
-## Fortytwo 质量优先模式 (2026-02-18)
-- 信心度 <70% 跳过
-- 不确定问题跳过
-- 答案太短跳过
-- 每10分钟检查
+### OKX OnchainOS AI
+- GitHub: https://github.com/0xUnite/okx-onchain-assistant
+- 功能: 钱包+新币扫描+合约审计+Gas预测+聪明钱雷达+Holder分析+池子分析+交易机器人
+- 截止: 2026-03-11
 
-## 手机ADB控制 (2026-03-09)
-- USB调试连接Mac成功
-- scrcpy 可实时显示手机画面
-- ADB可截图、点击、输入英文
-- 问题: Android 16 上 `adb shell input text` 有兼容性问题，中文输入困难
-- 已安装 ADB Keyboard 但仍有bug
-- 方案: Twitter Intent 分享、手机端备忘录手动复制
+## 自动化任务
+- daily-automation.sh: 每日9:00, 21:00运行
+- stock-monitor: A股分时监控 (600589)
+- 股票报告: memory/stock-monitor/reports/
 
-## BUG (2026-03-13)
-- WIN 触发器未生效: 用户说 'WIN 优化浏览器' 时 MiniMax 直接回答，未 spawn GPT-5.4 子任务
-- 需要在收到消息时先检测 WIN/GO 模式，再决定用哪个模型
+## BUG/问题
+- CDP超时: OpenClaw浏览器不稳定
+- Python 3.14: browser-use不兼容
+- Fortytwo API: Insufficient funds错误
