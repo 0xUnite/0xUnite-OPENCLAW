@@ -3,9 +3,10 @@
     "email": null,
     "calendar": null,
     "weather": null,
-    "projects": 1742581797
+    "projects": 1774096858,
+    "sync": 1742581896
   },
-  "lastHeartbeat": "2026-03-21T11:46:00Z",
+  "lastHeartbeat": "2026-03-21T12:37:38Z",
   "lastError": {
     "time": "2026-03-21T07:31:32Z",
     "source": "plaid-va",
@@ -13,6 +14,7 @@
     "note": "One-time exec failure, unidentified source. No recurring impact."
   },
   "notes": {
-    "fortytwo-peer-mismatch": "2026-03-21T10:41:16Z - Peer ID mismatch in QUIC connection (expected vs obtained). May be benign network glitch. Resolved."
+    "fortytwo-peer-mismatch": "2026-03-21T10:41:16Z - Peer ID mismatch in QUIC connection (expected vs obtained). May be benign network glitch. Resolved.",
+    "gateway-sigterm": "2026-03-21T12:37:00Z - ai.openclaw.gateway (PID 11118) received SIGTERM but continues running. Self-heal active."
   }
 }
