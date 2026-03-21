@@ -3,10 +3,10 @@
     "email": null,
     "calendar": null,
     "weather": null,
-    "projects": 1774096858,
+    "projects": 1742582400,
     "sync": 1742581896
   },
-  "lastHeartbeat": "2026-03-21T12:37:38Z",
+  "lastHeartbeat": "2026-03-21T13:16:00Z",
   "lastError": {
     "time": "2026-03-21T07:31:32Z",
     "source": "plaid-va",

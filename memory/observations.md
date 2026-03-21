@@ -6158,3 +6158,105 @@ Key observations include minor SIGTERM signal reception across ember-fj and vivi
 - 🟡 12:41 Status: Nexus now showing 12 nodes active (previously 5), plus prove-fib subprocesses; Gateway PID 11118 received SIGTERM but still running via self-heal <!-- dc:type=fact dc:importance=4.0 dc:date=2026-03-21 -->
 - 🟢 12:44 Daily auto-update: OpenClaw version unchanged (2026.3.13), npm refreshed 540 packages, Gateway restarted; no skills updated <!-- dc:type=event dc:importance=2.0 dc:date=2026-03-21 -->
 - 🟡 12:49 Health check: Gateway /health returns {ok:true,status:live}; Fortytwo heartbeat successful (balance 717.5 Energy, no active queries); blank balance log anomaly persists but latest heartbeat clean <!-- dc:type=event dc:importance=3.5 dc:date=2026-03-21 -->
+
+<think>
+Let me analyze the recent messages and create compressed observations. I need to:
+
+1. Check against "Already Recorded" items to avoid duplicates
+2. Identify new observations from the messages
+3. Score them appropriately
+4. Format with proper metadata tags
+
+Looking at the messages:
+
+1. **13:11** - System error about ay.plist SIGTERM - This is a new event, similar to the ember-fj/vivid-br SIGTERM from earlier but for a different process (ay.plist). Need to capture this.
+
+2. **13:13** - 21:00 status report showing all systems operational - This is a status summary, but the actual checks happened at 21:00 (earlier). The observation is that the assistant reported everything is normal.
+
+3. **13:00** - Meaningful activity was logged to memory/2026-03-21.md - This is routine assistant housekeeping, but it's about recording what happened. Could be considered an event.
+
+4. **13:04** - Status report cron (22:04): Nexus 9 nodes, Fortytwo active, balance 717 - This is a new status report at 22:04 (Korean time), which is different from the 21:00 check. The Nexus showed 9 nodes here vs 12 earlier. This is worth recording.
+
+5. **13:09** - Health check cron: Fortytwo heartbeat and Gateway self-heal were run - This is a new health check.
+
+6. **13:10** - Health check results: Fortytwo up (balance 717.5), Gateway up but CLI hung - This is the result of the health check.
+
+Now let me check against already recorded:
+- 12:16, 12:24, 12:38, 12:38, 12:41, 12:44, 12:49 are all already recorded
+
+New observations from the timestamps in the messages:
+- 21:00 (09:00 UTC) status report - this is earlier in the day, already covered by the 12:41 observation about 12 nodes
+- 22:04 status report: Nexus 9 nodes, Fortytwo active, balance 717 - This is different from the 12 nodes reported earlier
+- 22:09 health check: Fortytwo up, Gateway up but CLI hung
+- The ay.plist SIGTERM at some point today - this is new (different from ember-fj and vivid-br SIGTERM)
+
+I'll focus on capturing the key new events, ensuring each observation is precisely documented with its unique characteristics and implications.
+</think>
+
+- 🔴 22:04 Status report: Nexus showing 9 nodes (down from 12 earlier), Fortytwo active with terminal balance 717 <!-- dc:type=event dc:importance=5.0 dc:date=2026-03-21 -->
+  - 🟡 22:09 Health check: Fortytwo up (heartbeat successful, balance 717.5 Energy), Gateway process alive but CLI appeared hung <!-- dc:type=fact dc:importance=4.0 dc:date=2026-03-21 -->
+- 🟡 System error: ay.plist received SIGTERM (fresh-pi gateway execution) — gateway self-heal recommended for multiple gateways on same host <!-- dc:type=event dc:importance=5.5 dc:date=2026-03-21 -->
+- 🟢 21:00 proactive check: Nexus 12 nodes, Fortytwo running, Gateway self-heal active — all systems operational <!-- dc:type=event dc:importance=2.5 dc:date=2026-03-21 -->
+
+<think>
+Let me analyze these messages to create compressed observations. I need to:
+
+1. Identify new observations not already recorded
+2. Assign proper priority (🔴🟡🟢) based on importance
+3. Include metadata tags (dc:type, dc:importance, dc:date)
+4. Avoid duplicates from "Already Recorded" list
+
+Let me go through the messages chronologically:
+
+**Message at 13:16 (21:16):**
+- cron: nexus-auto-restart script ran
+- Script: ~/.openclaw/scripts/nexus-auto-restart.sh
+- Result: successful, exit code 0, no output
+- This is a routine automated task - LOW priority
+
+**Message at 13:17 (21:17):**
+- Same script result reported
+- Assistant offered to check online nodes, view logs, or add logging
+- This is follow-up to above - LOW priority
+
+**Message at 13:17 (21:17):**
+- 21:00 check report (from first message in the list)
+- Nexus: 12 nodes active (4 main + prove tasks)
+- Fortytwo: running normally
+- GitHub backup: completed at 22:02 (but wait - this seems contradictory... the message says 21:00 check but mentions 22:02 backup - probably 22:02 from previous day?)
+- Issue: youtube-monitor has flock error - macOS doesn't have /usr/bin/flock
+- Config issue: HEARTBEAT.md mentions sync.sh and cron tasks that don't exist
+
+This has some useful info:
+- Nexus 12 nodes (current status)
+- Fortytwo running
+- youtube-monitor flock issue (technical detail)
+- HEARTBEAT.md config discrepancy
+
+**Message at 13:19 (21:19):**
+- Health check cron job ran
+- Fortytwo heartbeat: success, exit code 0
+- Gateway self-heal: success, exit code 0
+- Fortytwo last heartbeat normal: logged in, balance 717.50000000 Energy, no active queries
+- Gateway self-heal has no separate log file (not necessarily a problem)
+- Minor anomaly: Fortytwo log around 21:59 had "Balance too low to answer (need >= 5)" but recovered
+
+This is similar to what's already recorded in "22:09 Health check: Fortytwo up..." 
+
+I'll prioritize the key findings, noting the technical nuances and system status. The core observations reveal stable system performance with minor recovery details. The health checks indicate consistent functionality, with Fortytwo successfully managing its balance and maintaining active queries. The Gateway self-heal process appears operational, despite lacking detailed logging.
+
+The critical technical insight involves the YouTube monitor's flock error on macOS, highlighting a specific system configuration challenge. I'll track the script execution details, emphasizing the technical resolution without redundant logging.
+
+The health check reveals system stability: Fortytwo processes are active, with no core services down. However, an internal heartbeat script failure emerges, characterized by missing JSON keys and a parse error. This suggests a nuanced technical issue requiring careful investigation, despite external process normalcy.
+</think>
+
+Looking at these messages, I need to identify what NEW observations are not already in the "Already Recorded" list. Let me check against existing entries:
+
+Already recorded includes: Nexus nodes, Fortytwo balance, Gateway issues, health checks, daily auto-update. Let me identify what's genuinely new here.
+
+- 🔴 21:16 Nexus auto-restart ran successfully but produced no output logs (exit 0) <!-- dc:type=event dc:importance=3.5 dc:date=2026-03-21 -->
+- 🟡 21:19 Health check: Fortytwo heartbeat successful (balance 717.5 Energy, no active queries), Gateway self-heal successful <!-- dc:type=event dc:importance=4.0 dc:date=2026-03-21 -->
+  - 🟢 21:59 earlier anomaly in Fortytwo logs: "Balance too low to answer (need >= 5)" but recovered automatically <!-- dc:type=fact dc:importance=2.0 dc:date=2026-03-21 -->
+- 🔴 21:19 Fortytwo heartbeat script internally failing (missing JSON keys: access_token, refresh_token, available; parse error: bad token) despite exit code 0 — actual service processes running fine <!-- dc:type=event dc:importance=6.5 dc:date=2026-03-21 -->
+- 🟡 21:00 System report: youtube-monitor has flock error (macOS missing /usr/bin/flock) — needs shlock or lock removal fix <!-- dc:type=fact dc:importance=5.0 dc:date=2026-03-21 -->
+- 🟢 HEARTBEAT.md references non-existent sync.sh and cron backup tasks — actual backups handled by OpenClaw's built-in auto-backup <!-- dc:type=context dc:importance=2.0 dc:date=2026-03-21 -->
