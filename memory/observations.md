@@ -5263,3 +5263,146 @@ I'm noting the policy repetition appears to be an automated system configuration
 - 🟡 03:14 Scheduled tasks: checkpoint task LLM call failed (API issue), motivation daily check completed, weekly tasks (week mode extraction, night optimization) skipped — Sunday-only tasks <!-- dc:type=event dc:importance=4.0 dc:date=2026-03-12 -->
 - 🟡 03:01 Total Recall Observer: Nexus healthy (6 nodes online throughout, prove-fib-subprocess workers active), Fortytwo up (FortytwoCapsule + FortytwoProtocol running), Gateway healthy (heartbeat green), no pending notifications, old failures remain as previously documented <!-- dc:type=event dc:importance=4.0 dc:date=2026-03-12 -->
 - 🟢 03:04 System status report sent to M4 监工群: Nexus 11 nodes (running 36min), Fortytwo heartbeat active, balance 717 Energy <!-- dc:type=event dc:importance=2.5 dc:date=2026-03-12 -->
+
+<think>
+Let me analyze the recent messages and create observations that are NOT already recorded.
+
+Looking at the messages:
+
+1. [06:00] ASSISTANT: Fortytwo heartbeat threw a token/JSON parse error - checking if it's script or service failure
+   - This is about checking/debugging an error
+
+2. [06:00] ASSISTANT: Check results showing:
+   - Gateway/OpenClaw: normal
+   - Fortytwo main processes: normal
+   - Fortytwo heartbeat script: has anomaly - token/JSON parse error when running directly
+   - But from heartbeat.log, script at 14:59 could successfully login and read balance 717.5 Energy
+   - Then appeared abnormal state: Balance empty, Balance too low to answer
+   - Suggests Fortytwo API return format unstable OR heartbeat script parsing logic has issues
+
+3. [06:09] USER: Cron job for System & Fortytwo Health Check
+
+4. [06:10] ASSISTANT: Check results:
+   - Fortytwo heartbeat: normal - 15:09:46 start, 15:09:57 complete, login success, balance 717.50000000 Energy, No active queries
+   - Gateway self-heal: current service normal - port 18789 already listening
+   - But there are issues: self-heal script logs have bash syntax errors and jq parse errors
+   - However Gateway is currently alive, Fortytwo not down
+   - Conclusion: No service down
+   - Risk: Self-heal script has historical/intermittent errors, may fail when real failure occurs
+
+Now comparing to "Already Recorded" items:
+- The already recorded items are all from 2026-03-12
+- These new messages are from 2026-03-21 (today)
+- The new observations are about:
+  1. Fortytwo heartbeat script having token/JSON parse errors (intermittent)
+  2. Self-heal scripts having bash syntax errors and jq parse errors
+  3. Services currently normal but with risk noted
+  
+I'll prioritize documenting the key technical insights from today's health check. The primary focus is on identifying potential script vulnerabilities while confirming system stability. I'll highlight the intermittent parsing errors in the heartbeat and self-heal scripts, noting they're currently not causing service disruption but represent potential future risks.
+</think>
+
+- 🔴 06:10 Health Check: Fortytwo heartbeat and Gateway self-heal both passed — balance 717.5 Energy, port 18789 listening, no services down <!-- dc:type=event dc:importance=6.5 dc:date=2026-03-21 -->
+  - 🔴 06:00 Fortytwo heartbeat script had token/JSON parse error when run directly, but succeeded at 14:59 (reading 717.5 Energy) — Fortytwo API return format appears unstable <!-- dc:type=fact dc:importance=6.0 dc:date=2026-03-21 -->
+  - 🟡 06:10 Self-heal scripts have historical bash syntax errors and jq parse errors in error logs — risk: may fail when real failure occurs <!-- dc:type=event dc:importance=5.0 dc:date=2026-03-21 -->
+
+<think>
+Let me analyze the recent messages to extract observations that are NOT already recorded.
+
+Looking at the messages:
+
+1. [06:16] ASSISTANT: Script execution success (exit code 0) - nexus-auto-restart.sh completed with no output
+2. [06:19] USER: Cron job - System & Fortytwo Health Check - run heartbeat.sh and heartbeat-self-heal.sh
+3. [06:20] ASSISTANT: Health check results - Fortytwo heartbeat successful (717.5 Energy), Gateway self-heal passed, noted dirty log issue
+4. [06:29] USER: Another cron - same health check
+5. [06:30] ASSISTANT: Scripts ran with minimal output
+6. [06:31] ASSISTANT: Second check results - Fortytwo normal (717.50000000), Gateway fine, but noted OutgoingConnectionError/peer ID mismatch in logs
+
+Now let me check against "Already Recorded":
+
+The 06:10 observation already covers:
+- Fortytwo heartbeat and Gateway self-heal passing
+- Balance 717.5 Energy
+- No services down
+- Fortytwo API return format instability
+
+What about the new 06:19/06:20 and 06:29/06:31 checks?
+
+06:20:
+- Balance 717.5 Energy (same as before, already recorded)
+- Gateway healthy (already recorded)
+- Notes about dirty logs in Fortytwo (log quality issue)
+- 
+I'm tracking a new connection anomaly: an OutgoingConnectionError with peer ID mismatch. This seems like a distinct network-level issue that wasn't previously documented. The error appears isolated since subsequent logs show new requests entering the buffer, suggesting it's not a systemic problem. The previous health checks had already noted potential API instabilities, but this specific connection error represents a new diagnostic detail worth monitoring.
+
+The script execution at 06:16 appears to be a routine system maintenance task with minimal operational significance. Since it's a standard auto-restart process and doesn't introduce novel information, I'll categorize it as a low-priority operational event.
+</think>
+
+- 🔴 06:31 Health Check (second run): Fortytwo heartbeat successful (balance 717.50000000), Gateway healthy, but Fortytwo logs show **OutgoingConnectionError with peer ID mismatch** (single connection anomaly, subsequent requests buffered normally) <!-- dc:type=event dc:importance=5.5 dc:date=2026-03-21 -->
+- 🟢 06:16 Nexus auto-restart script completed successfully (exit code 0), no output logged <!-- dc:type=event dc:importance=1.0 dc:date=2026-03-21 -->
+- 🟢 06:19 & 06:29 Cron health checks triggered (redundant with 06:10 check, same results) <!-- dc:type=event dc:importance=1.0 dc:date=2026-03-21 -->
+
+<think>
+Let me analyze the messages and compare against "Already Recorded" entries to extract genuinely new observations.
+
+Looking at the new messages:
+1. [06:37] A system execution failure message for "glow-mis" with SIGTERM - this appears to be a cron job that failed
+2. [06:32] Auto-memory-runner cron job - ran successfully (exit code 0)
+3. [06:39] Fortytwo health check - all normal (balance 717.5, Gateway online, but syntax errors in self-heal scripts)
+4. [06:31] (Actually earlier timestamp) - Similar health check results - Fortytwo normal, Gateway normal, OutgoingConnectionError noted
+5. [06:38] Notification check - no pending notifications
+6. [06:36] Nexus auto-restart - ran successfully
+7. [06:37] Confirmation of nexus-auto-restart success
+
+Now comparing against "Already Recorded":
+- 06:10 Health Check is already recorded (Fortytwo/Gateway normal, balance 717.5, script syntax errors)
+- 06:31 Health Check is already recorded (OutgoingConnectionError, balance 717.50000000)
+- 06:16 Nexus auto-restart already recorded (exit code 0)
+- 06:19 & 06:29 cron health checks already recorded
+
+What's NEW that wasn't already captured:
+1. The glow-mis SIGTERM failure at 06:37 - this is a NEW system error event
+2. The notification check at 06:38 found no pending notifications - this is NEW (though it's just confirming normal state)
+3. The nexus-auto-restart at 06:36-06:37 is already recorded
+
+Wait, looking more carefully at the timestamps:
+- 06:31 appears BEFORE 06:32, 06:36, etc.
+- 06:37 appears TWICE (glow-mis failure AND nexus confirmation)
+- 06:38 notification check result is not in "Already Recorded"
+
+I'll track the new system anomaly with the glow-mis SIGTERM error, noting it requires investigation. The notification check confirms no pending items, which is a neutral system state. The nexus-auto-restart success remains the same, so no further action needed.
+
+Key observations:
+- System error: glow-mis SIGTERM at 06:37
+- Notification status: Clear at 06:38
+- System health: Stable with previous checks
+</think>
+
+- 🔴 06:37 System execution failure: `glow-mis` received SIGTERM signal — appears to be a cron job that was terminated unexpectedly <!-- dc:type=event dc:importance=6.0 dc:date=2026-03-21 -->
+- 🟢 06:38 Notification check: no pending notifications found in `~/.openclaw/workspace/memory/pending-notification.txt` — Gateway is operating normally <!-- dc:type=event dc:importance=2.0 dc:date=2026-03-21 -->
+- 🟢 06:32 Auto-memory-runner.sh completed successfully (exit code 0) — checkpoint, motivation check, and Sunday-only weekly tasks executed as scheduled <!-- dc:type=event dc:importance=1.5 dc:date=2026-03-21 -->
+
+<think>
+Let me analyze the messages to find genuinely new observations not covered in the "Already Recorded" section.
+
+Looking at the messages:
+
+1. **07:04 - System plugin loaded**: LCM plugin loaded with threshold 0.75, lossless-claw loaded without install/load-path provenance. This is a new system state observation.
+
+2. **06:50 - Self-heal check results**: Gateway/fortytwo health status (already covered in existing records around 06:10-06:31)
+
+3. **06:59 - Cron health check**: Fortytwo and Gateway both passed (0 exit code) - this is a routine cron check that confirms earlier findings. 
+
+4. **06:56 - Nexus auto-restart**: Script ran with no visible output. Already recorded at 06:16 with same script behavior.
+
+5. **07:00 - Same check results**: Routine confirmation, covered.
+
+6. **07:01 - Hourly Micro-Sync**: Added summary to memory/2026-03-21.md. This is a new event - the micro-sync completed and appended to memory. Status report showed M4 监工群 with Nexus 12 nodes, Fortytwo active, terminal balance 717. This is worth recording as it shows current system state snapshot.
+
+7. **07:04 - Plugin loaded**: LCM (enabled=true, db=/Users/sudi/.openclaw/lcm.db) and lossless-claw are newly loaded plugins that weren't in the previous state.
+
+The critical items to capture are the newly loaded LCM and lossless-claw plugins with their specific configuration details, and the micro-sync completion with the current system snapshot showing 12 nodes active and balance of 717.
+</think>
+
+- 🟡 07:01 Hourly Micro-Sync completed: summary appended to `memory/2026-03-21.md`, index refreshed with `openclaw memory index --agent main --force` — status report shows M4 监工群 snapshot: Nexus 12 nodes online, Fortytwo active, terminal balance 717 Energy <!-- dc:type=event dc:importance=3.5 dc:date=2026-03-21 -->
+- 🟢 07:04 LCM plugin loaded at runtime (enabled=true, db=/Users/sudi/.openclaw/lcm.db, threshold=0.75); lossless-claw plugin also loaded — both without traditional install/load-path provenance <!-- dc:type=fact dc:importance=2.0 dc:date=2026-03-21 -->
+- 🟢 06:56 & 07:00 Nexus auto-restart and dual health checks executed (all exit code 0) — consistent with earlier healthy state, no new issues <!-- dc:type=event dc:importance=1.0 dc:date=2026-03-21 -->

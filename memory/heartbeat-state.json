@@ -1,1 +1,9 @@
-2026-02-19 15:59:10 - Heartbeat OK
+{
+  "lastChecks": {
+    "email": null,
+    "calendar": null,
+    "weather": null,
+    "projects": 1774077154
+  },
+  "lastHeartbeat": "2026-03-21T07:05:00Z"
+}
