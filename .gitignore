@@ -1,3 +1,4 @@
 
 # Environment variables
 .env
+.agents/skills/notebooklm/.venv/lib/python3.9/site-packages/patchright/driver/node
