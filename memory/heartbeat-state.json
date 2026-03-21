@@ -3,7 +3,16 @@
     "email": null,
     "calendar": null,
     "weather": null,
-    "projects": 1774077154
+    "projects": 1774082100
   },
-  "lastHeartbeat": "2026-03-21T07:05:00Z"
+  "lastHeartbeat": "2026-03-21T10:40:00Z",
+  "lastError": {
+    "time": "2026-03-21T07:31:32Z",
+    "source": "plaid-va",
+    "code": 1,
+    "note": "One-time exec failure, unidentified source. No recurring impact."
+  },
+  "notes": {
+    "fortytwo-peer-mismatch": "2026-03-21T10:41:16Z - Peer ID mismatch in QUIC connection (expected vs obtained). May be benign network glitch. Monitor."
+  }
 }
