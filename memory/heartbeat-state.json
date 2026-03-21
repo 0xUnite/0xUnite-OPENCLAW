@@ -3,9 +3,9 @@
     "email": null,
     "calendar": null,
     "weather": null,
-    "projects": 1774091842
+    "projects": 1742581797
   },
-  "lastHeartbeat": "2026-03-21T11:15:00Z",
+  "lastHeartbeat": "2026-03-21T11:46:00Z",
   "lastError": {
     "time": "2026-03-21T07:31:32Z",
     "source": "plaid-va",
