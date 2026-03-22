@@ -3,18 +3,11 @@
     "email": null,
     "calendar": null,
     "weather": null,
-    "projects": 1742582400,
-    "sync": 1742581896
+    "projects": 1742612700
   },
-  "lastHeartbeat": "2026-03-21T13:16:00Z",
-  "lastError": {
-    "time": "2026-03-21T07:31:32Z",
-    "source": "plaid-va",
-    "code": 1,
-    "note": "One-time exec failure, unidentified source. No recurring impact."
-  },
+  "lastHeartbeat": "2026-03-22T08:01:00Z",
+  "lastDailyAutomation": "2026-03-21T14:09:00Z",
   "notes": {
-    "fortytwo-peer-mismatch": "2026-03-21T10:41:16Z - Peer ID mismatch in QUIC connection (expected vs obtained). May be benign network glitch. Resolved.",
-    "gateway-sigterm": "2026-03-21T12:37:00Z - ai.openclaw.gateway (PID 11118) received SIGTERM but continues running. Self-heal active."
+    "morning-check": "2026-03-22T08:01:00Z - Nexus OK (3 nodes + proofs), Fortytwo OK, gateway OK. Next: daily-automation.sh at 09:00 KST."
   }
 }
