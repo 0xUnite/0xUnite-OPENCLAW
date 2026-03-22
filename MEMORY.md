@@ -12,74 +12,74 @@
 ## 核心项目
 | 项目 | 状态 | 备注 |
 |------|------|------|
-| Nexus | ✅ 12节点运行中 | 2026年3月从6节点扩展 |
-| KoreaRealEstate网站 | ✅ 运行中 | 端口3000+Cloudflare |
-| Fortytwo | ⚠️ 运行但API异常 | 717.5 Energy, join报Insufficient funds |
-| OKX OnchainOS AI | ✅ 已提交 | 截止3/11 23:59 |
-| Binance AI Assistant | 🔥 开发中 | 截止3/18 |
-| 600589大位科技 | 📈 监控中 | 今日收盘10.71 (0.00%) |
+| Nexus | ✅ 12节点运行中 | 本周持续健康，自动重启链路正常 |
+| KoreaRealEstate网站 | ✅ 运行中 | 端口3000 + Cloudflare |
+| Fortytwo | ⚠️ 服务在线但接口层异常 | 终端余额约717~717.5；join/ranking与token、available、JSON解析问题反复出现，更像脚本/接口兼容问题 |
+| Binance AI Assistant | ⏸️ 比赛期已过 | 保留仓库与成果，后续按产品化价值决定是否继续 |
+| 600589大位科技 | 📈 监控中 | 继续观察 |
 
-## 已停止项目
-- Simmer V2 - 已禁用 (交易策略优化后仍有问题)
+## 已停止 / 已过期项目
+- Simmer V2 - 已禁用
 - WTT 模拟盘 - 已禁用
 - MOLT Mint - 已禁用
 - binance_arb_scanner - 已停止
 - binance_v3 - 已停止
+- OKX OnchainOS AI - 已提交，比赛截止已过
 
-## 待办事项
+## 当前关注点
 - 0xUnite Twitter账号运营
 - MiniMax API余额问题排查
-- Fortytwo "Insufficient funds" API问题排查
-- OKX API Key配置 (新API)
+- Fortytwo 心跳/接口脚本修复（token、available、JSON解析、Not Found）
+- OKX API Key配置（新API）
+- daily-automation.sh 路径错误排查
+- pending-notification.txt 生成链路确认
 
-## 教训
-- 2026-03-17: CDP浏览器超时问题 - OpenClaw browser + browser-use均有兼容性问题
-- 2026-03-16: A股监控使用腾讯财经API (qt.gtimg.cn)
-- 2026-03-16: Onboarding完成 - 布布大王12个问题已回答
-- 2026-03-16: 主动模式(proactive-agent)已启用
-- 2026-03-16: daily-stock-analysis skill安装
-- 2026-03-16: okx-trade-mcp/cli安装 (需配置API Key)
-- 2026-03-16: 股票分时监控脚本创建 (600589, 9:30-10:00, 14:30-14:50)
-- 2026-03-15: 浏览器操作最佳实践 - 使用 profile="openclaw" + targetId
-- 2026-03-13: WIN/GEM 触发器不会自动执行 - 需要手动spawn
-- 2026-03-13: Gemini 模型名确认: gemini-3.1-pro-preview
-- 2026-03-13: x-tweet-fetcher安装 - 推文获取工具(免费)
-- 2026-02-18: Fortytwo质量优先模式 - 信心度<70%跳过
+## 最近稳定结论
+- Fortytwo 最近的主要问题不是“服务挂了”，而是 **心跳脚本 / 接口字段 / JSON解析层不稳定**。
+- Nexus 本周稳定，12节点持续在线；自动重启与状态巡检都在正常跑。
+- 自动记忆、微同步、状态播报这套日常运维链路整体可用。
+- Gateway 通知检查多次显示没有待处理告警，但要确认是“确实无告警”还是“通知文件没生成”。
 
-## 已安装Skills
+## 决策 / 偏好模式
+- 运维判断上，先区分“核心服务故障”还是“脚本/接口层故障”，别一上来就按宕机处理。
+- Git/备份上，强烈偏好先防大文件进历史：先配 `.gitignore`，再下载/生成大二进制。
+- 处理异常时，优先保留可恢复路径，避免为了修一个问题把历史和备份一起炸掉。
+
+## 重要教训
+- 2026-03-21: Git push 失败根因是 patchright driver (105MB) 进入历史；处理方式为 reset 到 origin/main、补 `.gitignore`、只 cherry-pick 必要提交。教训：**大二进制别进 Git 历史**。
+- 2026-03-21~22: Fortytwo 多次显示服务在线，但心跳层反复报 `access_token`、`refresh_token`、`available`、JSON parse 等错误。教训：**这类情况优先查脚本/接口字段变化，不要误判为服务宕机**。
+- 2026-03-21: `daily-automation.sh` 未找到，属于路径配置问题，不是业务异常。
+- 2026-03-17: CDP浏览器超时问题 - OpenClaw browser + browser-use 均有兼容性问题。
+- 2026-03-16: A股监控使用腾讯财经API (`qt.gtimg.cn`)。
+- 2026-03-15: 浏览器操作最佳实践 - 使用稳定 profile + targetId。
+
+## 已安装 Skills
 | Skill | 用途 |
 |-------|------|
 | proactive-agent | 主动模式 |
 | automation-workflows | 自动化工作流 |
 | auto-updater | 自动更新 |
 | daily-stock-analysis | 股票分析 |
-| okx-trade-mcp | 币安交易 |
+| okx-trade-mcp | OKX 交易/链上相关 |
 | x-tweet-fetcher | Twitter获取 |
 | actionbook | 浏览器自动化 |
 | browser-use | 浏览器自动化 |
 
 ## 工具配置
-- 浏览器: OpenClaw内置 (profile="openclaw")
+- 浏览器: OpenClaw内置
 - TTS: sherpa-onnx (御姐音)
 - 搜索: skillhub优先，失败则clawhub
 
-## 参赛作品
-### Binance AI Assistant
-- GitHub: https://github.com/0xUnite/binance-ai-assistant
-- 功能: Web仪表盘+Telegram Bot+技术分析+巨鲸追踪+多链热点+Honeypot检测+策略回测+模拟交易+共同账户+社交跟单
-- 截止: 2026-03-18
-
-### OKX OnchainOS AI
-- GitHub: https://github.com/0xUnite/okx-onchain-assistant
-- 功能: 钱包+新币扫描+合约审计+Gas预测+聪明钱雷达+Holder分析+池子分析+交易机器人
-- 截止: 2026-03-11
-
 ## 自动化任务
-- daily-automation.sh: 每日9:00, 21:00运行
+- daily-automation.sh: 计划存在，但当前发现路径错误，需修正
 - stock-monitor: A股分时监控 (600589)
 - 股票报告: memory/stock-monitor/reports/
+- auto-memory-runner: 正常运行
+- nexus-auto-restart: 正常运行
+- notification-check: 正常运行，但需确认通知文件生成链路
 
-## BUG/问题
+## BUG / 问题
 - CDP超时: OpenClaw浏览器不稳定
-- Python 3.14: browser-use不兼容
-- Fortytwo API: Insufficient funds错误
+- Python 3.14: browser-use 不兼容
+- Fortytwo API / heartbeat: token / available / JSON 解析 / Not Found 错误反复出现
+- GitHub 大文件限制: 历史中混入 >100MB 文件会阻断 push
