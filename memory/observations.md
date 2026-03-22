@@ -6972,3 +6972,653 @@ The auto-runner.sh execution stands out as genuinely new since it performs check
 - 🟢 23:39 UTC 2026-03-21 pending-notification.txt 不存在，无 Gateway 问题待处理 <!-- dc:type=event dc:importance=2.0 dc:date=2026-03-21 -->
 - 🟢 23:38 UTC 2026-03-21 System Health Check: Fortytwo heartbeat 和 Gateway self-heal 均 exit 0，Fortytwo余额717.5 Energy，无active queries，Gateway健康检查通过 <!-- dc:type=event dc:importance=2.5 dc:date=2026-03-21 -->
   - 🟢 23:38 UTC CLI命令在cron环境不可用(openclaw command not found)，但服务本身正常运行 <!-- dc:type=fact dc:importance=1.5 dc:date=2026-03-21 -->
+
+<think>
+Let me analyze the recent messages and create observations:
+
+1. **00:08 - Health Check cron** - Fortytwo heartbeat ran successfully, Gateway self-heal passed, 717.5 Energy balance, no active queries, no service down. But there was an anomaly: Balance was empty in some logs at 08:59 - suggests intermittent incomplete responses from API or script concurrency issues.
+
+2. **00:03 - Daily Ops Health Summary** - Checked cron jobs for last 24h. Couldn't use openclaw CLI directly. Found 17 enabled cron jobs, 1 failure, 4 currently running. The failed job is "Daily Auto-Update" with last run showing exit code 2.
+
+3. **00:01 - binance-square-morning cron** - Tried to post to Binance Square but failed because browser service is down/timed out. This task relies on logged-in web session. Historical failures include: not logged in / no API key / browser service abnormal. Suggested to restart gateway and retry.
+
+Now I need to deduplicate against the "Already Recorded" list:
+
+Looking at existing entries:
+- Health check events from 23:xx on 2026-03-21 are already recorded
+- The current 00:08 health check is NEW - it's a fresh run with similar results but it's a new occurrence
+- The 00:03 Daily Ops Health Summary is NEW - this is about cron job failures
+- The 00:01 binance-square-morning failure is NEW - browser service issue
+
+These are all new observations for today (2026-03-22), so I should record them.
+
+Let me score:
+- Health check success with minor anomaly (balance empty occasionally): This is routine monitoring, but the anomaly is worth noting. Score around 3-4.
+- Daily Ops: 1 failed job out of 17 - this is informational, score around 3-4.
+- binance-square-morning failed due to browser service down - this is a failure that might need attention, score around 4-5.
+
+I'll prioritize the browser service failure as it directly impacts task execution. The cron job and health check can be noted for context, but the service interruption requires immediate investigation.
+</think>
+
+- 🟡 00:08 UTC (2026-03-22) Health check: Fortytwo heartbeat成功(717.5 Energy, 无active queries), Gateway self-heal通过, Gateway在线 <!-- dc:type=event dc:importance=3.5 dc:date=2026-03-22 -->
+  - 🟢 00:08 UTC 异常: Fortytwo日志08:59出现Balance为空(偶发API返回不完整/脚本并发输出错乱)，不算宕机但稳定性存疑 <!-- dc:type=event dc:importance=2.5 dc:date=2026-03-22 -->
+- 🟡 00:03 UTC (2026-03-22) Daily Ops Health Summary: 检查过去24小时cron jobs, 17个启用, 1个失败(Daily Auto-Update exit 2), 4个运行中 <!-- dc:type=event dc:importance=3.5 dc:date=2026-03-22 -->
+  - 🟢 00:03 UTC openclaw CLI在cron环境不可用, 改查底层cron状态记录 <!-- dc:type=fact dc:importance=1.5 dc:date=2026-03-22 -->
+- 🟡 00:01 UTC (2026-03-22) binance-square-morning发帖任务失败: 浏览器服务超时, 无法打开Binance Square发帖界面(依赖已登录网页会话) <!-- dc:type=event dc:importance=4.5 dc:date=2026-03-22 -->
+  - 🟡 00:03 UTC 历史同类失败原因: 未登录/无API key/浏览器服务异常; 建议重启Gateway后重试 <!-- dc:type=context dc:importance=4.0 dc:date=2026-03-22 -->
+
+<think>
+Let me analyze the recent messages to extract new observations that aren't already recorded.
+
+## Recent Messages Analysis (2026-03-22)
+
+1. **00:28 UTC** - Health check cron ran
+   - Fortytwo heartbeat: OK, logged in, balance 717.50000000 Energy, no active queries
+   - Gateway self-heal: Ran without crash/failure
+   - Issue: `memory/youtube-monitor.log` has recurring error - `/bin/sh: /usr/bin/flock: No such file or directory`
+   
+2. **00:17 UTC** - nexus-auto-restart.sh ran
+   - Script executed, no visible output returned
+
+3. **00:18 UTC** - Another health check
+   - Gateway self-heal: healthy, /health returned {"ok":true,"status":"live"}
+   - Fortytwo heartbeat: NOT fully healthy - intermittent JSON parse errors (KeyError: 'access_token', 'refresh_token', 'available'), blank balance reads, then recovers
+
+## Already Recorded Check
+
+Looking at what's already recorded:
+- Fortytwo heartbeat issues (KeyError, balance empty) are already covered at multiple timestamps
+- Gateway health is already covered
+- nexus-auto-restart.sh execution at 23:17 UTC on 2026-03-21 is already recorded
+
+## New observations to add:
+
+1. **00:17 UTC (2026-03-22)** - nexus-auto-restart.sh ran again (new execution, different from 23:17 on 03-21)
+2. **00:28 UTC (2026-03-22)** - New issue discovered: youtube-monitor.log has flock error - `/bin/sh: /usr/bin/flock: No such file or directory`
+
+The 00:18 health check results are basically repetitive of what's already recorded (Fortytwo intermittent KeyError issues, Gateway healthy). The 00:28 health check is similar to 00:08 which is already recorded.
+
+So new unique observations:
+I'll track the Nexus auto-restart execution and the YouTube monitor's system file lock error. The cron job ran without output, while a critical system file dependency is missing. This requires immediate attention to prevent potential monitoring disruptions.
+</think>
+
+- 🟡 00:17 UTC (2026-03-22) nexus-auto-restart.sh 再次执行，无输出返回 <!-- dc:type=event dc:importance=3.5 dc:date=2026-03-22 -->
+- 🔴 00:28 UTC (2026-03-22) 发现新异常：memory/youtube-monitor.log 持续报错 `/bin/sh: /usr/bin/flock: No such file or directory`，部分监控脚本依赖flock工具但系统缺失 <!-- dc:type=event dc:importance=6.0 dc:date=2026-03-22 -->
+  - 🟢 00:28 UTC Fortytwo heartbeat 恢复：余额717.5 Energy，无active queries，登录成功 <!-- dc:type=fact dc:importance=3.0 dc:date=2026-03-22 -->
+  - 🟢 00:28 UTC Gateway self-heal 正常运行，无崩溃信号 <!-- dc:type=fact dc:importance=2.5 dc:date=2026-03-22 -->
+
+<think>
+Let me analyze the recent messages and check against the "Already Recorded" list to identify new observations.
+
+Recent messages today (2026-03-22):
+1. [00:39] Notification check - pending-notification.txt doesn't exist, no Gateway issues
+2. [00:32] System event about ion process getting SIGTERM, heartbeat check
+3. [00:37] nexus-auto-restart.sh was run
+4. [00:38] Fortytwo heartbeat and Gateway self-heal ran - Gateway OK, Fortytwo has weird logs
+5. [00:34] auto-runner.sh ran successfully
+
+Let me compare with "Already Recorded":
+- auto-runner.sh was already recorded at 23:34 UTC 2026-03-21 and 00:17 UTC (2026-03-22)
+- nexus-auto-restart was already recorded at 00:17 UTC
+- Fortytwo heartbeat/Gateway self-heal was already recorded at 00:08 UTC and 23:38 UTC
+- pending-notification.txt check was already recorded at 23:39 UTC 2026-03-21
+
+Wait, let me look more carefully:
+- The auto-runner.sh at 00:34 UTC on 2026-03-22 is NEW - it hasn't been recorded yet
+- The nexus-auto-restart at 00:37 UTC is NEW - it hasn't been recorded yet
+- The heartbeat/health check at 00:38-00:39 UTC is NEW - there are new details about Fortytwo having "weird" logs with empty balance
+- The notification check at 00:39-00:40 UTC is NEW - this is different from the 23:39 UTC one
+
+Let me also check the [00:32] message about "Exec failed (clear-la, signal SIGTERM) :: ion" - this seems like a new event that should be recorded.
+
+New observations to record:
+I notice a critical system event involving a process termination. The ion process received a SIGTERM signal, which suggests a potential system-level issue. This requires immediate investigation to understand why the process was forcibly stopped. The system also confirmed heartbeat functionality, with Nexus nodes operating normally and Fortytwo showing consistent performance. The daily operational checks reveal system stability across critical components.
+
+Specific system checks indicate ongoing monitoring:
+- Nexus maintains 12 active computing nodes
+- Fortytwo continues stable operation for approximately 19 days
+- System remains in weekend/holiday mode with no urgent tasks pending
+
+I'll focus on tracking these system events and performance metrics to ensure continuous operational awareness. Nexus auto-restart script executed without visible output. Fortytwo heartbeat and Gateway self-heal checks confirmed system stability, with Gateway functioning normally. Fortytwo showed no critical issues, though logs contained some unusual empty balance entries.
+</think>
+
+- 🔴 00:32 UTC (2026-03-22) System事件: ion进程收到SIGTERM信号导致exec失败 <!-- dc:type=event dc:importance=6.5 dc:date=2026-03-22 -->
+  - 🟡 00:32 UTC 同时段Nexus心跳检查正常，12节点运行中 <!-- dc:type=fact dc:importance=4.0 dc:date=2026-03-22 -->
+  - 🟢 00:32 UTC Fortytwo持续运行约19天，系统整体稳定（周日无紧急待办） <!-- dc:type=context dc:importance=3.0 dc:date=2026-03-22 -->
+- 🟡 00:37 UTC (2026-03-22) nexus-auto-restart.sh再次执行，无输出返回（距上次00:17执行仅20分钟后再次触发） <!-- dc:type=event dc:importance=4.0 dc:date=2026-03-22 -->
+- 🟡 00:34 UTC (2026-03-22) auto-runner.sh执行成功(exit 0)，执行检查点/动机每日检查/周模式提取/夜间优化（均为周日任务） <!-- dc:type=event dc:importance=4.0 dc:date=2026-03-22 -->
+- 🟡 00:39 UTC (2026-03-22) Fortytwo heartbeat + Gateway self-heal检查: Gateway正常，Fortytwo运行中但日志偶发异常（Balance字段为空，疑似API返回不完整） <!-- dc:type=event dc:importance=4.5 dc:date=2026-03-22 -->
+  - 🟢 00:39 UTC Fortytwo余额717.5 Energy，无active queries，登录成功 <!-- dc:type=fact dc:importance=3.0 dc:date=2026-03-22 -->
+  - 🟢 00:39 UTC Gateway健康检查返回{"ok":true,"status":"live"}，进程运行中 <!-- dc:type=fact dc:importance=3.0 dc:date=2026-03-22 -->
+- 🟢 00:40 UTC (2026-03-22) pending-notification.txt文件不存在，无Gateway问题待处理 <!-- dc:type=event dc:importance=2.0 dc:date=2026-03-22 -->
+
+<think>
+Let me analyze the recent messages to identify new observations that aren't already recorded.
+
+Looking at the "Already Recorded" section, I need to check what's already been documented:
+1. nexus-auto-restart.sh executions (00:17, 00:28, 00:37 UTC)
+2. youtube-monitor.log flock error (00:28)
+3. Fortytwo heartbeat恢复正常 (00:28)
+4. Gateway self-heal正常 (00:28)
+5. ion进程SIGTERM (00:32)
+6. Nexus 12节点运行中 (00:32)
+7. Fortytwo持续运行19天 (00:32)
+8. auto-runner.sh成功 (00:34)
+9. Fortytwo heartbeat偶发异常 (00:39)
+10. pending-notification.txt不存在 (00:40)
+
+Now let me look at what's in the new messages (times are in local time KST which is UTC+9, so I need to convert):
+- 00:58 UTC: swift-co exec failed (SIGTERM) - already recorded as ion进程SIGTERM at 00:32
+- 00:59 UTC: Nexus 12 nodes OK, GitHub backup 9:00 success, Fortytwo offline but stable, openclaw running - similar to existing entries
+- 01:02 UTC: amber-ri exec completed (code 0) - cron job completing, this is routine
+- 01:03 UTC: Nexus 6 nodes online, Fortytwo balance consumed (~717.5 Energy), daily report already generated
+- 01:01 UTC: crypto-daily-briefing cron - news summary requested
+- 01:01 UTC: Crypto news summary generated with BTC $68,962
+- 00:59 UTC: Fortytwo heartbeat + Gateway self-heal - already covered in existing entries
+- 00:58 UTC: nexus-auto-restart.sh ran successfully
+- 01:02 UTC: micro-sync check ran, appended to memory, openclaw command doesn't exist
+
+Checking against Already Recorded entries, I see the swift-co SIGTERM is already logged, nexus-auto-restart.sh appears again at 00:58, and the crypto briefing is a daily routine. The micro-sync with the openclaw command failure is new, as is the news summary containing BTC price data. The Fortytwo balance at ~717.5 Energy also appears to be a new detail.
+
+The openclaw command not existing is worth flagging as an issue. The BTC price at $68,962 (-2.42%/24h) represents new market information. The micro-sync failure due to missing openclaw command is a distinct system problem that needs addressing.
+</think>
+
+- 🟢 00:58 UTC (2026-03-22) nexus-auto-restart.sh 再次执行成功 (exit 0)，无输出 <!-- dc:type=event dc:importance=2.5 dc:date=2026-03-22 -->
+- 🟡 01:01 UTC (2026-03-22) 加密货币新闻摘要 cron 运行成功：BTC $68,962 (-2.42%/24h)，含5条新闻 <!-- dc:type=event dc:importance=3.5 dc:date=2026-03-22 -->
+- 🟡 01:02 UTC (2026-03-22) Hourly Micro-Sync 检查到活动并写入 memory/2026-03-22.md，但 `openclaw memory index` 命令不存在导致索引刷新失败 <!-- dc:type=event dc:importance=4.5 dc:date=2026-03-22 -->
+- 🟢 01:03 UTC (2026-03-22) 周日早间状态确认：Nexus 6节点在线，Fortytwo余额717.5 Energy（与之前一致），每日报告已生成于09:58 <!-- dc:type=fact dc:importance=3.0 dc:date=2026-03-22 -->
+
+<think>
+Let me analyze the recent messages to create new observations that aren't already recorded.
+
+Looking at the timestamps in UTC (which is what matters for deduplication):
+- 01:01 UTC: crypto-daily-briefing ran - BTC $68,962, 5 news items
+- 01:01 UTC: Gateway self-heal + Fortytwo heartbeat check
+- 01:02 UTC: Hourly Micro-Sync ran
+- 01:05 UTC: status-report-2h cron ran check.sh, sent to M4监工群
+- 01:05 UTC: Quick status check - Nexus 12 nodes, Fortytwo stable
+- 01:06 UTC: Check.sh output sent to M4群 - Nexus 12 nodes, Fortytwo heartbeat 10:05, 余额717
+- 01:06 UTC: Health check results
+- 01:09 UTC: Fortytwo heartbeat + Gateway self-heal cron
+
+Now let me check what's ALREADY RECORDED:
+1. 00:32 UTC - ion进程SIGTERM - ✅ new
+2. 00:32 UTC - Nexus heartbeat正常 - covered in 00:32
+3. 00:32 UTC - Fortytwo运行19天 - covered in 00:32
+4. 00:37 UTC - nexus-auto-restart.sh再次执行 - ✅ new
+5. 00:34 UTC - auto-runner.sh执行成功 - ✅ new
+6. 00:39 UTC - Fortytwo heartbeat + Gateway self-heal - ✅ new
+7. 00:39 UTC - Fortytwo余额717.5 - covered in 00:39
+8. 00:39 UTC - Gateway健康检查返回ok - covered in 00:39
+9. 00:40 UTC - pending-notification.txt不存在 - ✅ new
+10. 00:58 UTC - nexus-auto-restart.sh再次执行 - ✅ new
+11. 01:01 UTC - 加密货币新闻摘要 - ✅ new
+12. 01:02 UTC - Hourly Micro-Sync检查到活动 - ✅ new
+13. 01:03 UTC - 早间状态确认 - ✅ new
+
+I notice several cron jobs executed between 01:01-01:09 UTC that are already documented in the recorded events. The crypto briefing, system health checks, and micro-sync operations all appear to have completed successfully without any issues detected.
+</think>
+
+- 🟡 01:05 UTC (2026-03-22) status-report-2h cron执行：运行 /Users/sudi/.openclaw/workspace/agents/monitor/check.sh 并发送结果到 M4 监工群 <!-- dc:type=event dc:importance=4.0 dc:date=2026-03-22 -->
+  - 🟢 01:05 UTC 状态报告内容：Nexus 12节点运行中(12:08:57)，Fortytwo Agent心跳10:05活跃，终端余额717 <!-- dc:type=fact dc:importance=3.0 dc:date=2026-03-22 -->
+  - 🟢 01:05 UTC 发送目标：Telegram超级群 -1003727098894 (M4监工群) <!-- dc:type=fact dc:importance=3.0 dc:date=2026-03-22 -->
+- 🟡 01:06 UTC (2026-03-22) 快速状态确认：Nexus运行良好(12+节点，多个proving进程)，Fortytwo稳定(Protocol + Capsule运行中)，早间同步已完成 <!-- dc:type=event dc:importance=3.5 dc:date=2026-03-22 -->
+- 🟡 01:09 UTC (2026-03-22) Fortytwo heartbeat + Gateway self-heal cron执行：Gateway正常(失败计数0)，Fortytwo运行中但存在偶发JSON解析错误 <!-- dc:type=event dc:importance=4.5 dc:date=2026-03-22 -->
+  - 🟢 01:09 UTC Fortytwo登录成功，余额717.5 Energy，无active queries，heartbeat complete (exit 0) <!-- dc:type=fact dc:importance=3.0 dc:date=2026-03-22 -->
+  - 🟢 01:09 UTC JSON解析错误详情：access_token/refresh_token/available字段偶发缺失，脚本容错不足但服务本身未down <!-- dc:type=context dc:importance=3.5 dc:date=2026-03-22 -->
+
+<think>
+Let me analyze the recent messages to extract new observations not already recorded.
+
+Looking at the timestamps and content:
+
+1. [01:18] USER: nexus-auto-restart.sh script request
+   - Already recorded at 00:58 UTC (similar nexus-auto-restart run)
+
+2. [01:18] ASSISTANT: Script ran successfully with exit code 0, silent completion
+   - This is similar to 00:58 UTC entry - "nexus-auto-restart.sh 再次执行成功"
+
+3. [01:19] USER: System & Fortytwo Health Check cron
+   - This is the same health check cron that runs repeatedly - already covered in multiple entries (00:39, 01:09, etc.)
+
+4. [01:20] ASSISTANT: Health check results showing Fortytwo failing with KeyError issues
+   - This is NEW information - shows Fortytwo heartbeat actually failing with parse errors
+   - Previously it was "running but with intermittent issues" - now it's explicitly failing
+   - The KeyError details are new: 'access_token', 'refresh_token', 'available', 'bad token'
+
+Wait, there's also the earlier message:
+[01:29] USER: System & Fortytwo Health Check (same cron job)
+[01:30] ASSISTANT: Health check done - Gateway up and healthy, Fortytwo working with 717.5 Energy, no active queries
+
+And:
+[01:30] ASSISTANT: "Silent scripts. I'm checking what they actually validate..."
+
+So there's:
+- 01:18-01:20: Health check showing Fortytwo FAILING with KeyError
+- 01:29-01:30: Another health check showing Fortytwo working (717.5 Energy)
+
+This is interesting - it shows Fortytwo was down/flaky around 01:19 but recovered by 01:29.
+
+Let me check against "Already Recorded":
+- Multiple health check entries exist but they show Fortytwo as "running but with intermittent issues"
+- The 01:20 entry reveals a critical service disruption: Fortytwo experienced complete failure with multiple KeyError problems
+- The 01:30 entry confirms service recovery, showing Fortytwo back to normal functioning with 717.5 Energy
+
+I'll prioritize documenting this significant service fluctuation, capturing both the failure and subsequent recovery.
+</think>
+
+- 🔴 01:19 UTC (2026-03-22) Fortytwo heartbeat完全失败：返回KeyError错误('access_token', 'refresh_token', 'available')及"bad token"解析错误，服务状态从"偶发异常"变为明确失败 <!-- dc:type=event dc:importance=7.0 dc:date=2026-03-22 -->
+- 🟢 01:29 UTC (2026-03-22) Fortytwo恢复运行：余额717.5 Energy，登录成功，无active queries，Gateway健康返回{"ok":true,"status":"live"} <!-- dc:type=fact dc:importance=5.0 dc:date=2026-03-22 -->
+- 🟢 01:18 UTC (2026-03-22) nexus-auto-restart.sh再次执行成功(exit 0)，静默完成 <!-- dc:type=event dc:importance=2.5 dc:date=2026-03-22 -->
+
+<think>
+Let me analyze these messages to see what new observations I can extract that aren't already recorded.
+
+Looking at the messages:
+
+1. [01:59] - Heartbeat check at 10:59 AM KST / 01:59 UTC
+   - Fortytwo: not down, heartbeat shows active, terminal balance 717
+   - Gateway main service: normal
+   - Gateway self-heal script failing with errors: "openclaw binary not found", "syntax error near unexpected token '('", "jq: parse error", "Killed: 9"
+   - safe-run.log reports Fortytwo Console and Fortytwo AI Agent not running
+
+2. [01:58] - nexus-auto-restart.sh ran successfully (exit 0)
+
+3. [01:49-01:50] - Another heartbeat check
+   - Fortytwo heartbeat: exit 0
+   - Gateway self-heal: exit 0
+   - openclaw-gateway running
+   - FortytwoCapsule running
+   - FortytwoProtocol running
+   - Parsing errors: KeyError: 'access_token', 'refresh_token', 'available', "Parse error: bad token"
+
+Now comparing with "Already Recorded":
+- 01:05 UTC - status-report-2h cron
+- 01:06 UTC - quick status check
+- 01:09 UTC - Fortytwo heartbeat + Gateway self-heal (with JSON parsing errors)
+- 01:19 UTC - Fortytwo heartbeat completely failed (KeyError)
+- 01:29 UTC - Fortytwo recovered
+- 01:18 UTC - nexus-auto-restart.sh executed
+
+What NEW observations can I add from these messages?
+
+1. At 01:49-01:50: Services were running (FortytwoCapsule, FortytwoProtocol, Gateway) - this is a positive update showing recovery after the 01:19 failure. This is new info not captured.
+2. At 01:49-01:50: The self-heal script is experiencing its own set of technical issues - binary not found, syntax errors, jq parsing failures, and a Killed: 9 signal.
+3. At 01:59: The safe-run.log is flagging Fortytwo Console and Fortytwo AI Agent as not running, which contradicts other service indicators.
+4. At 01:58: nexus-auto-restart.sh executed successfully.
+
+I need to evaluate these against the existing records. The service running status at 01:50 isn't captured yet - that's new. The self-heal script problems at 01:59 are partially covered (JSON errors at 01:09-01:19) but the specific errors are different and more severe. The Fortytwo Console/Agent flag at 01:59 appears genuinely new. The nexus-auto-restart at 01:58 is already documented at 01:18, so it's redundant.
+
+Most of these fall into routine operational patterns - health checks, auto-restarts, and monitoring - which typically warrant low-priority ratings (1-2). However, the Gateway self-heal script is fundamentally broken rather than just producing errors, and the Fortytwo Console/Agent showing as down when other components are running represents a meaningful inconsistency. These should probably be categorized as medium priority since they indicate potential infrastructure issues rather than routine execution noise.
+</think>
+
+- 🟡 01:50 UTC (2026-03-22) Fortytwo服务恢复确认：FortytwoCapsule、FortytwoProtocol、Gateway均运行中，heartbeat和self-heal脚本返回exit 0 <!-- dc:type=event dc:importance=4.5 dc:date=2026-03-22 -->
+  - 🟢 01:50 UTC 解析错误仍存在：KeyError ('access_token', 'refresh_token', 'available')，但服务未down <!-- dc:type=context dc:importance=3.0 dc:date=2026-03-22 -->
+- 🔴 01:59 UTC (2026-03-22) Gateway自愈脚本严重故障：openclaw binary not found、syntax error near unexpected token '('、jq parse error、 Killed: 9 <!-- dc:type=event dc:importance=7.0 dc:date=2026-03-22 -->
+  - 🟡 01:59 UTC safe-run.log报告Fortytwo Console和Fortytwo AI Agent未运行，与其他健康日志不一致 <!-- dc:type=fact dc:importance=4.5 dc:date=2026-03-22 -->
+- 🟢 01:58 UTC (2026-03-22) nexus-auto-restart.sh再次执行成功(exit 0) <!-- dc:type=event dc:importance=1.5 dc:date=2026-03-22 -->
+
+<think>
+Let me analyze the messages and compare with Already Recorded observations to determine what's NEW.
+
+Current messages:
+1. [02:09] USER: Cron job running Fortytwo heartbeat and Gateway self-heal health checks
+2. [02:10] ASSISTANT: Results showing Fortytwo has errors (KeyError for tokens) but exit 0, Gateway self-heal returned exit 0 and appears normal
+
+Now comparing with Already Recorded:
+- 01:19 UTC - Fortytwo heartbeat failed with KeyError errors
+- 01:29 UTC - Fortytwo recovered (balance 717.5 Energy, login success)
+- 01:18 UTC - nexus-auto-restart.sh executed
+- 01:50 UTC - Fortytwo service recovery confirmed, all scripts exit 0, but parse errors still present
+- 01:59 UTC - Gateway self-heal script had serious failures (openclaw binary not found, syntax errors)
+- 01:58 UTC - nexus-auto-restart.sh executed
+
+The new message at 02:09-02:10 is a HEALTH CHECK at a NEW TIME (02:09 UTC). It reports:
+- Fortytwo heartbeat: exit 0 but with KeyError anomalies (same as before - 'access_token', 'refresh_token', 'available', 'bad token')
+- Gateway self-heal: exit 0, no errors, appears normal
+
+This is different from 01:59 UTC when Gateway self-heal failed. This shows Gateway has recovered and is now normal.
+
+Let me check if this is worth recording:
+- The same KeyError issues persist (this is already recorded - "解析错误仍存在")
+- Gateway is now working normally (this is NEW - previous record at 01:59 said it failed severely)
+
+The new observation is: At 02:09 UTC, Gateway self-heal returned exit 0 with no errors - indicating Gateway has recovered from the 01:59 failure.
+
+This is a new event showing recovery, which adds to the context of the Gateway status. It's worth recording as it shows the system has stabilized.
+I'll apply a conservative scoring approach, recognizing this as a moderate-priority update about system recovery.
+</think>
+
+- 🟡 02:09 UTC (2026-03-22) Cron健康检查执行：Fortytwo heartbeat脚本exit 0但仍存在KeyError异常('access_token', 'refresh_token', 'available', 'bad token')，Gateway self-heal脚本exit 0无报错，系统整体恢复稳定 <!-- dc:type=event dc:importance=4.5 dc:date=2026-03-22 -->
+  - 🟢 02:10 UTC 对比01:59 UTC严重故障，Gateway自愈脚本已恢复正常运行 <!-- dc:type=fact dc:importance=3.5 dc:date=2026-03-22 -->
+
+<think>
+Let me analyze these messages to extract new observations that aren't already recorded.
+
+The messages are:
+1. [02:19] - Cron health check ran for Fortytwo heartbeat and Gateway self-heal, both exit 0, no failures reported
+2. [02:29] - Another health check ran, similar to above but with more detail about Fortytwo having intermittent issues (token refresh causing balance read empty, then recovering)
+3. [02:18] - nexus-auto-restart.sh ran successfully (exit 0)
+
+Now let me check against "Already Recorded":
+- 01:50 - Fortytwo service recovery confirmed
+- 01:59 - Gateway self-heal script serious failure (but already recovered per 02:10)
+- 01:58 - nexus-auto-restart.sh executed successfully
+- 02:09 - Cron health check with exit 0 but KeyError exceptions still exist
+- 02:10 - Gateway self-heal recovered
+
+What's NEW in these messages:
+1. The 02:19 and 02:29 health checks - but these are similar to the 02:09 check which was already recorded. However, the 02:29 check provides MORE detail about Fortytwo having intermittent token/balance parsing issues. This is new context.
+2. The nexus-auto-restart at 02:18 - this is a NEW execution (02:18 is after 01:58 which was recorded)
+
+Wait, let me re-check the times. The "Already Recorded" has:
+- 01:58 UTC - nexus-auto-restart.sh
+- 02:09 UTC - Cron health check
+
+The new messages are:
+- 02:18 UTC - nexus-auto-restart.sh (this is NEW - it's another run after 01:58)
+- 02:19 UTC - Health check (similar to 02:09 but maybe worth recording if there's new info)
+- 02:29 UTC - Health check with MORE detail about Fortytwo intermittent issues
+
+I'll focus on the most significant new observations. The 02:18 nexus-auto-restart.sh is a clear new execution, and the 02:29 health check reveals deeper insights into Fortytwo's intermittent technical challenges. These details provide additional context beyond the previously recorded information, highlighting ongoing system dynamics and potential areas for investigation.
+
+The key new points are:
+1. Another successful nexus-auto-restart at 02:18
+2. Fortytwo showing persistent token and balance parsing anomalies
+3. System generally stable, but with nuanced technical irregularities
+
+I'll prioritize capturing these subtle system performance nuances in the observation record.
+</think>
+
+- 🟡 02:18 UTC (2026-03-22) nexus-auto-restart.sh再次执行成功(exit 0)，距离上次01:58执行约20分钟后再次触发 <!-- dc:type=event dc:importance=2.0 dc:date=2026-03-22 -->
+- 🟡 02:29 UTC (2026-03-22) Fortytwo健康检查：脚本exit 0但存在间歇性token/余额解析异常 <!-- dc:type=event dc:importance=4.5 dc:date=2026-03-22 -->
+  - 🟢 02:29 UTC 具体异常表现：token refresh后偶尔读到空余额(⚡ Balance: Energy)，误判余额过低，随后脚本重新登录恢复 <!-- dc:type=fact dc:importance=3.5 dc:date=2026-03-22 -->
+  - 🟢 02:29 UTC Gateway确认正常：heartbeat-self-heal.sh exit 0，无触发自愈，无服务down <!-- dc:type=fact dc:importance=3.5 dc:date=2026-03-22 -->
+
+<think>
+Let me analyze the messages and compare against the "Already Recorded" list to determine what's new.
+
+Messages from 02:30-02:41:
+1. Notification check at 02:41 - checked pending notification file, none found
+2. Health check at 02:30 - Gateway normal, Fortytwo available but with intermittent issues
+3. Auto-memory-runner at 02:34-02:35 - executed successfully
+4. Health check at 02:39-02:40 - Fortytwo heartbeat and Gateway self-heal both succeeded
+5. Nexus auto-restart at 02:38 - executed successfully
+
+Now checking against "Already Recorded":
+- 01:59 Gateway self-heal failure (already recorded)
+- 01:58 nexus-auto-restart success (already recorded)
+- 02:09 cron health check with KeyError issues (already recorded)
+- 02:10 Gateway recovery fact (already recorded)
+- 02:18 nexus-auto-restart success (already recorded)
+- 02:29 Fortytwo health check with intermittent token issues (already recorded)
+- 02:29 Gateway normal fact (already recorded)
+
+New observations:
+1. Notification check at 02:41 - No pending notifications found. This is new.
+2. Health check at 02:30 - The detailed report about Gateway being normal but Fortytwo having intermittent issues. The key parts:
+   - Gateway normal, heartbeat exit 0
+   - Fortytwo available but "毛刺" (glitchy), token refresh issues
+   - Current balance 717.5 Energy
+   - This is similar to 02:29 but more detailed. Let me check if it's duplicate...
+   
+Actually, the 02:29 entry already says "Fortytwo健康检查：脚本exit 0但存在间歇性token/余额解析异常" and details the token/balance issue. The 02:30 message is providing the same information about intermittent issues. This seems like a duplicate in terms of the issue being reported.
+ 
+I verify the auto-runner script executed successfully at 02:34-02:35. This confirms a new system process completed without errors. The subsequent health checks at 02:39-02:40 and nexus auto-restart at 02:38 both passed, indicating overall system stability.
+
+The critical details involve potential notification issues and script execution outcomes. I'll focus on extracting key insights about system performance and potential notification-related concerns.
+
+The nexus-auto-restart and health check entries appear redundant, suggesting no new actionable information was generated during these system checks.
+
+Key observations include potential Gateway notification problems and script execution stability, with system scripts running successfully but showing intermittent technical inconsistencies.
+</think>
+
+- 🔴 02:41 UTC (2026-03-22) 通知检查：pending-notification.txt不存在，无Gateway问题待处理 <!-- dc:type=event dc:importance=5.5 dc:date=2026-03-22 -->
+  - 🟢 02:41 UTC 文件路径：~/.openclaw/workspace/memory/pending-notification.txt <!-- dc:type=fact dc:importance=2.0 dc:date=2026-03-22 -->
+- 🟡 02:35 UTC (2026-03-22) auto-runner.sh执行成功(exit 0)：执行检查点、动机每日检查、周模式提取、夜间优化 <!-- dc:type=event dc:importance=3.5 dc:date=2026-03-22 -->
+- 🟢 02:40 UTC (2026-03-22) 第二次健康检查：Fortytwo heartbeat和Gateway self-heal均exit 0，无down/failing服务 <!-- dc:type=event dc:importance=2.5 dc:date=2026-03-22 -->
+- 🟢 02:38 UTC (2026-03-22) nexus-auto-restart.sh执行成功(exit 0)，无输出日志 <!-- dc:type=event dc:importance=1.5 dc:date=2026-03-22 -->
+
+<think>
+Let me analyze the new messages against the "Already Recorded" list to see what needs to be added.
+
+New messages to process:
+1. [02:49] System & Fortytwo Health Check - ran heartbeat and gateway self-heal
+2. [02:50] Assistant reported: Fortytwo heartbeat FAILED with KeyErrors (access_token, refresh_token, available, parse error), Gateway self-heal normal
+3. [02:58] nexus-auto-restart.sh ran
+4. [02:59] System & Fortytwo Health Check - ran heartbeat and gateway self-heal  
+5. [03:00] Assistant reported: Gateway and Fortytwo processes normal, Fortytwo heartbeat had issues but ultimately succeeded this round - KeyError during token refresh, parse errors, but exit 0
+
+Now checking against "Already Recorded":
+- 02:29 UTC - Fortytwo health check with token/balance issues already recorded
+- 02:35 UTC - auto-runner.sh already recorded
+- 02:38 UTC - nexus-auto-restart.sh success already recorded
+- 02:40 UTC - second health check (both exit 0) already recorded
+- 02:41 UTC - notification check already recorded
+- 02:18 UTC - nexus-auto-restart.sh again already recorded
+
+What's NEW in these messages:
+1. 02:49 health check - This is different from 02:29 and 02:40. It shows Fortytwo heartbeat FAILED with KeyErrors. This is significant - earlier entries showed issues but exit 0, this one explicitly says "失败" (failed).
+
+2. 02:58 nexus-auto-restart.sh - This is different from the 02:18 and 02:38 entries. It's another execution.
+
+3. 02:59 health check - Another round. This one says Fortytwo "有异常，但本次最终成功" (has anomaly but ultimately succeeded this time). Different from both the failure at 02:49 and the "both exit 0" at 02:40.
+ 
+The 02:49 health check reveals a critical system issue. The Fortytwo heartbeat encountered multiple key errors, specifically related to token and data parsing. This represents a more severe system malfunction compared to previous intermittent problems. The errors include missing authentication tokens and balance information, indicating potential deeper API or script integration challenges.
+
+The 02:58 nexus-auto-restart.sh event seems routine, with another automatic restart cycle initiated.
+
+The 02:59 health check presents a nuanced picture: while processes remain operational, the heartbeat script demonstrates ongoing instability. The script exits successfully despite parsing challenges, which could mask underlying technical inconsistencies.
+</think>
+
+- 🔴 02:49 UTC (2026-03-22) Fortytwo heartbeat明确失败：报KeyError: access_token/refresh_token/available、Parse error，但脚本仍exit 0 <!-- dc:type=event dc:importance=7.0 dc:date=2026-03-22 -->
+  - 🟢 02:49 UTC Gateway self-heal正常：exit 0，无报错 <!-- dc:type=fact dc:importance=3.0 dc:date=2026-03-22 -->
+- 🟡 02:58 UTC (2026-03-22) nexus-auto-restart.sh再次执行(exit 0) <!-- dc:type=event dc:importance=2.0 dc:date=2026-03-22 -->
+- 🟡 02:59 UTC (2026-03-22) 健康检查：Fortytwo进程正常、余额读到717.5 Energy，但token refresh流程仍报KeyError和Parse error <!-- dc:type=event dc:importance=5.0 dc:date=2026-03-22 -->
+  - 🟢 02:59 UTC Gateway确认正常：openclaw-gateway进程运行中、heartbeat-self-heal.sh显示"Gateway: 正常" <!-- dc:type=fact dc:importance=3.5 dc:date=2026-03-22 -->
+
+<think>
+Let me analyze the recent messages to extract new observations not already covered in the "Already Recorded" list.
+
+Looking at the timestamps and content:
+
+1. [03:02] HEARTBEAT_OK - This is just a system heartbeat, routine noise. Skip.
+
+2. [03:00] "检查完了" - This is about health check results, similar to what's already recorded. But let me check:
+   - Gateway: normal
+   - Fortytwo processes: normal
+   - Fortytwo heartbeat: has anomaly but eventually succeeded
+   - Balance read: 717.50000000 Energy
+   - KeyError and Parse error on token refresh
+   
+   This is similar to what's already recorded (02:49, 02:59 entries). The balance of 717.5 Energy was already recorded at 02:59. The KeyError/Parse error was also already recorded. This seems like a duplicate of existing observations.
+
+3. [03:09] User triggered cron for health check - This is a cron job trigger, routine. But the assistant's response at [03:10] has new information:
+
+4. [03:10] Health check results:
+   - Fortytwo: up, latest heartbeat at 12:09:42-12:09:53 completed successfully
+   - Balance: 717.50000000 Energy
+   - No active queries
+   - Gateway: up, openclaw-gateway process running
+   - Related services: FortytwoCapsule, FortytwoProtocol, multiple nexus-network nodes running
+
+   This is a NEW observation - the specific time 12:09:42-12:09:53 is new. But the balance and status are the same as before.
+
+5. [03:04] User triggered cron for status-report-2h - running check.sh and sending to M4监工群
+
+6. [03:04] Assistant ran check.sh and sent output to M4监工群
+   
+   - System status report from 12:04 includes 12 Nexus nodes running for 26 minutes, Fortytwo agent heartbeat active at 12:04, and balance at 717.
+   
+   This provides a fresh timestamp for the system status, showing Nexus nodes running for 26 minutes and the Fortytwo agent's heartbeat at 12:04.
+
+Comparing with existing records:
+- 02:41 entry covered notification check
+- 02:35 and 02:38 entries documented auto-runner and nexus-auto-restart successes
+- 02:40 entry confirmed health checks for Fortytwo and Gateway
+- 02:49 entry captured Fortytwo heartbeat failure with KeyError
+- 02:58 entry recorded nexus-auto-restart re-execution
+- 02:59 entry documented health check with 717.5 Energy
+
+New observations:
+- [03:04] Running check.sh and sending output to M4监工群 represents a new system check and notification action
+- [03:10] Health check at 12:09 provides another timestamped system status update
+</think>
+
+- 🟡 12:04 UTC (2026-03-22) 状态检查脚本执行成功并发送至M4监工群：12节点运行中、Fortytwo活跃、余额717 <!-- dc:type=event dc:importance=4.0 dc:date=2026-03-22 -->
+  - 🟢 12:04 UTC Nexus节点：12个，运行时长00:26 <!-- dc:type=fact dc:importance=2.5 dc:date=2026-03-22 -->
+- 🟢 12:09 UTC (2026-03-22) Fortytwo心跳成功完成：12:09:42-12:09:53执行，余额717.5 Energy，无活跃查询 <!-- dc:type=event dc:importance=3.5 dc:date=2026-03-22 -->
+  - 🟢 12:09 UTC Gateway正常：openclaw-gateway进程运行中 <!-- dc:type=fact dc:importance=2.5 dc:date=2026-03-22 -->
+  - 🟢 12:09 UTC 相关服务运行中：FortytwoCapsule、FortytwoProtocol、多个nexus-network节点 <!-- dc:type=fact dc:importance=2.0 dc:date=2026-03-22 -->
+
+<think>
+Let me analyze the recent messages to see what's NEW and not already recorded.
+
+The user ran health checks at 03:19 and 03:30 (UTC), and an auto-restart script at 03:18.
+
+Let me compare with what's already recorded:
+
+Already Recorded events:
+1. 02:49 UTC - Fortytwo heartbeat failed with KeyErrors, Gateway OK
+2. 02:58 UTC - nexus-auto-restart.sh executed
+3. 02:59 UTC - Health check: Fortytwo normal, balance 717.5, but token refresh still has KeyError
+4. 12:04 UTC - Status check script sent to M4 group: 12 nodes running, Fortytwo active, balance 717
+5. 12:09 UTC - Fortytwo heartbeat success, balance 717.5
+
+New events to record:
+- 03:18 UTC - nexus-auto-restart.sh ran again (this is new - different from 02:58)
+- 03:19 UTC - Health check at 03:19: Gateway OK, Fortytwo shows KeyError issues but balance read as 717.5, some intermittent parsing issues
+- 03:29 UTC - Another health check at 03:29: Gateway OK, Fortytwo has same KeyError issues
+
+Let me check if these are truly new:
+- 03:18 nexus-auto-restart: Already have 02:58 entry - same script, but this is a NEW execution at different time. Should I record? The previous one says "again" which implies there was one before. This is a cron job running. The importance should be low (1-2) since it's automated.
+
+Wait, looking at the already recorded:
+- 02:58 UTC nexus-auto-restart.sh executed
+- 03:18 UTC is another execution
+
+This is similar to the 02:58 entry but is a NEW execution. However, these are routine cron jobs (importance 1-2). The user message is a cron trigger.
+
+The health checks at 03:19 and 03:29 show the same pattern: Gateway healthy, Fortytwo experiencing intermittent authentication failures with KeyErrors despite successfully reading balance at 717.5. This matches the 02:59 pattern, but it's a different time and more detailed.
+
+Since this is the same recurring issue (not new information), I should consider whether to record it at all. These are essentially identical findings repeated at different times. The pattern is already established in the earlier entry - Fortytwo has intermittent token/parsing issues while maintaining functionality. Both 03:19 and 03:29 are essentially duplicates of the 02:59 observation. The Gateway's consistent health and Fortytwo's recurring token errors haven't changed. Even though they're at different timestamps, the core information remains the same. Since the guidance emphasizes deduplication and avoiding repeated observations, I shouldn't output these as new entries. I'll verify each observation against existing records and skip the redundant ones.
+</think>
+
+- 🔴 03:19 UTC (2026-03-22) 健康检查：Fortytwo脚本exit 0但日志有KeyError/Parse error，余额间歇性显示717.5或空 <!-- dc:type=event dc:importance=5.5 dc:date=2026-03-22 -->
+  - 🟢 03:19 UTC Gateway正常：self-heal通过，无服务宕机 <!-- dc:type=fact dc:importance=3.0 dc:date=2026-03-22 -->
+  - 🟢 03:18 UTC nexus-auto-restart.sh执行(exit 0,无输出) <!-- dc:type=event dc:importance=1.5 dc:date=2026-03-22 -->
+
+<think>
+Let me analyze these recent messages to extract new observations that aren't already recorded.
+
+The messages are from around 03:30-03:41 UTC on 2026-03-22:
+
+1. **Fortytwo heartbeat check** (03:39-03:40):
+   - Gateway self-heal: normal, exit 0, health check returns {"ok":true,"status":"live"}
+   - Fortytwo service processes: running (FortytwoCapsule, FortytwoProtocol)
+   - Fortytwo heartbeat script: has issues but not service down
+   - Successfully logged in, got balance: 717.50000000 Energy
+   - Then on token refresh got parse error, balance became empty
+   - Manual execution also reproduced JSON parsing errors for access_token/refresh_token/available
+   - Conclusion: Gateway not down, Fortytwo service/script has failures
+
+2. **nexus-auto-restart** (03:38):
+   - Ran successfully, exit 0
+   - No details on what nodes were restarted
+
+3. **Fortytwo heartbeat check** (03:30):
+   - Similar to above - script exits 0 but has KeyError issues
+   - Same balance oscillation: 717.5 Energy then empty
+   - Conclusion: Gateway OK, Fortytwo not healthy
+
+4. **notification-check** (03:40-03:41):
+   - No pending-notification.txt file found
+   - No Gateway notifications to process
+
+5. **auto-memory-runner** (03:34-03:35):
+   - Ran successfully, exit 0
+
+Now checking against "Already Recorded":
+- 12:04 UTC status check - different time, can record
+- 12:09 UTC Fortytwo heartbeat - different time, can record
+- 03:19 UTC health check with KeyError - THIS IS VERY SIMILAR to what we're seeing at 03:30-03:40
+- The 03:19 UTC event already captured the KeyError/Parse error issues with Fortytwo and confirmed Gateway was OK
+
+I'll consolidate the new observations from this period. The key points are the recurring Fortytwo script issues and successful system checks. The nexus-auto-restart and notification-check provide additional system health context, while the auto-memory-runner completed without complications.
+
+The critical observations center on the persistent Fortytwo service problems, with intermittent JSON parsing errors and balance inconsistencies across multiple check times. The Gateway remains stable, and system maintenance scripts are functioning normally.
+</think>
+
+- 🔴 03:40 UTC (2026-03-22) Fortytwo heartbeat复现相同KeyError：手动执行仍出现access_token/refresh_token/available解析错误，余额在717.5与空值间波动 <!-- dc:type=event dc:importance=6.0 dc:date=2026-03-22 -->
+  - 🟢 03:40 UTC Gateway自愈检查通过：health接口返回{"ok":true,"status":"live"}，日志持续显示"✅ Gateway: 正常" <!-- dc:type=fact dc:importance=3.5 dc:date=2026-03-22 -->
+  - 🟢 03:40 UTC Fortytwo服务进程在线：FortytwoCapsule、FortytwoProtocol运行中 <!-- dc:type=fact dc:importance=3.0 dc:date=2026-03-22 -->
+- 🟡 03:38 UTC (2026-03-22) nexus-auto-restart.sh执行成功(exit 0)：完成一次Nexus节点检测/自动重启流程 <!-- dc:type=event dc:importance=3.0 dc:date=2026-03-22 -->
+- 🟢 03:41 UTC (2026-03-22) notification-check：无待处理通知，pending-notification.txt文件不存在 <!-- dc:type=event dc:importance=2.0 dc:date=2026-03-22 -->
+- 🟢 03:35 UTC (2026-03-22) auto-memory-runner.sh执行成功(exit 0)：完成检查点、动机每日检查、周模式提取、夜间优化 <!-- dc:type=event dc:importance=2.5 dc:date=2026-03-22 -->
+
+<think>
+Let me analyze the messages and compare against the "Already Recorded" list to determine what NEW observations need to be recorded.
+
+Looking at the messages:
+
+1. [04:00] - Assistant checking command outputs - Gateway self-heal is normal, Fortytwo heartbeat has issues (KeyError, empty balance) but service not completely down
+2. [04:09] - User running cron job for System & Fortytwo Health Check
+3. [04:10] - Assistant checking scripts - Gateway normal, Fortytwo has parsing/concurrency issues but service is online with 717 balance
+4. [04:01] - User running Hourly Micro-Sync
+5. [04:01] - Assistant found activity, appended to memory/2026-03-22.md, but openclaw command failed (command not found)
+
+Now comparing to "Already Recorded":
+- 03:19 UTC Fortytwo KeyError/Parse error - already recorded
+- 03:40 UTC Fortytwo heartbeat KeyError - already recorded
+- Gateway normal - already recorded
+- nexus-auto-restart.sh - already recorded
+- notification-check - already recorded
+- auto-memory-runner.sh - already recorded
+
+NEW observations:
+1. [04:00-04:10] Fortytwo heartbeat shows same intermittent issues - KeyError for tokens, balance fluctuating between 717.5 and empty. This is similar to 03:19 and 03:40 but at a different time. The "Already Recorded" list shows events at 03:19 and 03:40. This is 04:00-04:10, so it's a NEW occurrence.
+
+2. [04:01] Micro-sync found activity, appended to memory file, BUT openclaw command failed with "command not found" - this is a NEW fact.
+
+3. [04:10] Gateway confirmed normal via /health endpoint - this is already covered by "Gateway正常" at 03:19 and 03:40.
+4. [04:00] Fortytwo has ~717.5 Energy balance - this appears to be the same balance already captured at 03:40, so I'll skip recording it again.
+
+The key new events are the Fortytwo heartbeat anomaly at 04:00-04:10 showing token KeyErrors and balance fluctuations, and the micro-sync failure where the openclaw command wasn't found. These represent distinct issues worth documenting.
+</think>
+
+- 🔴 04:00 UTC (2026-03-22) Fortytwo heartbeat复现间歇性异常：KeyError访问token/refresh_token/available字段，余额在717.5与空值间波动，服务未完全宕机但脚本解析不稳定 <!-- dc:type=event dc:importance=6.0 dc:date=2026-03-22 -->
+  - 🟢 04:10 UTC Gateway health接口确认正常：返回{"ok":true,"status":"live"}，日志显示"✅ Gateway: 正常" <!-- dc:type=fact dc:importance=3.5 dc:date=2026-03-22 -->
+- 🔴 04:01 UTC (2026-03-22) Micro-sync执行异常：成功追加活动摘要到memory/2026-03-22.md，但openclaw命令执行失败(命令不存在) <!-- dc:type=event dc:importance=5.5 dc:date=2026-03-22 -->
+
+<think>
+Let me analyze the new messages that need to be compressed into observations, comparing against the "Already Recorded" list to avoid duplicates.
+
+New messages from today (2026-03-22):
+
+1. [04:49] System & Fortytwo Health Check ran - Fortytwo heartbeat: succeeded, Gateway self-heal: succeeded, exit status OK
+2. [04:59] System & Fortytwo Health Check ran - Gateway normal, Fortytwo has issues (intermittent failure - empty balance vs 717.5 Energy, JSON parsing errors)
+3. [04:58] nexus-auto-restart.sh ran - no visible output
+
+Let me check each against the "Already Recorded" list:
+
+Already recorded:
+- Fortytwo heartbeat KeyError issues at 03:40 and 04:00 - same issue, intermittent failures with balance fluctuation
+- Gateway normal at 03:40 and 04:10
+- nexus-auto-restart.sh at 03:38 - executed successfully
+
+New observations:
+1. Health check at 04:49 - both Fortytwo and Gateway succeeded. This is different from the 04:00 failure - at 04:49 it succeeded. But wait, I need to check - is this a duplicate? The "Already Recorded" shows issues at 03:40 and 04:00. The 04:49 check succeeded. This is NEW information - a successful health check at 04:49.
+
+2. Health check at 04:59 - Gateway normal, Fortytwo has intermittent failure (empty balance at times, 717.5 at other times). This is consistent with the already recorded 03:40 and 04:00 issues - it's the same pattern. The "Already Recorded" already mentions "KeyError访问token/refresh_token/available字段，余额在717.5与空值间波动" which is essentially the same observation. So 04:59 is a DUPLICATE of what's already recorded.
+
+3. nexus-auto-restart.sh at 04:58 - Already recorded at 03:38. Is this a duplicate? 
+
+I'll verify the details of the nexus-auto-restart script. The 03:38 entry confirms it executed successfully, and the 04:58 run shows no visible output. Since it's the same script, I'll consider this a duplicate entry and won't add a new observation.
+
+The key new observation is the successful health check at 04:49, which differs from the previous intermittent failure pattern. This provides important information about the system's current state.
+</think>
+
+- 🟡 04:49 UTC (2026-03-22) System & Fortytwo Health Check通过：Fortytwo heartbeat成功、Gateway自愈成功、exit status OK <!-- dc:type=event dc:importance=3.5 dc:date=2026-03-22 -->
+- 🟢 04:58 UTC (2026-03-22) nexus-auto-restart.sh执行：无可见输出（与03:38成功执行为同脚本） <!-- dc:type=event dc:importance=2.0 dc:date=2026-03-22 -->
+
+**Note:** 04:59 Health Check中Fortytwo的间歇性异常（余额717.5与空值波动）与已记录的03:40、04:00事件重复，跳过。
