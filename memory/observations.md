@@ -9314,3 +9314,181 @@ I see a critical new development: the Gateway experienced a complete failure on 
   - 🔴 执行失败：enclaw/openclaw.json Gateway在端口18789 (bind=lan 0.0.0.0) 被SIGTERM终止 <!-- dc:type=fact dc:importance=8.5 dc:date=2026-03-23 -->
   - 🟢 探针目标: ws://127.0.0.1:18789, Dashboard: http://192.168.0.135:18789/ <!-- dc:type=fact dc:importance=5.0 dc:date=2026-03-23 -->
   - 🟡 之前21:06 UTC的健康检查显示Gateway进程存活，但21:42 UTC实际已崩溃 <!-- dc:type=context dc:importance=6.0 dc:date=2026-03-23 -->
+
+<think>
+Let me analyze the recent messages to identify new observations that aren't already recorded.
+
+Looking at the messages, I see several health check cron runs. Let me check what's already recorded:
+
+Already Recorded:
+1. Gateway self-heal error log history (shell syntax error, jq parse error, Killed: 9) - from 20:56 UTC
+2. openclaw gateway status CLI hangs - from 21:06 UTC
+3. Gateway process SIGTERM termination at 06:42 UTC (today) - from 2026-03-23
+
+The messages I'm processing are:
+1. 21:16 UTC - Fortytwo heartbeat passed, balance 717.5, Gateway self-heal OK, some noisy entries (Balance too low) but flaky
+2. 15:35 UTC - Gateway normal, Fortytwo has KeyError issues (access_token, refresh_token, available, Parse error: bad token), empty balance, Balance too low
+3. 20:36 UTC - nexus-auto-restart ran silently
+4. 20:56 UTC - Fortytwo normal (717.5 balance), Gateway normal (port listening), gateway-self-heal.err.log has historical errors (shell syntax, jq, Killed:9)
+5. 21:06 UTC - Fortytwo normal (717.5), Gateway alive (process check), openclaw gateway status hangs
+6. 16:34 UTC - auto-memory-runner ran silently
+7. 17:56 UTC - Fortytwo has KeyError issues, Gateway normal
+8. 21:46 UTC - Both scripts returned no visible output, can't confirm status
+
+Key NEW observations not in "Already Recorded":
+1. Fortytwo heartbeat recurring KeyError issues - access_token, refresh_token, available, "Parse error: bad token" - these are new specific facts
+2. The nexus-auto-restart and auto-memory-runner both executed without output, which is notable since they typically produce logs. Gateway health checks became increasingly silent by 21:46, suggesting the monitoring itself may be degrading. I also notice the Fortytwo balance stays consistently at 717.50000000 across checks, which might indicate it's not updating properly or the KeyError is preventing balance refreshes.
+3. While the Gateway SIGTERM at 06:42 was already captured, the pattern of escalating failures—from KeyErrors to silent monitoring—suggests a broader system health issue developing.
+</think>
+
+- 🟡 2026-03-22 15:35–17:56 UTC Fortytwo heartbeat间歇性异常 <!-- dc:type=event dc:importance=6.5 dc:date=2026-03-22 -->
+  - 🔴 15:35 UTC日志捕获KeyError字段：'access_token'、'refresh_token'、'available' <!-- dc:type=fact dc:importance=7.0 dc:date=2026-03-22 -->
+  - 🔴 15:35 UTC出现"Parse error: bad token" <!-- dc:type=fact dc:importance=7.0 dc:date=2026-03-22 -->
+  - 🔴 同一时段余额显示为空或"Balance too low to answer (need >= 5)" <!-- dc:type=fact dc:importance=7.0 dc:date=2026-03-22 -->
+  - 🟡 17:56 UTC重复出现相同KeyError系列，Gateway自愈则正常退出0 <!-- dc:type=fact dc:importance=6.5 dc:date=2026-03-22 -->
+  - 🟢 21:16 UTC Fortytwo恢复正常：余额717.50000000 Energy，登录成功，0查询 <!-- dc:type=fact dc:importance=5.0 dc:date=2026-03-22 -->
+- 🟡 2026-03-22 16:34 UTC auto-memory-runner静默执行无输出 <!-- dc:type=event dc:importance=3.5 dc:date=2026-03-22 -->
+- 🟡 2026-03-22 20:36 UTC nexus-auto-restart静默执行无输出 <!-- dc:type=event dc:importance=3.0 dc:date=2026-03-22 -->
+- 🟡 2026-03-22 21:46 UTC 双心跳脚本均无可见输出，无法确认健康状态 <!-- dc:type=event dc:importance=5.0 dc:date=2026-03-22 -->
+  - 🟡 Fortytwo与Gateway自愈脚本均静默返回，既无失败也无成功确认 <!-- dc:type=fact dc:importance=5.0 dc:date=2026-03-22 -->
+- 🟢 Fortytwo余额稳定在717.50000000 Energy（正常时） <!-- dc:type=fact dc:importance=2.5 dc:date=2026-03-22 -->
+
+<think>
+Let me analyze the messages and compare them against the "Already Recorded" entries to see what is genuinely new.
+
+Looking at the "Already Recorded" entries:
+1. Gateway process terminated by SIGTERM on 2026-03-23 at 06:42 UTC
+2. Fortytwo heartbeat intermittent anomalies on 2026-03-22 (KeyErrors, parse errors, balance issues)
+3. auto-memory-runner silent execution at 16:34 UTC
+4. nexus-auto-restart silent execution at 20:36 UTC
+5. Double heartbeat scripts no visible output at 21:46 UTC
+6. Fortytwo balance stable at 717.50000000 Energy
+
+Now let me check the new messages:
+
+1. [21:16] Cron health check - Fortytwo passed, Gateway self-heal ran, but some noisy log entries around 06:06
+2. [15:35] Cron health check - Gateway normal, Fortytwo not down but has anomalies (KeyErrors, parse errors, balance issues)
+3. [22:26] Cron health check - Fortytwo OK, Gateway self-heal didn't return properly, gateway status command hung
+4. [20:36] Cron nexus-auto-restart - silent execution (already recorded at 20:36)
+5. [20:56] Cron health check - Fortytwo normal, Gateway normal, but historical errors in gateway-self-heal.err.log
+6. [21:06] Cron health check - Fortytwo OK, Gateway process running, but openclaw gateway status command hangs
+7. [16:34] Cron auto-memory-runner - silent execution (already recorded at 16:34)
+8. [17:56] Cron health check - Fortytwo has KeyErrors but exit 0, Gateway normal
+ 
+I notice a pattern of recurring anomalies with the Fortytwo heartbeat. The system experiences intermittent KeyError issues across multiple timestamps, yet consistently returns an exit code of 0. These errors involve critical authentication and balance-related fields, suggesting potential underlying data retrieval or parsing problems that aren't causing a complete system failure.
+
+The Gateway's self-healing mechanism appears functional, with port listening correctly, but a specific command appears to hang when attempting to check gateway status. This indicates a localized issue with the status command itself, rather than a systemic Gateway problem.
+
+The 21:16 UTC observation reveals log noise at 06:06, which seems connected to previously documented anomalies. While the logs show a "Balance too low to answer" message, the system also records a valid balance and successful heartbeat, suggesting the issue is intermittent rather than persistent.
+
+I'm identifying potential duplications in the health check logs, particularly around timestamps and system status checks. The observations at 21:16 and 21:06 UTC both reference similar Gateway and Fortytwo status checks, indicating a consistent monitoring pattern that might require further consolidation.
+
+The 22:26 UTC check introduces a new element: the `openclaw gateway status` command actually hanging, which represents a different failure mode compared to previous silent returns. This subtle distinction suggests the system is experiencing progressive degradation rather than complete failure.
+
+Key new observations include the Gateway status command's hanging behavior and the intermittent log anomalies around the 06:06 timestamp, which differ from earlier recorded intermittent issues.
+</think>
+
+Looking at these messages against the Already Recorded list:
+
+- The 16:34 and 20:36 cron jobs are already recorded
+- The Fortytwo KeyError anomalies (15:35, 17:56) are already covered in the 15:35-17:56 UTC entry
+- The 21:16 and 21:06 health checks showing Fortytwo recovered are partially covered by the "21:16 UTC Fortytwo恢复正常" entry
+- Gateway SIGTERM on 2026-03-23 is already recorded
+
+NEW observations:
+
+- 🟡 22:26 UTC Gateway健康检查发现`openclaw gateway status`命令实际卡住而非正常返回 <!-- dc:type=event dc:importance=5.5 dc:date=2026-03-22 -->
+  - 🟡 尽管命令卡住，直接进程检查确认Gateway进程仍在运行 <!-- dc:type=fact dc:importance=5.0 dc:date=2026-03-22 -->
+  - 🟢 同期Fortytwo心跳正常：余额717.50000000 Energy，登录成功，无活跃查询 <!-- dc:type=fact dc:importance=4.0 dc:date=2026-03-22 -->
+- 🟢 20:56 UTC Gateway自愈日志显示历史错误痕迹（shell语法错误、jq解析错误、一次被Killed:9）但当前Gateway正常监听端口18789 <!-- dc:type=context dc:importance=3.0 dc:date=2026-03-22 -->
+
+<think>
+Let me analyze the recent messages to extract new observations not already recorded.
+
+Recent messages (2026-03-22, times in UTC):
+1. 22:46 - Fortytwo heartbeat ran successfully, balance 717.5 Energy, no active queries, Gateway self-heal normal
+2. 22:56 - Gateway health check normal, Fortytwo had intermittent issues - KeyError on refresh tokens again, balance showed empty
+3. 22:56 - nexus-auto-restart script ran silently (same pattern as before)
+
+Let me check against "Already Recorded" items:
+- 15:35-17:56 UTC Fortytwo issues - already recorded
+- 21:16 UTC Fortytwo recovered - already recorded
+- 22:26 UTC Gateway command hang - already recorded
+
+New observations to add:
+1. 07:46-07:50 UTC (22:46-22:50 UTC) - Fortytwo heartbeat successful again with balance 717.5 Energy, Gateway self-heal normal with "ok: port 18789 already listening"
+2. 07:56 UTC (22:56 UTC) - Second health check shows Gateway still normal, but Fortytwo has SAME KeyError issues repeating (access_token, refresh_token, available) - this is important as it shows the bug is recurring
+3. 07:56 UTC (22:56 UTC) - nexus-auto-restart ran silently again (same as 20:36 UTC)
+
+The 22:56 UTC Fortytwo issue is essentially a REPEAT of the 15:35/17:56 UTC issues already recorded. The KeyError series is the same. So this is NOT new - it's a recurring issue that was already documented.
+
+However, there's a subtle difference - this is at 22:56 UTC which is LATER than the previously recorded 17:56 UTC. The issue is recurring/persistent. Let me see if I should record this as a new event or just context about the ongoing issue.
+I notice the 22:56 UTC event introduces no novel information. The KeyError problems are identical to previous occurrences, and the balance displays as empty again. This confirms a persistent, unresolved pattern rather than a new development. The recurring nature suggests an underlying systemic issue that requires deeper investigation, but doesn't warrant a separate observation entry.
+
+The Gateway's health status appears stable, with no additional insights beyond previous checks. The nexus-auto-restart script's silent execution mirrors earlier behaviors, providing no new diagnostic information.
+
+The timeline reveals a critical detail: the user reference uses 22:46 UTC, but system logs consistently show times around 07:46-07:56 in the Asia/Seoul timezone, which translates to 22:46-22:56 UTC on the previous day - creating potential chronological confusion.
+
+Comparing existing records shows multiple Fortytwo heartbeat incidents at different times, suggesting the 22:56 UTC event might be a continuation of previously documented KeyError patterns. The timestamp discrepancy requires careful cross-referencing to ensure accurate event tracking.
+
+After careful analysis, the 22:56 UTC observation doesn't introduce substantively new information. The KeyError challenges remain consistent with earlier documented events, and the balance behaves similarly to previous instances. The event represents a repetitive pattern rather than a novel occurrence.
+
+However, the nexus-auto-restart script's silent execution at 22:56 UTC does represent a distinct event, differing from the earlier 20:36 UTC occurrence. This subtle variation suggests a potential new data point worth recording.
+</think>
+
+- 🟢 2026-03-22 22:56 UTC nexus-auto-restart再次静默执行无输出 <!-- dc:type=event dc:importance=3.0 dc:date=2026-03-22 -->
+
+<think>
+Let me analyze the recent messages and compare them to what's already recorded.
+
+Recent messages (2026-03-22 23:04-23:08 UTC):
+
+1. **23:04** - User triggered cron: Run check.sh and send to M4监工群
+   - Output: Nexus 12 nodes OK, Fortytwo Agent heartbeat OK (08:04), Fortytwo terminal balance 717
+   - Output was sent to Telegram M4 group
+
+2. **23:06** - User triggered cron: Fortytwo heartbeat + Gateway self-heal health check
+
+3. **23:07** - Assistant noted Fortytwo heartbeat had errors despite exit 0
+
+4. **23:07** - Assistant noted Gateway status via CLI hung and was killed
+
+5. **23:08** - Results:
+   - Gateway self-heal: exit 0, clean
+   - OpenClaw services: running
+   - Fortytwo heartbeat: not fully healthy
+     - JSON parse errors on token refresh path
+     - Intermittent bad reads like "Balance: Energy" and "Balance too low to answer (need >= 5)"
+     - Fresh login path still works
+
+Now let me check against "Already Recorded":
+
+Already recorded items:
+1. 22:26 UTC Gateway健康检查发现`openclaw gateway status`命令卡住
+2. 直接进程检查确认Gateway进程仍在运行
+3. Fortytwo心跳正常：余额717.50000000 Energy，登录成功，无活跃查询
+4. Gateway自愈日志显示历史错误痕迹但当前正常
+5. nexus-auto-restart静默执行无输出
+
+New observations to record:
+1. 23:04 UTC - check.sh ran, Nexus 12 nodes OK, Fortytwo balance 717, output sent to M4 group (Telegram)
+   - This is different from 22:26 check - this is a different cron job (check.sh vs gateway health check)
+   - The Fortytwo balance of 717 aligns with the 22:26 entry of 717.50000000 - this is essentially a duplicate fact about the same balance check
+   - The group notification is worth noting as a separate event
+
+2. 23:06 UTC - Another health check cron triggered (different from the 22:26 one)
+   - This is a new health check cycle, distinct from previous runs
+
+The Gateway command hangs again, and is terminated. The Fortytwo heartbeat reveals persistent issues:
+- Token refresh path continues to have JSON parse errors
+- Intermittent balance reading problems: "Energy" instead of numeric value
+- Occasional low balance warnings despite working fresh login path
+- OpenClaw services remain operational
+
+These findings are consistent with earlier observations, showing ongoing intermittent system challenges.
+</think>
+
+- 🔴 23:08 UTC Fortytwo心跳脚本异常：token刷新路径JSON解析失败，出现「Balance: Energy」等脏数据读数，余额偶发低于阈值(需>=5)，但新登录路径仍正常工作 <!-- dc:type=event dc:importance=7.0 dc:date=2026-03-22 -->
+  - 🔴 同上时段Gateway CLI状态命令再次卡住被killed，进程检查确认服务运行中 <!-- dc:type=event dc:importance=6.5 dc:date=2026-03-22 -->
+  - 🟢 23:08 UTC Gateway自愈脚本执行成功(exit 0)，OpenClaw核心服务运行正常 <!-- dc:type=fact dc:importance=5.0 dc:date=2026-03-22 -->
+  - 🟢 23:04 UTC check.sh执行结果：Nexus 12节点正常(运行01-10:07:52)，Fortytwo余额717，输出已发送至Telegram「M4监工群」 <!-- dc:type=event dc:importance=4.5 dc:date=2026-03-22 -->
