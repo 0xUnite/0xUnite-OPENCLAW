@@ -464,3 +464,99 @@
 03-23 20:30 无低 stake 机会 (stake > 500)
 03-23 20:45 余额: 717.50000000
 03-23 20:45 无低 stake 机会 (stake > 500)
+03-23 21:00 余额: 717.50000000
+03-23 21:00 无低 stake 机会 (stake > 500)
+03-23 21:15 余额: 717.50000000
+03-23 21:15 无低 stake 机会 (stake > 500)
+03-23 21:30 余额: 717.50000000
+03-23 21:30 无低 stake 机会 (stake > 500)
+03-23 21:45 余额: 717.50000000
+03-23 21:45 无低 stake 机会 (stake > 500)
+03-23 22:00 余额: 717.50000000
+03-23 22:00 无低 stake 机会 (stake > 500)
+03-23 22:15 余额: 717.50000000
+03-23 22:15 无低 stake 机会 (stake > 500)
+03-23 22:30 余额: 717.50000000
+03-23 22:31 无低 stake 机会 (stake > 500)
+03-23 22:46 余额: 717.50000000
+03-23 22:46 无低 stake 机会 (stake > 500)
+03-23 23:01 余额: 717.50000000
+03-23 23:01 无低 stake 机会 (stake > 500)
+03-23 23:16 余额: 717.50000000
+03-23 23:16 无低 stake 机会 (stake > 500)
+03-23 23:31 余额: 717.50000000
+{"ok":true,"result":{"message_id":1486,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774276274,"text":"\ud83d\udd25 \u4f4e Stake \u673a\u4f1a\uff01\n\n\u4f59\u989d: 717.50000000 Energy\n\n\u2022 ID: 4485589f | Stake: 350.0 | none","entities":[{"offset":3,"length":11,"type":"bold"}]}}03-23 23:31 发送通知: 1 个机会
+03-23 23:46 余额: 717.50000000
+{"ok":true,"result":{"message_id":1487,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774277179,"text":"\ud83d\udd25 \u4f4e Stake \u673a\u4f1a\uff01\n\n\u4f59\u989d: 717.50000000 Energy\n\n\u2022 ID: 4485589f | Stake: 350.0 | none","entities":[{"offset":3,"length":11,"type":"bold"}]}}03-23 23:46 发送通知: 1 个机会
+03-24 00:01 余额: 717.50000000
+{"ok":true,"result":{"message_id":1488,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774278083,"text":"\ud83d\udd25 \u4f4e Stake \u673a\u4f1a\uff01\n\n\u4f59\u989d: 717.50000000 Energy\n\n\u2022 ID: 4485589f | Stake: 350.0 | none","entities":[{"offset":3,"length":11,"type":"bold"}]}}03-24 00:01 发送通知: 1 个机会
+03-24 00:16 余额: 717.50000000
+03-24 00:16 无低 stake 机会 (stake > 500)
+03-24 00:31 余额: 717.50000000
+03-24 00:31 无低 stake 机会 (stake > 500)
+03-24 00:46 余额: 717.50000000
+03-24 00:46 无低 stake 机会 (stake > 500)
+03-24 01:01 余额: 717.50000000
+03-24 01:01 无低 stake 机会 (stake > 500)
+03-24 01:16 余额: 717.50000000
+03-24 01:16 无低 stake 机会 (stake > 500)
+03-24 01:31 余额: 717.50000000
+03-24 01:31 无低 stake 机会 (stake > 500)
+03-24 01:46 余额: 717.50000000
+03-24 01:46 无低 stake 机会 (stake > 500)
+03-24 02:01 余额: 717.50000000
+03-24 02:01 无低 stake 机会 (stake > 500)
+03-24 02:16 余额: 717.50000000
+03-24 02:16 无低 stake 机会 (stake > 500)
+03-24 02:31 余额: 717.50000000
+03-24 02:31 无低 stake 机会 (stake > 500)
+03-24 02:46 余额: 717.50000000
+03-24 02:46 无低 stake 机会 (stake > 500)
+03-24 03:02 余额: 717.50000000
+{"ok":true,"result":{"message_id":1496,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774288923,"text":"\ud83d\udd25 \u4f4e Stake \u673a\u4f1a\uff01\n\n\u4f59\u989d: 717.50000000 Energy\n\n\u2022 ID: e086b701 | Stake: 385.0 | television","entities":[{"offset":3,"length":11,"type":"bold"}]}}03-24 03:02 发送通知: 1 个机会
+03-24 03:17 余额: 717.50000000
+{"ok":true,"result":{"message_id":1497,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774289828,"text":"\ud83d\udd25 \u4f4e Stake \u673a\u4f1a\uff01\n\n\u4f59\u989d: 717.50000000 Energy\n\n\u2022 ID: e086b701 | Stake: 385.0 | television","entities":[{"offset":3,"length":11,"type":"bold"}]}}03-24 03:17 发送通知: 1 个机会
+03-24 03:32 余额: 717.50000000
+{"ok":true,"result":{"message_id":1499,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774290732,"text":"\ud83d\udd25 \u4f4e Stake \u673a\u4f1a\uff01\n\n\u4f59\u989d: 717.50000000 Energy\n\n\u2022 ID: e086b701 | Stake: 385.0 | television","entities":[{"offset":3,"length":11,"type":"bold"}]}}03-24 03:32 发送通知: 1 个机会
+03-24 03:47 余额: 717.50000000
+{"ok":true,"result":{"message_id":1500,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774291637,"text":"\ud83d\udd25 \u4f4e Stake \u673a\u4f1a\uff01\n\n\u4f59\u989d: 717.50000000 Energy\n\n\u2022 ID: e086b701 | Stake: 385.0 | television","entities":[{"offset":3,"length":11,"type":"bold"}]}}03-24 03:47 发送通知: 1 个机会
+03-24 04:02 余额: 717.50000000
+{"ok":true,"result":{"message_id":1501,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774292541,"text":"\ud83d\udd25 \u4f4e Stake \u673a\u4f1a\uff01\n\n\u4f59\u989d: 717.50000000 Energy\n\n\u2022 ID: e086b701 | Stake: 385.0 | television","entities":[{"offset":3,"length":11,"type":"bold"}]}}03-24 04:02 发送通知: 1 个机会
+03-24 04:17 余额: 717.50000000
+{"ok":true,"result":{"message_id":1502,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774293445,"text":"\ud83d\udd25 \u4f4e Stake \u673a\u4f1a\uff01\n\n\u4f59\u989d: 717.50000000 Energy\n\n\u2022 ID: e086b701 | Stake: 385.0 | television","entities":[{"offset":3,"length":11,"type":"bold"}]}}03-24 04:17 发送通知: 1 个机会
+03-24 04:32 余额: 717.50000000
+{"ok":true,"result":{"message_id":1506,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774294350,"text":"\ud83d\udd25 \u4f4e Stake \u673a\u4f1a\uff01\n\n\u4f59\u989d: 717.50000000 Energy\n\n\u2022 ID: e086b701 | Stake: 385.0 | television","entities":[{"offset":3,"length":11,"type":"bold"}]}}03-24 04:32 发送通知: 1 个机会
+03-24 04:47 余额: 717.50000000
+{"ok":true,"result":{"message_id":1507,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774295254,"text":"\ud83d\udd25 \u4f4e Stake \u673a\u4f1a\uff01\n\n\u4f59\u989d: 717.50000000 Energy\n\n\u2022 ID: e086b701 | Stake: 385.0 | television","entities":[{"offset":3,"length":11,"type":"bold"}]}}03-24 04:47 发送通知: 1 个机会
+03-24 05:02 余额: 717.50000000
+{"ok":true,"result":{"message_id":1508,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774296159,"text":"\ud83d\udd25 \u4f4e Stake \u673a\u4f1a\uff01\n\n\u4f59\u989d: 717.50000000 Energy\n\n\u2022 ID: e086b701 | Stake: 385.0 | television","entities":[{"offset":3,"length":11,"type":"bold"}]}}03-24 05:02 发送通知: 1 个机会
+03-24 05:17 余额: 717.50000000
+{"ok":true,"result":{"message_id":1509,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774297063,"text":"\ud83d\udd25 \u4f4e Stake \u673a\u4f1a\uff01\n\n\u4f59\u989d: 717.50000000 Energy\n\n\u2022 ID: e086b701 | Stake: 385.0 | television","entities":[{"offset":3,"length":11,"type":"bold"}]}}03-24 05:17 发送通知: 1 个机会
+03-24 05:32 余额: 717.50000000
+{"ok":true,"result":{"message_id":1511,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774297968,"text":"\ud83d\udd25 \u4f4e Stake \u673a\u4f1a\uff01\n\n\u4f59\u989d: 717.50000000 Energy\n\n\u2022 ID: e086b701 | Stake: 385.0 | television","entities":[{"offset":3,"length":11,"type":"bold"}]}}03-24 05:32 发送通知: 1 个机会
+03-24 05:47 余额: 717.50000000
+{"ok":true,"result":{"message_id":1512,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774298872,"text":"\ud83d\udd25 \u4f4e Stake \u673a\u4f1a\uff01\n\n\u4f59\u989d: 717.50000000 Energy\n\n\u2022 ID: e086b701 | Stake: 385.0 | television","entities":[{"offset":3,"length":11,"type":"bold"}]}}03-24 05:47 发送通知: 1 个机会
+03-24 06:02 余额: 717.50000000
+{"ok":true,"result":{"message_id":1513,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774299777,"text":"\ud83d\udd25 \u4f4e Stake \u673a\u4f1a\uff01\n\n\u4f59\u989d: 717.50000000 Energy\n\n\u2022 ID: e086b701 | Stake: 385.0 | television","entities":[{"offset":3,"length":11,"type":"bold"}]}}03-24 06:02 发送通知: 1 个机会
+03-24 06:17 余额: 717.50000000
+{"ok":true,"result":{"message_id":1514,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774300681,"text":"\ud83d\udd25 \u4f4e Stake \u673a\u4f1a\uff01\n\n\u4f59\u989d: 717.50000000 Energy\n\n\u2022 ID: e086b701 | Stake: 385.0 | television","entities":[{"offset":3,"length":11,"type":"bold"}]}}03-24 06:18 发送通知: 1 个机会
+03-24 06:33 余额: 717.50000000
+{"ok":true,"result":{"message_id":1519,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774301586,"text":"\ud83d\udd25 \u4f4e Stake \u673a\u4f1a\uff01\n\n\u4f59\u989d: 717.50000000 Energy\n\n\u2022 ID: e086b701 | Stake: 385.0 | television","entities":[{"offset":3,"length":11,"type":"bold"}]}}03-24 06:33 发送通知: 1 个机会
+03-24 06:48 余额: 717.50000000
+{"ok":true,"result":{"message_id":1520,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774302490,"text":"\ud83d\udd25 \u4f4e Stake \u673a\u4f1a\uff01\n\n\u4f59\u989d: 717.50000000 Energy\n\n\u2022 ID: e086b701 | Stake: 385.0 | television","entities":[{"offset":3,"length":11,"type":"bold"}]}}03-24 06:48 发送通知: 1 个机会
+03-24 07:03 余额: 717.50000000
+{"ok":true,"result":{"message_id":1521,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774303394,"text":"\ud83d\udd25 \u4f4e Stake \u673a\u4f1a\uff01\n\n\u4f59\u989d: 717.50000000 Energy\n\n\u2022 ID: e086b701 | Stake: 385.0 | television","entities":[{"offset":3,"length":11,"type":"bold"}]}}03-24 07:03 发送通知: 1 个机会
+03-24 07:18 余额: 717.50000000
+{"ok":true,"result":{"message_id":1522,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774304299,"text":"\ud83d\udd25 \u4f4e Stake \u673a\u4f1a\uff01\n\n\u4f59\u989d: 717.50000000 Energy\n\n\u2022 ID: e086b701 | Stake: 385.0 | television","entities":[{"offset":3,"length":11,"type":"bold"}]}}03-24 07:18 发送通知: 1 个机会
+03-24 07:33 余额: 717.50000000
+{"ok":true,"result":{"message_id":1524,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774305203,"text":"\ud83d\udd25 \u4f4e Stake \u673a\u4f1a\uff01\n\n\u4f59\u989d: 717.50000000 Energy\n\n\u2022 ID: e086b701 | Stake: 385.0 | television","entities":[{"offset":3,"length":11,"type":"bold"}]}}03-24 07:33 发送通知: 1 个机会
+03-24 07:48 余额: 717.50000000
+{"ok":true,"result":{"message_id":1525,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774306108,"text":"\ud83d\udd25 \u4f4e Stake \u673a\u4f1a\uff01\n\n\u4f59\u989d: 717.50000000 Energy\n\n\u2022 ID: e086b701 | Stake: 385.0 | television","entities":[{"offset":3,"length":11,"type":"bold"}]}}03-24 07:48 发送通知: 1 个机会
+03-24 08:03 余额: 717.50000000
+{"ok":true,"result":{"message_id":1526,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774307012,"text":"\ud83d\udd25 \u4f4e Stake \u673a\u4f1a\uff01\n\n\u4f59\u989d: 717.50000000 Energy\n\n\u2022 ID: e086b701 | Stake: 385.0 | television","entities":[{"offset":3,"length":11,"type":"bold"}]}}03-24 08:03 发送通知: 1 个机会
+03-24 08:18 余额: 717.50000000
+{"ok":true,"result":{"message_id":1529,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774307917,"text":"\ud83d\udd25 \u4f4e Stake \u673a\u4f1a\uff01\n\n\u4f59\u989d: 717.50000000 Energy\n\n\u2022 ID: e086b701 | Stake: 385.0 | television","entities":[{"offset":3,"length":11,"type":"bold"}]}}03-24 08:18 发送通知: 1 个机会
+03-24 08:33 余额: 717.50000000
+{"ok":true,"result":{"message_id":1531,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774308821,"text":"\ud83d\udd25 \u4f4e Stake \u673a\u4f1a\uff01\n\n\u4f59\u989d: 717.50000000 Energy\n\n\u2022 ID: e086b701 | Stake: 385.0 | television","entities":[{"offset":3,"length":11,"type":"bold"}]}}03-24 08:33 发送通知: 1 个机会
+03-24 08:48 余额: 717.50000000
+{"ok":true,"result":{"message_id":1532,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774309726,"text":"\ud83d\udd25 \u4f4e Stake \u673a\u4f1a\uff01\n\n\u4f59\u989d: 717.50000000 Energy\n\n\u2022 ID: e086b701 | Stake: 385.0 | television","entities":[{"offset":3,"length":11,"type":"bold"}]}}03-24 08:48 发送通知: 1 个机会
