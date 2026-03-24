@@ -3,10 +3,8 @@
     "email": null,
     "calendar": null,
     "weather": null,
-    "projects": 1774266600
+    "projects": "2026-03-24T11:32:00Z"
   },
-  "lastHeartbeat": "2026-03-24T06:45:00Z",
-  "notes": {
-    "morning-check": "2026-03-24T06:45 KST - Nexus 6/6 OK (5 prove-fib-subprocess active). Fortytwo OK (2 processes). Website 0xunite.com DOWN (000, known). System stable. Reminder: Today 12:00 KST run EvoSci onboard."
-  }
+  "20:32-check": "Fortytwo OK (InferenceRound active, 9 participants, some peer ID mismatches on retries - normal). Nexus OK (no crash logs). Website DOWN (known). OpenClaw running.",
+  "20:32-security": "Unresolved: groupPolicy open + elevated tools (critical) from 19:30 audit - needs attention."
 }
