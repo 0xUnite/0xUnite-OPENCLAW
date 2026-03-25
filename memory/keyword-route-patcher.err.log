@@ -1,0 +1,1 @@
+/Users/sudi/.openclaw/scripts/openclaw-keyword-route-watchdog.sh: line 75:  1888 Terminated: 15          node "$PATCHER" --root "$openclaw_root" > /dev/null 2>&1
