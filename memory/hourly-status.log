@@ -1204,4 +1204,112 @@
 | Fortytwo 终端 | ✅ 余额717 |
 
 ━━━━━━━━━━━━━━━━━━━━
-{"ok":true,"result":{"message_id":1773,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774481749,"text":"\ud83d\udcca \u7cfb\u7edf\u72b6\u6001 03/26 08:35\n\n| \u9879\u76ee | \u72b6\u6001 |\n| :--- | :--- |\n| Nexus \u8282\u70b9 | \u2705 12\u8282\u70b9(\u8fd0\u884c01-08:55:23) |\n| Fortytwo Agent | \u2705 \u5fc3\u8df308:34|\u6d3b\u8dc35 |\n| Fortytwo \u7ec8\u7aef | \u2705 \u4f59\u989d717 |\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501","entities":[{"offset":3,"length":4,"type":"bold"}]}}
+{"ok":true,"result":{"message_id":1773,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774481749,"text":"\ud83d\udcca \u7cfb\u7edf\u72b6\u6001 03/26 08:35\n\n| \u9879\u76ee | \u72b6\u6001 |\n| :--- | :--- |\n| Nexus \u8282\u70b9 | \u2705 12\u8282\u70b9(\u8fd0\u884c01-08:55:23) |\n| Fortytwo Agent | \u2705 \u5fc3\u8df308:34|\u6d3b\u8dc35 |\n| Fortytwo \u7ec8\u7aef | \u2705 \u4f59\u989d717 |\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501","entities":[{"offset":3,"length":4,"type":"bold"}]}}📊 *系统状态* 03/26 09:36
+
+| 项目 | 状态 |
+| :--- | :--- |
+| Nexus 节点 | ✅ 11节点(运行01-09:55:31) |
+| Fortytwo Agent | ✅ 心跳09:35|活跃 |
+| Fortytwo 终端 | ✅ 余额717 |
+
+━━━━━━━━━━━━━━━━━━━━
+{"ok":true,"result":{"message_id":1777,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774485362,"text":"\ud83d\udcca \u7cfb\u7edf\u72b6\u6001 03/26 09:36\n\n| \u9879\u76ee | \u72b6\u6001 |\n| :--- | :--- |\n| Nexus \u8282\u70b9 | \u2705 11\u8282\u70b9(\u8fd0\u884c01-09:55:31) |\n| Fortytwo Agent | \u2705 \u5fc3\u8df309:35|\u6d3b\u8dc3 |\n| Fortytwo \u7ec8\u7aef | \u2705 \u4f59\u989d717 |\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501","entities":[{"offset":3,"length":4,"type":"bold"}]}}📊 *系统状态* 03/26 10:36
+
+| 项目 | 状态 |
+| :--- | :--- |
+| Nexus 节点 | ✅ 12节点(运行01-10:55:45) |
+| Fortytwo Agent | ✅ 心跳10:35|活跃 |
+| Fortytwo 终端 | ✅ 余额717 |
+
+━━━━━━━━━━━━━━━━━━━━
+{"ok":true,"result":{"message_id":1782,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774488975,"text":"\ud83d\udcca \u7cfb\u7edf\u72b6\u6001 03/26 10:36\n\n| \u9879\u76ee | \u72b6\u6001 |\n| :--- | :--- |\n| Nexus \u8282\u70b9 | \u2705 12\u8282\u70b9(\u8fd0\u884c01-10:55:45) |\n| Fortytwo Agent | \u2705 \u5fc3\u8df310:35|\u6d3b\u8dc3 |\n| Fortytwo \u7ec8\u7aef | \u2705 \u4f59\u989d717 |\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501","entities":[{"offset":3,"length":4,"type":"bold"}]}}📊 *系统状态* 03/26 11:36
+
+| 项目 | 状态 |
+| :--- | :--- |
+| Nexus 节点 | ✅ 8节点(运行01-11:55:57) |
+| Fortytwo Agent | ✅ 心跳11:35|活跃2 |
+| Fortytwo 终端 | ✅ 余额717 |
+
+━━━━━━━━━━━━━━━━━━━━
+{"ok":true,"result":{"message_id":1786,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774492587,"text":"\ud83d\udcca \u7cfb\u7edf\u72b6\u6001 03/26 11:36\n\n| \u9879\u76ee | \u72b6\u6001 |\n| :--- | :--- |\n| Nexus \u8282\u70b9 | \u2705 8\u8282\u70b9(\u8fd0\u884c01-11:55:57) |\n| Fortytwo Agent | \u2705 \u5fc3\u8df311:35|\u6d3b\u8dc32 |\n| Fortytwo \u7ec8\u7aef | \u2705 \u4f59\u989d717 |\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501","entities":[{"offset":3,"length":4,"type":"bold"}]}}📊 *系统状态* 03/26 12:36
+
+| 项目 | 状态 |
+| :--- | :--- |
+| Nexus 节点 | ✅ 11节点(运行01-12:56:09) |
+| Fortytwo Agent | ✅ 心跳12:36|活跃 |
+| Fortytwo 终端 | ✅ 余额717 |
+
+━━━━━━━━━━━━━━━━━━━━
+{"ok":true,"result":{"message_id":1793,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774496206,"text":"\ud83d\udcca \u7cfb\u7edf\u72b6\u6001 03/26 12:36\n\n| \u9879\u76ee | \u72b6\u6001 |\n| :--- | :--- |\n| Nexus \u8282\u70b9 | \u2705 11\u8282\u70b9(\u8fd0\u884c01-12:56:09) |\n| Fortytwo Agent | \u2705 \u5fc3\u8df312:36|\u6d3b\u8dc3 |\n| Fortytwo \u7ec8\u7aef | \u2705 \u4f59\u989d717 |\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501","entities":[{"offset":3,"length":4,"type":"bold"}]}}📊 *系统状态* 03/26 13:37
+
+| 项目 | 状态 |
+| :--- | :--- |
+| Nexus 节点 | ✅ 11节点(运行00:03) |
+| Fortytwo Agent | ✅ 心跳13:36|活跃 |
+| Fortytwo 终端 | ✅ 余额717 |
+
+━━━━━━━━━━━━━━━━━━━━
+{"ok":true,"result":{"message_id":1796,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774499822,"text":"\ud83d\udcca \u7cfb\u7edf\u72b6\u6001 03/26 13:37\n\n| \u9879\u76ee | \u72b6\u6001 |\n| :--- | :--- |\n| Nexus \u8282\u70b9 | \u2705 11\u8282\u70b9(\u8fd0\u884c00:03) |\n| Fortytwo Agent | \u2705 \u5fc3\u8df313:36|\u6d3b\u8dc3 |\n| Fortytwo \u7ec8\u7aef | \u2705 \u4f59\u989d717 |\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501","entities":[{"offset":3,"length":4,"type":"bold"}]}}📊 *系统状态* 03/26 14:37
+
+| 项目 | 状态 |
+| :--- | :--- |
+| Nexus 节点 | ✅ 12节点(运行) |
+| Fortytwo Agent | ✅ 心跳14:35|活跃3 |
+| Fortytwo 终端 | ✅ 余额717 |
+
+━━━━━━━━━━━━━━━━━━━━
+{"ok":true,"result":{"message_id":1801,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774503440,"text":"\ud83d\udcca \u7cfb\u7edf\u72b6\u6001 03/26 14:37\n\n| \u9879\u76ee | \u72b6\u6001 |\n| :--- | :--- |\n| Nexus \u8282\u70b9 | \u2705 12\u8282\u70b9(\u8fd0\u884c) |\n| Fortytwo Agent | \u2705 \u5fc3\u8df314:35|\u6d3b\u8dc33 |\n| Fortytwo \u7ec8\u7aef | \u2705 \u4f59\u989d717 |\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501","entities":[{"offset":3,"length":4,"type":"bold"}]}}📊 *系统状态* 03/26 15:37
+
+| 项目 | 状态 |
+| :--- | :--- |
+| Nexus 节点 | ✅ 12节点(运行01-15:57:03) |
+| Fortytwo Agent | ✅ 心跳15:36|活跃 |
+| Fortytwo 终端 | ✅ 余额717 |
+
+━━━━━━━━━━━━━━━━━━━━
+{"ok":true,"result":{"message_id":1804,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774507048,"text":"\ud83d\udcca \u7cfb\u7edf\u72b6\u6001 03/26 15:37\n\n| \u9879\u76ee | \u72b6\u6001 |\n| :--- | :--- |\n| Nexus \u8282\u70b9 | \u2705 12\u8282\u70b9(\u8fd0\u884c01-15:57:03) |\n| Fortytwo Agent | \u2705 \u5fc3\u8df315:36|\u6d3b\u8dc3 |\n| Fortytwo \u7ec8\u7aef | \u2705 \u4f59\u989d717 |\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501","entities":[{"offset":3,"length":4,"type":"bold"}]}}📊 *系统状态* 03/26 16:37
+
+| 项目 | 状态 |
+| :--- | :--- |
+| Nexus 节点 | ✅ 11节点(运行01-16:57:11) |
+| Fortytwo Agent | ✅ 心跳16:36|活跃 |
+| Fortytwo 终端 | ✅ 余额717 |
+
+━━━━━━━━━━━━━━━━━━━━
+{"ok":true,"result":{"message_id":1807,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774510662,"text":"\ud83d\udcca \u7cfb\u7edf\u72b6\u6001 03/26 16:37\n\n| \u9879\u76ee | \u72b6\u6001 |\n| :--- | :--- |\n| Nexus \u8282\u70b9 | \u2705 11\u8282\u70b9(\u8fd0\u884c01-16:57:11) |\n| Fortytwo Agent | \u2705 \u5fc3\u8df316:36|\u6d3b\u8dc3 |\n| Fortytwo \u7ec8\u7aef | \u2705 \u4f59\u989d717 |\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501","entities":[{"offset":3,"length":4,"type":"bold"}]}}📊 *系统状态* 03/26 17:37
+
+| 项目 | 状态 |
+| :--- | :--- |
+| Nexus 节点 | ✅ 12节点(运行01-17:57:25) |
+| Fortytwo Agent | ✅ 心跳17:36|活跃3 |
+| Fortytwo 终端 | ✅ 余额717 |
+
+━━━━━━━━━━━━━━━━━━━━
+{"ok":true,"result":{"message_id":1810,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774514280,"text":"\ud83d\udcca \u7cfb\u7edf\u72b6\u6001 03/26 17:37\n\n| \u9879\u76ee | \u72b6\u6001 |\n| :--- | :--- |\n| Nexus \u8282\u70b9 | \u2705 12\u8282\u70b9(\u8fd0\u884c01-17:57:25) |\n| Fortytwo Agent | \u2705 \u5fc3\u8df317:36|\u6d3b\u8dc33 |\n| Fortytwo \u7ec8\u7aef | \u2705 \u4f59\u989d717 |\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501","entities":[{"offset":3,"length":4,"type":"bold"}]}}📊 *系统状态* 03/26 18:38
+
+| 项目 | 状态 |
+| :--- | :--- |
+| Nexus 节点 | ✅ 11节点(运行01-18:57:44) |
+| Fortytwo Agent | ✅ 心跳18:36|活跃2 |
+| Fortytwo 终端 | ✅ 余额717 |
+
+━━━━━━━━━━━━━━━━━━━━
+{"ok":true,"result":{"message_id":1814,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774517894,"text":"\ud83d\udcca \u7cfb\u7edf\u72b6\u6001 03/26 18:38\n\n| \u9879\u76ee | \u72b6\u6001 |\n| :--- | :--- |\n| Nexus \u8282\u70b9 | \u2705 11\u8282\u70b9(\u8fd0\u884c01-18:57:44) |\n| Fortytwo Agent | \u2705 \u5fc3\u8df318:36|\u6d3b\u8dc32 |\n| Fortytwo \u7ec8\u7aef | \u2705 \u4f59\u989d717 |\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501","entities":[{"offset":3,"length":4,"type":"bold"}]}}📊 *系统状态* 03/26 19:38
+
+| 项目 | 状态 |
+| :--- | :--- |
+| Nexus 节点 | ✅ 11节点(运行00:06) |
+| Fortytwo Agent | ✅ 心跳19:37|活跃 |
+| Fortytwo 终端 | ✅ 余额717 |
+
+━━━━━━━━━━━━━━━━━━━━
+{"ok":true,"result":{"message_id":1818,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774521512,"text":"\ud83d\udcca \u7cfb\u7edf\u72b6\u6001 03/26 19:38\n\n| \u9879\u76ee | \u72b6\u6001 |\n| :--- | :--- |\n| Nexus \u8282\u70b9 | \u2705 11\u8282\u70b9(\u8fd0\u884c00:06) |\n| Fortytwo Agent | \u2705 \u5fc3\u8df319:37|\u6d3b\u8dc3 |\n| Fortytwo \u7ec8\u7aef | \u2705 \u4f59\u989d717 |\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501","entities":[{"offset":3,"length":4,"type":"bold"}]}}📊 *系统状态* 03/26 20:38
+
+| 项目 | 状态 |
+| :--- | :--- |
+| Nexus 节点 | ✅ 12节点(运行00:03) |
+| Fortytwo Agent | ✅ 心跳20:38|活跃3 |
+| Fortytwo 终端 | ✅ 余额717 |
+
+━━━━━━━━━━━━━━━━━━━━
+{"ok":true,"result":{"message_id":1824,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774525123,"text":"\ud83d\udcca \u7cfb\u7edf\u72b6\u6001 03/26 20:38\n\n| \u9879\u76ee | \u72b6\u6001 |\n| :--- | :--- |\n| Nexus \u8282\u70b9 | \u2705 12\u8282\u70b9(\u8fd0\u884c00:03) |\n| Fortytwo Agent | \u2705 \u5fc3\u8df320:38|\u6d3b\u8dc33 |\n| Fortytwo \u7ec8\u7aef | \u2705 \u4f59\u989d717 |\n\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501","entities":[{"offset":3,"length":4,"type":"bold"}]}}

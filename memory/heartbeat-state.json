@@ -4,9 +4,10 @@
     "calendar": null,
     "weather": null
   },
-  "lastHeartbeat": "2026-03-25T07:05:00Z",
+  "lastHeartbeat": "2026-03-26T06:17:00Z",
   "notes": {
     "morning-check": "2026-03-25T09:45 KST - Daily automation completed. All services OK. Reminder: Today 12:00 KST run EvoSci onboard.",
-    "afternoon-check": "2026-03-25T16:05 KST - All services OK. Fortytwo: 3 active/717.5 Energy. Molt mint running. Nexus processes active."
+    "afternoon-check": "2026-03-26T15:17 KST - Nova-hav SIGTERM caused by total-recall-observer timeout cascade. Fixed: (1) openclaw doctor --fix ran, (2) raised total-recall-observer timeout from 120s to 300s.",
+    "late-morning-check": "2026-03-26T12:45 KST - All services OK. Nexus: 5 prove-fib-subprocesses running, 6 nodes online. Fortytwo: heartbeat-fast running. No issues detected."
   }
 }
