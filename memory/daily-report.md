@@ -11686,3 +11686,819 @@ GPT Mint: ❌
 Nexus: 6/6 节点
 Fortytwo Console: ❌
 Fortytwo Agent: ✅
+---
+## 03-28 09:03 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 09:08 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 09:13 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 09:19 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 09:24 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 09:29 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 09:35 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 09:40 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 09:45 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 09:51 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 09:56 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 10:01 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ✅
+---
+## 03-28 10:07 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 10:12 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 10:17 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 10:22 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 10:28 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 10:33 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 10:38 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 10:44 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ✅
+---
+## 03-28 10:49 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 10:54 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 11:00 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 11:05 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ✅
+---
+## 03-28 11:10 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 11:16 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 11:21 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 11:26 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ✅
+---
+## 03-28 11:32 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 11:37 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 11:42 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 11:48 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 11:53 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 11:58 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 12:04 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ✅
+---
+## 03-28 12:09 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 12:14 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 12:20 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 12:25 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ✅
+---
+## 03-28 12:30 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 12:36 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 12:41 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 12:46 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 12:52 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ✅
+---
+## 03-28 12:57 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 13:02 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 13:08 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ✅
+---
+## 03-28 13:13 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 13:18 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 13:24 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 13:29 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 13:34 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ✅
+---
+## 03-28 13:40 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 13:45 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 13:50 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ✅
+---
+## 03-28 13:56 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 14:01 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 14:06 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 14:12 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ✅
+---
+## 03-28 14:17 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 14:22 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 14:28 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 14:33 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 14:39 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 14:44 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 14:49 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 14:54 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 15:00 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 15:05 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 15:11 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 15:16 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 15:21 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 15:26 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 15:32 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 15:37 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 15:43 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 15:48 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 15:53 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 15:59 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 16:04 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 16:09 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 16:15 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 16:20 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 16:25 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 16:31 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 16:36 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 16:41 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 16:47 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 16:52 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ✅
+---
+## 03-28 16:58 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 17:03 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 17:08 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ✅
+---
+## 03-28 17:14 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 17:19 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 17:24 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 17:29 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 17:35 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ✅
+---
+## 03-28 17:40 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 17:45 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 17:51 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 17:56 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 18:01 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 18:07 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 18:12 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 18:17 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 18:23 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 18:28 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 18:33 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 18:39 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 18:44 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ✅
+---
+## 03-28 18:49 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 18:55 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 19:00 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 19:06 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 19:11 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 19:16 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ✅
+---
+## 03-28 19:21 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 19:27 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 19:32 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 19:37 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 19:43 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 19:48 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 19:54 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ✅
+---
+## 03-28 19:59 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 20:04 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 20:09 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 20:15 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ✅
+---
+## 03-28 20:20 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 20:25 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 20:31 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 20:36 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 20:41 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 20:47 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 20:52 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 20:57 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ❌
+---
+## 03-28 21:00 监控
+GPT Mint: ❌
+Nexus: 6/6 节点
+Fortytwo Console: ❌
+Fortytwo Agent: ✅
