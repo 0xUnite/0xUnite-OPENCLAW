@@ -1,0 +1,20 @@
+[2026-03-29 17:48] 🔍 检查 CycleStudies 最新视频...
+[2026-03-29 17:48] 📺 发现新视频: [2026-03-29] 梦回2022，比特币狗庄的镰刀比2022年更快！
+[2026-03-29 17:48] 🎬 开始处理新视频...
+[2026-03-29 17:48] ⬇️ 下载音频...
+[youtube] Extracting URL: https://youtu.be/yBP0_bHGF9A
+[youtube] yBP0_bHGF9A: Downloading webpage
+[youtube] yBP0_bHGF9A: Downloading android vr player API JSON
+[youtube] yBP0_bHGF9A: Downloading web player API JSON
+[youtube] yBP0_bHGF9A: Downloading web safari player API JSON
+[info] yBP0_bHGF9A: Downloading 1 format(s): 251
+[download] Destination: cycle-audio.webm
+[download]   0.0% of   12.53MiB at  Unknown B/s ETA Unknown[download]   0.0% of   12.53MiB at  Unknown B/s ETA Unknown[download]   0.1% of   12.53MiB at    6.04MiB/s ETA 00:02  [download]   0.1% of   12.53MiB at   10.98MiB/s ETA 00:01[download]   0.2% of   12.53MiB at    2.20MiB/s ETA 00:05[download]   0.5% of   12.53MiB at    3.40MiB/s ETA 00:03[download]   1.0% of   12.53MiB at    4.15MiB/s ETA 00:02[download]   2.0% of   12.53MiB at    5.26MiB/s ETA 00:02[download]   4.0% of   12.53MiB at    7.79MiB/s ETA 00:01[download]   8.0% of   12.53MiB at   12.93MiB/s ETA 00:00[download]  15.9% of   12.53MiB at   19.36MiB/s ETA 00:00[download]  31.9% of   12.53MiB at   16.36MiB/s ETA 00:00[download]  63.8% of   12.53MiB at   22.03MiB/s ETA 00:00[download]  77.9% of   12.53MiB at   19.83MiB/s ETA 00:00[download]  77.9% of   12.53MiB at  Unknown B/s ETA Unknown[download]  77.9% of   12.53MiB at  Unknown B/s ETA Unknown[download]  78.0% of   12.53MiB at  Unknown B/s ETA Unknown[download]  78.0% of   12.53MiB at  Unknown B/s ETA Unknown[download]  78.1% of   12.53MiB at   21.59MiB/s ETA 00:00  [download]  78.4% of   12.53MiB at   36.32MiB/s ETA 00:00[download]  78.9% of   12.53MiB at   63.80MiB/s ETA 00:00[download]  79.9% of   12.53MiB at    9.35MiB/s ETA 00:00[download]  81.9% of   12.53MiB at   15.17MiB/s ETA 00:00[download]  85.9% of   12.53MiB at   23.18MiB/s ETA 00:00[download]  93.9% of   12.53MiB at   32.46MiB/s ETA 00:00[download] 100.0% of   12.53MiB at   22.33MiB/s ETA 00:00[download] 100% of   12.53MiB in 00:00:00 at 15.29MiB/s  
+[ExtractAudio] Destination: cycle-audio.mp3
+Deleting original file cycle-audio.webm (pass -k to keep)
+[2026-03-29 17:48] 🎙️ Whisper 转录中（可能需要1-2分钟）...
+[2026-03-29 17:51] ✅ 转录完成 (   10620 字符)
+[2026-03-29 17:51] ✍️  生成文案...
+[2026-03-29 17:51] 📋 文案长度:     1929 字符
+[2026-03-29 17:51] 📤 发布到 Binance Square...
+[2026-03-29 17:51] ✅ 发布成功! Post ID: 306721141644834

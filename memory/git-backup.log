@@ -153,3 +153,15 @@ To https://github.com/0xUnite/0xUnite-OPENCLAW.git
  create mode 100644 memory/2026-03-28.md
 To https://github.com/0xUnite/0xUnite-OPENCLAW.git
    c287893..cc2da96  main -> main
+[main bd1c595] Auto backup: 2026-03-29
+ 30 files changed, 7532 insertions(+), 151658 deletions(-)
+ delete mode 100644 memory/binance-scanner.log
+ delete mode 100644 memory/binance-v3.log
+ delete mode 100644 memory/browser-self-heal.log
+ delete mode 100644 memory/simmer.log
+ delete mode 100644 memory/stock-monitor.err.log
+ delete mode 100644 memory/stock-monitor/600589-2026-03-21.log
+ delete mode 100644 memory/wtt-sim.log
+ delete mode 100644 memory/youtube-monitor.log
+To https://github.com/0xUnite/0xUnite-OPENCLAW.git
+   cc2da96..bd1c595  main -> main
