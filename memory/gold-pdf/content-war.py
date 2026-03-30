@@ -1,0 +1,75 @@
+import json, sys
+
+content = [
+  {"type": "h1", "text": "执行摘要"},
+  {"type": "body", "text": "2026年2月28日美以对伊开战，是理解当前黄金市场的关键节点。本报告在汇总11家投行目标价的基础上，深入分析美伊战争对金价的实质性影响、美联储货币政策走向，以及未来核心驱动因素。"},
+  {"type": "image", "path": "/tmp/gold-charts-final.png", "caption": "图1：黄金历史走势与各投行目标价对比"},
+  {"type": "image", "path": "/tmp/gold-war-chart.png", "caption": "图2：美伊战争期间金价走势 — 战争悖论：开打后不升反跌"},
+  {"type": "spacer", "pt": 8},
+  {"type": "h1", "text": "二、2026下半年各大投行目标价汇总（当前 $4,455）"},
+  {"type": "table", "headers": ["机构", "目标价", "涨幅", "时间", "来源"],
+    "rows": [
+      ["摩根大通", "$6,300", "+41%", "2026年底", "JPMorgan, Feb 2026 (Reuters)"],
+      ["瑞银", "$6,200", "+39%", "2026年3/6/9月", "UBS Precious Metals, Feb 2026"],
+      ["高盛", "$5,400", "+21%", "2026年底", "Goldman Sachs, Jan 22 2026 (Reuters)"],
+      ["德意志银行", "$6,000", "+35%", "2026年底", "Deutsche Bank, Jan 2026"],
+      ["富国银行", "$6,100-$6,300", "+37-41%", "2026年底", "Wells Fargo, Feb 2026"],
+      ["BMO", "$6,350", "+43%", "2026年Q4", "BMO Commodity, Jan 2026"],
+      ["道明证券", "$5,800", "+30%", "2026下半年", "TD Securities, Feb 2026"],
+      ["花旗", "$7,200-$7,500", "+62-68%", "2026年内", "Citi Private Bank, Jan 2026"],
+      ["Jefferies", "$6,600", "+48%", "2026年底", "Jefferies, Feb 2026"],
+      ["Yardeni", "$6,000", "+35%", "2026年底", "Yardeni Research, Jan 2026"],
+      ["CIBC", "$5,500", "+23%", "2026年底", "CIBC Commodity, Jan 2026"]
+    ]},
+  {"type": "h1", "text": "三、美伊战争对黄金的实质性影响分析"},
+  {"type": "h2", "text": "3.1 战争悖论：开打后金价不升反跌"},
+  {"type": "body", "text": "2月28日美以对伊发动军事打击后，市场走出了教科书上从未见过的战争悖论。战争开打，金价反而从$5,423跌至$4,455，跌幅超9%。"},
+  {"type": "body", "text": "2月28日：金价瞬间从$5,296飙升至$5,423（+2.4%），符合避险常规逻辑。"},
+  {"type": "body", "text": "3月中旬：金价已从高点回落超9%，回到$4,400-4,500美元区间。"},
+  {"type": "body", "text": "美元指数同期走强至100（4个月新高），成为真正的终极避风港。"},
+  {"type": "callout", "text": "核心矛盾：战争 -> 油价暴涨 -> 通胀压力加剧 -> 美联储被迫偏鹰 -> 美元走强 -> 黄金承压。历史剧本：与俄乌战争初期（2022年）走势如出一辙——初期避险推高黄金，但能源价格冲击传导至通胀后，央行被迫加息，金价进入数月调整期。来源：CNBC Mar 12 2026 | Mining.com Mar 23 2026"},
+  {"type": "h2", "text": "3.2 霍尔木兹海峡：4月中旬是核心节点"},
+  {"type": "body", "text": "全球约20%的石油运输经过霍尔木兹海峡。当前海峡封闭（流量仅正常水平的5%），3月27日油价已突破$110/桶。4月中旬：能源高管警告，若海峡届时仍未重新开放，将出现更严重的供应中断，油价可能升至$135-$157区间。"},
+  {"type": "callout", "text": "数据来源：Chronicle Journal Mar 27 2026 | CNBC Mar 23 2026 | Forex.com Q2 2026 Outlook"},
+  {"type": "h2", "text": "3.3 战争走向对金价的三种情景"},
+  {"type": "body", "text": "情景A（35%）：战争持续但不升级，油价$100-130高位震荡。美联储被迫推迟降息，金价区间$4,000-4,800整固。"},
+  {"type": "body", "text": "情景B（25%）：战争快速缓和，霍尔木兹重开，油价回落至$70-80。通胀压力缓解，美联储重启降息预期，美元走弱，黄金迎来新一轮上涨，突破$5,500。"},
+  {"type": "body", "text": "情景C（40%）：冲突扩大化（核设施打击），霍尔木兹持续封闭数月，油价突破$150。滞胀全面爆发，美联储可能被迫加息——美元走强压制黄金，但恶性通胀又同时支撑黄金，两股力量博弈。"},
+  {"type": "h1", "text": "四、美联储利率走向对黄金的影响"},
+  {"type": "h2", "text": "4.1 当前美联储立场（2026年3月）"},
+  {"type": "body", "text": "联邦基金利率维持3.5%-3.75%不变（市场预期落空）；全年降息预期从3-4次下调至仅1次；鲍威尔立场偏鹰。3月18日美联储宣布维持利率不变后，金价当天跌幅-2.2%，跌至$4,895。"},
+  {"type": "callout", "text": "来源：CNBC Mar 18 2026 - Gold prices lower after Fed keeps rates unchanged | CNBC Mar 19 2026"},
+  {"type": "h2", "text": "4.2 加息情景对黄金的双重压力"},
+  {"type": "body", "text": "加息构成双重压力：美元走强（持有黄金机会成本上升）+ 风险资产轮动至股债。但极端滞胀情景下（1970年代），即使美联储加息也未能阻止黄金上涨——关键在于实际利率而非名义利率。"},
+  {"type": "h1", "text": "五、关键价位与操作建议"},
+  {"type": "table", "headers": ["类型", "价格", "说明"],
+    "rows": [
+      ["当前价格", "$4,455", "KITCO 3月29日"],
+      ["即时支撑", "$4,654", "Murrey Math 4/8线，多指标共振"],
+      ["近期低点", "$4,402", "3月中旬触底反弹位"],
+      ["关键支撑", "$4,000-$4,200", "整数大关+EMA200区间"],
+      ["分水岭", "$5,000", "心理关口"],
+      ["前高区间", "$5,184-$5,423", "2026年1-3月高点"],
+      ["投行共识", "$6,000-$6,300", "年末目标"]
+    ]},
+  {"type": "h1", "text": "六、风险提示"},
+  {"type": "callout", "text": "美联储鹰派：通胀迫使加息，美元走强压制黄金"},
+  {"type": "callout", "text": "战争缓和：外交停火导致油价回落，黄金失去地缘溢价"},
+  {"type": "callout", "text": "滞胀陷阱：油价持续$150+，滞胀全面爆发（最复杂情景）"},
+  {"type": "callout", "text": "技术回调：跌破$4,000可能触发程序化止损加剧波动"},
+  {"type": "h1", "text": "七、数据来源"},
+  {"type": "numbered", "text": "CNBC Mar 12 2026 - Why gold has not moved since the Iran conflict (cnbc.com)"},
+  {"type": "numbered", "text": "CNBC Mar 18 2026 - Gold prices lower after Fed keeps rates unchanged (cnbc.com)"},
+  {"type": "numbered", "text": "CNBC Mar 19 2026 - Gold rises off one-month low; hawkish Fed caps gains (cnbc.com)"},
+  {"type": "numbered", "text": "Mining.com Mar 23 2026 - Gold rebounds as Trump postpones attack on Iran (mining.com)"},
+  {"type": "numbered", "text": "Chronicle Journal Mar 27 2026 - Crude Oil Tops $110 as Strait of Hormuz Closure (chroniclejournal.com)"},
+  {"type": "numbered", "text": "Reuters Feb 25 2026 - JP Morgan expects gold $6,300/oz by end-2026 (reuters.com)"},
+  {"type": "numbered", "text": "Reuters Jan 22 2026 - Goldman Sachs raises 2026 gold forecast to $5,400/oz (reuters.com)"},
+  {"type": "numbered", "text": "Kitco Fix Mar 29 2026 - Gold $4,454.55 (kitco.com/fix)"},
+  {"type": "body", "text": "本报告仅供参考，不构成投资建议。"}
+]
+
+workdir = sys.argv[1]
+with open(workdir + '/content.json', 'w', encoding='utf-8') as f:
+    json.dump(content, f, ensure_ascii=False, indent=2)
+print("OK")

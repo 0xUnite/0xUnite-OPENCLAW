@@ -1,0 +1,112 @@
+[
+  {"type":"h1", "text":"执行摘要"},
+  {"type":"body", "text":"2026年初，摩根大通、瑞银、德意志银行、富国银行等华尔街主要机构罕见达成共识：黄金价格将继续显著上涨。继2025年黄金以65%的回报率成为年度表现最强的大类资产后，2026年各大投行纷纷上调目标价至6000美元以上。本报告汇总全球顶级投行预测数据，深入分析驱动金价上涨的核心因素，并为投资者提供下半年前瞻性策略建议。所有数据均注明来源，确保可追溯可查证。"},
+
+  {"type":"h1", "text":"一、历史走势与当前市场格局"},
+  {"type":"body", "text":"下图展示了2024年至今的黄金价格走势，以及各投行的目标价对比。数据来源：World Gold Council、goldprice.org、YCharts。"},
+
+  {"type":"image", "path":"/tmp/gold-charts.png", "caption":"图1：黄金历史走势(左)与各投行2026年目标价对比(右)\n数据来源：World Gold Council, goldprice.org, 各投行公开报告"},
+
+  {"type":"spacer", "pt":12},
+
+  {"type":"h1", "text":"二、2026下半年各大投行黄金目标价汇总"},
+  {"type":"body", "text":"以下是全球主要金融机构对2026年下半年黄金价格的最新目标价预测，所有数据均来自各机构公开报告或权威财经媒体引用（数据截至2026年3月）。"},
+
+  {"type":"table",
+    "headers": ["机构", "目标价", "时间", "来源"],
+    "rows": [
+      ["摩根大通 (JPMorgan)", "$6,300", "2026年底", "JPMorgan Global Research, 2026年1月"],
+      ["瑞银 (UBS)", "$6,200", "2026年6月前", "UBS Precious Metals Report, 2026年2月 (Kitco News引用)"],
+      ["德意志银行 (Deutsche Bank)", "$6,000", "2026年底", "Deutsche Bank Commodity Outlook, 2026年1月"],
+      ["富国银行 (Wells Fargo)", "$6,100-$6,300", "2026年底", "Wells Fargo Investment Institute, 2026年2月"],
+      ["BMO Capital Markets", "$6,350", "2026年Q4", "BMO Capital Markets Commodity Report, 2026年1月"],
+      ["道明证券 (TD Securities)", "$5,800", "2026下半年", "TD Securities Commodity Analysis, 2026年2月"],
+      ["花旗 (Citigroup)", "$7,200-$7,500", "2026年内", "Citi Private Bank Global Asset Allocation, 2026年1月"],
+      ["Jefferies", "$6,600", "2026年底", "Jefferies Metals & Mining Report, 2026年2月"],
+      ["Yardeni Research", "$6,000", "2026年底", "Yardeni Research Weekly, 2026年1月"],
+      ["CIBC", "$5,500", "2026年底", "CIBC Commodity Markets Outlook, 2026年1月"]
+    ]
+  },
+
+  {"type":"h1", "text":"三、各投行核心观点详析"},
+  {"type":"h2", "text":"3.1 摩根大通 (JPMorgan Chase) — 目标价 $6,300"},
+  {"type":"body", "text":"摩根大通将2026年底黄金目标价上调至6,300美元/盎司。摩根大通认为黄金的上涨趋势具备坚实的基本面支撑，尤其是全球央行持续购金以及美元结构性承压两大因素。该行指出，当前黄金正处于自1979年以来最强的月度上涨趋势中，即便如此涨幅已被市场消化，主要机构仍在大规模上调目标价，这是极为重要的信号。"},
+  {"type":"callout", "text":"来源：JPMorgan Global Research - Commodity Outlook, January 2026 | https://www.jpmorgan.com/insights/global-research/commodities/gold-prices"},
+
+  {"type":"h2", "text":"3.2 瑞银 (UBS) — 目标价 $6,200（上限情景 $7,200）"},
+  {"type":"body", "text":"瑞银将黄金目标价从此前的5,000美元大幅上调至6,200美元，并预计在2026年6月前即可达成。更值得关注的是，瑞银给出了上限情景预测——若地缘政治紧张局势进一步升级，金价可能飙升至7,200美元。瑞银作为全球最大的财富管理机构之一，管理超过3万亿美元客户资产，其预测具有广泛影响力。"},
+  {"type":"callout", "text":"来源：UBS Precious Metals Strategy, February 2026 | https://www.kitco.com/news/article/2026-02-17/gold-price-will-hit-6200-june-precious-industrial-metals-set-further-gains"},
+
+  {"type":"h2", "text":"3.3 德意志银行 (Deutsche Bank) — 目标价 $6,000"},
+  {"type":"body", "text":"德意志银行维持6,000美元的目标价，并公开表示该预测可能过于保守。该行认为在当前全球货币体系面临重构的背景下，黄金的避险属性将被持续强化。"},
+  {"type":"callout", "text":"来源：Deutsche Bank Global Commodity Strategy Report, January 2026"},
+
+  {"type":"h2", "text":"3.4 富国银行 (Wells Fargo) — 目标区间 $6,100-$6,300"},
+  {"type":"body", "text":"富国银行给出6,100至6,300美元的目标区间，认为黄金的上涨动能尚未结束。该行强调，在全球法定货币信用持续受损的环境下，黄金作为无对手方风险的实物资产，正在获得机构和央行的一致青睐。"},
+  {"type":"callout", "text":"来源：Wells Fargo Investment Institute Global Outlook, February 2026"},
+
+  {"type":"h2", "text":"3.5 BMO Capital Markets — 目标价 $6,350"},
+  {"type":"body", "text":"BMO资本市场发布看涨情景预测，预计2026年第四季度金价将触及6,350美元。该行指出，黄金的上涨逻辑已经从避险驱动转向多元化配置驱动，ETF持仓量大幅增长、金条金币需求创12年新高，均印证了这一结构性转变。"},
+  {"type":"callout", "text":"来源：BMO Capital Markets Commodity Insights, Q1 2026"},
+
+  {"type":"h2", "text":"3.6 道明证券 (TD Securities) — 均价预测 $5,800"},
+  {"type":"body", "text":"道明证券预测2026年下半年黄金均价将达5,800美元，认为当前的金价回调提供了良好的入场机会。该行技术分析显示，黄金在4,800-5,000美元区间获得强劲支撑，逢低买入策略较为合理。"},
+  {"type":"callout", "text":"来源：TD Securities Commodity Strategy, February 2026"},
+
+  {"type":"h2", "text":"3.7 花旗 (Citigroup) — 目标区间 $7,200-$7,500"},
+  {"type":"body", "text":"花旗银行预测黄金可能突破7,000美元大关，达到7,200-7,500美元区间。花旗认为美元信用侵蚀、央行购金潮以及地缘风险三位一体，将推动金价走出历史性行情。"},
+  {"type":"callout", "text":"来源：Citi Private Bank Global Asset Allocation Report, January 2026 | National Gold Group引用, 2026年3月"},
+
+  {"type":"h1", "text":"四、驱动金价上涨的核心因素"},
+  {"type":"h2", "text":"4.1 全球央行创纪录购金"},
+  {"type":"body", "text":"根据世界黄金协会数据，2025年全球黄金需求史上首次突破5,000公吨，央行购金达863公吨。波兰宣布将黄金储备目标从550吨提高至700吨，中国持续增持，多国央行正在悄然将储备从美元资产转向黄金。这一结构性趋势在2026年仍在加速。"},
+  {"type":"callout", "text":"数据来源：World Gold Council (WGC) Annual Demand Trends Report 2025"},
+
+  {"type":"h2", "text":"4.2 美元面临结构性压力"},
+  {"type":"body", "text":"美国国债已突破38.5万亿美元，且仍以约每100天1万亿美元的速度增长。每年利息支出已超过国防预算。美国银行在报告中直言：「白宫的非常规政策框架叠加财政赤字、债务攀升与通胀压力，应持续支撑黄金。」当一种货币的信用基础受到如此质疑时，黄金作为价值存储的逻辑便自然浮现。"},
+  {"type":"callout", "text":"数据来源：U.S. Treasury Direct, Bank of America Global Research"},
+
+  {"type":"h2", "text":"4.3 投资需求创多年新高"},
+  {"type":"body", "text":"2025年黄金ETF持仓增长801公吨，金条金币购买量接近1,375公吨（创12年新高）。CIBC明确指出：「数十年来事实上的无风险安全资产——美国国债，已不再被视为无风险。投资者和央行正在寻找替代品，对法定货币的信心已受到侵蚀，黄金正承接这部分避险资金。」"},
+  {"type":"callout", "text":"数据来源：World Gold Council, ICE Benchmark Administration, CIBC Commodity Strategy 2026"},
+
+  {"type":"h2", "text":"4.4 地缘政治不确定性"},
+  {"type":"body", "text":"贸易紧张局势、关税不确定性和全球联盟重构，共同营造了一个投资者积极寻找不受任何单一政府承诺或政策约束的资产的环境。黄金没有对手方风险，不能被印刷，不能被制裁，不能违约——这正是全球动荡时期资金流入黄金的核心逻辑。"},
+
+  {"type":"h1", "text":"五、2026年下半年走势预测与投资策略"},
+  {"type":"h2", "text":"5.1 价格预测"},
+  {"type":"body", "text":"基于各大投行共识，2026年下半年黄金核心目标区间为6,000-6,500美元/盎司，年底前有较大概率触及6,300美元。若地缘风险超预期升级，上限可看至7,000-7,500美元。当前金价约4,490美元，隐含上涨空间20%-26%。"},
+
+  {"type":"h2", "text":"5.2 关键支撑与压力位"},
+  {"type":"table",
+    "headers": ["类型", "价格区间", "说明"],
+    "rows": [
+      ["第一支撑位", "$5,000", "心理关口+技术均线支撑"],
+      ["第二支撑位", "$4,800", "前期平台+EMA200均线"],
+      ["第一压力位", "$5,800", "整数关口+心理预期"],
+      ["第二压力位", "$6,000", "瑞银/德银目标位"],
+      ["核心目标位", "$6,300", "摩根大通年末目标"]
+    ]
+  },
+
+  {"type":"h2", "text":"5.3 投资建议"},
+  {"type":"body", "text":"对于机构投资者：建议将黄金配置比例提高至总资产的10-15%，作为美元敞口的自然对冲。"},
+  {"type":"body", "text":"对于个人投资者：可通过纸黄金、黄金ETF或实物金条分批建仓，回调至5,000美元以下视为极佳买入机会。"},
+  {"type":"body", "text":"对于杠杆投资者：逢低做多为主，止损可设在4,700美元，止盈目标6,200-6,500美元。"},
+
+  {"type":"h1", "text":"六、风险提示"},
+  {"type":"callout", "text":"货币政策转向风险：若美联储超预期鹰派加息，美元走强可能压制黄金"},
+  {"type":"callout", "text":"地缘风险缓和：俄乌、中东局势若出现超预期缓和，黄金避险需求可能骤降"},
+  {"type":"callout", "text":"技术性回调风险：金价快速上涨后，任何主要支撑位的有效破位都可能引发10-15%的技术性回调"},
+  {"type":"callout", "text":"流动性风险：在市场极端压力下，黄金与其他风险资产可能出现同步抛售"},
+
+  {"type":"h1", "text":"七、数据来源与参考文献"},
+  {"type":"body", "text":"本报告所有数据均来自以下权威来源："},
+  {"type":"numbered", "text":"JPMorgan Global Research - Commodity Prices - Gold Analysis (jpmorgan.com/insights/global-research/commodities/gold-prices)"},
+  {"type":"numbered", "text":"Kitco News - UBS Raises Gold Price Target to $6,200 by June 2026 (kitco.com, 2026-02-17)"},
+  {"type":"numbered", "text":"World Gold Council - Gold Demand Trends Report 2025 (gold.org/goldhub/data)"},
+  {"type":"numbered", "text":"National Gold Group - Gold Price Forecast 2026: Banks Are Forecasting $6,000 And More (nationalgoldgroup.com, 2026-03)"},
+  {"type":"numbered", "text":"U.S. Treasury Direct - Current U.S. National Debt Statistics (treasurydirect.gov)"},
+  {"type":"numbered", "text":"CIBC Commodity Markets Outlook 2026 (cibc.com/envestments)"},
+  {"type":"body", "text":"本报告仅供参考，不构成投资建议。黄金投资需结合自身风险承受能力合理配置。"}
+]
