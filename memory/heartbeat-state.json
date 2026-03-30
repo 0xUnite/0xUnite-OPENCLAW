@@ -4,7 +4,7 @@
     "calendar": null,
     "weather": null
   },
-  "lastHeartbeat": "2026-03-29T01:46:00Z",
+  "lastHeartbeat": "2026-03-30T04:15:00Z",
   "notes": {
     "morning-check": "2026-03-25T09:45 KST - Daily automation completed. All services OK. Reminder: Today 12:00 KST run EvoSci onboard.",
     "afternoon-check": "2026-03-26T15:17 KST - Nova-hav SIGTERM caused by total-recall-observer timeout cascade. Fixed: (1) openclaw doctor --fix ran, (2) raised total-recall-observer timeout from 120s to 300s.",

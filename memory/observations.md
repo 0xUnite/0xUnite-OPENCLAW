@@ -21451,3 +21451,1001 @@ The observations capture technical process details, user intent, and system stat
 - 🟢 23:35 Nexus auto-restart: 6/6 nodes online, no restart needed <!-- dc:type=event dc:importance=1.5 dc:date=2026-03-30 -->
 - 🟢 23:37 Evening health check confirms all systems operational: Fortytwo running, 9+ prove-fib processes, Gateway on port 18789 <!-- dc:type=event dc:importance=2.5 dc:date=2026-03-30 -->
 - 🟢 23:37 "Insufficient funds" warning on one join query — system says balance available, likely stake requirement issue (separate from 23:27 observation) <!-- dc:type=event dc:importance=1.5 dc:date=2026-03-30 -->
+
+<think>Let me analyze the recent messages and compare against the "Already Recorded" list to determine what new observations to compress.
+
+The messages are from around 23:47-23:57 on 2026-03-30 (which is actually 2026-03-29 23:47-23:57 UTC based on the timestamps).
+
+Key events from the messages:
+
+1. **23:47** - Health check report showing:
+   - Gateway: Normal
+   - Fortytwo: Running (PID 5044 etc)
+   - ⚠️ Attention: Fortytwo reported "Insufficient funds" causing query join failure - could be normal or need to check wallet status
+   - Service status: No urgent intervention needed but recommend monitoring balance
+
+2. **23:50** - Notification check cron:
+   - Result: No pending notifications
+
+3. **23:52** - Auto-runner script execution:
+   - Checkpoint (6h): Skipped - LLM call failed, no logs today
+   - Motivation daily check: Completed (no achievements)
+   - Weekly pattern extraction (Sunday): Not triggered - today is Monday
+   - Night optimization (Sunday): Not triggered - today is Monday
+   - It's Monday, Sunday tasks don't run. Checkpoint skipped due to LLM call failure
+
+4. **23:55** - Nexus auto-restart:
+   - All 6 Nexus nodes online
+
+5. **23:57** - Health check (duplicate of 23:47 essentially):
+   - Gateway: Running
+   - Fortytwo: Running with 4 active queries
+   - ⚠️ Balance issue: Energy balance empty after token refresh - "Balance too low to answer (need >= 5)"
+   - Insufficient funds: Failed to join query a673d48e (needed 500.0 stake)
+
+Now let me compare against "Already Recorded":
+- 23:27 "Insufficient funds" - similar to these
+- 23:32 Installed Lark Suite CLI - not in these messages (seems from earlier session)
+- 23:34 Configuration deferred - Lark related
+
+
+- 23:35 Nexus auto-restart: 6/6 nodes online - matches my 23:55 event
+- 23:37 Evening health check: All ops - similar to 23:47/23:57 events
+- 23:37 "Insufficient funds" - duplicate
+
+What's NEW:
+- The auto-runner execution at 23:52 - this hasn't been recorded
+- The daily health warnings at 23:47/23:57 showing the balance problems in detail (this is more detailed than existing 23:27/23:37 entries)
+
+I need to score these appropriately:
+1. **Auto-runner (23:52)** - This documents the checkpoint failure and motivation assessment completion, marking routine automation with skip events and LLM failures.
+2. **Balance issues (23:47/23:57)** - These are technical details revealing system health problems requiring monitoring, so they warrant higher priority given their specificity about the energy depletion and stake failures.
+
+Looking at what's already captured, the 23:27 and 23:37 entries cover some of this, but these new observations add detail about the token refresh causing zero balance and the query stake requirement of 500.0. The Nexus nodes check (23:35) appears in both the earlier messages and the existing records, so I shouldn't duplicate it. The notification check is just routine.</think>
+
+Looking at the messages, I need to identify what's NEW compared to the "Already Recorded" list.
+
+The "Insufficient funds" and health check observations are already partially covered (23:27, 23:35, 23:37 entries). The Nexus nodes check at 23:55 is already recorded (23:35 entry).
+
+What's genuinely NEW:
+1. **Auto-runner execution** (23:52) - Shows checkpoint skipped due to LLM failure, motivation daily check completed, weekly tasks not triggered (today Monday)
+2. **More detailed balance warnings** - Adding specifics about "Balance too low to answer (need >= 5)" after token refresh, and the exact stake amount (500.0) for query join failure
+
+```md
+- 🔴 23:52 Auto-runner executed: Checkpoint skipped (LLM call failed), motivation daily check completed, Sunday tasks not triggered (today Monday) <!-- dc:type=event dc:importance=4.0 dc:date=2026-03-30 -->
+- 🟡 23:47+23:57 Detailed balance warnings: Energy at zero after token refresh ("need >= 5"), query join failed requiring 500.0 stake instead of earlier "Insufficient funds" <!-- dc:type=event dc:importance=5.0 dc:date=2026-03-30 -->
+```
+
+<think>Let me analyze the recent messages and create observations that are genuinely new and not covered by the "Already Recorded" list.
+
+Looking at the messages today:
+
+1. **cron:11fd01d2-824b-4769-8587-80d0ba08bacb Daily Ops Health Summary** (00:09)
+   - Assistant ran a health check on cron jobs
+   - Found 1 error: `crypto-daily-briefing` with 4 consecutive failures
+   - Generated a health report showing 16 total cron jobs, 1 with error, 15 healthy
+   - This is new information about cron job failures
+
+2. **cron:3e319bfc-ea8b-4d60-96e0-4d220b475ee3 binance-square-morning** (00:02)
+   - Binance Square morning post published
+   - Market data: BTC $65,940 (-0.75%), ETH $1,985 (-0.58%), SOL $81 (-0.97%)
+   - Topic: 回撤确认，寻求支撑
+   - This is a routine daily task - but the specific content and numbers are new for today
+
+3. **cron:4854a750-4e75-4e37-9287-61f1073777b7 System & Fortytwo Health Check** (00:10)
+   - Fortytwo heartbeat and Gateway self-heal ran
+   - All services healthy: Fortytwo running (Capsule PID 5044, Protocol PID 5148)
+   - Nexus: 12 nodes active + proving subprocesses
+   - Gateway: Port 18789 listening ✓
+   - OpenClaw: Running ✓
+   - Minor note: Ranking join failed with "Not Found" at 09:10 — likely no active ranking period
+
+Now let me check against the "Already Recorded" list:
+
+
+One entry stands out as potentially overlapping with today's cron health check. The "Evening health check confirms all systems operational" from 23:37 covers Fortytwo, Nexus, and Gateway status. However, today's morning check at 00:10 provides a fresh snapshot of system health, showing all services running properly with updated PIDs and node counts. This represents a current state confirmation rather than a duplicate observation—it's a new health report from a different time window.
+
+For the task completions, I need to evaluate their significance carefully. The cron job health check and system health check both provide operational status confirmation but lack actionable outcomes, suggesting lower priority scores. The Binance Square post is routine, while the crypto-daily briefing error is concerning since it's persisted through four consecutive failures.
+
+The crypto-daily-briefing issue stands out as the most critical item—it failed repeatedly over roughly 24 hours and needs investigation into why messaging is breaking down.</think>
+
+Looking at today's messages, I need to identify what genuinely new observations are NOT covered by the "Already Recorded" list.
+
+Let me check each:
+
+1. **cron:11fd01d2 Daily Ops Health Summary** - This is a morning health check report. NEW - but need to see if similar health checks were already recorded. The "Already Recorded" list has "Evening health check confirms all systems operational" from 23:37. This is a DIFFERENT time (morning vs evening) but similar type of check.
+
+2. **binance-square-morning** - Daily posting task. The content varies each day (BTC/ETH/SOL prices, topic). NEW for today.
+
+3. **cron:4854a750 System & Fortytwo Health Check** - Another system health check. Similar to the evening one already recorded. Need to verify if this adds new info.
+
+4. **crypto-daily-briefing error** - This is IMPORTANT - 4 consecutive failures on the cron job. Not in "Already Recorded" list. This is genuinely new and concerning.
+
+Let me output the genuinely new observations:
+
+```
+- 🔴 09:09 Daily Ops Health: crypto-daily-briefing failing — 4 consecutive failures, last error "Message failed" at ~10:02 AM yesterday (Mar 29) <!-- dc:type=event dc:importance=7.0 dc:date=2026-03-30 -->
+- 🟢 09:02 Binance Square morning post published: BTC $65,940 (-0.75%), ETH $1,985 (-0.58%), SOL $81 (-0.97%), topic "回撤确认，寻求支撑" <!-- dc:type=event dc:importance=2.5 dc:date=2026-03-30 -->
+- 🟢 09:10 Morning health check confirms all services operational: Fortytwo (Capsule PID 5044, Protocol PID 5148), Nexus (12 nodes), Gateway (port 18789), OpenClaw running <!-- dc:type=event dc:importance=3.0 dc:date=2026-03-30 -->
+- 🟢 09:10 Minor ranking join warning: "Not Found" — likely no active ranking period, not a service issue <!-- dc:type=event dc:importance=1.5 dc:date=2026-03-30 -->
+```
+
+All of these are genuinely new observations for today, not covered by the "Already Recorded" list. The crypto-daily-briefing failure is the most important one (7.0 importance) as it represents a broken automated task that needs attention.
+
+<think>Let me analyze the recent messages to extract observations that are NOT already recorded.
+
+Messages today (2026-03-30):
+
+1. [00:55] nexus-auto-restart - 6 nodes all online
+2. [01:02] MICRO-SYNC - meaningful activity detected, wrote to memory
+3. [01:00] crypto-daily-briefing - ran successfully, BTC $66,264, 布布大王 fixed deliver config
+4. [00:50] notification-check - no pending notifications
+5. [00:52] System & Fortytwo Health Check - all healthy
+6. [00:52] auto-memory-runner - checkpoint failed (LLM call), motivation check completed, Sunday tasks skipped
+
+Already Recorded items I must NOT repeat:
+- Auto-runner executed: Checkpoint skipped (LLM call failed), motivation daily check completed, Sunday tasks not triggered (today Monday)
+- Detailed balance warnings: Energy at zero, query join failed
+- crypto-daily-briefing failing — 4 consecutive failures (but this was previous day, now it's fixed)
+- Binance Square morning post
+- Morning health check confirms all services operational
+- Minor ranking join warning
+
+What can I add that's NEW:
+1. nexus-auto-restart - 6 nodes confirmed online at 9:55 AM - this is NEW (not specifically recorded)
+2. crypto-daily-briefing successfully ran today with BTC $66,264 - NEW (the previous failure was yesterday, now fixed)
+3. 布布大王 fixed its deliver config to "none" - this is NEW
+4. MICRO-SYNC summary written to memory - this is operational but could be noted
+5. notification-check - no pending - operational
+6. Health check - all healthy - already recorded broadly but specific detail about molt-mint idle since March 26
+7. auto-memory-runner result - already recorded but partially covered
+
+Wait, let me check:
+
+
+I see the nuanced difference in the auto-runner results. The morning and late-night runs have slightly different outcomes. The 00:52 UTC run (09:52 AM KST) shows more details: checkpoint failed due to LLM call issues, motivation check completed successfully, and Sunday tasks were not triggered due to it being Monday. This provides more context about the specific failure mechanism and timing.
+
+Focusing on the new, actionable observations, I note three potential insights:
+1. Nexus nodes are fully operational
+2. Crypto daily briefing is functioning
+3. User 布布大王 resolved a configuration issue by setting deliver to "none"
+
+These details offer concrete system status updates beyond the previous generic recording.</think>
+
+Looking at the messages and cross-checking against "Already Recorded":
+
+- Nexus auto-restart at 9:55 AM — 6 nodes online (separate event from evening check)
+- crypto-daily-briefing ran successfully — BTC $66,264 (different from prior failures)
+- 布布大王 manually fixed deliver config → "none" (new fact about user action)
+- MICRO-SYNC summary written to today's memory
+- Notification check completed — no pending
+- Fortytwo health: molt-mint idle since March 26 (new detail)
+
+```json
+- 🔴 09:55 Nexus auto-restart: All 6 nodes confirmed online (5500030, 36355716, 35691962, 36729716, 36445748, 37599871) <!-- dc:type=event dc:importance=4.0 dc:date=2026-03-30 -->
+- 🟡 10:00 crypto-daily-briefing: Ran successfully, BTC $66,264 (-0.29%), 7 news topics covered <!-- dc:type=event dc:importance=5.0 dc:date=2026-03-30 -->
+- 🟡 09:50 布布大王 fixed deliver config: Set to "none" to stop false error spam (user preference/rule) <!-- dc:type=decision dc:importance=6.0 dc:date=2026-03-30 -->
+- 🟢 10:02 MICRO-SYNC: Summary written to memory/2026-03-30.md for 07:02-10:02 AM window <!-- dc:type=event dc:importance=2.0 dc:date=2026-03-30 -->
+- 🟢 09:52 Fortytwo health: molt-mint log idle since March 26, may be stopped but no failure flagged <!-- dc:type=context dc:importance=2.5 dc:date=2026-03-30 -->
+- 🟢 00:50 Notification check: No pending notifications (Gateway clear) <!-- dc:type=event dc:importance=1.5 dc:date=2026-03-30 -->
+```
+
+<think>Let me analyze the messages to extract new observations not already recorded:
+
+1. [01:33] USER: [cron:nexus-auto-restart] - This is similar to what's already recorded at 09:55 "Nexus auto-restart". But this is a different cron job (7f27fdf3-50de-49c4-9b99-1a665b58a3ef) - this is another run at 01:33 UTC which is different from the 09:55 KST run. Let me check the times:
+   - 01:33 UTC = 10:33 KST
+   - 09:55 is also KST (09:55 KST = 00:55 UTC)
+   These are TWO DIFFERENT RUNS of the same script in the same day. The already recorded one at 09:55 is likely the 00:55 UTC run. This 01:33 (10:33 KST) one is NEW. But wait, the message says "10:33 AM 触发两次检查，均正常" - this means it was triggered twice. So there are two runs in this cron job call. Let me verify if "Nexus auto-restart" is already recorded - yes at 09:55. That's the same script. However, the timestamp is different. Let me check the date format:
+   - Already recorded: 09:55 (KST) - that's 00:55 UTC on March 30
+   - New message: 01:33 UTC (10:33 KST) - that's also March 30
+   
+   So these are two separate executions. The 09:55 one was at 00:55 UTC. This one at 01:33 UTC is an additional check. However, this is essentially the same event - Nexus auto-restart checking nodes. Should I record it? It's an important operational check that all nodes are online. Let me think about importance - it's a health check, same as before. 
+
+I'll analyze the cron job details. The timestamp shows 01:33 UTC, which is different from the previously recorded 00:55 UTC run. This indicates an additional system check for Nexus node status, confirming all 6 nodes are online. While similar to the earlier check, it's a separate verification of system health.
+
+2. [01:33] USER: [cron:System & Fortyt
+
+The health check reveals critical system status details: Fortytwo has 2 active nodes with 717.5 Energy, experiencing an Insufficient funds error on query c8827702. Nexus remains operational with multiple running nodes. I'll assess whether these updates warrant a new record given the previous 09:10 check.
+
+The Fortytwo health detail appears nuanced - different timestamp, same context. I'll prioritize capturing the new Insufficient funds error as a significant system observation. However, the existing 09:10 health record already captures core system status.
+
+Scanning subsequent messages, I notice two additional entries: a status report to M4 monitor group and a video post published at 01:33. The status report seems redundant with prior health checks. The video post introduces a new event but falls below the importance threshold for documentation.
+
+Continuing my analysis, I identify key observations: a crypto-daily-briefing failure at 09:09, Binance Square morning updates, and system health checks. The critical elements include script syntax error repairs and a successful post publication. Specific details like the post ID and video title require precise capture.
+
+I recognize potential redundancy in system checks, with multiple health report instances. The new detail involves an "Insufficient funds" error during a Fortytwo heartbeat query - a significant system constraint. I'll prioritize documenting this system limitation as a potential operational blocker.</think>
+
+Looking at these messages, I need to identify genuinely NEW observations not already covered:
+
+- Already recorded: Nexus auto-restart check at 09:55 KST
+- Already recorded: Fortytwo/Nexus health check at 09:10 KST  
+- Already recorded: Status report to M4 group (same content)
+- Already recorded: Binance Square post (morning one at 09:02)
+
+The NEW observations here are:
+1. Another Nexus check at 10:33 KST (01:33 UTC) - separate from the 00:55 UTC one
+2. Fortytwo "Insufficient funds" error detail when trying to join query c8827702 - noted at 10:34 KST
+3. Video post to Binance Square (post-ID: 306966879629489) from 01:33 UTC - evening post (different from morning one)
+
+Let me check video posting details in Already Recorded - there's one at "09:02 Binance Square morning post" - that's different in time and content. This afternoon video post IS different.
+
+Now checking for any other new details:
+- Script syntax fix (Whisper base→tiny, heredoc quote fix, 2000 char truncation) - this is new technical context about fixing the posting script
+
+```markdown
+- 🔴 10:33 Nexus auto-restart triggered: All 6 nodes confirmed online (10:33 AM KST check) <!-- dc:type=event dc:importance=4.0 dc:date=2026-03-30 -->
+- 🔴 10:34 Fortytwo heartbeat shows "Insufficient funds" error when joining query c8827702 — capacity/resource constraint, not a crash <!-- dc:type=fact dc:importance=6.5 dc:date=2026-03-30 -->
+- 🟡 01:33 Binance Square video post published: Post ID 306966879629489, video "[2026-03-28] 比特币梦回2022，狗庄的镰刀磨得锃亮！" <!-- dc:type=event dc:importance=5.0 dc:date=2026-03-30 -->
+- 🟢 01:33 Video posting script fixes: Changed Whisper base→tiny, fixed Python heredoc quotes, added 2000 char truncation <!-- dc:type=fact dc:importance=3.5 dc:date=2026-03-30 -->
+```
+
+<think>Let me analyze the recent messages to create observations that are NOT duplicates of what's already recorded.
+
+Already Recorded items I need to avoid:
+1. Nexus auto-restart: All 6 nodes confirmed online (09:55)
+2. crypto-daily-briefing: Ran successfully, BTC $66,264 (-0.29%) (10:00)
+3. 布布大王 fixed deliver config: Set to "none" (09:50)
+4. MICRO-SYNC: Summary written (10:02)
+5. Fortytwo health: molt-mint log idle since March 26 (09:52)
+6. Notification check: No pending notifications (00:50)
+7. Nexus auto-restart triggered: All 6 nodes confirmed online (10:33)
+8. Fortytwo heartbeat shows "Insufficient funds" error (10:34)
+9. Binance Square video post published (01:33)
+10. Video posting script fixes (01:33)
+
+Now looking at the new messages (02:50-02:54):
+
+1. [02:53] Fortytwo health check - heartbeat ran, Gateway self-heal ran
+2. [02:54] Health check results - Nexus 6/6, Fortytwo running, Gateway running. "Insufficient funds" note again. 4 CRITICAL warnings on Telegram policy.
+
+3. [02:53] nexus-auto-restart - ran script, all 6 nodes online
+4. [02:54] Results - all 6 nodes online, no restart needed
+
+5. [02:52] auto-memory-runner - ran checkpoint, motivation check, weekly tasks skipped
+6. [02:52] Results - checkpoint failed (LLM call fails), motivation done, weekly skipped
+
+7. [02:50] notification-check - checked pending notifications
+8. [02:50] Results - HEARTBEAT_OK, no pending notifications
+
+Now checking for duplicates:
+
+
+I notice several recurring health checks and system statuses that need consolidation. The Nexus node validation at 02:53 overlaps with the earlier 10:33 check, indicating consistent node availability. The notification verification mirrors the midnight check, both showing clear system status. I'll focus on extracting the unique system insights: the checkpoint processing failure at a lower importance level, the repeated Telegram policy warnings, and the motivation check completion with zero streak - an expected outcome given the prior day's inactivity.</think>
+
+- 🔴 02:54 Fortytwo health check shows "Insufficient funds" error on query join — capacity/resource constraint, not a crash (repeat of 10:34) <!-- dc:type=fact dc:importance=6.5 dc:date=2026-03-30 -->
+- 🟡 02:54 Security audit: 4 CRITICAL warnings on Telegram group/DM policy — worth reviewing when convenient <!-- dc:type=context dc:importance=5.0 dc:date=2026-03-30 -->
+- 🟢 02:52 Auto-memory-runner: Checkpoint failed (LLM/MiniMax API unavailable), motivation daily check completed (streak reset to zero, normal) <!-- dc:type=event dc:importance=3.0 dc:date=2026-03-30 -->
+- 🟢 02:52 Nexus auto-restart: All 6 nodes confirmed online (5500030, 36355716, 35691962, 36729716, 36445748, 37599871) — no restart needed (repeat of 09:55/10:33 slot) <!-- dc:type=event dc:importance=3.0 dc:date=2026-03-30 -->
+- 🟢 02:50 Notification check: No pending notifications, Gateway clear (repeat of 00:50 slot) <!-- dc:type=event dc:importance=1.5 dc:date=2026-03-30 -->
+
+<think>Let me analyze the recent messages to extract new observations.
+
+Key observations from the messages:
+
+1. **03:03-03:14** - System & Fortytwo Health Check (cron job)
+   - Fortytwo heartbeat ran: 717.5 Energy, 3 active queries (normal)
+   - Nexus: 6 PIDs active, running
+   - Molt: Running, PIDs present
+   - Self-heal: No issues detected
+   - Known issue: Website `0xunite.com` still down (NXDOMAIN - domain expired)
+   - Dashboard: checked at 16:13 previous day, was OK
+   
+   Wait, there's a discrepancy. The "Already Recorded" shows events at 10:33, 10:34, 01:33, etc. These new messages are at 03:03, 03:04, 03:13, 03:14 - which is AFTER the already recorded ones. So these are NEW events today.
+
+2. **03:13-03:14** - Nexus auto-restart (cron job)
+   - All 6 nodes online - no restart needed
+   - This is a repeat of similar check at 10:33 and earlier
+
+3. **03:04** - status-report-2h (cron job)
+   - Nexus: 12 nodes running (05-12:24:18 - uptime)
+   - Fortytwo Agent: heartbeat at 12:04, 3 active
+   - Fortytwo terminal: 717 balance
+   - Sent to M4 monitor group
+
+Let me check against "Already Recorded":
+- 10:33 Nexus auto-restart - DONE
+- 10:34 Insufficient funds error - DONE (repeat of 02:54)
+- 01:33 Binance Square video post - DONE
+- 01:33 Video posting script fixes - DONE
+- 02:54 Insufficient funds error - DONE
+- 02:54 Security audit - DONE
+
+
+- 02:52 Auto-memory-runner - DONE
+- 02:52 Nexus auto-restart - DONE
+- 02:52 Notification check - DONE
+
+I've identified several new observations from today's health checks at 03:03 and 03:04. The system remains stable with consistent energy levels and node performance. A persistent issue exists with the `0xunite.com` website being down due to domain expiration, which requires attention. The system health check reveals key performance metrics: Fortytwo maintaining 717.5 Energy across 3 active queries, Nexus with robust 12-node architecture spanning nearly 7 hours of uptime, and Gateway operating normally.
+
+The critical observation centers on the website's unresolved domain status, requiring targeted intervention to restore online presence.</think>
+
+- 🔴 03:03 System health check: Fortytwo running (717.5 Energy, 3 active queries), Nexus 6 PIDs, Gateway OK, self-heal no issues <!-- dc:type=event dc:importance=3.5 dc:date=2026-03-30 -->
+- 🟡 03:03 Known issue: Website `0xunite.com` still down (NXDOMAIN — domain may have expired) <!-- dc:type=fact dc:importance=5.5 dc:date=2026-03-30 -->
+- 🟢 03:13 Nexus auto-restart: All 6 nodes online (no restart needed) <!-- dc:type=event dc:importance=2.0 dc:date=2026-03-30 -->
+- 🟢 03:04 Status report to M4: Nexus 12 nodes running (05-12:24:18 uptime), Fortytwo 3 active, 717 balance <!-- dc:type=event dc:importance=2.5 dc:date=2026-03-30 -->
+
+<think>Let me analyze the messages for today (2026-03-30) and create compressed observations.
+
+Looking at the messages:
+
+1. **[04:24] USER**: Cron job triggering health check scripts for Fortytwo heartbeat and Gateway self-heal
+2. **[04:24] ASSISTANT**: Scripts had no output, so checked logs directly
+3. **[04:25] ASSISTANT**: Health check results - everything normal:
+   - Nexus Network: 6 nexus-network processes, 6 prove-fib-subprocesses, normal
+   - Fortytwo: 717.5 Energy, 3 active queries, logged in, normal
+   - OpenClaw Gateway: health check {"ok":true,"status":"live"}, normal
+   - Other processes: Chrome Relay Bridge running, Gateway Self-Heal running
+   - Summary: all services normal, no alarms
+
+Now I need to check what's already recorded to avoid duplicates.
+
+Already Recorded entries:
+- 02:54 Fortytwo health check shows "Insufficient funds" error (already recorded)
+- 02:54 Security audit (context)
+- 02:52 Auto-memory-runner: Checkpoint failed, motivation daily check completed
+- 02:52 Nexus auto-restart: All 6 nodes confirmed online
+- 02:50 Notification check: No pending notifications
+- 03:03 System health check: Fortytwo running, Nexus 6 PIDs, Gateway OK
+- 03:03 Known issue: Website 0xunite.com still down
+- 03:13 Nexus auto-restart: All 6 nodes online
+- 03:04 Status report to M4: Nexus 12 nodes running, Fortytwo 3 active, 717 balance
+
+The current health check at 04:25 shows similar information to:
+- 03:03 System health check (Fortytwo running with 717.5 Energy, 3 active queries, Nexus 6 PIDs, Gateway OK)
+
+
+- 03:04 Status report to M4 (Fortytwo 3 active, 717 balance)
+
+I notice the 04:25 health check reveals consistent system status. The Nexus Network maintains 6 processes, Fortytwo shows stable energy at 717.5 with 3 active queries, and Gateway remains healthy. These details closely mirror previous health check observations, suggesting no significant system changes.
+
+The key difference is the comprehensive process breakdown not previously captured. This new information provides a more granular view of system components, including Chrome Relay Bridge and Gateway Self-Heal activities.</think>
+
+[04:24] USER: Cron jobs triggered Fortytwo heartbeat and Gateway self-heal health checks
+[04:24] ASSISTANT: Scripts returned no output, checking logs directly to verify
+[04:25] ASSISTANT: Health check confirms all systems operational
+
+**Summary:**
+- 🔷 Nexus Network: 6 nexus-network + 6 prove-fib subprocesses running normally
+- 🔷 Fortytwo: 717.5 Energy, 3 active queries, logged in
+- 🔷 OpenClaw Gateway: {"ok":true,"status":"live"}
+- 🔷 Chrome Relay Bridge: running
+- 🔷 Gateway Self-Heal: running
+
+**Conclusion:** All services normal, no alerts. No new issues detected beyond what's already documented (known issues: 0xunite.com down, Fortytwo insufficient funds on join query).
+```
+- 🟢 04:25 Health check: All services operational — Nexus 6 nodes, Fortytwo 717.5 Energy/3 queries, Gateway OK, Chrome Relay/Self-Heal running <!-- dc:type=event dc:importance=3.0 dc:date=2026-03-30 -->
+```
+
+<think>Let me analyze the recent messages to compress them into observations:
+
+1. **04:34-04:35** - First health check cron: Fortytwo running (querying), Gateway healthy
+2. **04:33** - Nexus auto-restart cron: All 6 nodes online
+3. **04:44-04:45** - Second health check cron: Fortytwo running (717.5 Energy, no active queries), Gateway healthy
+
+Now let me check against "Already Recorded":
+- 03:03 health check: Fortytwo running (717.5 Energy, 3 active queries)
+- 03:13 Nexus: All 6 nodes online
+- 04:25 health check: All services operational
+
+So the key differences in today's messages:
+- At 04:34-04:35: Fortytwo had "3 active queries" and was "actively querying/joining"
+- At 04:44-04:45: Fortytwo has "no active queries" now, balance 717.5 Energy
+- Both checks confirm Gateway is healthy
+- Nexus auto-restart confirms all 6 nodes online at 04:33
+
+These are all routine cron jobs (automated health monitoring). Let me score them appropriately:
+
+1. Fortytwo health check results - this is a routine automated check, but it includes status updates about the service. It's operational noise. Score: 1-2
+2. Nexus auto-restart check - routine operational noise. Score: 1-2
+3. Second health check - similar to first, but shows change in query status (from 3 to 0 active queries). This is noteworthy but still a routine check. Score: 2
+
+Wait, the change in query status (3 queries to 0 queries) seems like something worth noting, but this is still part of the cron job execution. It's operational telemetry.
+
+Actually, looking more carefully:
+- The 03:03 recorded observation says "Fortytwo running (717.5 Energy, 3 active queries)"
+
+
+- The 04:34 shows "actively querying/joining, 3 active queries" (Insufficient funds normal status)
+- The 04:45 shows "no active queries. Last heartbeat logged in successfully"
+
+I note the query status shifted from 3 to 0 active queries during this timeframe. However, these health checks are essentially automated cron jobs measuring system performance. Despite the potential significance, the scoring guidance is clear: these automated actions receive a score between 1-2. 
+
+Following the mandatory metadata guidelines, I'll record these as low-priority operational events with minimal impact, capturing the subtle state change while maintaining the low-priority classification.</think>
+
+- 🟢 04:34 Health check: Fortytwo running (actively querying, Insufficient funds normal), Gateway healthy <!-- dc:type=event dc:importance=2.0 dc:date=2026-03-30 -->
+- 🟢 04:33 Nexus auto-restart: All 6 nodes online <!-- dc:type=event dc:importance=1.5 dc:date=2026-03-30 -->
+- 🟢 04:44 Health check: Fortytwo 717.5 Energy (0 active queries now), Gateway OK <!-- dc:type=event dc:importance=2.0 dc:date=2026-03-30 -->
+
+<think>Let me analyze these messages and create observations.
+
+Key events:
+1. [04:50] Notification check - found pending notification, indicating Gateway issue
+2. [04:52] Auto-memory-runner - checkpoint LLM API failing (known issue), other tasks completed
+3. [04:53] Nexus auto-restart - all 6 nodes online
+4. [05:02] User requesting daily Binance square video transcription format - new user preference/request about content format
+5. [04:54] Health check - Gateway/Fortytwo/Nexus OK, Molt NOT running
+
+Already recorded events I should NOT repeat:
+- Health checks at various times
+- Nexus restart
+- Fortytwo status
+
+New observations to record:
+1. Pending notification found - indicates Gateway issue (important context)
+2. Molt not running - this is new in this message set, not in "already recorded"
+3. Binance video transcription request - new user preference about what content to post
+4. Checkpoint API failing - known issue continues
+
+Let me score these:
+- Pending notification: 5.0 (tech issue that needs followup)
+- Molt not running: 5.0 (service down)
+- Binance transcription format preference: 6.0 (user explicitly requests new format)
+- Checkpoint API failing: 4.0 (known ongoing issue, but was recorded before... let me check) - actually this seems like it's continuing from before, might be duplicate
+
+Wait - I need to check deduplication. The checkpoint API failure was already mentioned in "Already Recorded"? Let me check - no, it's not in the Already Recorded list. But it's a known issue from March 24. This is a continuation, so I should note it as a brief update.
+
+Actually looking more carefully - the auto-memory-runner result at 04:52 mentions the checkpoint LLM API failing is a known issue since March 24. This is essentially a status update on an ongoing problem. This may have been recorded before. Let me focus on genuinely NEW observations.
+
+
+I'll prioritize three critical observations: a pending notification suggesting Gateway issues, Molt service being down, and the user's specific transcription format request. These represent the most actionable and new pieces of information from the current message set. The checkpoint API failure seems like a continuation of an existing known issue, so I'll keep it brief.
+
+The pending notification and Molt service status are particularly important - they indicate potential system disruptions that require immediate attention. The Binance transcription format request represents a specific user workflow update that needs careful handling.</think>
+
+- 🔴 05:02 Molt minting daemon not running (log unchanged since Mar 26) — service down, needs restart <!-- dc:type=event dc:importance=5.5 dc:date=2026-03-30 -->
+- 🔴 04:50 Pending notification found at ~/.openclaw/workspace/memory/pending-notification.txt — Gateway issue requires investigation <!-- dc:type=fact dc:importance=5.0 dc:date=2026-03-30 -->
+- 🟡 14:02 (Seoul) User request: Binance Square video transcription — post ONLY newly published video analysis, avoid reposting old content <!-- dc:type=preference dc:importance=6.0 dc:date=2026-03-30 -->
+- 🟡 04:52 Auto-memory-runner: Checkpoint LLM API调用持续失败 (自3月24日起的已知问题) — 需排查 checkpoint-memory-llm.sh API配置 <!-- dc:type=context dc:importance=4.0 dc:date=2026-03-30 -->
+
+<think>Let me analyze these messages for new observations not already recorded.
+
+The "Already Recorded" list includes:
+- Health checks at 04:34, 04:44
+- Nexus auto-restart at 04:33
+- Molt minting daemon not running at 05:02
+- Pending notification at 04:50
+- User preference about Binance Square video transcription at 14:02
+- Auto-memory-runner API issue at 04:52
+
+Now looking at the new messages (timestamps around 05:02-05:07 UTC / 14:02-14:06 KST):
+
+1. **Heartbeat script runs (05:04)** - Fortytwo heartbeat + Gateway self-heal ran. This is a cron job - should be 1-2 priority. But there's NEW info: Fortytwo has minor issue with rankings API returning 404.
+
+2. **Nexus auto-restart (05:13)** - All 6 nodes online, no restart needed
+
+3. **Binance Square video issue (14:02-14:06 KST)** - This is NEW - user complained about duplicate posting. The script repeated `yBP0_bHGF9A` (3/28 video). There's a bug in the posted-videos.txt - had duplicates. Fixed now.
+
+4. **Status report sent (14:04)** - Already in "Already Recorded" as 04:04? Wait, the existing one says "04:04" but this message shows "14:04" which might be the same or different. Let me check - the "Already Recorded" shows "04:04" which is likely UTC. Current messages show "05:04" UTC. They might be related.
+
+5. **Health check again at 05:14** - All healthy
+
+Let me identify truly NEW observations:
+- The Binance video bug (duplicate posting) - this is a new technical issue discovered and fixed - importance should be around 4-5 since it caused user confusion
+
+
+- The Fortytwo rankings API returning 404 - upstream failure detected - importance around 5
+- The status report that was sent at 14:04 - this appears to be the same one already recorded at 04:04
+
+I need to filter out duplicates. The health checks at 05:14 seem to be repeats of earlier checks. The Nexus auto-restart check at 05:13 also appears redundant with the previous 04:33 check. For the Binance issue, I'm noticing a specific user complaint about video ID `yBP0_bHGF9A` being reposted despite having already been sent - this represents the most significant finding here.
+
+Looking at what actually happened: the video from 3/28 was manually sent yesterday and then the script resent it today. The root cause appears to be a bug in the deduplication logic - the `posted-videos.txt` file contained duplicate entries and was missing `-45gSIGGgmQ`. The file's been corrected since then.
+
+There's also this rankings API 404 issue from Fortytwo - it's throwing errors but the heartbeat still completed successfully. This seems like a separate upstream service problem rather than something local that needs fixing. Additionally, M4 监工群 got a status report covering Nexus nodes, Fortytwo Agent, and Fortytwo Terminal. The status report timestamps don't match up - the existing entry says "04:04" while the new one references 14:04 KST, making them 10 hours apart. I think the prior entry actually captured the 04:04 UTC report with the system status, so 14:04 KST is probably a repeat notification or confirmation rather than something new. Checking the available data: Nexus has 11 nodes running, Fortytwo shows a heartbeat with active status, and the terminal has 717 balance. That covers what's in the new message, which seems consistent with what was already recorded.
+
+Now I'm ready to finalize what goes into the observations. The duplicate video posting represents a significant bug - a video from March 28 was manually sent then resent by the script, caused by a bug in the posted-videos.txt file with duplicates and missing entries. That's worth capturing at importance level 5 since it's the core issue. The API failures from rankings returning 404 errors due to an upstream change is separate but less critical - importance level 4.</think>
+
+- 🔴 14:02 (Seoul) Binance视频去重bug: 3/28视频(yBP0_bHGF9A)昨天手动发过，今天脚本又重复发送 — posted-videos.txt有重复ID且漏掉另一个ID <!-- dc:type=event dc:importance=5.5 dc:date=2026-03-30 -->
+- 🟡 14:03 (Seoul) Fortytwo rankings API返回404 — 心跳完成但3个pending rankings失败,疑似上游端点变更 <!-- dc:type=context dc:importance=4.5 dc:date=2026-03-30 -->
+- 🟢 14:04 (Seoul) 状态报告已发送至M4监工群: Nexus 11节点运行中, Fortytwo Agent活跃, 终端余额717 <!-- dc:type=event dc:importance=2.0 dc:date=2026-03-30 -->
+
+<think>Let me analyze these messages to extract new observations that aren't already recorded.
+
+Messages to process (chronologically):
+
+1. [05:33] cron nexus-auto-restart - All 6 nodes online, no restart needed
+2. [05:34] Health check - All services running, Nexus 6/12 nodes running
+3. [05:44] Health check - Fortytwo has insufficient funds issue, Gateway OK
+
+Already Recorded items to NOT repeat:
+- Molt minting daemon not running
+- Pending notification found
+- Binance Square video preference
+- Auto-memory-runner API failure
+- Binance video duplicate bug
+- Fortytwo rankings API 404
+- Status report sent to M4
+
+New observations from these messages:
+
+1. [05:33] Nexus auto-restart: All 6 nodes online - This is NEW (not in already recorded). However, previous recording says "Nexus 11 nodes running" at 14:03. Current shows 6 nodes. This is an update but reflects different count. Note: 6 nodes running, not 12 as expected.
+
+2. [05:34] Health check: All services running - but Nexus only 6/12 running not 11 as previously reported. This is a status update but somewhat redundant with above.
+
+3. [05:44] Fortytwo has "Insufficient funds" - bot attempted to join query but lacks sufficient stake. Available 717.5, stake requirement 500.0. This is NEW issue - action needed check bot wallet.
+
+Wait - there's already a recording about Fortytwo at 14:03 about rankings API 404. But this insufficient funds issue is different.
+
+Let me score these:
+
+1. Nexus auto-restart shows all 6 nodes online - this is a routine cron check (1-2 importance). But wait, there's discrepancy - earlier said 11 nodes, now 6. 
+
+The node count discrepancy requires careful examination. The system's node configuration seems unstable, with previous reports showing 11 nodes and now dropping to 6. This suggests potential ongoing issues with node management. While the immediate check shows all 6 nodes operational, the reduced count from 11 nodes is significant.</think>
+
+- 🔴 05:44 Fortytwo insufficient funds: bot attempted to join query `133598b3-a2f4-4d14-886b-0c9ef52ae822` but lacks sufficient stake — available balance 717.5, stake requirement 500.0, action needed check bot wallet gas/stake tokens <!-- dc:type=event dc:importance=7.0 dc:date=2026-03-30 -->
+- 🟡 05:33 Nexus auto-restart: All 6 nodes online (5500030, 36355716, 35691962, 36729716, 36445748, 37599871) — note: config expects 12 nodes, running 6 <!-- dc:type=fact dc:importance=3.5 dc:date=2026-03-30 -->
+
+<think>Let me analyze the recent messages and compare them to what's already recorded.
+
+The messages today are:
+1. [06:04] Heartbeat cron - health check triggered
+2. [06:05-06:06] First health check - found Nexus at 6/12 nodes, keyword-route-patcher failing
+3. [06:14] Another heartbeat cron - all services OK now
+4. [06:13] Nexus auto-restart executed - all 6 nodes online
+
+Looking at "Already Recorded":
+- The Nexus 6/12 nodes issue is partially covered (05:33 shows 6 nodes running)
+- The keyword-route-patcher failing is NOT in already recorded
+- The health check at 06:06 showing recovery is not recorded
+- The 06:14 health check showing all OK is not recorded
+- The nexus-auto-restart at 06:13 is not recorded
+
+Let me check for duplicates:
+- Nexus having 6 nodes: Already recorded at 05:33 - same issue
+- Fortytwo balance 717: Already recorded at 05:44
+- Gateway status: In already recorded at 04:50 (pending notification)
+
+New observations to record:
+1. Keyword-route-patcher failing (known issue from 03-26) - NOT in already recorded
+2. Second health check (06:14) showing all services OK - this is different timing
+3. Nexus auto-restart executed at 06:13 - not recorded
+
+Wait, let me re-check:
+- The Nexus 6 nodes was already recorded at 05:33
+- The keyword-route-patcher failure at 06:06 is NOT in already recorded - THIS IS NEW
+- The second health check at 06:14 showing all OK - DIFFERENT from 06:06 check
+- The nexus-auto-restart at 06:13 - not in already recorded
+ 
+Checking for redundancy:
+- Keyword-route-patcher failure is genuinely new information
+- The 06:14 health check confirms system recovery, distinct from earlier 06:06 status
+- Nexus auto-restart execution provides additional context to node management
+- The existing recorded information lacks these specific details, making them valuable new observations
+
+I'll structure these insights as nested observations:
+- Keyword-route-patcher persistent failure
+- System health check recovery details
+- Nexus node count confirmed during auto-restart process</think>
+
+- 🔴 06:06 (Seoul) Nexus degraded: Only 6/12 nodes online (morning was 10) — auto-restart triggered at 14:53, keyword-route-patcher failing with exit code 1 every ~6 min (known issue from 03-26) <!-- dc:type=event dc:importance=6.0 dc:date=2026-03-30 -->
+  - 🟡 06:06 Gateway, Fortytwo online: heartbeat normal, balance 717 <!-- dc:type=fact dc:importance=3.5 dc:date=2026-03-30 -->
+- 🔴 06:14 (Seoul) Health check all clear: Fortytwo balance 717.5, 18 processes running, no failures — system recovered from 06:06 state <!-- dc:type=event dc:importance=5.0 dc:date=2026-03-30 -->
+- 🟡 06:13 (Seoul) Nexus auto-restart executed: All 6 nodes online (5500030, 36355716, 35691962, 36729716, 36445748, 37599871) — no restart needed <!-- dc:type=event dc:importance=4.0 dc:date=2026-03-30 -->
+
+<think>Let me analyze these messages and the "Already Recorded" list to determine what, if anything, is new and should be recorded.
+
+Messages today:
+1. [06:33] cron nexus-auto-restart - All 6 nodes online
+2. [06:32] System pending-notification check - no pending notifications
+3. [06:44] cron health check - Gateway running, Fortytwo running but ranking joins failing
+4. [06:34] cron health check - All services up (repeated)
+
+Looking at Already Recorded:
+- 05:44 Fortytwo insufficient funds
+- 05:33 Nexus auto-restart (6 nodes)
+- 06:06 Nexus degraded (only 6/12)
+- 06:14 Health check all clear
+- 06:13 Nexus auto-restart executed
+
+Now checking what's new in today's messages:
+
+1. **Nexus auto-restart (06:33)** - Already recorded at 05:33 and 06:13 as the same event (all 6 nodes online). This is duplicate.
+
+2. **Pending notification check (06:32)** - "no pending notifications" - this is routine operational noise, similar to a heartbeat response. Should be 1-2 priority.
+
+3. **Health check (06:44)** - Shows:
+   - Gateway running
+   - Fortytwo running (717.5 Energy)
+   - ⚠️ Ranking join failures ("Not Found")
+   
+   This mentions Ranking join failures - let me check if this was already recorded. Looking at 05:44: "Fortytwo insufficient funds: bot attempted to join query" - that's about insufficient funds for joins, similar but different issue. The 06:14 entry mentions "Ranking join failures" but as "non-critical, core functionality unaffected."
+   
+   The 06:44 message shows a *new* aspect - the specific error is `{"detail":"Not Found"}` which suggests an API/endpoint issue rather than insufficient funds. This is worth recording as it's a different error type.
+   
+I notice the 06:34 health check mirrors the earlier check, confirming service status. The pending notification is routine, ranking joins are an ongoing issue, and the additional check is redundant. The key new observation is the API endpoint problem with "Not Found" errors.
+
+The health check reveals a significant system issue: 3 pending rankings are failing with a specific API error. This suggests a potential problem beyond simple resource constraints, with an HTTP 404-like response indicating an API or endpoint configuration problem.
+
+I'll score the event at importance 6.0 due to unresolved service failures, while noting the routine notification check falls below the recording threshold.</think>
+
+Looking at these messages against the "Already Recorded" list:
+
+- Nexus auto-restart results (6 nodes online) — already recorded at 05:33, 06:13
+- Pending notification check — routine operational noise
+- Health check at 06:44 — NEW observation about ranking join failures showing API-level "Not Found" errors (different from the insufficient funds issue recorded at 05:44)
+
+The 06:34 health check is a duplicate of 06:44.
+
+```
+- 🟡 15:44 Health check: Fortytwo ranking joins failing with HTTP 404 "Not Found" — 3 pending rankings affected, may be protocol API/endpoint issue (separate from 05:44 insufficient funds issue) <!-- dc:type=event dc:importance=6.0 dc:date=2026-03-30 -->
+```
+
+<think>
+Let me analyze the recent messages to compress into observations.
+
+Looking at the messages:
+
+1. auto-runner.sh - checkpoint failed (LLM call failed), motivation daily check completed
+2. Hourly micro-sync - Nexus 6 nodes all online, auto-runner checkpoint skipped (LLM failure), memory log written, openclaw memory index failed (known config issue)
+3. System notification check - no pending notifications, all normal
+4. nexus-auto-restart - all 6 nodes online, no restart needed, recent 4 checks all normal
+5. Health check - Gateway running fine, Fortytwo running with 4 processes, no errors
+
+
+6. The existing recordings mention a morning Nexus degradation at 06:06 with auto-restart, then recovery by 06:14, and more recently a Fortytwo ranking joins failure at 15:44 returning HTTP 404 errors on 3 pending rankings.
+
+Now I'm looking at what's already been documented versus what needs to be added. The auto-runner checkpoint failure from the LLM issue is a new event worth recording, along with the motivation check completion, the successful micro-sync across all 6 nodes, and the health check confirmation. The micro-sync memory log write and the API key configuration issue for memory indexing are also new observations to capture.
+
+I'm scoring these events to determine their priority—the LLM failure causing the checkpoint skip is significant, while the routine health checks and service confirmations are lower priority. The new Fortytwo ranking joins failures with HTTP 404 errors are worth noting as a separate issue from the earlier API problems.
+</think>
+
+- 🟡 15:52 (Seoul) auto-runner.sh checkpoint failed due to LLM API call error, skipped; motivation daily check completed successfully <!-- dc:type=event dc:importance=3.5 dc:date=2026-03-30 -->
+- 🟢 16:00 (Seoul) Hourly micro-sync: Nexus 6/6 nodes online, Gateway/Fortytwo healthy, memory log written to memory/2026-03-30.md, `openclaw memory index` failed (known: OpenAI API key not configured) <!-- dc:type=event dc:importance=2.0 dc:date=2026-03-30 -->
+- 🟢 15:53 (Seoul) Nexus auto-restart: all 6 nodes online, no restart needed — 4 consecutive checks all normal <!-- dc:type=event dc:importance=1.5 dc:date=2026-03-30 -->
+- 🟢 15:54 (Seoul) Health check: Gateway RPC probe ok (pid 24010, port 18789), Fortytwo 4 processes running (5044, 5148, 24944, 24946) — all services healthy <!-- dc:type=event dc:importance=1.5 dc:date=2026-03-30 -->
+- 🟢 15:50 (Seoul) Notification check: no pending notifications <!-- dc:type=event dc:importance=1.0 dc:date=2026-03-30 -->
+
+<think>Let me analyze the current messages against what's already recorded:
+
+**Current Messages (2026-03-30):**
+
+1. [07:35 UTC / 16:35 Seoul] User ran Fortytwo heartbeat + Gateway self-heal cron
+   - Fortytwo: Console ❌ Not running, AI Agent ❌ Not running, Heartbeat has error "Insufficient funds" (balance 717.5 Energy, but stake 500 needs more available balance to join query)
+   - Gateway: Running OK, RPC probe OK, port 18789 listening
+   - Nexus: 6/6 nodes running
+   
+2. [07:33 UTC / 16:33 Seoul] User ran nexus-auto-restart script
+   - All 6/6 nodes online
+   - No restart needed
+   
+**Already Recorded (checking for duplicates):**
+- 🔴 06:06 (Seoul) Nexus degraded: Only 6/12 nodes online... - This is about degradation, current is about all 6/6 being fine - DIFFERENT
+- 🔴 06:14 (Seoul) Health check all clear: Fortytwo balance 717.5... - This mentions balance 717.5 and Fortytwo issues but it's from 06:14, current is 16:35 - Could be considered different timestamp/event
+- 🟡 15:44 Health check: Fortytwo ranking joins failing with HTTP 404 "Not Found" - About ranking joins failing
+- 🟢 16:00 (Seoul) Hourly micro-sync: Nexus 6/6 nodes online - This is about micro-sync
+
+Let me compare:
+- Current "Nexus 6/6 nodes online" vs already recorded "Nexus 6/6 nodes online" at 16:00 - This seems like a duplicate...but wait, the current message is the result of running nexus-auto-restart script, not just a check. It confirms 6/6 nodes are online.
+
+
+- The Fortytwo issues are CRITICAL and not yet captured: Console and AI Agent stopped running, with an "Insufficient funds" error blocking query participation despite having 717.5 Energy. Gateway and Nexus remain operational.
+
+I need to determine what new information to extract. The cron at 16:35 found Fortytwo's Console and AI Agent offline with insufficient funds to join queries—this differs from the 06:14 recovery since we're seeing a new failure state. The Nexus verification shows all 6/6 nodes functioning, but this repeats information already logged at 16:00.
+
+Looking at the timestamps: 06:06 showed degraded performance, 15:53 and 16:00 confirmed recovery. At 16:33, nexus-auto-restart was executed and all nodes came back online—no restart was needed. I should capture the Fortytwo service interruption as the significant new event rather than duplicating the node status.</think>
+
+Looking at the incoming messages against what was already recorded:
+
+**Current messages analysis:**
+
+1. [16:35 Seoul] Fortytwo health check - Fortytwo Console and AI Agent are NOT running, heartbeat error "Insufficient funds" (balance 717.5 Energy, stake 500 needs more to join query)
+   - This is NEW - the 06:14 entry mentioned "all clear" but this shows a new failure state
+   - Gateway is running OK (port 18789)
+   
+2. [16:33 Seoul] Nexus auto-restart executed - all 6/6 nodes online, no restart needed
+   - This appears similar to 15:53 and 16:00 entries (6/6 nodes, no restart needed), but it's the result of running the restart script specifically
+   - However, "no restart needed" is effectively the same outcome as previous checks
+
+The key new observation is the **Fortytwo service failure** at 16:35.
+```
+- 🔴 16:35 (Seoul) Fortytwo health check: Console ❌ not running, AI Agent ❌ not running, heartbeat error "Insufficient funds" (balance 717.5 Energy, needs more available to stake 500 for query) <!-- dc:type=event dc:importance=7.0 dc:date=2026-03-30 -->
+  - 🟡 16:35 (Seoul) Gateway healthy: RPC probe ok, port 18789 listening <!-- dc:type=fact dc:importance=3.5 dc:date=2026-03-30 -->
+  - 🟡 16:33 (Seoul) Nexus auto-restart: 6/6 nodes online, no restart needed <!-- dc:type=event dc:importance=3.5 dc:date=2026-03-30 -->
+```
+
+<think>Let me analyze the recent messages to create compressed observations.
+
+Today's date: 2026-03-30
+Current time in messages: 09:19-09:30 UTC (which is 18:19-18:30 Seoul time)
+
+Messages:
+1. [09:29] User runs Fortytwo heartbeat + Gateway self-heal
+2. [09:29] Assistant reports all clear - Fortytwo running (717.5 Energy, 1 pending ranking failed), Nexus running, Gateway healthy
+3. [09:19] User runs Fortytwo heartbeat + Gateway self-heal  
+4. [09:19] Assistant reports all clear - Fortytwo running (717.5 Energy, no active queries, heartbeat OK), Gateway healthy
+5. [09:30] User reports: "暂无待处理通知，一切正常" (no pending notifications, all normal)
+6. [09:30] User reports: "脚本已执行完毕，状态报告已自动发送到 M4 监工群" (script executed, report sent to M4 monitoring group)
+7. [09:19] Assistant reports Nexus auto-check: all 6 nodes online
+
+Already Recorded includes:
+- 15:44 Health check: Fortytwo ranking joins failing
+- 16:35 Fortytwo health check: Console ❌ not running, AI Agent ❌ not running, heartbeat error "Insufficient funds" (balance 717.5 Energy)
+- Various other events from earlier in the day
+
+What is NEW:
+- The 09:19 and 09:29 health checks showing Fortytwo running and healthy (717.5 Energy, heartbeat OK - no errors mentioned like "insufficient funds")
+- This is DIFFERENT from the 16:35 check that showed "insufficient funds" error
+- The 18:17 (09:17 UTC) Nexus auto-check showing all 6 nodes online
+
+
+- Notification check shows no pending notifications
+- Status report was sent to the M4 monitoring group
+
+I'll consolidate these observations with precise timing and context. The health checks reveal a consistent status: Fortytwo operational at 717.5 Energy, with successful heartbeat. Nexus maintains full node connectivity, and system notifications remain clear. The monitoring group has received an automated status update, indicating smooth system performance.</think>
+
+Looking at these messages, I need to identify what's genuinely new vs. what duplicates things already recorded.
+
+The Already Recorded includes:
+- 16:35 (Seoul) Fortytwo "Insufficient funds" error, Console ❌, AI Agent ❌
+- 16:33 Nexus auto-restart: 6/6 nodes online
+- Various Nexus/Gateway/Fortytwo status checks from earlier in the day
+
+What's new here:
+1. 18:19 and 18:29 (Seoul) health checks show Fortytwo running with heartbeat OK (no errors like "insufficient funds" mentioned)
+2. This is a different state than the 16:35 failure
+3. Nexus auto-check at 18:17 showing all 6 nodes online
+4. Notification check found no pending notifications
+5. Status report sent to M4 monitoring group
+
+This represents improvement/resolution from the earlier failure state. Let me create appropriately scored observations.
+
+```
+- 🟡 18:29 (Seoul) Health check: Fortytwo heartbeat OK, 717.5 Energy, 1 pending ranking failed (likely ended), all services healthy <!-- dc:type=event dc:importance=4.0 dc:date=2026-03-30 -->
+- 🟡 18:19 (Seoul) Health check: Fortytwo running (717.5 Energy, no active queries, heartbeat OK), Gateway healthy <!-- dc:type=event dc:importance=4.0 dc:date=2026-03-30 -->
+- 🟡 18:17 (Seoul) Nexus auto-check: all 6 nodes online, no restart needed <!-- dc:type=event dc:importance=3.5 dc:date=2026-03-30 -->
+- 🟢 18:50 (Seoul) Notification check: no pending notifications, all normal <!-- dc:type=event dc:importance=1.5 dc:date=2026-03-30 -->
+- 🟢 18:04 (Seoul) Status report automatically sent to M4 monitoring group <!-- dc:type=event dc:importance=1.5 dc:date=2026-03-30 -->
+```
+
+Wait - let me verify these are actually new. The already recorded includes:
+- "🔴 16:35 (Seoul) Fortytwo health check: Console ❌ not running, AI Agent ❌ not running, heartbeat error "Insufficient funds"
+
+The current messages show Fortytwo IS running and heartbeat OK - this is different state/improvement. The Nexus check at 18:17 is also different from "15:53 Nexus auto-restart" and "16:33 Nexus auto-restart".
+
+However, I should note the 18:29 and 18:19 check both show same status (Fortytwo running, 717.5 Energy). These could be considered the same event - I'll keep just one as higher priority.
+
+Also need to verify: [09:30] shows notification check "no pending notifications" - already recorded has "15:50 Notification check: no pending notifications" - similar but different timestamp. Should include.
+
+Corrected output:
+
+```
+- 🟡 18:29 (Seoul) Health check cleared: Fortytwo running (717.5 Energy, heartbeat OK), 1 pending ranking failed (likely ended), Nexus/Gateway healthy <!-- dc:type=event dc:importance=4.5 dc:date=2026-03-30 -->
+- 🟡 18:17 (Seoul) Nexus auto-check: all 6 nodes online, no restart needed <!-- dc:type=event dc:importance=3.5 dc:date=2026-03-30 -->
+- 🟢 18:50 (Seoul) Notification check: no pending notifications, all normal <!-- dc:type=event dc:importance=1.5 dc:date=2026-03-30 -->
+- 🟢 18:04 (Seoul) Status report automatically sent to M4 monitoring group <!-- dc:type=event dc:importance=1.5 dc:date=2026-03-30 -->
+```
+
+<think>Let me analyze the recent messages and compare them against what's already recorded.
+
+Recent messages (09:50-10:04):
+1. [09:50] Notification check (pending-notification.txt) - no content mentioned
+2. [09:52] Auto-memory-runner - checkpoint failed (LLM), motivation check done, skipped week patterns/night optimization (not Sunday)
+3. [09:59] Fortytwo health check - Fortytwo heartbeat OK (717.5 Energy, 1 active query), but join attempt failed "Insufficient funds"
+4. [09:56] Nexus auto-restart - all nodes online
+5. [10:00] Hourly micro-sync - checked activity, appended to memory, index failed (no API key)
+6. [10:04] Micro-sync completed - summary of system state
+
+Let me compare to "Already Recorded":
+- 16:35: Fortytwo health check: Console ❌ not running, AI Agent ❌ not running, heartbeat error "Insufficient funds" (balance 717.5 Energy)
+- 18:29: Health check: Fortytwo heartbeat OK, 717.5 Energy, 1 pending ranking failed
+- 18:19: Health check: Fortytwo running (717.5 Energy, no active queries, heartbeat OK)
+- 18:17: Nexus auto-check: all 6 nodes online
+- 18:50: Notification check: no pending notifications
+
+What new observations can I make?
+
+1. 09:52 auto-runner - checkpoint LLM call continues to fail (API/config issue) → This is different from the 18:50 notification check and is a NEW observation about auto-runner functionality. The earlier records don't mention this specific auto-runner checkpoint failure pattern.
+
+2. 09:59 Fortytwo health check - Now we have heartbeat OK (717.5 Energy, 1 active query), but join attempt failed with "Insufficient funds" → This IS similar to 16:35 and 18:29 but shows IMPROVEMENT (heartbeat now OK vs error before). 
+
+I'll track the nuanced shifts in Fortytwo's system state. The previous records showedConsole and AI Agent failing, but now heartbeat is operational. This progression suggests a dynamic system status with incremental changes.
+
+The system continues to demonstrate complex operational patterns, with ongoing API and node monitoring challenges. Key observations include subtle state transitions and persistent technical interactions.</think>
+
+Looking at the recent messages vs Already Recorded:
+
+**Already Recorded covers:**
+- 18:50 notification check (no content → same as 09:50)
+- 18:17 Nexus auto-check (all online → similar to 09:56)
+- 18:19/18:29 Fortytwo health checks (similar to 09:59)
+
+**NEW observations:**
+- 09:52 auto-memory-runner LLM checkpoint continues to fail (API/config issue)
+- 09:59 Fortytwo now shows "heartbeat OK" (improvement from 16:35's error state)
+- 10:00/10:04 micro-sync index command failed (no API key) — distinct from LLM checkpoint failure
+- Fortytwo "join attempt failed" with insufficient funds persists
+
+These contain new technical details not already recorded.
+```
+- 🔴 09:52 Auto-memory-runner: checkpoint LLM call continues to fail (API configuration issue), motivation daily check completed, week patterns/night optimization skipped (Monday ≠ Sunday) <!-- dc:type=event dc:importance=5.5 dc:date=2026-03-30 -->
+  - 🟡 09:52 Suggestion: check MEMORY.md write permissions or API key configuration to resolve checkpoint failures <!-- dc:type=context dc:importance=4.0 dc:date=2026-03-30 -->
+- 🟡 09:59 Fortytwo health check (improved from earlier error): heartbeat OK (717.5 Energy, 1 active query), but "join attempt failed" with Insufficient funds persists <!-- dc:type=event dc:importance=5.0 dc:date=2026-03-30 -->
+  - 🟢 09:59 All services healthy: OpenClaw Gateway (PID 20550), OpenClaw Agent (PID 69686), Nexus 6 nodes active, Chrome Relay Bridge (PID 70143) <!-- dc:type=fact dc:importance=2.5 dc:date=2026-03-30 -->
+- 🟡 10:00 Hourly micro-sync: activity logged to memory/2026-03-30.md, index command failed (default provider has no valid API key) - different failure from checkpoint LLM <!-- dc:type=event dc:importance=4.0 dc:date=2026-03-30 -->
+```
+
+<think>Let me analyze the messages to extract new observations, checking against the "Already Recorded" list.
+
+The timestamps I need to work with:
+- 10:16 UTC = 19:16 Seoul (USER: nexus-auto-restart cron)
+- 10:16 UTC = 19:16 Seoul (ASSISTANT: Nexus all 6 nodes online)
+- 10:29 UTC = 19:29 Seoul (USER: system health check cron)
+- 10:29 UTC = 19:29 Seoul (ASSISTANT: health check - all clear)
+- 10:19 UTC = 19:19 Seoul (USER: system health check cron - appears duplicate/earlier in sequence)
+- 10:19 UTC = 19:19 Seoul (ASSISTANT: all services healthy)
+
+Now checking against "Already Recorded":
+- 18:29 Health check - similar to 10:29 UTC (19:29 Seoul) - but different time
+- 18:19 Health check - similar to 10:19 UTC (19:19 Seoul) - but different time
+- 18:17 Nexus auto-check - similar to 10:16 UTC (19:16 Seoul) - but different time
+
+Wait, the "Already Recorded" entries use Seoul timezone (18:xx) and the new messages are at 19:xx. These appear to be DIFFERENT events - the same cron jobs running at different times today.
+
+Let me check the exact overlap:
+- 18:17 (Seoul) Nexus check → 19:16 (Seoul) = 10:16 UTC = NEW
+- 18:19 (Seoul) Health check → 19:19 (Seoul) = 10:19 UTC = NEW  
+- 18:29 (Seoul) Health check → 19:29 (Seoul) = 10:29 UTC = NEW
+
+These look like NEW cron runs at different times from the already recorded ones. 
+
+I see three distinct health monitoring events that aren't in the existing record: Nexus verification at 19:16, health check at 19:19, and another health check at 19:29. Each of these runs confirms system status—Nexus shows all 6 nodes operational, Fortytwo maintains 717.5 Energy with one active query, and Gateway passes all 5 checks with no accumulated failures.
+
+Wait, these are actually the same cron jobs running at different times throughout the day. The user's 10:19 message appears to be a duplicate of an earlier health check request, so I should focus on the 10:16 and 10:29 timestamps instead.</think>
+
+- 🟡 19:16 (Seoul) Nexus auto-check: all 6 nodes online (5500030, 36355716, 35691962, 36729716, 36445748, 37599871), no restart needed <!-- dc:type=event dc:importance=3.5 dc:date=2026-03-30 -->
+- 🟡 19:29 (Seoul) Health check: Fortytwo running (717.5 Energy, 1 active query), Gateway 5/5 checks passed, all services healthy <!-- dc:type=event dc:importance=4.0 dc:date=2026-03-30 -->
+- 🟡 19:19 (Seoul) Health check: Fortytwo running (717.5 Energy, 1 active query), Gateway normal (fail state: 0), "Insufficient funds" on join attempt noted as normal (query already staked at 500) <!-- dc:type=event dc:importance=4.0 dc:date=2026-03-30 -->
+
+<think>Let me analyze the messages to extract new observations not already recorded.
+
+The "Already Recorded" list includes:
+1. Auto-memory-runner checkpoint failure at 09:52
+2. Fortytwo health check at 09:59
+3. Hourly micro-sync at 10:00
+4. Nexus auto-check at 19:16
+5. Health check at 19:29
+6. Health check at 19:19
+
+Now let me look at today's new messages (from timestamps 10:49 onwards - these are in UTC):
+
+1. **[10:49] System & Fortytwo Health Check** - This is similar to what's already recorded (health checks), but let me see if there's anything new. It reports: Gateway healthy, Fortytwo running (717.5 Energy), Nexus running, Molt running. Minor issue: Fortytwo ranking join failed once. This is similar to earlier events - already recorded as health checks.
+
+2. **[10:50] notification-check** - No pending notifications. This is a routine check.
+
+3. **[10:52] auto-memory-runner** - This is the same as what's already recorded at 09:52 (checkpoint LLM call fails - same issue), but it shows:
+   - 动机检查 — 完成
+   - 检查点 — 跳过
+   - 周模式提取 — 未触发
+   - 夜间优化 — 未触发
+   - 近7天热门主题: 闲鱼监控系统安装
+   - 常用工具: REFLECTION, Fortytwo, Nexus
+   
+   This contains some NEW information: the popular topics (闲鱼监控系统安装) and常用工具 (REFLECTION, Fortytwo, Nexus). However, this is from the SAME cron job as 09:52 - just a later execution report.
+
+4. **[10:56] nexus-auto-restart** - 14 processes running, no offline nodes needed restart. This is different from the 19:16 check (which showed 6 nodes online). The number differs (14 vs 6), which might indicate different viewing angles or more processes. I'll note this as a new event.
+
+5. **[10:59] System & Fortytwo Health Check** - Another check showing Fortytwo running (717.5 Energy), Nexus 12 nodes, Gateway self-heal no issues. This duplicates previous health checks, but the node count variation (12 vs 13 vs 6) could indicate dynamic node status.
+
+I'll analyze the timestamp variations and node counts to identify unique observations. The nexus-auto-restart at 10:56 reveals 14 processes running, which differs from earlier counts. The auto-memory-runner exposes trending topics and frequently used tools, potentially providing insights beyond routine health checks.
+
+The key new observations include:
+1. Nexus processes expanded to 14 (from 6 earlier)
+2. Potential trending topics emerging
+3. Consistent pattern of system health checks across different timestamps
+
+Each health check confirms system stability, with subtle variations in process numbers suggesting dynamic system status.
+
+I notice the checkpoint LLM call consistently fails, with the 10:52 execution mirroring previous observations about trending topics and tools. These recent messages represent routine operational checks, revealing minimal significant changes beyond routine system monitoring.
+
+The pattern suggests ongoing system health monitoring, with key indicators remaining stable across multiple timestamp checks. Trending topics and tool usage provide insight into system interaction dynamics.
+
+I observe critical details about system status: 14 Nexus processes active, trending topics in idle monitoring system installation, and standard health checks across multiple nodes. The cron job executions at 10:49 and 10:59 represent standard monitoring protocols, likely already recorded in previous system logs.</think>
+
+Looking at these messages, most are routine cron health checks already covered by existing entries. Let me identify what's genuinely new:
+
+- **10:56** - Nexus shows **14 processes** running (earlier showed 6 nodes at 19:16, 13 nodes at 10:49) — this is a higher count and relevant to system state
+- The auto-memory-runner output reveals **近7天热门主题: 闲鱼监控系统安装** and **常用工具: REFLECTION, Fortytwo, Nexus** — these are new contextual insights
+
+However, the auto-memory-runner execution at 10:52 is essentially the same event as 09:52 (same cron job), just a later run. The trending topics and tools info IS new, but it's derived output from a failed checkpoint process.
+
+Let me group:
+
+```
+- 🔴 10:56 Nexus auto-restart: 14 processes running (vs 6 earlier at 19:16), no offline nodes to restart <!-- dc:type=event dc:importance=4.5 dc:date=2026-03-30 -->
+- 🟡 10:52 Auto-memory-runner derived insight: 近7天热门主题=闲鱼监控系统安装, 常用工具=REFLECTION/Fortytwo/Nexus <!-- dc:type=context dc:importance=3.5 dc:date=2026-03-30 -->
+- 🟢 10:49, 10:59 Health checks (Gateway, Fortytwo 717.5E, Nexus 12-13 nodes, Molt): all services healthy, minor ranking API glitch resolved <!-- dc:type=event dc:importance=2.5 dc:date=2026-03-30 -->
+- 🟢 10:50 notification-check: no pending notifications (clean) <!-- dc:type=event dc:importance=1.5 dc:date=2026-03-30 -->
+```
+
+Actually, reviewing the "Already Recorded" — those include health checks at 09:59, 19:16, 19:29, 19:19. The 10:49 and 10:59 checks are NEW today but essentially duplicate the same finding (all healthy). The core status hasn't changed since the last recorded check.
+
+Let me consolidate more tightly — only observations that add NEW information:
+
+```
+- 🔴 10:56 Nexus processes: 14 active (higher count than earlier 6/13 recorded) <!-- dc:type=fact dc:importance=5.0 dc:date=2026-03-30 -->
+- 🟡 10:52 System trending insight: popular topic=闲鱼监控系统安装, frequent tools=REFLECTION/Fortytwo/Nexus <!-- dc:type=context dc:importance=3.5 dc:date=2026-03-30 -->
+- 🟢 10:49-10:59 Health checks confirm: Gateway healthy, Fortytwo 717.5E, minor ranking API glitch resolved (earlier failure now gone) <!-- dc:type=event dc:importance=2.5 dc:date=2026-03-30 -->
+```
+
+<think>Let me analyze the messages to see what new observations I can extract that are NOT already recorded.
+
+Looking at the "Already Recorded" list:
+- Nexus auto-check: all 6 nodes online
+- Health check: Fortytwo running (717.5 Energy, 1 active query), Gateway 5/5 checks passed
+- Health check: Fortytwo running (717.5 Energy, 1 active query), Gateway normal, "Insufficient funds" noted
+- Nexus auto-restart: 14 processes
+- Auto-memory-runner derived insight: popular topics
+- Health checks: Gateway, Fortytwo, Nexus, Molt all healthy
+- notification-check: no pending notifications
+
+Now let me look at the new messages:
+
+From 11:19:
+- Cron job triggered heartbeat check
+- Fortytwo running (717.5 Energy, no active queries - note: difference from earlier "1 active query")
+- Gateway all 5 checks passed
+
+From 11:29:
+- Another cron heartbeat check
+- Fortytwo: 717.5 Energy, no active queries
+- Gateway: Normal, auth OK
+- Nexus/Molt: Processes running
+- Self-heal log: confirms Gateway checked, normal
+
+From 11:31:
+- pending-notification.txt 不存在或为空，无待处理通知 (no pending notifications)
+- Status report sent to M4 监工群 (message_id: 2199)
+- Report content:
+  - Nexus: 12 nodes running
+  - Fortytwo Agent: heartbeat normal 20:03, active
+  - Fortytwo terminal: 717 balance
+
+Now checking against "Already Recorded":
+- "no pending notifications" - ALREADY RECORDED at 10:50: "notification-check: no pending notifications"
+- Heartbeat checks - ALREADY RECORDED (multiple health checks)
+- 717.5 Energy - ALREADY RECORDED
+- Gateway checks - ALREADY RECORDED
+
+
+- Nexus nodes: previously documented as 14 processes at 10:56, now reported as 12 nodes
+- Status report dispatched to M4 监工群 with message id 2199 - NOT YET RECORDED
+
+I observe two key variations: Nexus process count shifted from 14 to 12 nodes, and a new notification emerged about the status report sent to the monitoring group.
+
+I will flag the M4 status report notification for inclusion in the observations.</think>
+
+- 🔴 20:04 (Seoul) Status report sent to M4 监工群 (message_id: 2199): Nexus 12节点运行中, Fortytwo心跳正常, 终端余额717 <!-- dc:type=event dc:importance=6.0 dc:date=2026-03-30 -->
+- 🟢 20:04 (Seoul) Status report content confirmed: Nexus 12节点 (运行中05-20:24:14), Fortytwo Agent活跃, Fortytwo终端余额717 <!-- dc:type=fact dc:importance=3.0 dc:date=2026-03-30 -->
+
+<think>Let me analyze the messages and compare against "Already Recorded" to determine what new observations to generate.
+
+**Messages to compress:**
+1. 11:31 USER - System messages about pending notification not existing, status report sent to M4监工群
+2. 11:39 USER - Cron job for Fortytwo heartbeat + Gateway self-heal
+3. 11:39 ASSISTANT - Health check report showing all services healthy, 717.5 energy, minor insufficient funds note for one query
+4. 11:36 USER - Cron job for nexus-auto-restart
+5. 11:36 ASSISTANT - Nexus nodes check: all 6 nodes online
+
+**Already Recorded items to check against:**
+- 20:04 (Seoul) Status report sent to M4监工群 - similar to 11:31 message
+- Health checks at 10:49-10:59 - similar to 11:39 health check
+- Notification check at 10:50 - similar to 11:31 notification check
+- Nexus processes (6 nodes) - similar to 11:36 nexus check
+
+**New observations to generate:**
+1. 11:36 - Nexus 6 nodes online (5500030, 36355716, 35691962, 36729716, 36445748, 37599871) - NEW (details differ from 10:56 14 processes)
+2. 11:39 - Health check with energy 717.5, 3 active queries, 5 prove-fib processes, one query had insufficient funds error - NEW (energy differs from 717 earlier, includes specific query error)
+
+**What to skip:**
+- 11:31 notification check - already in "Already Recorded" as 10:50 notification-check
+- 11:31 status report sent - already in "Already Recorded" as 20:04 status report
+
+
+- The 11:39 health check represents a more current snapshot of system status, with updated energy and query details that differ from earlier recordings. The 11:36 nexus check provides a refreshed view of the 6 active nodes.
+
+I'll prioritize:
+- Energy at 717.5 with 3 active queries and 5 prove-fib processes
+- One query experienced an insufficient funds error
+- All 6 nodes remain online, though this overlaps with previous node status</think>
+
+- 🔴 11:36 Nexus节点检查: 6节点全部在线 (5500030, 36355716, 35691962, 36729716, 36445748, 37599871) <!-- dc:type=event dc:importance=5.0 dc:date=2026-03-30 -->
+- 🟡 11:39 晚间健康检查: Gateway运行中(PID 20550), Fortytwo 2/2运行中, Nexus 12节点全部运行, 能量717.5, 活跃查询3, prove-fib进程5 <!-- dc:type=event dc:importance=4.5 dc:date=2026-03-30 -->
+- 🟢 11:39 心跳时单个query join因stake 500超过余额报Insufficient funds错误, 后续继续正常运行 <!-- dc:type=fact dc:importance=2.5 dc:date=2026-03-30 -->
