@@ -23364,3 +23364,299 @@ The health checks and node restarts appear routine, but the funds limitation rep
 - 🟢 08:39 备注: Fortytwo查询加入因"余额不足"失败 —非服务故障，能量余额不足以加入新查询 <!-- dc:type=context dc:importance=2.5 dc:date=2026-03-31 -->
 - 🟢 08:36 Nexus自动检测: 10+ prove-fib子进程+4主节点活跃，无需重启 <!-- dc:type=event dc:importance=2.0 dc:date=2026-03-31 -->
 ```
+
+<think>Let me analyze the recent messages and create observations that are NOT duplicates of what's already recorded.
+
+Already Recorded (for reference):
+- 🟡 23:09 Nexus 11/12 nodes运行中 - 其中一节点已重启(预期行为)，Fortytwo 717.5 Energy+2活跃查询，Gateway正常运行 <!-- dc:type=event dc:importance=4.0 dc:date=2026-03-31 -->
+- 🟢 23:09 0xunite.com网站仍无法访问 - 域名可能已过期(已在之前检查中标记) <!-- dc:type=fact dc:importance=2.5 dc:date=2026-03-31 -->
+- 🟡 08:39 健康检查: Fortytwo 717.5 Energy+5活跃查询，Nexus 6节点运行中，Gateway + Stock Monitor正常 <!-- dc:type=event dc:importance=4.0 dc:date=2026-03-31 -->
+- 🟢 08:39 备注: Fortytwo查询加入因"余额不足"失败 —非服务故障，能量余额不足以加入新查询 <!-- dc:type=context dc:importance=2.5 dc:date=2026-03-31 -->
+- 🟢 08:36 Nexus自动检测: 10+ prove-fib子进程+4主节点活跃，无需重启 <!-- dc:type=event dc:importance=2.0 dc:date=2026-03-31 -->
+
+New messages to analyze:
+1. [00:09] Cron: Fortytwo Health Check - heartbeat + self-heal
+2. [00:09] Assistant: All services healthy response
+3. [00:03] Cron: binance-square-morning
+4. [00:03] Assistant: Morning post already ran, BTC $65,940 (-0.75%), ETH $1,985 (-0.58%), SOL $81 (-0.97%)
+
+
+5. [00:03] Cron: Daily Ops Health Summary
+6. [00:06] Assistant: Health summary showing failed jobs (status-report-2h)
+
+I'll process these systematically, focusing on unique information. Each message represents a different system check or operational update. The health summary reveals a critical insight about system failures, while other messages confirm routine operational status. I'll prioritize the new failed job information while ensuring I'm not duplicating existing recorded events.
+
+The failed job reporting seems like routine system monitoring, so I'll assign it a low importance score. Crypto market price data is standard financial tracking, and the overall health summary appears to be a consistent daily operational report. I need to carefully verify I'm not redundant in my documentation approach.</think>
+
+Looking at each new message:
+
+1. **Cron: Fortytwo Health Check (00:09)** - This is a scheduled health check, same pattern as the 08:39 health check already recorded. Running heartbeat + self-heal scripts is routine operational noise. **DUPLICATE** (similar to 08:39).
+
+2. **Cron: binance-square-morning (00:03)** - Morning crypto Square post. The assistant noted it already ran ~1 minute ago (9:02 AM). Market data captured. **NEW observation - crypto prices.**
+   - BTC: $65,940 (-0.75%)
+   - ETH: $1,985 (-0.58%)
+   - SOL: $81 (-0.97%)
+
+3. **Cron: Daily Ops Health Summary (00:03)** - Review of cron jobs for last 24 hours. **NEW** - includes failure information not previously recorded.
+
+4. **Assistant Health Summary (00:06)** - Shows system mostly healthy but identifies failed job: `status-report-2h` with 3 consecutive errors ("Unable to resolve plugin runtime module"). This is different from the 08:36/08:39 checks. **NEW failure information.**
+
+---
+
+- 🔴 00:06 系统健康总结: status-report-2h任务连续3次失败 — 错误"无法解析插件运行时模块" <!-- dc:type=event dc:importance=6.0 dc:date=2026-03-31 -->
+- 🟡 00:03 Binance早间市场: BTC $65,940(-0.75%), ETH $1,985(-0.58%), SOL $81(-0.97%) <!-- dc:type=fact dc:importance=3.5 dc:date=2026-03-31 -->
+- 🟢 00:06 系统整体状态: 20个配置任务，15个启用，13个正常运行 <!-- dc:type=event dc:importance=2.5 dc:date=2026-03-31 -->
+
+<think>Let me analyze the messages and compare against "Already Recorded" to find genuinely new observations.
+
+New messages today (2026-03-31):
+
+1. [01:53] Fortytwo Health Check - Ran heartbeat.sh and self-heal.sh
+   - Fortytwo: Running, Balance: 717.5 Energy, Active queries: 0, Login OK
+   - Gateway: Running, 5 processes active
+   - Self-heal: No issues
+   
+2. [01:50] notification-check - Checked pending notification
+   - Result: No pending notifications, everything normal
+
+3. [01:56] nexus-auto-restart - Ran nexus-auto-restart.sh
+   - All 6 nodes online: 5500030, 36355716, 35691962, 36729716, 36445748, 37599871
+
+4. [01:52] auto-memory-runner - Ran auto-runner.sh
+   - Checkpoint: LLM call failed, skipped
+   - Motivation check: Completed
+   - Today's 03-31 already ran 3 times, last one was just now
+   - No log file available, checkpoint skipped
+   - Motivation check completed but winning streak is empty
+
+Now comparing against "Already Recorded":
+- "08:39 Fortytwo 717.5 Energy+5活跃查询" - Current shows 717.5 Energy, 0 active queries (different!)
+- "08:39 Nexus 6节点运行中" - Current confirms 6 nodes online
+- Nothing about notification check being clean today
+- Nothing about nexus-auto-restart confirming all 6 nodes online
+- Nothing about auto-runner having checkpoint failure and motivation check
+
+The 08:39 observation mentioned "5 active queries", but the 01:53 heartbeat shows "0 active queries" - this is a change that should be recorded.
+
+Also the auto-runner checkpoint failure is new info.
+
+
+I'll cross-reference the timestamps and details to ensure accuracy. The health checks and node statuses show some variability in system performance. The 01:53 heartbeat confirms zero active queries, which differs from the earlier morning check. I'll note this nuanced system state, highlighting the consistent nodes and energy levels.</think>
+
+- 🔴 2026-03-31 01:53 系统健康检查: Fortytwo 717.5 Energy+0活跃查询(上午08:39为5个，变化需关注)，Gateway 5进程活跃，自愈无需修复 <!-- dc:type=event dc:importance=6.0 dc:date=2026-03-31 -->
+- 🟢 2026-03-31 01:50 通知检查完成: 无待处理通知，Gateway正常 <!-- dc:type=event dc:importance=2.0 dc:date=2026-03-31 -->
+- 🟢 2026-03-31 01:56 Nexus自动检测: 全部6节点在线(5500030,36355716,35691962,36729716,36445748,37599871) <!-- dc:type=event dc:importance=2.0 dc:date=2026-03-31 -->
+- 🟡 2026-03-31 01:52 自动记忆脚本执行: 检查点LLM调用失败跳过，动机检查完成(连胜记录为空) <!-- dc:type=event dc:importance=4.0 dc:date=2026-03-31 -->
+
+<think>Let me analyze the recent messages to see what new observations I can extract.
+
+The cron job message at 02:24 UTC (11:24 AM KST) is a health check cron that runs two scripts. The assistant responded with a health check report.
+
+Key new information:
+1. Fortytwo heartbeat cycling rapidly (2x within 1 minute) - suggesting a token refresh race condition
+2. At 11:24:08 - Logged in, 717.5 Energy, no active queries
+3. At 11:24:14 - Token refreshed, balance empty, "Balance too low to answer (need >= 5)"
+
+This is interesting - the token refresh happened immediately after login, resulting in 0 energy balance, which then couldn't answer queries.
+
+Looking at the "Already Recorded" list:
+- 08:39: Fortytwo 717.5 Energy+5 active queries, Nexus 6 nodes running, Gateway + Stock Monitor normal
+- Note: Fortytwo query joining failed due to "insufficient balance" - not a service issue, energy balance insufficient to join new queries
+- 01:53: Fortytwo 717.5 Energy+0 active queries (morning 08:39 was 5, change needs attention)
+
+Now at 11:24, there's a token refresh race condition issue. This is NEW information - it's a technical issue about how the heartbeat and token refresh are racing.
+
+Let me check what's already recorded:
+- The morning health check at 08:39 shows 717.5 Energy + 5 active queries
+- The 01:53 health check shows 717.5 Energy + 0 active queries
+
+The new observation here is:
+- Token refresh race condition detected (rapid cycling within 1 minute)
+- After token refresh, balance went to 0 and queries couldn't be answered
+
+This is a NEW technical issue/fact that wasn't recorded before. The race condition is a specific bug.
+
+
+I'll assign a medium priority to this technical anomaly, noting the rapid token refresh causing balance depletion. The system's energy management seems to have a critical timing issue that warrants further investigation.</think>
+
+Looking at the recent messages, I need to extract new observations not already recorded.
+
+The health check cron at 02:24 UTC ran Fortytwo heartbeat and Gateway self-heal. The assistant reported:
+
+- Fortytwo heartbeat cycling rapidly (2x within 1 minute) - token refresh race condition
+- 11:24:08: Logged in, 717.5 Energy, no active queries
+- 11:24:14: Token refreshed, balance empty, "Balance too low to answer (need >= 5)"
+
+Checking against "Already Recorded":
+- 08:39 showed 717.5 Energy + 5 active queries
+- Note about "insufficient balance" was context, not the race condition bug itself
+
+This race condition is NEW technical information about a bug in how token refresh interacts with heartbeat.
+
+```xml
+- 🔴 11:24 Fortytwo心跳Rapid Cycling: 1分钟内执行2次 — token刷新竞态条件导致余额瞬间耗尽，查询无法加入 <!-- dc:type=event dc:importance=6.5 dc:date=2026-03-31 -->
+- 🟡 11:24 Token刷新后状态: 余额清零 "Balance too low to answer (need >= 5)" — 与早间717.5 Energy状态对比异常 <!-- dc:type=fact dc:importance=5.0 dc:date=2026-03-31 -->
+- 🟢 11:24 Gateway自愈检查: 运行正常，无需修复 <!-- dc:type=event dc:importance=2.0 dc:date=2026-03-31 -->
+```
+
+<think>Let me analyze the new messages and compare them with what's already recorded.
+
+Already Recorded:
+1. 2026-03-31 01:53 系统健康检查: Fortytwo 717.5 Energy+0活跃查询...
+2. 2026-03-31 01:50 通知检查完成: 无待处理通知...
+3. 2026-03-31 01:56 Nexus自动检测: 全部6节点在线...
+4. 2026-03-31 01:52 自动记忆脚本执行: 检查点LLM调用失败跳过...
+5. 11:24 Fortytwo心跳Rapid Cycling...
+6. 11:24 Token刷新后状态: 余额清零...
+7. 11:24 Gateway自愈检查: 运行正常...
+
+Now let me look at today's new messages (timestamps around 02:45-02:56):
+
+[02:45] Checked HEARTBEAT.md - found critical issue: 0xunite.com is down (NXDOMAIN), likely domain expired. This is NEW and IMPORTANT - it's a critical issue about the website domain.
+
+Wait, let me check if there's already something about 0xunite.com in the recorded list... No, nothing about domain issues there.
+
+[02:50] Notification check - no pending notifications. This is routine, similar to the 01:50 one. Should I record? It's the same task run twice - but it confirms Gateway is fine. Already have "无待处理通知" at 01:50. This is duplicate.
+
+[02:52] Auto-runner - checkpoint failed (LLM API issue), motivation check completed. This is similar to 01:52 but adds some details. The message says "今天周二，动机检查已正常运行" - but this IS the same event as 01:52 "动机检查完成(连胜记录为空)". Actually wait, 01:52 was ALSO Tuesday March 31. Let me check... 01:52 is 01:52 UTC, which is 10:52 AM Korea time. So both are on the same day.
+
+
+I'm noticing subtle variations in timestamps and context that suggest these might be distinct events. The 02:52 auto-runner seems to be a follow-up to the earlier checkpoint attempt, indicating a second run on the same day. This nuanced detail could be significant for tracking system processes and potential retry mechanisms.
+
+The time difference between 01:52 and 02:52 suggests an intentional or systematic reattempt at running the checkpoint. While the core information remains consistent, the different execution context makes this worth documenting as a potential system behavior pattern.
+
+The health check at 02:54 reveals new data: 3 active queries with 717.5 Energy, showing slight variations from earlier observations. These subtle changes hint at dynamic system interactions that could be meaningful when analyzed over time.
+
+The Nexus node count discrepancy between 6 and 12 nodes raises critical questions about system configuration or potential monitoring inconsistencies that warrant further investigation.</think>
+
+Looking at today's messages, I need to filter out duplicates from the "Already Recorded" list.
+
+Already recorded items:
+- System health check at 01:53 (Fortytwo 717.5 Energy, 0 queries)
+- Notification check at 01:50
+- Nexus detection at 01:56 (6 nodes online)
+- Auto-memory script at 01:52 (checkpoint LLM failed, motivation check completed)
+- Fortytwo heartbeat rapid cycling issues at 11:24
+- Token refresh status at 11:24
+- Gateway self-heal at 11:24
+
+New messages to analyze:
+
+1. **[02:45] HEARTBEAT.md check** - NEW critical issue discovered: 0xunite.com domain down (NXDOMAIN) for 2 days - likely expired
+2. **[02:50] Notification check** - DUPLICATE (already recorded at 01:50 as "无待处理通知")
+3. **[02:52] Auto-runner.sh** - This IS the same as 01:52 checkpoint/motivation run (the script runs every 6 hours). The outcome is identical - checkpoint failed (LLM API), motivation completed. DUPLICATE.
+4. **[02:54] System & Fortytwo Health Check** - Variation from 01:53: now shows 3 active queries (was 0) and 717.5 Energy (same). This is partly NEW info but represents the same health check event type. However the "3 active queries" is different from 01:53's "0 active queries" - this shows a state change.
+5. **[02:56] Nexus auto-restart** - Shows 6 nodes online, consistent with 01:56. DUPLICATE in outcome.
+
+The only genuinely new observation is the 0xunite.com domain issue.
+
+Let me verify there are no other already-recorded items that match:
+
+Checking message [02:54] System & Fortytwo Health Check:
+- Earlier at 01:53: "Fortytwo 717.5 Energy+0活跃查询"
+- Now at 02:54: "3 active queries, 717.5 Energy"
+
+This IS a state change (0 → 3 queries), but it's part of the same health check event type. Whether to record as new depends on if the state change is significant enough. Since it's the same checking routine just at a different time, and the core facts (services healthy) are the same, this might be considered routine continuation rather than new event.
+
+Given the scoring guidelines, I should:
+- Record the CRITICAL domain issue (6+)
+- Possibly record the query state change if important
+- Skip duplicates
+
+Let me output only genuinely new observations:
+```
+- 🔴 02:45 🔴 CRITICAL: 0xunite.com网站已下线2天 — DNS返回NXDOMAIN(域名无法解析)，疑似域名过期需立即续费 <!-- dc:type=event dc:importance=8.0 dc:date=2026-03-31 -->
+```
+
+Wait - but I should also consider if the 02:54 health check showing 3 active queries (vs 0 earlier) represents new information. Looking at the earlier recorded item: "Fortytwo 717.5 Energy+0活跃查询" - this was at 01:53. Now at 02:54 (about an hour later), there are 3 active queries. This IS a meaningful state change - queries went from 0 to 3.
+
+However, this is still the same health check event type. The guidelines say to record what happened - and what happened is the system was checked and found healthy. The detail about "3 active queries" vs "0" is just a detail of that check, not a separate event.
+
+Also I notice my example output format shows nested children under a parent. But my single observation doesn't need nesting.
+
+Let me refine:
+
+Actually, I should check more carefully - what about the Nexus node count difference? Already recorded says "6 nodes active" at 01:56. The new check at 02:56 also says "6 nodes online" - that's duplicate.
+
+And the notification check - duplicate.
+
+The auto-runner at 02:52 - the same script runs every 6 hours. The outcome is checkpoint failed (LLM API), motivation check done. This is essentially the same event as 01:52, just a second run. Should I record as new? The guidelines say to avoid duplicates. The outcome is identical in substance. Skip.
+
+So my final answer should only include the domain expiry issue.
+
+But wait - I'm second-guessing myself on the health check. Let me be precise:
+
+Earlier today at 01:53: "Fortytwo 717.5 Energy+0活跃查询"
+Now at 02:54: "3 active queries, 717.5 Energy"
+
+This represents a state change that shows additional activity. But it's the same health check event category. Since the core outcome (services healthy) is the same, and only the detail of query count changed, this might be considered part of the same ongoing monitoring rather than a new distinct event.
+
+The guidelines say to score low (1-2) for "routine confirmations" and "informational noise." Health checks fall into this category. The earlier health check was already recorded as importance 6.0. This is a repeat of the same check just an hour later.
+
+I think the safest approach is to record only the critical domain issue, which is genuinely new and urgent.
+
+Actually wait - I need to reconsider. The earlier health check at 01:53 was recorded with importance 6.0. It noted "0活跃查询" - showing no active queries at that time. Now there's a state change to 3 active queries. This IS new information that wasn't known before. The system went from having no active queries to having 3.
+
+Should I record this? The guidelines say "routine task completions" score 3-4. This is essentially that - but the NEW detail is the state change. Let me include it.
+
+Actually no - let me be strict. The system health check is a routine cron job. The fact that queries happened to be 3 vs 0 is just variation in the routine. It doesn't establish a new pattern or require action. The important thing (services healthy) is the same. Skip.
+
+Final decision: Only record the domain issue.
+
+Wait - I'm overthinking. Let me verify: Is there ANY chance the domain issue was already recorded? Let me scan again... No, there's nothing about domain expiry or website being down in the "Already Recorded" list
+
+<think>Let me analyze the recent messages to compress into observations.
+
+Key observations from today (2026-03-31):
+
+1. [03:05] - Status report cron job ran check.sh and sent status to M4监工群
+   - Nexus: 12 nodes running (06-12:25:25 uptime)
+   - Fortytwo Agent: heartbeat normal, 3 active
+   - Fortytwo Terminal: balance 717
+
+2. [03:14] - Health check cron job ran heartbeat scripts
+   - Gateway: Normal
+   - Fortytwo: Running, balance 717.5, 3 active queries
+   - Token errors were benign debug output during routine refresh
+
+3. [03:04] - Another health check ran
+   - Gateway: Running, ~166h uptime, PID 20550
+   - FortytwoProtocol: Running, ~349h uptime, PID 5148
+   - FortytwoCapsule: Running, ~92h uptime, PID 5044
+   - Nexus Nodes: 6/6 active, ~14h uptime
+   - Nexus Compute: 8 workers, just started (prove-fib subprocesses)
+
+These are all cron jobs performing routine monitoring. The important thing to note is that all services are healthy.
+
+Already Recorded:
+- CRITICAL: 0xunite.com website down for 2 days - DNS returns NXDOMAIN, domain appears expired and needs immediate renewal
+
+Now let me assess what to record:
+
+1. These are all routine health checks and status reports - should be scored low (1-2) as they're cron jobs
+2. The health status of services - should be recorded as facts, but they're routine
+3. The domain issue is already recorded, don't repeat
+
+Let me check what's genuinely new vs repetitive:
+- Multiple health checks in short succession (03:04 and 03:14) - these are cron noise
+- Status report sent to M4 group - this is a messaging action
+
+
+I'll focus on capturing unique operational insights while avoiding redundant information. The 12-node Nexus cluster uptime and service status details are worth noting, but I'll prioritize non-repetitive observations. Cron jobs suggest consistent system monitoring, so I'll look for any anomalies or significant changes that aren't already captured in previous logs.</think>
+
+Looking at the messages, I see several routine cron jobs for health checks and status reports. Let me identify what's genuinely new and important to record.
+
+The domain expiry issue from earlier is already recorded - that's the critical item. Let me check for any new observations from today's cron activities.
+
+```
+- 🔴 03:05 🔴 状态报告已发送至M4监工群: Nexus 12节点运行中, Fortytwo Agent活跃3, 终端余额717 <!-- dc:type=event dc:importance=3.0 dc:date=2026-03-31 -->
+- 🟢 03:04 🟢 系统健康检查: Gateway运行166h, Fortytwo协议349h, Nexus节点6/6在线, 计算资源8 workers启动 <!-- dc:type=fact dc:importance=2.0 dc:date=2026-03-31 -->
+- 🟢 03:14 🟢 Fortytwo服务健康: 余额717.5, 活跃查询3, token错误为常规刷新调试输出(良性) <!-- dc:type=fact dc:importance=1.5 dc:date=2026-03-31 -->
+```
+
+Note: 这些观察涵盖:
+- 状态报告发送至M4群 (向外部接收者发送消息的操作)
+- 服务运行状态细节 (Gateway, Fortytwo协议, Nexus节点)
+- Token错误确认为良性调试输出
+
+所有服务健康运行，无新问题。域名前已记录在"已录制"清单中。
