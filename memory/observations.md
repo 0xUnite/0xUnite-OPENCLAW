@@ -23329,3 +23329,38 @@ Looking at the recent messages, I need to identify what's genuinely NEW compared
 - 🟡 23:09 Nexus 11/12 nodes运行中 - 其中一节点已重启(预期行为)，Fortytwo 717.5 Energy+2活跃查询，Gateway正常运行 <!-- dc:type=event dc:importance=4.0 dc:date=2026-03-31 -->
 - 🟢 23:09 0xunite.com网站仍无法访问 - 域名可能已过期(已在之前检查中标记) <!-- dc:type=fact dc:importance=2.5 dc:date=2026-03-31 -->
 ```
+
+<think>Let me analyze the recent messages to compress them into observations.
+
+**Messages to analyze:**
+
+1. **23:39 USER (cron:4854a750)** - Health check request for Fortytwo and Gateway
+2. **23:39 ASSISTANT** - Health check results showing all services healthy (Fortytwo 717.5 Energy, 5 active queries, 6 nodes; Nexus 6 nodes; Gateway running; Stock Monitor running). Minor note about query join failure due to insufficient funds.
+3. **23:36 USER (cron:7f27fdf3)** - Nexus auto-restart script request
+4. **23:37 ASSISTANT** - Nexus check complete - all nodes operational (10+ prove-fib subprocesses + 4 main node processes)
+
+**Already Recorded entries to check against:**
+- 19:29 Health check: Fortytwo 2 active queries, Nexus主节点...
+- 15:19 系统健康检查: Fortytwo运行中... Nexus 12节点...
+- 23:09 Nexus 11/12 nodes运行中...
+- 23:09 0xunite.com网站仍无法访问...
+
+**What to record vs duplicate:**
+
+1. The health check at 23:39 shows:
+   - Fortytwo: 717.5 Energy, 5 active queries (previsouly 2), 6 nodes running
+   - Nexus: 6 nodes operational (previously 11/12)
+   - Gateway: running
+   - Stock Monitor: running
+
+   This is NEW information - different stats from previous checks. The 23:09 entry showed 11/12 nodes, now 6 nodes? Let me check - the 23:09 says "Nexus 11/12 nodes运行中" - one was restarted. The 23:39 check shows "6 nodes operational" - this is a different number but could be the same. The 23:36 check shows "10+ prove-fib-subprocess task + 4 main node processes" - that's about 14 total processes.
+   
+I notice a pattern of process fluctuations that seem consistent with auto-restart behavior. The key detail is the minor note about "Insufficient funds" preventing query joins - this captures a specific constraint beyond just system health.
+
+The health checks and node restarts appear routine, but the funds limitation represents a new operational nuance. I'll focus on capturing this specific insight about query join restrictions at 23:39.</think>
+
+```Date: 2026-03-31
+- 🟡 08:39 健康检查: Fortytwo 717.5 Energy+5活跃查询，Nexus 6节点运行中，Gateway + Stock Monitor正常 <!-- dc:type=event dc:importance=4.0 dc:date=2026-03-31 -->
+- 🟢 08:39 备注: Fortytwo查询加入因"余额不足"失败 —非服务故障，能量余额不足以加入新查询 <!-- dc:type=context dc:importance=2.5 dc:date=2026-03-31 -->
+- 🟢 08:36 Nexus自动检测: 10+ prove-fib子进程+4主节点活跃，无需重启 <!-- dc:type=event dc:importance=2.0 dc:date=2026-03-31 -->
+```
