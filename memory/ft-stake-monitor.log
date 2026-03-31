@@ -1908,3 +1908,67 @@
 {"ok":true,"result":{"message_id":2271,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774927199,"text":"\ud83d\udd25 \u4f4e Stake \u673a\u4f1a\uff01\n\n\u4f59\u989d: 717.50000000 Energy\n\n\u2022 ID: ffcee43e | Stake: 500.0 | computer science\n\u2022 ID: d6e5e841 | Stake: 500.0 | philosophy\n\u2022 ID: 207cf58a | Stake: 500.0 | economics","entities":[{"offset":3,"length":11,"type":"bold"}]}}03-31 12:19 发送通知: 3 个机会
 03-31 12:35 余额: 717.50000000
 03-31 12:35 无低 stake 机会 (stake > 500)
+03-31 12:50 余额: 717.50000000
+03-31 12:50 无低 stake 机会 (stake > 500)
+03-31 13:05 余额: 717.50000000
+03-31 13:05 无低 stake 机会 (stake > 500)
+03-31 13:20 余额: 717.50000000
+{"ok":true,"result":{"message_id":2273,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774930867,"text":"\ud83d\udd25 \u4f4e Stake \u673a\u4f1a\uff01\n\n\u4f59\u989d: 717.50000000 Energy\n\n\u2022 ID: 8d925811 | Stake: 500.0 | engineering\n\u2022 ID: d0beaa28 | Stake: 500.0 | psychology\n\u2022 ID: e9680ad2 | Stake: 500.0 | philosophy","entities":[{"offset":3,"length":11,"type":"bold"}]}}03-31 13:21 发送通知: 3 个机会
+03-31 13:36 余额: 717.50000000
+{"ok":true,"result":{"message_id":2274,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774931786,"text":"\ud83d\udd25 \u4f4e Stake \u673a\u4f1a\uff01\n\n\u4f59\u989d: 717.50000000 Energy\n\n\u2022 ID: 8d925811 | Stake: 500.0 | engineering\n\u2022 ID: d0beaa28 | Stake: 500.0 | psychology\n\u2022 ID: e9680ad2 | Stake: 500.0 | philosophy","entities":[{"offset":3,"length":11,"type":"bold"}]}}03-31 13:36 发送通知: 3 个机会
+03-31 13:51 余额: 717.50000000
+03-31 13:51 无低 stake 机会 (stake > 500)
+03-31 14:06 余额: 717.50000000
+03-31 14:07 无低 stake 机会 (stake > 500)
+03-31 14:22 余额: 717.50000000
+03-31 14:22 无低 stake 机会 (stake > 500)
+03-31 14:37 余额: 717.50000000
+{"ok":true,"result":{"message_id":2277,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774935459,"text":"\ud83d\udd25 \u4f4e Stake \u673a\u4f1a\uff01\n\n\u4f59\u989d: 717.50000000 Energy\n\n\u2022 ID: 2ee0a72c | Stake: 500.0 | economics\n\u2022 ID: 398825b5 | Stake: 500.0 | philosophy\n\u2022 ID: 3923987e | Stake: 500.0 | engineering","entities":[{"offset":3,"length":11,"type":"bold"}]}}03-31 14:37 发送通知: 3 个机会
+03-31 14:52 余额: 717.50000000
+{"ok":true,"result":{"message_id":2278,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774936378,"text":"\ud83d\udd25 \u4f4e Stake \u673a\u4f1a\uff01\n\n\u4f59\u989d: 717.50000000 Energy\n\n\u2022 ID: 2ee0a72c | Stake: 500.0 | economics\n\u2022 ID: 398825b5 | Stake: 500.0 | philosophy\n\u2022 ID: 3923987e | Stake: 500.0 | engineering","entities":[{"offset":3,"length":11,"type":"bold"}]}}03-31 14:52 发送通知: 3 个机会
+03-31 15:08 余额: 717.50000000
+{"ok":true,"result":{"message_id":2279,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774937299,"text":"\ud83d\udd25 \u4f4e Stake \u673a\u4f1a\uff01\n\n\u4f59\u989d: 717.50000000 Energy\n\n\u2022 ID: 2ee0a72c | Stake: 500.0 | economics\n\u2022 ID: 398825b5 | Stake: 500.0 | philosophy\n\u2022 ID: 3923987e | Stake: 500.0 | engineering","entities":[{"offset":3,"length":11,"type":"bold"}]}}03-31 15:08 发送通知: 3 个机会
+03-31 15:23 余额: 717.50000000
+03-31 15:23 无低 stake 机会 (stake > 500)
+03-31 15:38 余额: 717.50000000
+03-31 15:38 无低 stake 机会 (stake > 500)
+03-31 15:54 余额: 717.50000000
+03-31 15:54 无低 stake 机会 (stake > 500)
+03-31 16:09 余额: 717.50000000
+03-31 16:09 无低 stake 机会 (stake > 500)
+03-31 16:24 余额: 717.50000000
+{"ok":true,"result":{"message_id":2283,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774941878,"text":"\ud83d\udd25 \u4f4e Stake \u673a\u4f1a\uff01\n\n\u4f59\u989d: 717.50000000 Energy\n\n\u2022 ID: 62802916 | Stake: 500.0 | philosophy\n\u2022 ID: c7c25aa5 | Stake: 500.0 | philosophy","entities":[{"offset":3,"length":11,"type":"bold"}]}}03-31 16:24 发送通知: 2 个机会
+03-31 16:39 余额: 717.50000000
+{"ok":true,"result":{"message_id":2284,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774942798,"text":"\ud83d\udd25 \u4f4e Stake \u673a\u4f1a\uff01\n\n\u4f59\u989d: 717.50000000 Energy\n\n\u2022 ID: 62802916 | Stake: 500.0 | philosophy\n\u2022 ID: c7c25aa5 | Stake: 500.0 | philosophy","entities":[{"offset":3,"length":11,"type":"bold"}]}}03-31 16:39 发送通知: 2 个机会
+03-31 16:55 余额: 717.50000000
+03-31 16:55 无低 stake 机会 (stake > 500)
+03-31 17:10 余额: 717.50000000
+03-31 17:10 无低 stake 机会 (stake > 500)
+03-31 17:25 余额: 717.50000000
+{"ok":true,"result":{"message_id":2286,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774945558,"text":"\ud83d\udd25 \u4f4e Stake \u673a\u4f1a\uff01\n\n\u4f59\u989d: 717.50000000 Energy\n\n\u2022 ID: 88c340ff | Stake: 350.0 | AI Ethics, Technology Policy","entities":[{"offset":3,"length":11,"type":"bold"}]}}03-31 17:25 发送通知: 1 个机会
+03-31 17:41 余额: 717.50000000
+{"ok":true,"result":{"message_id":2287,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774946478,"text":"\ud83d\udd25 \u4f4e Stake \u673a\u4f1a\uff01\n\n\u4f59\u989d: 717.50000000 Energy\n\n\u2022 ID: 0204b549 | Stake: 500.0 | engineering\n\u2022 ID: 93d9cd17 | Stake: 500.0 | economics\n\u2022 ID: 3bf81636 | Stake: 500.0 | engineering\n\u2022 ID: 88c340ff | Stake: 350.0 | AI Ethics, Technology Policy","entities":[{"offset":3,"length":11,"type":"bold"}]}}03-31 17:41 发送通知: 4 个机会
+03-31 17:56 余额: 717.50000000
+{"ok":true,"result":{"message_id":2288,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774947395,"text":"\ud83d\udd25 \u4f4e Stake \u673a\u4f1a\uff01\n\n\u4f59\u989d: 717.50000000 Energy\n\n\u2022 ID: 0204b549 | Stake: 500.0 | engineering\n\u2022 ID: 93d9cd17 | Stake: 500.0 | economics\n\u2022 ID: 3bf81636 | Stake: 500.0 | engineering\n\u2022 ID: 88c340ff | Stake: 350.0 | AI Ethics, Technology Policy","entities":[{"offset":3,"length":11,"type":"bold"}]}}03-31 17:56 发送通知: 4 个机会
+03-31 18:11 余额: 717.50000000
+{"ok":true,"result":{"message_id":2290,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774948313,"text":"\ud83d\udd25 \u4f4e Stake \u673a\u4f1a\uff01\n\n\u4f59\u989d: 717.50000000 Energy\n\n\u2022 ID: 0204b549 | Stake: 500.0 | engineering\n\u2022 ID: 93d9cd17 | Stake: 500.0 | economics\n\u2022 ID: 3bf81636 | Stake: 500.0 | engineering\n\u2022 ID: 88c340ff | Stake: 350.0 | AI Ethics, Technology Policy","entities":[{"offset":3,"length":11,"type":"bold"}]}}03-31 18:11 发送通知: 4 个机会
+03-31 18:27 余额: 717.50000000
+{"ok":true,"result":{"message_id":2292,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774949232,"text":"\ud83d\udd25 \u4f4e Stake \u673a\u4f1a\uff01\n\n\u4f59\u989d: 717.50000000 Energy\n\n\u2022 ID: 88c340ff | Stake: 350.0 | AI Ethics, Technology Policy","entities":[{"offset":3,"length":11,"type":"bold"}]}}03-31 18:27 发送通知: 1 个机会
+03-31 18:42 余额: 717.50000000
+03-31 18:42 无低 stake 机会 (stake > 500)
+03-31 18:57 余额: 717.50000000
+03-31 18:57 无低 stake 机会 (stake > 500)
+03-31 19:12 余额: 717.50000000
+{"ok":true,"result":{"message_id":2294,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774951981,"text":"\ud83d\udd25 \u4f4e Stake \u673a\u4f1a\uff01\n\n\u4f59\u989d: 717.50000000 Energy\n\n\u2022 ID: d4c42f95 | Stake: 500.0 | computer science\n\u2022 ID: b5b14938 | Stake: 500.0 | engineering","entities":[{"offset":3,"length":11,"type":"bold"}]}}03-31 19:13 发送通知: 2 个机会
+03-31 19:28 余额: 717.50000000
+{"ok":true,"result":{"message_id":2295,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774952909,"text":"\ud83d\udd25 \u4f4e Stake \u673a\u4f1a\uff01\n\n\u4f59\u989d: 717.50000000 Energy\n\n\u2022 ID: d4c42f95 | Stake: 500.0 | computer science\n\u2022 ID: b5b14938 | Stake: 500.0 | engineering","entities":[{"offset":3,"length":11,"type":"bold"}]}}03-31 19:28 发送通知: 2 个机会
+03-31 19:43 余额: 717.50000000
+{"ok":true,"result":{"message_id":2296,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774953844,"text":"\ud83d\udd25 \u4f4e Stake \u673a\u4f1a\uff01\n\n\u4f59\u989d: 717.50000000 Energy\n\n\u2022 ID: d4c42f95 | Stake: 500.0 | computer science\n\u2022 ID: b5b14938 | Stake: 500.0 | engineering","entities":[{"offset":3,"length":11,"type":"bold"}]}}03-31 19:44 发送通知: 2 个机会
+03-31 19:59 余额: 717.50000000
+03-31 19:59 无低 stake 机会 (stake > 500)
+03-31 20:14 余额: 717.50000000
+03-31 20:14 无低 stake 机会 (stake > 500)
+03-31 20:29 余额: 717.50000000
+03-31 20:29 无低 stake 机会 (stake > 500)
+03-31 20:45 余额: 717.50000000
+{"ok":true,"result":{"message_id":2298,"from":{"id":8560545483,"is_bot":true,"first_name":"\u82cf\u8fea\u5c0f\u80d6\ud83d\udc37M4","username":"openclaw_test_2026_bot"},"chat":{"id":-1003727098894,"title":"M4 \u76d1\u5de5\u7fa4","type":"supergroup"},"date":1774957523,"text":"\ud83d\udd25 \u4f4e Stake \u673a\u4f1a\uff01\n\n\u4f59\u989d: 717.50000000 Energy\n\n\u2022 ID: 9864d0ac | Stake: 500.0 | medicine","entities":[{"offset":3,"length":11,"type":"bold"}]}}03-31 20:45 发送通知: 1 个机会
