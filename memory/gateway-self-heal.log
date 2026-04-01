@@ -30629,3 +30629,231 @@
 [2026-03-31 20:56:35] heal failed: gateway still unhealthy
 [2026-03-31 20:56:55] heal: gateway port 18789 is down, repairing
 [2026-03-31 20:56:57] manual fallback skipped: terminal supervisor already running
+[2026-03-31 21:01:50] heal failed: gateway still unhealthy
+[2026-03-31 21:02:10] heal: gateway port 18789 is down, repairing
+[2026-03-31 21:02:12] manual fallback skipped: terminal supervisor already running
+[2026-03-31 21:07:19] heal failed: gateway still unhealthy
+[2026-03-31 21:07:38] heal: gateway port 18789 is down, repairing
+[2026-03-31 21:07:40] manual fallback skipped: terminal supervisor already running
+[2026-03-31 21:12:47] heal failed: gateway still unhealthy
+[2026-03-31 21:13:09] heal: gateway port 18789 is down, repairing
+[2026-03-31 21:13:09] manual fallback skipped: terminal supervisor already running
+[2026-03-31 21:18:15] heal failed: gateway still unhealthy
+[2026-03-31 21:18:37] heal: gateway port 18789 is down, repairing
+[2026-03-31 21:18:39] manual fallback skipped: terminal supervisor already running
+[2026-03-31 21:23:31] heal failed: gateway still unhealthy
+[2026-03-31 21:23:53] heal: gateway port 18789 is down, repairing
+[2026-03-31 21:23:55] manual fallback skipped: terminal supervisor already running
+[2026-03-31 21:28:59] heal failed: gateway still unhealthy
+[2026-03-31 21:29:20] heal: gateway port 18789 is down, repairing
+[2026-03-31 21:29:22] manual fallback skipped: terminal supervisor already running
+[2026-03-31 21:34:19] heal failed: gateway still unhealthy
+[2026-03-31 21:34:39] heal: gateway port 18789 is down, repairing
+[2026-03-31 21:34:41] manual fallback skipped: terminal supervisor already running
+[2026-03-31 21:39:36] heal failed: gateway still unhealthy
+[2026-03-31 21:39:55] heal: gateway port 18789 is down, repairing
+[2026-03-31 21:39:57] manual fallback skipped: terminal supervisor already running
+[2026-03-31 21:44:42] heal failed: gateway still unhealthy
+[2026-03-31 21:45:04] heal: gateway port 18789 is down, repairing
+[2026-03-31 21:45:07] manual fallback skipped: terminal supervisor already running
+[2026-03-31 21:49:56] heal failed: gateway still unhealthy
+[2026-03-31 21:50:15] heal: gateway port 18789 is down, repairing
+[2026-03-31 21:50:16] manual fallback skipped: terminal supervisor already running
+[2026-03-31 21:54:39] heal failed: gateway still unhealthy
+[2026-03-31 21:55:00] heal: gateway port 18789 is down, repairing
+[2026-03-31 21:55:03] manual fallback skipped: terminal supervisor already running
+[2026-03-31 21:59:46] heal failed: gateway still unhealthy
+[2026-03-31 22:00:08] heal: gateway port 18789 is down, repairing
+[2026-03-31 22:00:10] manual fallback skipped: terminal supervisor already running
+[2026-03-31 22:04:42] heal failed: gateway still unhealthy
+[2026-03-31 22:05:02] heal: gateway port 18789 is down, repairing
+[2026-03-31 22:05:04] manual fallback skipped: terminal supervisor already running
+[2026-03-31 22:09:54] heal failed: gateway still unhealthy
+[2026-03-31 22:10:17] heal: gateway port 18789 is down, repairing
+[2026-03-31 22:10:19] manual fallback skipped: terminal supervisor already running
+[2026-03-31 22:16:02] heal failed: gateway still unhealthy
+[2026-03-31 22:16:22] heal: gateway port 18789 is down, repairing
+[2026-03-31 22:16:25] manual fallback skipped: terminal supervisor already running
+[2026-03-31 22:22:12] heal failed: gateway still unhealthy
+[2026-03-31 22:22:28] heal: gateway port 18789 is down, repairing
+[2026-03-31 22:22:30] manual fallback skipped: terminal supervisor already running
+[2026-03-31 22:27:12] heal failed: gateway still unhealthy
+[2026-03-31 22:27:32] heal: gateway port 18789 is down, repairing
+[2026-03-31 22:27:34] manual fallback skipped: terminal supervisor already running
+[2026-03-31 22:32:24] heal failed: gateway still unhealthy
+[2026-03-31 22:32:45] heal: gateway port 18789 is down, repairing
+[2026-03-31 22:32:47] manual fallback skipped: terminal supervisor already running
+[2026-03-31 22:37:54] heal failed: gateway still unhealthy
+[2026-03-31 22:38:17] heal: gateway port 18789 is down, repairing
+[2026-03-31 22:38:19] manual fallback skipped: terminal supervisor already running
+[2026-03-31 22:43:17] heal failed: gateway still unhealthy
+[2026-03-31 22:43:33] heal: gateway port 18789 is down, repairing
+[2026-03-31 22:43:36] manual fallback skipped: terminal supervisor already running
+[2026-03-31 22:48:49] heal failed: gateway still unhealthy
+[2026-03-31 22:49:09] heal: gateway port 18789 is down, repairing
+[2026-03-31 22:49:13] manual fallback skipped: terminal supervisor already running
+[2026-03-31 22:54:13] heal failed: gateway still unhealthy
+[2026-03-31 22:54:32] heal: gateway port 18789 is down, repairing
+[2026-03-31 22:54:35] manual fallback skipped: terminal supervisor already running
+[2026-03-31 22:59:23] heal failed: gateway still unhealthy
+[2026-03-31 22:59:42] heal: gateway port 18789 is down, repairing
+[2026-03-31 22:59:45] manual fallback skipped: terminal supervisor already running
+[2026-03-31 23:04:36] heal failed: gateway still unhealthy
+[2026-03-31 23:04:54] heal: gateway port 18789 is down, repairing
+[2026-03-31 23:04:54] manual fallback skipped: terminal supervisor already running
+[2026-03-31 23:09:58] heal failed: gateway still unhealthy
+[2026-03-31 23:10:18] heal: gateway port 18789 is down, repairing
+[2026-03-31 23:10:20] manual fallback skipped: terminal supervisor already running
+[2026-03-31 23:15:09] heal failed: gateway still unhealthy
+[2026-03-31 23:15:29] heal: gateway port 18789 is down, repairing
+[2026-03-31 23:15:31] manual fallback skipped: terminal supervisor already running
+[2026-03-31 23:20:20] heal failed: gateway still unhealthy
+[2026-03-31 23:20:42] heal: gateway port 18789 is down, repairing
+[2026-03-31 23:20:44] manual fallback skipped: terminal supervisor already running
+[2026-03-31 23:26:19] heal failed: gateway still unhealthy
+[2026-03-31 23:26:42] heal: gateway port 18789 is down, repairing
+[2026-03-31 23:26:46] manual fallback skipped: terminal supervisor already running
+[2026-03-31 23:31:54] heal failed: gateway still unhealthy
+[2026-03-31 23:32:15] heal: gateway port 18789 is down, repairing
+[2026-03-31 23:32:17] manual fallback skipped: terminal supervisor already running
+[2026-03-31 23:37:08] heal failed: gateway still unhealthy
+[2026-03-31 23:37:29] heal: gateway port 18789 is down, repairing
+[2026-03-31 23:37:31] manual fallback skipped: terminal supervisor already running
+[2026-03-31 23:42:15] heal failed: gateway still unhealthy
+[2026-03-31 23:42:33] heal: gateway port 18789 is down, repairing
+[2026-03-31 23:42:35] manual fallback skipped: terminal supervisor already running
+[2026-03-31 23:46:44] heal failed: gateway still unhealthy
+[2026-03-31 23:47:02] heal: gateway port 18789 is down, repairing
+[2026-03-31 23:47:03] manual fallback skipped: terminal supervisor already running
+[2026-03-31 23:51:37] heal failed: gateway still unhealthy
+[2026-03-31 23:51:55] heal: gateway port 18789 is down, repairing
+[2026-03-31 23:51:57] manual fallback skipped: terminal supervisor already running
+[2026-03-31 23:56:12] heal failed: gateway still unhealthy
+[2026-03-31 23:56:32] heal: gateway port 18789 is down, repairing
+[2026-03-31 23:56:32] manual fallback skipped: terminal supervisor already running
+[2026-04-01 00:01:02] heal failed: gateway still unhealthy
+[2026-04-01 00:01:24] heal: gateway port 18789 is down, repairing
+[2026-04-01 00:01:25] manual fallback skipped: terminal supervisor already running
+[2026-04-01 00:06:13] heal failed: gateway still unhealthy
+[2026-04-01 00:06:35] heal: gateway port 18789 is down, repairing
+[2026-04-01 00:06:37] manual fallback skipped: terminal supervisor already running
+[2026-04-01 00:11:24] heal failed: gateway still unhealthy
+[2026-04-01 00:11:45] heal: gateway port 18789 is down, repairing
+[2026-04-01 00:11:47] manual fallback skipped: terminal supervisor already running
+[2026-04-01 00:16:53] heal failed: gateway still unhealthy
+[2026-04-01 00:17:15] heal: gateway port 18789 is down, repairing
+[2026-04-01 00:17:18] manual fallback skipped: terminal supervisor already running
+[2026-04-01 00:22:27] heal failed: gateway still unhealthy
+[2026-04-01 00:22:48] heal: gateway port 18789 is down, repairing
+[2026-04-01 00:22:49] manual fallback skipped: terminal supervisor already running
+[2026-04-01 00:27:25] heal failed: gateway still unhealthy
+[2026-04-01 00:27:48] heal: gateway port 18789 is down, repairing
+[2026-04-01 00:27:50] manual fallback skipped: terminal supervisor already running
+[2026-04-01 00:33:23] heal failed: gateway still unhealthy
+[2026-04-01 00:33:45] heal: gateway port 18789 is down, repairing
+[2026-04-01 00:33:46] manual fallback skipped: terminal supervisor already running
+[2026-04-01 00:39:37] heal failed: gateway still unhealthy
+[2026-04-01 00:39:57] heal: gateway port 18789 is down, repairing
+[2026-04-01 00:40:00] manual fallback skipped: terminal supervisor already running
+[2026-04-01 00:45:43] heal failed: gateway still unhealthy
+[2026-04-01 00:46:04] heal: gateway port 18789 is down, repairing
+[2026-04-01 00:46:07] manual fallback skipped: terminal supervisor already running
+[2026-04-01 00:50:45] heal failed: gateway still unhealthy
+[2026-04-01 00:51:05] heal: gateway port 18789 is down, repairing
+[2026-04-01 00:51:07] manual fallback skipped: terminal supervisor already running
+[2026-04-01 00:55:37] heal failed: gateway still unhealthy
+[2026-04-01 00:56:01] heal: gateway port 18789 is down, repairing
+[2026-04-01 00:56:02] manual fallback skipped: terminal supervisor already running
+[2026-04-01 01:00:51] heal failed: gateway still unhealthy
+[2026-04-01 01:01:11] heal: gateway port 18789 is down, repairing
+[2026-04-01 01:01:13] manual fallback skipped: terminal supervisor already running
+[2026-04-01 01:06:22] heal failed: gateway still unhealthy
+[2026-04-01 01:06:42] heal: gateway port 18789 is down, repairing
+[2026-04-01 01:06:44] manual fallback skipped: terminal supervisor already running
+[2026-04-01 01:11:41] heal failed: gateway still unhealthy
+[2026-04-01 01:12:00] heal: gateway port 18789 is down, repairing
+[2026-04-01 01:12:02] manual fallback skipped: terminal supervisor already running
+[2026-04-01 01:16:20] heal failed: gateway still unhealthy
+[2026-04-01 01:16:43] heal: gateway port 18789 is down, repairing
+[2026-04-01 01:16:46] manual fallback skipped: terminal supervisor already running
+[2026-04-01 01:21:41] heal failed: gateway still unhealthy
+[2026-04-01 01:22:01] heal: gateway port 18789 is down, repairing
+[2026-04-01 01:22:03] manual fallback skipped: terminal supervisor already running
+[2026-04-01 01:27:14] heal failed: gateway still unhealthy
+[2026-04-01 01:27:37] heal: gateway port 18789 is down, repairing
+[2026-04-01 01:27:40] manual fallback skipped: terminal supervisor already running
+[2026-04-01 01:32:21] heal failed: gateway still unhealthy
+[2026-04-01 01:32:41] heal: gateway port 18789 is down, repairing
+[2026-04-01 01:32:41] manual fallback skipped: terminal supervisor already running
+[2026-04-01 01:37:47] heal failed: gateway still unhealthy
+[2026-04-01 01:38:06] heal: gateway port 18789 is down, repairing
+[2026-04-01 01:38:08] manual fallback skipped: terminal supervisor already running
+[2026-04-01 01:42:53] heal failed: gateway still unhealthy
+[2026-04-01 01:43:13] heal: gateway port 18789 is down, repairing
+[2026-04-01 01:43:15] manual fallback skipped: terminal supervisor already running
+[2026-04-01 01:47:45] heal failed: gateway still unhealthy
+[2026-04-01 01:48:07] heal: gateway port 18789 is down, repairing
+[2026-04-01 01:48:08] manual fallback skipped: terminal supervisor already running
+[2026-04-01 01:53:12] heal failed: gateway still unhealthy
+[2026-04-01 01:53:31] heal: gateway port 18789 is down, repairing
+[2026-04-01 01:53:31] manual fallback skipped: terminal supervisor already running
+[2026-04-01 01:56:56] heal failed: gateway still unhealthy
+[2026-04-01 01:57:16] heal: gateway port 18789 is down, repairing
+[2026-04-01 01:57:16] manual fallback skipped: terminal supervisor already running
+[2026-04-01 01:59:20] heal failed: gateway still unhealthy
+[2026-04-01 01:59:36] heal: gateway port 18789 is down, repairing
+[2026-04-01 01:59:37] manual fallback skipped: terminal supervisor already running
+[2026-04-01 01:59:43] heal ok: manual fallback recovered gateway
+[2026-04-01 02:00:00] ok: port 18789 already listening
+[2026-04-01 02:00:16] ok: port 18789 already listening
+[2026-04-01 02:00:35] ok: port 18789 already listening
+[2026-04-01 02:00:54] ok: port 18789 already listening
+[2026-04-01 02:01:11] heal: gateway port 18789 is down, repairing
+[2026-04-01 02:01:13] manual fallback: launched terminal supervisor
+[2026-04-01 02:03:46] heal ok: launch agent recovered gateway
+[2026-04-01 02:04:02] ok: port 18789 already listening
+[2026-04-01 02:04:19] ok: port 18789 already listening
+[2026-04-01 02:04:35] ok: port 18789 already listening
+[2026-04-01 02:04:51] ok: port 18789 already listening
+[2026-04-01 02:05:08] ok: port 18789 already listening
+[2026-04-01 02:05:25] ok: port 18789 already listening
+[2026-04-01 02:05:41] ok: port 18789 already listening
+[2026-04-01 02:05:59] ok: port 18789 already listening
+[2026-04-01 02:06:15] ok: port 18789 already listening
+[2026-04-01 02:06:32] ok: port 18789 already listening
+[2026-04-01 02:06:49] ok: port 18789 already listening
+[2026-04-01 02:07:06] ok: port 18789 already listening
+[2026-04-01 02:07:22] ok: port 18789 already listening
+[2026-04-01 02:07:38] ok: port 18789 already listening
+[2026-04-01 02:07:55] ok: port 18789 already listening
+[2026-04-01 02:08:11] ok: port 18789 already listening
+[2026-04-01 02:08:28] ok: port 18789 already listening
+[2026-04-01 02:08:45] ok: port 18789 already listening
+[2026-04-01 02:09:01] ok: port 18789 already listening
+[2026-04-01 02:09:18] ok: port 18789 already listening
+[2026-04-01 02:09:34] ok: port 18789 already listening
+[2026-04-01 02:09:50] ok: port 18789 already listening
+[2026-04-01 02:10:25] heal: gateway port 18789 is down, repairing
+[2026-04-01 02:11:26] manual fallback: launched terminal supervisor
+[2026-04-01 02:11:35] heal ok: manual fallback recovered gateway
+[2026-04-01 02:11:52] ok: port 18789 already listening
+[2026-04-01 02:12:08] ok: port 18789 already listening
+[2026-04-01 02:12:25] ok: port 18789 already listening
+[2026-04-01 02:13:01] ok: port 18789 already listening
+[2026-04-01 02:13:17] ok: port 18789 already listening
+[2026-04-01 02:13:33] ok: port 18789 already listening
+[2026-04-01 02:13:50] ok: port 18789 already listening
+[2026-04-01 02:14:07] ok: port 18789 already listening
+[2026-04-01 02:14:21] ok: port 18789 already listening
+[2026-04-01 02:14:37] heal: gateway port 18789 is down, repairing
+[2026-04-01 02:15:35] manual fallback: launched pty wrapper
+[2026-04-01 02:16:59] heal failed: gateway still unhealthy
+[2026-04-01 02:17:16] heal: gateway port 18789 is down, repairing
+[2026-04-01 02:18:24] ok: port 18789 already listening
+[2026-04-01 02:18:40] heal: gateway port 18789 is down, repairing
+[2026-04-01 02:19:28] heal: gateway port 18789 is down, repairing
+[2026-04-01 02:19:30] manual fallback: launched pty wrapper
+[2026-04-01 02:20:38] heal ok: manual fallback recovered gateway
+[2026-04-01 02:20:54] heal: gateway port 18789 is down, repairing
+[2026-04-01 02:20:56] manual fallback: launched pty wrapper
+[2026-04-01 02:22:20] heal ok: launch agent recovered gateway
