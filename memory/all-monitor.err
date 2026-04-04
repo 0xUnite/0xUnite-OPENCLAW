@@ -1,0 +1,101 @@
+/Users/sudi/.openclaw/scripts/safe-run.sh: line 8: 39899 Alarm clock: 14         python3 -c "
+import subprocess, signal, sys
+def handler(signum, frame):
+    sys.exit(124)
+signal.signal(signal.SIGALRM, handler)
+signal.alarm($TIMEOUT)
+try:
+    result = subprocess.run('$cmd', shell=True, timeout=$TIMEOUT)
+    sys.exit(result.returncode)
+except Exception as e:
+    sys.exit(1)
+" >> "$LOG_FILE" 2>&1
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
+/Users/sudi/.openclaw/scripts/safe-run.sh: fork: Resource temporarily unavailable
