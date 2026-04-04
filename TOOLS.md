@@ -98,34 +98,27 @@ Add whatever helps you do your job. This is your cheat sheet.
 - For search requests, execute via `exec` with `skillhub search <keywords>` first and report the raw command output
 - In the current session, reply directly; do not use the `message` tool just for progress updates
 
-## Browser Automation Tools (优先使用)
+## Browser Automation Tools (唯一保留)
 
-### agent-browser
-- **作用**: 无头浏览器 + 可访问性树（accessibility tree）
-- **位置**: ~/.agent-browser/
-- **使用场景**: 需要读取页面内容、截图等
-
-### actionbook
-- **命令**: `actionbook browser <command>`
-- **作用**: 用预计算的"操作手册"操作网站
+### OpenClaw Browser
+- **命令**: `openclaw browser <command>`
+- **唯一浏览器策略**: 只使用这个，不再切换到其他浏览器技能
+- **固定 profile**: `chrome`
+- **固定入口**: `http://127.0.0.1:18792`
+- **URL 规范化脚本**: `/Users/sudi/.openclaw/scripts/openclaw-browser-normalize-url.sh`
 - **常用命令**:
-  - `actionbook browser open <url>` - 打开URL
-  - `actionbook browser text` - 获取页面文本
-  - `actionbook browser snapshot` - 获取可访问性快照
-  - `actionbook browser screenshot` - 截图
-  - `actionbook browser click <selector>` - 点击元素
-- **使用场景**: 自动化操作网站、登录、填表等
-
-### browser-use
-- **作用**: Python库封装的高级抽象
-- **安装**: `uv pip install --system browser-use` (已在 ~/.openclaw/.venv)
-- **使用场景**: 复杂的浏览器自动化流程
-- **Wrapper脚本**: `~/.openclaw/scripts/auto-browser.py`
-- **用法**:
-  ```bash
-  source ~/.openclaw/.venv/bin/activate
-  python3 ~/.openclaw/scripts/auto-browser.py "点击登录按钮" https://example.com
-  ```
+  - `openclaw browser start`
+  - `normalized="$("/Users/sudi/.openclaw/scripts/openclaw-browser-normalize-url.sh" "<url>")"`
+  - `openclaw browser --browser-profile chrome open "$normalized"`
+  - `openclaw browser snapshot`
+  - `openclaw browser click <ref>`
+  - `openclaw browser type <ref> "text"`
+  - `openclaw browser tabs`
+- **规则**:
+  - 人类发任何链接，先用规范化脚本处理，再用这套打开
+  - 读取页面内容一律先 `snapshot`
+  - 不再使用 `agent-browser` / `actionbook` / `browser-use` / `chrome-cdp`
+  - `x.com` / `twitter.com` 链接会自动转成 `r.jina.ai` 镜像页，但仍然在同一个 `chrome` 里打开和读取
 
 ---
 

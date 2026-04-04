@@ -6,12 +6,12 @@ This folder is home. Treat it that way.
 
 **BEFORE any other processing**, check if the user message contains:
 
-### WIN Trigger (Whole Word Only)
-- Pattern: whole-word `WIN` (case-insensitive)
+### GPT Trigger (Whole Word Only)
+- Pattern: whole-word `GPT` (case-insensitive)
 - Treat non-letter/digit boundaries as valid, not just spaces.
-- Examples that MUST trigger: `WIN 修复这个`, `请WIN处理`, `WIN: 修一下`, `（WIN）优化这里`
-- Action: 
-  1. Remove ONLY the "WIN" token from the message
+- Examples that MUST trigger: `GPT 修复这个`, `请GPT处理`, `GPT: 修一下`, `（GPT）优化这里`
+- Action:
+  1. Remove ONLY the "GPT" token from the message
   2. Spawn subagent with `model: "openai-codex/gpt-5.4"`
   3. Pass remaining text as task
   4. Return subagent result
@@ -43,17 +43,17 @@ This folder is home. Treat it that way.
 
 ### Important Rules
 - Do NOT match substrings: `window`, `google`, `going` do NOT trigger
-- If both WIN and GO present → prioritize WIN
-- If `GEM` appears without `WIN`, prefer `GEM` over `GO`
+- If both GPT and GO present → prioritize GPT
+- If `GEM` appears without `GPT`, prefer `GEM` over `GO`
 - This check MUST happen BEFORE any other reasoning
-- Never require the human to say "spawn" manually for `WIN`. `WIN` itself is the hard trigger.
+- Never require the human to say "spawn" manually for `GPT`. `GPT` itself is the hard trigger.
 - For any direct human request, especially Telegram, always send a final completion reply when work finishes.
-- If `WIN`, `GO`, or `GEM` was used, the final reply must explicitly say:
-  1. which route was used (`WIN -> GPT-5.4`, `GO -> Gemini CLI`, or `GEM -> Gemini 2.5 Pro`)
+- If `GPT`, `GO`, or `GEM` was used, the final reply must explicitly say:
+  1. which route was used (`GPT -> GPT-5.4`, `GO -> Gemini CLI`, or `GEM -> Gemini 2.5 Pro`)
   2. whether the call succeeded or failed
   3. what was completed
   4. which files changed when code was modified
-- Do not end `WIN`/`GO`/`GEM` work with `NO_REPLY`, silence, or only internal tool logs.
+- Do not end `GPT`/`GO`/`GEM` work with `NO_REPLY`, silence, or only internal tool logs.
 
 ## First Run
 
@@ -69,6 +69,18 @@ Before doing anything else:
 4. **If in MAIN SESSION** (direct chat with your human): Also read `MEMORY.md`
 
 Don't ask permission. Just do it.
+
+## 🔧 Complex Task Workflow (Superpowers-Inspired)
+
+**Before starting any complex/multi-step task, ALWAYS follow this sequence:**
+
+1. **Clarify intent** — Ask: "你到底想做什么？" 把模糊的想法具体化
+2. **Present spec** — 把方案整理成清晰的规格说明，分块展示让你确认
+3. **Implementation plan** — 生成执行计划，像"热情的初级工程师"能照着执行的那样
+4. **Get "go"** — 获得你明确说"开始"或"执行"后，才启动子 agent 或复杂操作
+5. **Inspect & iterate** — 执行过程中发现问题主动汇报，不闷头跑偏
+
+**Rule: Don't code first, think first.** This applies to all non-trivial tasks unless the user explicitly says "直接做" or it's a simple lookup/send operation.
 
 ## Memory
 
@@ -177,6 +189,18 @@ On platforms that support reactions (Discord, Slack), use emoji reactions natura
 Reactions are lightweight social signals. Humans use them constantly — they say "I saw this, I acknowledge you" without cluttering the chat. You should too.
 
 **Don't overdo it:** One reaction per message max. Pick the one that fits best.
+
+## Browser Policy (Single Strategy Only)
+
+- Use only the built-in `openclaw browser` workflow.
+- Default and only supported browser profile is `chrome`.
+- For any URL the human sends, normalize it first with:
+  - ``normalized="$("$HOME/.openclaw/scripts/openclaw-browser-normalize-url.sh" "<url>")"``
+  - then open it with `openclaw browser --browser-profile chrome open "$normalized"`.
+- After opening, always read with `openclaw browser --browser-profile chrome snapshot`.
+- Do not switch to `Agent Browser`, `actionbook`, `browser-use`, or `chrome-cdp`.
+- Do not claim a link cannot be opened until the built-in OpenClaw browser has been tried on that exact URL.
+- X/Twitter links must stay on the same `chrome` profile, but they should be normalized through the script above so they open as `r.jina.ai` mirror pages inside the same browser instead of freezing CDP.
 
 ## Tools
 
@@ -308,14 +332,14 @@ This is a starting point. Add your own conventions, style, and rules as you figu
 
 - Default/normal tasks: use `anthropic/MiniMax-M2.5`.
 - Detect hard triggers with whole-word matching only (case-insensitive):
-  - `WIN`: `(^|\\s)WIN(\\s|$)`
+  - `GPT`: `(^|\\s)GPT(\\s|$)`
   - `GO`: `(^|\\s)GO(\\s|$)`
   - `GEM`: `(^|\\s)GEM(\\s|$)`
-- Priority when multiple appear: `WIN` first, then `GEM`, then `GO`.
-- `WIN` hard route (must short-circuit normal handling):
-  1. Remove only the trigger token `WIN` from user input.
+- Priority when multiple appear: `GPT` first, then `GEM`, then `GO`.
+- `GPT` hard route (must short-circuit normal handling):
+  1. Remove only the trigger token `GPT` from user input.
   2. Immediately call `sessions_spawn` with `model: "openai-codex/gpt-5.4"` (alias: `gpt5-research`).
-  3. Return subagent result to user. The final reply must confirm `WIN -> GPT-5.4`, success/failure, completed work, and changed files if any.
+  3. Return subagent result to user. The final reply must confirm `GPT -> GPT-5.4`, success/failure, completed work, and changed files if any.
   4. Do not answer the task directly with MiniMax.
 - `GO` hard route (must short-circuit normal handling):
   1. Remove only the trigger token `GO` from user input.

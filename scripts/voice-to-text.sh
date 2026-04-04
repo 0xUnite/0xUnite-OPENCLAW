@@ -1,42 +1,26 @@
 #!/bin/bash
-# ~/.openclaw/workspace/scripts/voice-to-text.sh
-# 语音转文字脚本
+# Voice to text using mlx-whisper
+# Usage: voice-to-text.sh [audio_file] or voice-to-text.sh --mic
 
-AUDIO_FILE="$1"
+export PATH="/Users/sudi/Library/Python/3.9/bin:$PATH"
 
-if [ -z "$AUDIO_FILE" ]; then
-    echo "Usage: voice-to-text.sh <audio_file>"
-    exit 1
-fi
-
-if [ ! -f "$AUDIO_FILE" ]; then
-    echo "文件不存在: $AUDIO_FILE"
-    exit 1
-fi
-
-# 检查文件格式，OGG需要转换
-FILE_EXT="${AUDIO_FILE##*.}"
-if [ "$FILE_EXT" = "ogg" ] || [ "$FILE_EXT" = "oga" ]; then
-    # OGG转MP3 (Whisper支持OGG但某些版本可能需要转换)
-    MP3_FILE="${AUDIO_FILE%.ogg}.mp3"
-    if [ ! -f "$MP3_FILE" ]; then
-        ffmpeg -i "$AUDIO_FILE" -vn -acodec libmp3lame -q:a 2 "$MP3_FILE" 2>/dev/null
-    fi
-    AUDIO_FILE="$MP3_FILE"
-fi
-
-# 使用Whisper转文字
-whisper "$AUDIO_FILE" \
-    --model small \
-    --output_format txt \
-    --output_dir "$(dirname "$AUDIO_FILE")" \
-    --language Chinese 2>/dev/null
-
-# 输出结果
-TXT_FILE="${AUDIO_FILE%.*}.txt"
-if [ -f "$TXT_FILE" ]; then
-    cat "$TXT_FILE"
+if [[ "$1" == "--mic" || "$1" == "-m" ]]; then
+    # Record from microphone
+    echo "🎙️ Recording... (press Ctrl+C to stop)"
+    ffmpeg -f avfoundation -i ":0" -t 60 -y /tmp/voice-input.m4a 2>/dev/null
+    AUDIO_FILE="/tmp/voice-input.m4a"
+elif [[ -n "$1" ]]; then
+    AUDIO_FILE="$1"
 else
-    echo "转文字失败"
+    echo "Usage: voice-to-text.sh [audio_file] or voice-to-text.sh --mic"
     exit 1
 fi
+
+echo "🔄 Transcribing..."
+mlx_whisper "$AUDIO_FILE" --model mlx-community/whisper-base-mlx --output-dir /tmp --output-format txt 2>/dev/null
+
+# Show result
+RESULT=$(cat /tmp/voice-input.txt 2>/dev/null || echo "Transcription failed")
+echo ""
+echo "📝 Result:"
+echo "$RESULT"

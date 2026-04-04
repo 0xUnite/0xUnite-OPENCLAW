@@ -16,3 +16,5 @@
 - Skills优化: automation-workflows, auto-updater, data-analyst, desktop-control
 
 # Add tasks below when you want the agent to check something periodically.
+
+## 提醒事项
