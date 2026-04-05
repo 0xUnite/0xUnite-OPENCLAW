@@ -3,10 +3,11 @@
     "email": null,
     "calendar": null,
     "weather": null,
-    "heartbeat": "2026-04-04T12:45:00+09:00"
+    "heartbeat": "2026-04-05T16:15:00+09:00"
   },
-  "lastHeartbeat": "2026-04-04T12:45:00Z",
+  "lastHeartbeat": "2026-04-05T07:15:00Z",
   "notes": {
-    "evening-check-2026-04-04": "2026-04-04T21:46 KST - Nexus+Fortytwo: 39 processes running. Website: localhost:3000 → 404, 0xunite.com → UNREACHABLE (down since Mar 29 = 6+ days). Git backup: committed and pushed (auto backup). Many new skills installed (20+ untracked dirs)."
+    "evening-check-2026-04-04": "2026-04-04T21:46 KST - Nexus+Fortytwo: 39 processes running. Website: localhost:3000 → 404, 0xunite.com → UNREACHABLE (down since Mar 29 = 6+ days). Git backup: committed and pushed (auto backup). Many new skills installed (20+ untracked dirs).",
+    "heartbeat-2026-04-05-16:15": "2026-04-05T16:15 KST - 28h since last heartbeat. Main services OK: Nexus 12 nodes ✅, Fortytwo ✅ (energy 717.5). Website still down: localhost:3000→404, 0xunite.com→UNREACHABLE. Binance Square Chrome login issue persists. MiniMax API rate limiting affecting some jobs."
   }
 }
