@@ -3,13 +3,10 @@
     "email": null,
     "calendar": null,
     "weather": null,
-    "heartbeat": "2026-04-03T16:15:00+09:00"
+    "heartbeat": "2026-04-04T12:45:00+09:00"
   },
-  "lastHeartbeat": "2026-04-03T07:15:00Z",
+  "lastHeartbeat": "2026-04-04T12:45:00Z",
   "notes": {
-    "late-morning-check-2026-03-31": "2026-03-31T10:03 KST - Nexus: running (13 processes). Fortytwo: running. Website: STILL DOWN (0xunite.com unreachable since Mar 29). Git backup: OK (commit 295137f today). sync.sh missing - needs fix.",
-    "afternoon-check-2026-03-31": "2026-03-31T15:19 KST - Nexus+Fortytwo: 15 processes running. Website: STILL DOWN (0xunite.com unreachable, down since Mar 29 = 2 days). sync.sh: MISSING (still needs creation).",
-    "daily-auto-update-2026-04-01": "2026-04-01T04:06 KST - Clawdbot: latest | Skills registry: refreshed | Skills update: FAILED (clawhub broken, known issue) | Nexus: 12 nodes running | Fortytwo: 717 | Notifications: none",
-    "heartbeat-2026-04-03-afternoon": "2026-04-03T16:15 KST - Nexus+Fortytwo: 39 processes running. Website: STILL DOWN (0xunite.com unreachable since Mar 29 = 5 days). Git backup: last commit Apr 1 (2 days old). Uncommitted changes in workspace (AGENTS.md, HEARTBEAT.md, workspace-state.json)."
+    "evening-check-2026-04-04": "2026-04-04T21:46 KST - Nexus+Fortytwo: 39 processes running. Website: localhost:3000 → 404, 0xunite.com → UNREACHABLE (down since Mar 29 = 6+ days). Git backup: committed and pushed (auto backup). Many new skills installed (20+ untracked dirs)."
   }
 }
