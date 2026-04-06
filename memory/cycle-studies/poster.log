@@ -264,3 +264,23 @@ Deleting original file cycle-audio.webm (pass -k to keep)
 [2026-04-05 13:20] 📋 文案长度:     5640 字符
 [2026-04-05 13:20] 📤 发布到 Binance Square...
 [2026-04-05 13:20] ✅ 发布成功! Post ID: 309131877434369
+[2026-04-06 10:04] 🔍 检查 CycleStudies 最新视频...
+[2026-04-06 10:04] 📺 发现新视频: [2026-04-05] 上刺刀，迎接大行情！比特币方向即将揭晓，这次不是演习，是决战。
+[2026-04-06 10:04] 🎬 开始处理新视频...
+[2026-04-06 10:04] ⬇️ 下载音频...
+[youtube] Extracting URL: https://youtu.be/HESRzXforFE
+[youtube] HESRzXforFE: Downloading webpage
+[youtube] HESRzXforFE: Downloading android vr player API JSON
+[youtube] HESRzXforFE: Downloading web player API JSON
+[youtube] HESRzXforFE: Downloading web safari player API JSON
+[info] HESRzXforFE: Downloading 1 format(s): 251
+[download] Destination: cycle-audio.webm
+[download]   0.0% of    8.22MiB at  Unknown B/s ETA Unknown[download]   0.0% of    8.22MiB at    2.45MiB/s ETA 00:03  [download]   0.1% of    8.22MiB at    4.87MiB/s ETA 00:01[download]   0.2% of    8.22MiB at    9.28MiB/s ETA 00:00[download]   0.4% of    8.22MiB at  728.18KiB/s ETA 00:11[download]   0.7% of    8.22MiB at  845.32KiB/s ETA 00:09[download]   1.5% of    8.22MiB at    1.06MiB/s ETA 00:07[download]   3.0% of    8.22MiB at    1.57MiB/s ETA 00:05[download]   6.1% of    8.22MiB at    2.50MiB/s ETA 00:03[download]  12.2% of    8.22MiB at    4.11MiB/s ETA 00:01[download]  24.3% of    8.22MiB at    7.04MiB/s ETA 00:00[download]  48.7% of    8.22MiB at   12.12MiB/s ETA 00:00[download]  97.3% of    8.22MiB at   18.38MiB/s ETA 00:00[download] 100.0% of    8.22MiB at   15.61MiB/s ETA 00:00[download] 100% of    8.22MiB in 00:00:00 at 11.12MiB/s  
+[ExtractAudio] Destination: cycle-audio.mp3
+Deleting original file cycle-audio.webm (pass -k to keep)
+[2026-04-06 10:04] 🎙️ Whisper 转录中（可能需要1-2分钟）...
+[2026-04-06 10:05] ✅ 转录完成 (    7187 字符)
+[2026-04-06 10:05] ✍️  生成文案...
+[2026-04-06 10:05] 📋 文案长度:     5944 字符
+[2026-04-06 10:05] 📤 发布到 Binance Square...
+[2026-04-06 10:05] ✅ 发布成功! Post ID: 309437692214033

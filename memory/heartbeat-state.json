@@ -3,10 +3,11 @@
     "email": null,
     "calendar": null,
     "weather": null,
-    "heartbeat": "2026-04-06T08:16:00+09:00"
+    "heartbeat": "2026-04-06T15:46:00+09:00"
   },
-  "lastHeartbeat": "2026-04-06T00:16:00Z",
+  "lastHeartbeat": "2026-04-06T03:15:00Z",
   "notes": {
-    "morning-check-2026-04-06": "2026-04-06T08:16 KST - Nexus 42 processes ✅, Fortytwo ✅. 9:00 sync.sh will run automated backup. TikTok Shop PPT v2.4 (9.55/10) sent to Telegram awaiting user review. Nuwa skill pending confirmation. Website still down (known issue)."
+    "morning-check-2026-04-06": "2026-04-06T12:15 KST - Main services OK: 40 processes (Nexus 12 nodes ✅, Fortytwo ✅). Website still down: localhost:3000→404, 0xunite.com→UNREACHABLE. No new issues.",
+    "website-status": "DOWNSINCE: Mar 29 (8+ days). Cause unknown. Not actively being worked."
   }
 }
