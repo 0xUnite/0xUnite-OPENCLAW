@@ -1,0 +1,22 @@
+{
+  "video_title": "懂王怂了，比特币硬了！",
+  "video_date": "2026-04-08",
+  "video_id": "yFPma3VPen8",
+  "stage1_notes": [
+    "核心判断：基本面刺激的反弹，短期不改变日线结构，不追多",
+    "走势阶段：关键结构前高压力位，反复验证阶段",
+    "关键区域：前高附近压力，前低附近支撑（有效跌破再空）",
+    "做法1：前高附近出现顶背离信号可轻仓试空，止损前高上方",
+    "做法2：突破回踩找支撑做多，顺势不逆势",
+    "做法3：止损小、止盈大的盈亏比思维，不求每单都对",
+    "风险：快速反弹不等于趋势反转，不要怕错过而盲目追涨"
+  ],
+  "price_zone_hints": [],
+  "stage1_used_fallback": false,
+  "stage1_error": null,
+  "stage2_used_fallback": true,
+  "stage2_error": null,
+  "post_validation": {
+    "issues": []
+  }
+}
