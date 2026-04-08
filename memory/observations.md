@@ -36168,3 +36168,686 @@ I should capture the system's recovery as a notable event. The energy level jump
 - 🟡 12:13 系统健康检查 — Gateway健康，Fortytwo运行中(2进程)，Nexus 7/7屏幕活跃，AI Novel 2屏幕活跃 <!-- dc:type=event dc:importance=3.0 dc:date=2026-04-07 -->
   - 🟢 12:13 Fortytwo Rankings API返回"Not Found"(×3次) — 属服务器端API正常行为，非节点故障 <!-- dc:type=event dc:importance=2.0 dc:date=2026-04-07 -->
   - 🟡 12:13 Account 2能量余额不足(需≥5 Energy) <!-- dc:type=fact dc:importance=3.5 dc:date=2026-04-07 -->
+
+<think>
+Let me analyze the recent messages and compare them against the "Already Recorded" observations to identify new, non-duplicate observations.
+
+Looking at the messages:
+
+1. **13:32 Health Check**: Fortytwo running (2 processes, 717.5 Energy), Nexus only 6/12 nodes running (missing 6), Browser Self-Heal has fork errors (resource limits)
+
+2. **13:42 Health Check**: Nexus 6/6 nodes running, GPT Mint not running, Fortytwo Console not running, Fortytwo AI Agent not running. Note says Fortytwo heartbeat ran OK but console/agent processes aren't running.
+
+3. **13:39 Nexus auto-restart**: Script ran, all 6 Nexus nodes online, no restart needed.
+
+4. **13:32 System status messages**: Shows Nexus 37 nodes running, Fortytwo Agent heartbeat at 22:04, Fortytwo Terminal with 717 balance, M4 notification sent.
+
+5. **13:32 Assistant response about Jellyfish vs Toonflow**: Comparing AI short drama tools - this is informational, not system-related.
+
+Now comparing to "Already Recorded" entries:
+- 11:32: Fortytwo 717.5 Energy, Nexus 6/6, Gateway OK
+- 12:03: Energy recovered to 717.5
+- 12:13: Nexus 7/7 screens active
+
+NEW observations from 13:32-13:43:
+1. **🔴 13:32 Health check**: Nexus only 6/12 nodes running, missing 6 nodes, Browser Self-Heal failing with fork errors (resource temporarily unavailable) — this is concerning system resource pressure
+2. **🟡 13:42 Health check**: GPT Mint not running, Fortytwo Console not running, Fortytwo AI Agent not running (even though heartbeat worked)
+3. **🟢 13:39 Nexus auto-restart**: All 6 nodes online — already covered by 11:39 entry but at different time, so this is a check-in
+4. **🟢 13:32 System status**: Shows Nexus 37 nodes (different count from health check), Fortytwo active, M4 notification sent
+
+I notice significant discrepancies between system status reports. The Nexus node count varies dramatically between checks - 6/12, 6/6, and 37 nodes. This inconsistency suggests potential monitoring or reporting issues. The system is experiencing resource constraints, with fork errors indicating possible process limitations. Several key services like GPT Mint and Fortytwo components remain offline, which could impact overall system functionality.
+
+The observations reveal a complex system state with multiple health check failures and service interruptions. Critical concerns include the Nexus node inconsistencies and multiple service downtime, requiring immediate investigation into system resources and service availability.
+</think>
+
+Looking at the messages and comparing to existing entries:
+
+**NEW observations:**
+
+- 🔴 13:32 系统健康检查 — Nexus仅6/12节点运行(缺失6节点)，Browser Self-Heal报`fork: Resource temporarily unavailable`错误，系统触及进程创建限制 <!-- dc:type=event dc:importance=6.5 dc:date=2026-04-07 -->
+  - 🟡 13:32 Fortytwo运行中(2进程，能量717.5)，Gateway自愈检测到资源压力 <!-- dc:type=event dc:importance=4.0 dc:date=2026-04-07 -->
+- 🔴 13:42 健康检查 — GPT Mint未运行，Fortytwo Console未运行，Fortytwo AI Agent未运行(心跳脚本正常但进程未启动) <!-- dc:type=event dc:importance=6.0 dc:date=2026-04-07 -->
+  - 🟢 13:42 Nexus 6/6节点运行正常 <!-- dc:type=fact dc:importance=2.0 dc:date=2026-04-07 -->
+- 🟢 13:39 Nexus自动重启检查 — 6个节点全部在线，无需重启 <!-- dc:type=event dc:importance=1.5 dc:date=2026-04-07 -->
+- 🟢 13:32 系统状态摘要 — Nexus 37节点运行中，Fortytwo Agent心跳活跃，终端余额717，M4监工群通知已发送 <!-- dc:type=event dc:importance=2.0 dc:date=2026-04-07 -->
+- 🟢 13:32 向用户介绍Jellyfish与Toonflow两款AI短剧生成工具对比 <!-- dc:type=context dc:importance=1.5 dc:date=2026-04-07 -->
+
+<think>
+Let me analyze these messages to see what new observations can be made that aren't already recorded in the "Already Recorded" section.
+
+Looking at the messages:
+1. 14:39 - Nexus auto-restart check - all 6 nodes online
+2. 14:32 - System health check - Fortytwo running, Nexus 6/6, self-heal clean
+3. 14:42 - Another health check - Fortytwo 717.5 Energy, 1 pending ranking, Nexus 6, Gateway healthy
+
+Now checking against "Already Recorded":
+- 11:39 Nexus auto-restart (6 nodes online) - ALREADY RECORDED
+- 11:32 health check (Fortytwo 717.5, Nexus 6/6, Gateway normal) - This seems to be already recorded as 11:32 health check
+- 14:42 health check - Let me see what's already recorded around this time...
+
+The already recorded events include:
+- 12:13 health check
+- 13:32 health check (Nexus 6/12 issue)
+- 13:42 health check (GPT Mint not running)
+- 13:39 Nexus auto-restart
+
+The 14:42 health check (shown in these messages) doesn't seem to be in the "Already Recorded" list. It shows:
+- Fortytwo: 717.5 Energy, 1 pending ranking
+- Nexus: 6 nodes running (6 prove-fib processes)
+- Gateway: healthy, 7 recent checks passed
+
+Wait, let me check more carefully. The messages are timestamped 14:32, 14:39, 14:42 which is 2:32 PM, 2:39 PM, 2:42 PM UTC. But the "Current time" in the message shows 11:32 PM, 11:39 PM, 11:42 PM (Asia/Seoul).
+
+So these are NEW events that happened at 14:32-14:42 UTC (which is 23:32-23:42 Korea time, still April 7th).
+I notice the 14:42 health check provides updated system status information. The key details include Fortytwo's energy level at 717.5 with one pending ranking, Nexus maintaining 6 running nodes with prove-fib processes, and Gateway showing consistent health with 7 recent checks passing successfully.
+
+Comparing to previous records, these events at 14:32 and 14:42 appear chronologically later than the last captured entries, representing the most recent system health observations. The timestamps suggest a progression of system status checks during the late hours of the day.
+
+The 14:32 health check closely mirrors earlier entries, with Fortytwo active, Nexus fully operational, and self-heal processes completing without intervention. Similarly, the 14:42 check demonstrates continued system stability, maintaining consistent performance metrics across key services.
+</think>
+
+- 🟢 14:42 系统健康检查 — Fortytwo运行中(717.5 Energy, 1待处理排名)，Nexus 6/6节点运行正常(prove-fib进程活跃)，Gateway健康(7次检查全通过) <!-- dc:type=event dc:importance=2.5 dc:date=2026-04-07 -->
+
+<think>
+Let me analyze these messages and compare against the "Already Recorded" entries to find genuinely NEW observations.
+
+Looking at the "Already Recorded" entries for 2026-04-07, I need to identify what's NEW:
+
+1. **08:22 Health Check** - "All services healthy" - Gateway OK, Fortytwo OK (with Insufficient funds note for join), Nexus 12 nodes running. This is NEW and different from what's recorded.
+
+2. **08:39 nexus-auto-restart** - This is NEW - ran the nexus-auto-restart.sh script at 08:39.
+
+3. **09:02 Health Check** - NEW: Fortytwo ranking API issue - 4 pending rankings all failed with "Not Found". Nexus 8 nodes running. Gateway OK. This is NEW.
+
+4. **09:19 nexus-auto-restart** - NEW: Nexus auto-restart check - 6/6 nodes online. Different time from 13:39.
+
+5. **12:59 nexus-auto-restart** - NEW: Nexus auto-restart check - 6/6 nodes online, no restart needed.
+
+6. **13:42 Health Check** - NEW: GPT Mint not running, Fortytwo Console not running, Fortytwo AI Agent not running. Already partially recorded (13:42 entry says Fortytwo processes not running).
+
+7. **11:32 Health Check** - NEW: All services operational - Fortytwo running with 4 active queries, Nexus 6/6 nodes, Gateway running, Self-Heal pass.
+
+Wait, let me check the timestamps more carefully:
+- 08:22 = 2026-04-07 08:22 KST = 2026-04-07 13:22 UTC (but user message says 08:22)
+- 08:39 = 2026-04-07 08:39 KST = 2026-04-07 13:39 UTC (but user message says 08:39)
+- 09:02 = 2026-04-07 09:02 KST = 2026-04-07 14:02 UTC (but user message says 09:02)
+- 09:19 = 2026-04-07 09:19 KST = 2026-04-07 14:19 UTC (but user message says 09:19)
+- 12:59 = 2026-04-07 12:59 KST = 2026-04-07 15:59 UTC (but user message says 12:59)
+- 13:32 = 2026-04-07 13:32 KST = 2026-04-07 16:32 UTC (but user message says 13:32)
+- 13:42 = 2026-04-07 13:42 KST = 2026-04-07 16:42 UTC (but user message says 13:42)
+- 13:43 = 2026-04-07 13:43 KST = 2026-04-07 16:43 UTC (but user message says 13:43)
+- 14:22 = 2026-04-07 14:22 KST = 2026-04-07 17:22 UTC (but user message says 14:22)
+- 14:42 = 2026-04-07 14:42 KST = 2026-04-07 17:42 UTC (but user message says 14:42)
+
+The timestamps appear to be consistently offset by 5 hours, with KST time appearing 5 hours ahead of UTC.
+
+Looking at the recorded entries for 2026-04-07, I notice several gaps:
+- 08:22 health check is missing entirely
+- The 08:39 nexus-auto-restart event isn't captured
+- 09:02 health check (with ranking API failures and Nexus at 8 nodes) isn't recorded
+- 09:19 nexus-auto-restart is absent
+- 12:59 nexus-auto-restart wasn't logged
+- The 11:32 health check showing full functionality appears to be missing
+
+These gaps represent health monitoring events and system checks that should have been captured but weren't included in the existing records. Verifying the specific entries against the recorded observations, I can confirm several checks are already logged: the 13:32 event showing Nexus at 6/12 nodes with fork errors, the 13:42 health check revealing missing services, and the 08:22 health assessment. However, several new observations remain unrecorded—particularly the ranking API failures around 09:02, the Nexus auto-restart verifications at 08:39 and 09:19, and the comprehensive 11:32 health report showing full operational status across all nodes.
+</think>
+
+- 🔴 09:02 健康检查 — Fortytwo Ranking API端点疑似变更，4个pending rankings全部失败(返回`Not Found`)，Nexus仅8节点运行 <!-- dc:type=event dc:importance=6.5 dc:date=2026-04-07 -->
+  - 🟡 09:02 Gateway正常，Nexus 8节点运行中 <!-- dc:type=fact dc:importance=3.5 dc:date=2026-04-07 -->
+- 🟢 11:32 健康检查 — 所有服务正常: Fortytwo运行中(4个active queries, 717.5 Energy), Nexus 6/6节点运行正常, Gateway运行中(pid 54369), Self-Heal通过 <!-- dc:type=event dc:importance=3.0 dc:date=2026-04-07 -->
+- 🟢 08:22 健康检查 — 所有服务健康: Gateway正常，Fortytwo运行中(出现join操作Insufficient funds错误)，Nexus 12节点全部运行prove-fib任务 <!-- dc:type=event dc:importance=2.5 dc:date=2026-04-07 -->
+- 🟢 08:39 Nexus自动重启检查 — 6节点全部在线，无需重启 <!-- dc:type=event dc:importance=1.5 dc:date=2026-04-07 -->
+- 🟢 09:19 Nexus自动重启检查 — 6/6节点在线，最后任务刷新为04-04，系统持续正常运行 <!-- dc:type=event dc:importance=1.5 dc:date=2026-04-07 -->
+- 🟢 12:59 Nexus自动重启检查 — 6/6节点全部在线，无需重启 <!-- dc:type=event dc:importance=1.5 dc:date=2026-04-07 -->
+
+<think>
+Let me analyze the recent messages and compare them to what's already recorded to find genuinely new observations.
+
+Looking at the messages provided:
+
+1. **13:32** - Health check: Fortytwo running (717.5 Energy), Nexus 6/12 nodes running, Browser Self-Heal failing with `fork: Resource temporarily unavailable`
+2. **15:42** - Health check: Fortytwo ranking join failing (API `Not Found`), Gateway healthy, Browser Self-Heal still failing with fork errors
+3. **13:42** - Health check: Nexus 6/6 nodes, GPT Mint not running, Fortytwo Console not running, Fortytwo AI Agent not running
+4. **08:39** - Nexus auto-restart check
+5. **12:59** - Nexus auto-restart check - all 6 nodes online
+6. **08:22** - Health check: Gateway healthy, Fortytwo heartbeat OK (Insufficient funds warning), Nexus 12 nodes running
+7. **09:02** - Health check: Gateway healthy, Nexus 8 nodes running, Fortytwo running but ranking join failing (API `Not Found`)
+8. **15:39** - Nexus auto-restart - 6/6 nodes online
+9. **09:19** - Nexus auto-restart - 6/6 nodes online
+
+Now let me check against "Already Recorded":
+
+Already recorded items:
+- 14:42 - All healthy
+- 09:02 - Fortytwo Ranking API failing, Nexus 8 nodes
+- 11:32 - All services normal
+- 08:22 - All healthy
+- 08:39 - Nexus auto-restart
+- 09:19 - Nexus auto-restart  
+- 12:59 - Nexus auto-restart
+
+New observations to extract:
+
+1. **13:32** - First occurrence of `fork: Resource temporarily unavailable` error (system hitting process limits), Nexus down to 6/12 nodes - this is a NEW issue not in the already recorded list. The Ranking API issue at 09:02 is already recorded but this shows progression (now at 6/12 nodes, different from the 8 nodes at 09:02).
+2. **15:42** - Persistent system instability: Ranking API remains broken, Browser Self-Heal continues to fail
+3. **13:42** - Critical service disruptions: Multiple components offline (Nexus at 6/6, but GPT Mint, Fortytwo Console, Fortytwo AI Agent all non-functional)
+4. **15:39** - Nexus auto-restart check (already captured in prior entries)
+
+The pattern reveals escalating system degradation across multiple components, with persistent Ranking API and process limit challenges.
+
+I identify three primary incidents:
+- System process constraints causing node failures
+- Continued Ranking API endpoint issues
+- Multiple critical services unexpectedly offline
+
+The 13:32 timestamp captures the initial process limit crisis with Nexus nodes critically reduced. The 15:42 entry reinforces ongoing system instability, while the 13:42 check highlights additional service interruptions beyond the initial system constraints.
+
+These observations represent distinct technical events requiring immediate investigation and remediation.
+
+I'll maintain a concise notation emphasizing critical system status changes, ensuring precise documentation of the technological anomalies.
+</think>
+
+- 🔴 13:32 Health check — Nexus degraded to 6/12 nodes, Browser Self-Heal hitting process limits (`fork: Resource temporarily unavailable`); Fortytwo running normally with 717.5 Energy <!-- dc:type=event dc:importance=7.0 dc:date=2026-04-07 -->
+- 🟡 15:42 Health check — Fortytwo ranking API still failing (pending 2 rankings, `Not Found` error), Browser Self-Heal still failing with fork error, Gateway healthy <!-- dc:type=event dc:importance=5.5 dc:date=2026-04-07 -->
+- 🟡 13:42 Health check — Nexus 6/6 nodes restored, but GPT Mint not running, Fortytwo Console not running, Fortytwo AI Agent not running <!-- dc:type=event dc:importance=5.5 dc:date=2026-04-07 -->
+- 🟢 15:39 Nexus auto-restart — 6/6 nodes online, no restart needed <!-- dc:type=event dc:importance=1.5 dc:date=2026-04-07 -->
+
+<think>
+Let me analyze these messages to extract new observations that aren't already recorded.
+
+Looking at the "Already Recorded" list:
+- 09:02 - Fortytwo Ranking API failing, Nexus 8 nodes
+- 11:32 - All services healthy
+- 08:22 - All services healthy
+- 08:39 - Nexus auto-restart check
+- 09:19 - Nexus auto-restart check
+- 12:59 - Nexus auto-restart check
+- 13:32 - Nexus degraded to 6/12, Browser Self-Heal fork error
+- 15:42 - Fortytwo ranking API failing, fork error
+- 13:42 - Nexus 6/6 but GPT Mint and Fortytwo components not running
+- 15:39 - Nexus auto-restart
+
+Now let me check the new messages:
+
+1. **13:32 health check (first one)** - Already recorded as 13:32
+2. **15:42 health check** - Already recorded as 15:42
+3. **13:42 health check** - Already recorded as 13:42
+4. **12:59 nexus-auto-restart** - Already recorded as 12:59
+5. **15:39 nexus-auto-restart** - Already recorded as 15:39
+6. **09:19 nexus-auto-restart** - Already recorded as 09:19
+7. **16:19 nexus-auto-restart** - This is NEW! Not in the list
+
+Wait, let me re-check the timestamps:
+
+Looking at the messages:
+- 13:32 - Already recorded (13:32)
+- 15:42 - Already recorded (15:42)
+- 13:42 - Already recorded (13:42)
+- 12:59 - Already recorded (12:59)
+- 15:39 - Already recorded (15:39)
+- 09:19 - Already recorded (09:19)
+- 16:19 - NEW!
+
+I notice this last timestamp represents another nexus-auto-restart check. I'll categorize this as a routine event with minimal priority, given the consistent node status.
+</think>
+
+Looking at these messages, I need to check each one against the "Already Recorded" list:
+
+1. **13:32 health check** - Already recorded as 13:32 (🔴 Nexus degraded, fork error)
+2. **15:42 health check** - Already recorded as 15:42 (🟡 Fortytwo ranking API failing)
+3. **13:42 health check** - Already recorded as 13:42 (🟡 Nexus restored but Fortytwo components down)
+4. **12:59 nexus-auto-restart** - Already recorded as 12:59
+5. **15:39 nexus-auto-restart** - Already recorded as 15:39
+6. **09:19 nexus-auto-restart** - Already recorded as 09:19
+7. **16:19 nexus-auto-restart** - This appears to be NEW
+
+Wait, I need to re-check the timestamps more carefully. Looking at the messages:
+
+- 13:32 UTC (22:32 KST) - Already recorded as 13:32
+- 15:42 UTC (00:42 KST) - Already recorded as 15:42  
+- 13:42 UTC (22:42 KST) - Already recorded as 13:42
+- 12:59 UTC - Already recorded as 12:59
+- 15:39 UTC - Already recorded as 15:39
+- 09:19 UTC - Already recorded as 09:19
+- 16:19 UTC - This is NEW
+
+The 16:19 UTC nexus-auto-restart check at 2026-04-07 is not in the "Already Recorded" list. Let me create the observation:
+
+```
+Date: 2026-04-07
+- 🟢 16:19 Nexus auto-restart — 6/6 nodes online, no restart needed <!-- dc:type=event dc:importance=1.5 dc:date=2026-04-07 -->
+```
+
+However, I should note that this is essentially the same as the other nexus-auto-restart checks (15:39, 12:59, 09:19) which were all "6/6 nodes online, no restart needed" - this appears to be routine operational noise. But it is technically a new timestamp not in the list.
+
+<think>
+Let me analyze the recent messages against the "Already Recorded" list to identify any new observations:
+
+1. **13:32 Health check** - Already recorded: Nexus 6/12, fork errors, Fortytwo running
+2. **15:42 Health check** - Already recorded: Fortytwo ranking API failing, fork error, Gateway healthy
+3. **13:42 Health check** - Already recorded: Nexus 6/6 restored, GPT Mint not running, Fortytwo Console/Agent not running
+
+New messages to analyze:
+- **15:42** cron message + response - Already recorded as 15:42
+- **15:39** nexus-auto-restart - Already recorded
+- **16:19** nexus-auto-restart - Already recorded
+- **11:32** health check - This is NEW! It shows all services operational (Fortytwo running, Nexus 6/6, Gateway running, Self-Heal pass)
+- **13:17** notification check - This is NEW! Simple heartbeat OK, no pending notifications
+
+Wait, let me check the timestamps more carefully:
+
+Looking at the timestamps:
+- 13:32 - Already recorded
+- 15:42 - Already recorded
+- 13:42 - Already recorded
+- 12:59 - nexus-auto-restart - NOT in already recorded list! But 15:39 and 16:19 are recorded, this is a duplicate pattern
+- 15:39 - Already recorded
+- 16:19 - Already recorded
+- 11:32 - This is NEW - shows all services operational
+- 13:17 - This is NEW - notification check, no issues
+
+Wait, I'm confused. Let me look at the actual times in the messages:
+
+The messages are:
+1. [13:32] - Already recorded
+2. [15:42] - Already recorded  
+3. [13:42] - Already recorded
+4. [12:59] - This appears before 13:32 but isn't in the recorded list - possibly an earlier occurrence
+5. [15:39] - Already recorded
+6. [16:19] - Already recorded
+7. [11:32] - NEW - all services operational
+8. [13:17] - NEW - notification check
+
+The chronological sequence shows 11:32, 12:59, 13:17, 13:32, 13:42, 15:39, 15:42, 16:19. I need to verify which entries are actually new versus duplicates from the already recorded set.
+
+Looking at what's missing from the recorded list, 11:32 and 13:17 appear to be the novel entries. The 12:59 timestamp isn't present in the recorded data either, but it's likely a nexus-auto-restart event following the same pattern as 15:39 and 16:19. The 11:32 health check is significant—it shows everything functioning normally with Nexus at 6/6 nodes, Fortytwo with 4 active queries, and the Gateway running smoothly. The 13:17 notification check simply confirms no pending notifications. Both of these are routine automated checks, so they warrant low-priority scoring around 1-2, though the 11:32 health status provides useful operational context. I'll flag these as new observations to capture.
+</think>
+
+Looking at the messages against the Already Recorded list:
+
+**Already recorded:**
+- 13:32 (Nexus 6/12, fork errors) ✅
+- 15:42 (Fortytwo ranking failing, fork error) ✅
+- 13:42 (Nexus 6/6, GPT Mint/Fortytwo not running) ✅
+- 15:39 (Nexus auto-restart, 6/6) ✅
+- 16:19 (Nexus auto-restart, 6/6) ✅
+
+**NEW observations:**
+- 11:32 health check — All services operational: Fortytwo (4 active queries, 717.5 Energy), Nexus 6/6 nodes, Gateway running, Self-Heal pass
+- 13:17 notification check — No pending notifications, system normal
+
+```
+Date: 2026-04-07
+- 🟢 11:32 Health check — All services operational: Fortytwo (4 active queries, 717.5 Energy), Nexus 6/6 nodes, Gateway running, Self-Heal pass <!-- dc:type=event dc:importance=2.0 dc:date=2026-04-07 -->
+- 🟢 13:17 Notification check — No pending notifications in pending-notification.txt, system normal <!-- dc:type=event dc:importance=1.0 dc:date=2026-04-07 -->
+```
+
+<think>
+Let me analyze the messages to find new observations not already recorded.
+
+Already Recorded:
+1. 16:19 Nexus auto-restart — 6/6 nodes online, no restart needed
+2. 11:32 Health check — All services operational: Fortytwo (4 active queries, 717.5 Energy), Nexus 6/6 nodes, Gateway running, Self-Heal pass
+3. 13:17 Notification check — No pending notifications
+
+New messages to process:
+1. 13:32 - Health check: Fortytwo running (2 processes, 717.5 Energy), Nexus only 6/12 nodes, Browser Self-Heal failing with fork errors
+2. 15:42 - Health check: Fortytwo running but ranking join failing (API 404), Gateway healthy, Browser Self-Heal still failing with fork errors
+3. 13:42 - Health check: Nexus 6/6 running, GPT Mint not running, Fortytwo Console not running, Fortytwo AI Agent not running
+4. 12:59 - Nexus auto-restart: 6/6 nodes online
+5. 15:39 - Nexus auto-restart: 6/6 nodes online
+6. 17:59 - Nexus auto-restart: 6/6 nodes online
+7. 16:19 - Already recorded
+
+Wait, I need to check the timestamps more carefully. The "Current time" shows different times. Let me reconstruct:
+
+1. 13:32 (13:32 UTC) = 22:32 KST - Nexus 6/12, fork errors
+2. 15:42 (15:42 UTC) = 00:43 KST next day - Fortytwo ranking API 404, fork errors
+3. 13:42 (13:42 UTC) = 22:42 KST - Fortytwo console/agent not running
+4. 12:59 (12:59 UTC) = 21:59 KST - 6/6 nodes
+5. 15:39 (15:39 UTC) = 00:39 KST next day - 6/6 nodes
+6. 17:59 (17:59 UTC) = 02:59 KST - 6/6 nodes
+
+I'm tracking multiple system health checks across different timestamps. The Nexus nodes consistently show 6/6 online, but there are recurring issues with Fortytwo's ranking API and fork errors in Browser Self-Heal. The system's operational status seems unstable, with intermittent failures in certain components. I notice several duplicate entries across different timestamps. The key issues involve Fortytwo's services, with console and AI agent experiencing outages. A critical problem exists with fork: Resource temporarily unavailable, which appears in two separate checks at 13:32 and 15:42, suggesting a persistent system resource limitation. These require immediate attention to restore full system functionality.
+</think>
+
+```
+Date: 2026-04-07
+- 🔴 13:32 Health check: Nexus only 6/12 nodes running (6 missing), Browser Self-Heal hitting `fork: Resource temporarily unavailable` - system hitting process creation limits <!-- dc:type=event dc:importance=7.5 dc:date=2026-04-07 -->
+- 🔴 15:42 Health check: Fortytwo ranking feature broken - API returning `{"detail":"Not Found"}`, 2 pending rankings failing; Browser Self-Heal still showing fork errors <!-- dc:type=event dc:importance=7.0 dc:date=2026-04-07 -->
+- 🔴 13:42 Health check: Fortytwo Console not running, Fortytwo AI Agent not running (only heartbeat script functional) <!-- dc:type=event dc:importance=6.5 dc:date=2026-04-07 -->
+- 🟢 12:59 Nexus auto-restart check — 6/6 nodes online, no restart needed <!-- dc:type=event dc:importance=1.0 dc:date=2026-04-07 -->
+- 🟢 15:39 Nexus auto-restart check — 6/6 nodes online, no restart needed <!-- dc:type=event dc:importance=1.0 dc:date=2026-04-07 -->
+- 🟢 17:59 Nexus auto-restart check — 6/6 nodes online, last activity April 4th, nodes refreshing tasks normally <!-- dc:type=event dc:importance=1.0 dc:date=2026-04-07 -->
+```
+
+<think>
+Let me analyze these messages to find new observations not already recorded.
+
+Looking at the "Already Recorded" list:
+- 11:32 Health check — All services operational
+- 13:17 Notification check
+- 13:32 Health check: Nexus 6/12 nodes, fork errors
+- 15:42 Health check: Fortytwo ranking broken, fork errors  
+- 13:42 Health check: Fortytwo Console/Agent not running
+- 12:59 Nexus auto-restart — 6/6
+- 15:39 Nexus auto-restart — 6/6
+- 17:59 Nexus auto-restart — 6/6
+
+Now let me check the new messages:
+
+1. [13:42] USER cron + [13:43] ASSISTANT - Health check: Nexus 6/6, GPT Mint ❌, Fortytwo Console ❌, Fortytwo AI Agent ❌
+   - This is DIFFERENT from what's already recorded. Already recorded at 13:42 is about Fortytwo Console/Agent not running. But this one shows Nexus 6/6 (good) and GPT Mint also not running. The 13:42 entry in Already Recorded says "Fortytwo Console not running, Fortytwo AI Agent not running" - that's already covered.
+
+2. [20:02] USER cron + [20:03] ASSISTANT - Health check: Gateway ✅, Fortytwo ✅ (717.5 Energy, 1 active query)
+   - This is NEW - shows both Gateway and Fortytwo healthy. The already recorded entries don't have this specific "all good" report with Gateway explicitly healthy.
+
+3. [16:19] USER cron + [16:19] ASSISTANT - Nexus auto-restart: 6/6 nodes online
+   - Wait, looking at the times: the user message says "Current time: Wednesday, April 8th, 2026 — 1:19 AM (Asia/Seoul) / 2026-04-07 16:19 UTC" but that's already covered in the Already Recorded list as 17:59. 
+
+I notice the timestamp discrepancies between the user message and the Already Recorded list. The 16:19 UTC time corresponds to 1:19 AM in Seoul, which seems to be a new entry not yet captured in the existing records.
+
+Comparing the sequence of events, the 16:19 event appears chronologically earlier than the 17:59 entry already documented. This suggests a potential gap in the existing record that needs careful verification.
+
+I'll scan the remaining events to confirm whether this specific timestamp introduces any novel information not previously captured in the Already Recorded list.
+
+The health checks span multiple time points - 13:32, 15:42, 13:42, and 20:02 - each revealing distinct system statuses. Some entries show service disruptions like Nexus nodes partially offline, ranking failures, and Fortytwo service issues. Meanwhile, the Nexus auto-restart checks consistently indicate full node availability at 12:59, 15:39, and 17:59.
+
+The 16:19 event represents another Nexus check, maintaining the pattern of node status verification. Each timestamp provides a snapshot of system health, tracking variations and potential infrastructure challenges.
+
+A critical discovery emerges at 20:02: the system returns to full operational status, with Gateway and Fortytwo services running normally. This marks a significant improvement from previous error states, suggesting successful resolution of earlier technical issues.
+</think>
+
+Looking at these messages against the Already Recorded list:
+
+- The 13:42 health check (Nexus 6/6, GPT Mint ❌, Fortytwo Console/Agent ❌) is covered by the existing 13:42 entry about Fortytwo not running
+- The 16:19 nexus-auto-restart appears to be duplicate information (6/6 nodes)
+- The 20:02 health check shows a RECOVERY - Gateway and Fortytwo both healthy, which is NEW and positive
+
+Let me verify there isn't a duplicate of the 20:03 entry... The Already Recorded list has 13:32, 15:42, 13:42 but NOT 20:02. This is new - it's a positive "all clear" report after the earlier failures.
+
+- 🔴 20:02 Health check: System recovered — Gateway ✅ and Fortytwo ✅ (717.5 Energy, 1 active query), all services operational after earlier failures <!-- dc:type=event dc:importance=5.5 dc:date=2026-04-07 -->
+
+<think>
+Let me analyze the messages to identify new observations not already recorded.
+
+Already recorded:
+1. 13:32 - Nexus 6/12 nodes, fork errors
+2. 15:42 - Fortytwo ranking broken, fork errors
+3. 13:42 - Fortytwo Console/AI Agent not running
+4. 12:59 - Nexus 6/6 online
+5. 15:39 - Nexus 6/6 online
+6. 17:59 - Nexus 6/6 online, last activity April 4
+7. 20:02 - System recovered, Gateway and Fortytwo operational
+
+New messages to process:
+- 20:22 health check - Gateway ✅, Fortytwo ⚠️ (Insufficient funds on join, Rankings Not Found error), Browser/CDP ✅, Browser self-heal fork errors still present
+
+This is similar to earlier reports but adds new detail:
+- Browser/CDP now responding on port 18792 (new info)
+- Browser self-heal fork errors still happening (consistent with earlier)
+
+Wait, I need to check if any of these are actually new or just repeated patterns. The 20:02 is already recorded. The 20:22 health check has some additional details but is essentially the same status report. Let me compare:
+
+From Already Recorded:
+- 20:02: Gateway ✅ and Fortytwo ✅ (717.5 Energy, 1 active query), all services operational after earlier failures
+
+The 20:22 check:
+- Gateway: ✅ (pid 54369, local loopback reachable, auth active)
+- Fortytwo: ⚠️ (Insufficient funds on join, Rankings Not Found)
+- Browser/CDP: ✅ (CDP on port 18792 responding)
+- Browser self-heal: fork errors
+
+This actually shows Fortytwo has issues (Insufficient funds, Rankings Not Found) whereas the earlier 20:02 said Fortytwo was ✅. So this IS new/different information.
+ 
+I'll verify the timestamps carefully. The messages span from April 7th 13:32 to April 8th, with a significant observation about system recovery and ongoing issues at 20:22. The key differences include persistent fork errors, Fortytwo's problematic status, and the new Browser/CDP port information. I need to capture these nuanced system health details accurately.
+</think>
+
+Looking at the messages, I need to identify what's NEW compared to the already recorded entries:
+
+**Already recorded items:**
+- Nexus 6/12 nodes (13:32)
+- Fortytwo ranking broken (15:42)
+- Fortytwo Console/Agent not running (13:42)
+- Nexus 6/6 checks (3 entries)
+- System recovered at 20:02 (Gateway ✅, Fortytwo ✅)
+
+**New observations to record:**
+
+The 20:22 health check provides DIFFERENT information than 20:02:
+- At 20:02: Fortytwo was ✅ (717.5 Energy, 1 active query)
+- At 20:22: Fortytwo shows ⚠️ (Insufficient funds on join, Rankings Not Found error)
+- Also: Browser/CDP confirmed healthy on port 18792 (new detail)
+- Browser self-heal fork errors PERSISTING (consistent issue across multiple checks)
+
+These represent new/different observations not already captured:
+
+```
+Date: 2026-04-07
+- 🔴 20:22 Health check: Fortytwo status changed - now showing ⚠️ (Insufficient funds on query join, Rankings API returning `Not Found`); previously reported as healthy at 20:02 <!-- dc:type=event dc:importance=6.0 dc:date=2026-04-07 -->
+- 🟡 20:22 Health check: Browser/CDP confirmed healthy - responding on port 18792 <!-- dc:type=fact dc:importance=3.5 dc:date=2026-04-07 -->
+- 🟢 20:22 Health check: Browser self-heal script continuing to show `fork: Resource temporarily unavailable` errors (persistent system issue across multiple checks) <!-- dc:type=event dc:importance=2.5 dc:date=2026-04-07 -->
+```
+
+<think>
+Let me analyze these messages and compare against the "Already Recorded" list to determine what NEW observations to add.
+
+Looking at the messages:
+1. 13:32 Health check - Nexus only 6/12 nodes, fork errors, system under resource pressure
+2. 21:16 Morning check (April 7th morning, but timestamp says 21:16 which is 9:16 PM) - Nexus 12 nodes all running, Fortytwo OK
+3. 15:42 (April 7) - Fortytwo ranking failing (API Not Found), Gateway OK, fork errors
+4. 13:42 (April 7) - Nexus 6/6 nodes, Fortytwo Console/AI Agent NOT running
+5. 20:02 (April 7) - Gateway and Fortytwo OK
+6. 20:22 (April 7) - Gateway OK, Fortytwo issues (Insufficient funds, Rankings Not Found), fork errors
+7. 15:39 (April 7) - Nexus auto-restart: 6/6 nodes online
+8. 17:59 (April 7) - Nexus auto-restart: 6/6 nodes online
+
+Already Recorded items:
+- 20:02 - System recovered - Gateway ✅ and Fortytwo ✅
+- 20:22 - Fortytwo status changed (Insufficient funds, Rankings Not Found)
+- 20:22 - Browser/CDP healthy
+- 20:22 - Browser self-heal fork errors
+
+What NEW observations can I add that aren't duplicates?
+
+1. 13:32 - First health check showing Nexus only 6/12 nodes, fork errors, system resource pressure - This is different from the already recorded items. It's from earlier in the day (13:32 UTC = 22:32 KST). This is NEW.
+
+2. 21:16 - Morning check showing Nexus 12 nodes all running (contradicts 13:32 showing only 6/12), Fortytwo OK - This is NEW. This appears to be the "morning" check after issues were resolved.
+ 
+I notice the 13:42 health check reveals critical service interruptions. The Nexus network remains stable at 6/6 nodes, but two key components are non-functional: GPT Mint and Fortytwo Console are not running. This differs from previous checks and suggests a potential system-wide service disruption.
+
+The auto-restart scripts at 15:39 and 17:59 confirm the Nexus network's consistent 6/6 node performance, indicating the core infrastructure remains robust despite component-level issues.
+
+The system's resource constraints are evident, with fork errors indicating underlying operational limitations. The Fortytwo service shows intermittent functionality, cycling between running and partially accessible states.
+
+I'll prioritize observations that highlight system variability and potential performance bottlenecks, focusing on the dynamic nature of these health check results.
+</think>
+
+- 🔴 13:32 (Apr 7) Health check: Nexus only 6/12 nodes running (missing 6), system hitting process limits (`fork: Resource temporarily unavailable`) — resource pressure detected <!-- dc:type=event dc:importance=6.5 dc:date=2026-04-07 -->
+- 🟡 13:42 (Apr 7) Health check: Nexus 6/6 nodes online, but GPT Mint and Fortytwo Console/AI Agent processes NOT running (Fortytwo heartbeat itself ran OK with 717.5 Energy) <!-- dc:type=event dc:importance=5.5 dc:date=2026-04-07 -->
+- 🟢 21:16 (Apr 7) Morning check: Nexus 12 nodes all running (prove-fib calculations active), Fortytwo正常运行 — system recovered after earlier failures <!-- dc:type=event dc:importance=3.5 dc:date=2026-04-07 -->
+- 🟢 15:39 & 17:59 (Apr 7) Nexus auto-restart: Confirmed 6/6 nodes online both checks, no offline nodes detected, nodes last active Apr 4 <!-- dc:type=event dc:importance=2.0 dc:date=2026-04-07 -->
+
+<think>
+Let me analyze the messages to find NEW observations not already recorded.
+
+Looking at the Already Recorded list:
+1. 20:22 Health check: Fortytwo status changed - now showing ⚠️
+2. 20:22 Health check: Browser/CDP confirmed healthy
+3. 20:22 Health check: Browser self-heal script errors
+4. 13:32 (Apr 7) Health check: Nexus only 6/12 nodes running
+5. 13:42 (Apr 7) Health check: Nexus 6/6 nodes, GPT Mint and Fortytwo Console/AI Agent NOT running
+6. 21:16 (Apr 7) Morning check: Nexus 12 nodes all running
+7. 15:39 & 17:59 (Apr 7) Nexus auto-restart: 6/6 nodes
+
+Now let me look at the new messages:
+
+1. [15:42] Cron health check - Fortytwo running but ranking join failing (2 pending rankings, API returning `{"detail":"Not Found"}`), Balance: 717.5 Energy; Gateway healthy; Browser self-heal has fork error
+   - This is similar to the 20:22 entry already recorded (Fortytwo issues, ranking API Not Found)
+   - NEW: Gateway healthy at this time (but already recorded in other entries)
+   - Already recorded: Fortytwo ranking API issue
+
+2. [20:02-20:03] Health check - Gateway normal, Fortytwo running with 717.5 Energy, 1 active query, Insufficient funds on query join is expected
+   - NEW: This shows Fortytwo working better than the 20:22 check
+   - This is actually CONTRADICTING the 20:22 "Fortytwo status changed" - at 20:02 it was healthy
+   - Actually wait, 20:02 is BEFORE 20:22 chronologically, so this is the earlier check showing health
+   
+I notice the 21:42 health check reveals Gateway's session count has increased to 446. This represents a notable shift from previous observations. The session count progression shows growth: from 300+ to 350, then to 400, and now reaching 446 sessions. This incremental increase suggests potential system expansion or rising network activity.
+
+Regarding Fortytwo's status, there's an interesting evolution:
+- Initial reports (15:42, 20:22) flagged ranking API issues
+- By 20:03 and 21:42, Fortytwo appears healthy, with 717.5 Energy and token refresh
+
+The Gateway's consistent health and Fortytwo's improving status seem interconnected, with system resources potentially driving these changes.
+</think>
+
+- 🔴 21:42 Health check: Gateway session count increased to 446 sessions (previously 350+, then 400+) — traffic growing steadily <!-- dc:type=event dc:importance=5.5 dc:date=2026-04-07 -->
+- 🟡 21:42 Health check: Fortytwo confirmed healthy — Balance: 717.5 Energy, token refreshed, no active queries <!-- dc:type=event dc:importance=4.0 dc:date=2026-04-07 -->
+- 🟢 20:03 Health check: Fortytwo running with 1 active query, "Insufficient funds" on query join confirmed as expected stake requirement (not a failure) <!-- dc:type=context dc:importance=3.0 dc:date=2026-04-07 -->
+- 🟢 20:03 Health check: Gateway normal, no issues detected <!-- dc:type=event dc:importance=2.0 dc:date=2026-04-07 -->
+- 🟢 17:59 Nexus auto-restart: Script executed successfully, confirmed 6/6 nodes online, nodes last active Apr 4 <!-- dc:type=event dc:importance=2.0 dc:date=2026-04-07 -->
+
+<think>
+Let me analyze the recent messages to identify what should be compressed into observations, making sure not to duplicate anything already recorded.
+
+Looking at the "Already Recorded" list:
+- Health check: Browser self-heal fork error (20:22)
+- Nexus 6/12 nodes running (13:32)
+- GPT Mint and Fortytwo Console/AI Agent not running (13:42)
+- Nexus 12 nodes all running (21:16)
+- Nexus auto-restart 6/6 (15:39 & 17:59)
+- Gateway session count 446 (21:42)
+- Fortytwo healthy (21:42)
+- Fortytwo active query (20:03)
+- Gateway normal (20:03)
+- Nexus auto-restart 6/6 (17:59)
+
+Now looking at the NEW messages (chronologically):
+
+1. 15:42 - Health check: Fortytwo running but ranking join failing (2 pending rankings, API returning `{"detail":"Not Found"}`), 717.5 Energy, Gateway healthy, Browser self-heal failed with `fork: Resource temporarily unavailable`
+   - This is NEW info: Fortytwo ranking feature broken, API endpoint not found
+
+2. 20:02 - Health check: Gateway normal, Fortytwo running with 717.5 Energy, 1 active query
+
+3. 21:42 - Health check: Fortytwo 717.5 Energy, token refreshed, no active queries; Gateway running with 446 sessions, LaunchAgent loaded, ws reachable; Self-heal clean exit
+   - This is NEW info: token refreshed
+
+4. 22:02 - Health check: Fortytwo 717.5 Energy, no active queries; Nexus 5 prove-fib-subprocess running (CPU 87-96%), 2 full nodes running; OpenClaw Gateway healthy; CDP browser healthy
+   - This is NEW info: prove-fib-subprocess CPU usage high
+
+5. 20:22 (note: this appears out of order - it's 20:22 but listed after 22:02 in the input) - Health check: Gateway running, Fortytwo heartbeat issues (Insufficient funds, Rankings Not Found), Browser/CDP healthy, fork errors on self-heal
+   - This is duplicate of the fork error already recorded
+
+6. 15:39 - Nexus auto-restart: 6/6 nodes online, no restart needed
+   - Duplicate of 17:59 check
+
+7. 17:59 - Nexus auto-restart: 6/6 nodes online, no restart needed, nodes last active Apr 4
+   - Duplicate
+
+8. 16:19 - Nexus auto-restart: 6/6 nodes online
+   - Duplicate
+
+I'm noticing a pattern: the self-heal script is encountering persistent fork errors, the Nexus checks consistently show 6/6 nodes online, and there are repeated health check observations with similar status updates. The Fortytwo service appears to be experiencing ranking API issues that may require attention.
+</think>
+
+## Observations
+
+- 🟡 15:42 (Apr 7) Health check: Fortytwo ranking feature broken — API returning `{"detail":"Not Found"}` on ranking participation, 2 pending rankings stuck <!-- dc:type=event dc:importance=5.0 dc:date=2026-04-07 -->
+- 🟢 22:02 (Apr 7) Health check: 5 prove-fib-subprocess instances running at high CPU (87-96%), 2 full Nexus nodes active (node-35691962, node-36729716) <!-- dc:type=event dc:importance=3.0 dc:date=2026-04-07 -->
+- 🟢 21:42 (Apr 7) Health check: Fortytwo token refreshed successfully (717.5 Energy) — first mention of token refresh in recent checks <!-- dc:type=event dc:importance=3.0 dc:date=2026-04-07 -->
+- 🟢 16:19 (Apr 7) Nexus auto-restart: Confirmed 6/6 nodes online, no offline nodes detected <!-- dc:type=event dc:importance=2.0 dc:date=2026-04-07 -->
+
+<think>
+Let me analyze the messages to identify new observations not already recorded in the "Already Recorded" list.
+
+Looking at the timestamps and content:
+
+1. **15:42** - Health check: Fortytwo ranking failing, fork error
+   - Already recorded in "🟡 15:42 (Apr 7) Health check: Fortytwo ranking feature broken — API returning `{"detail":"Not Found"}` on ranking participation, 2 pending rankings stuck"
+
+2. **20:02** - Health check: Gateway normal, Fortytwo running
+   - Already recorded in:
+     - "🟢 20:03 Health check: Fortytwo running with 1 active query, "Insufficient funds" on query join confirmed as expected stake requirement (not a failure)"
+     - "🟢 20:03 Health check: Gateway normal, no issues detected"
+
+3. **21:42** - Health check: All services healthy
+   - Already recorded in:
+     - "🟡 21:42 Health check: Gateway session count increased to 446 sessions (previously 350+, then 400+) — traffic growing steadily"
+     - "🟡 21:42 Health check: Fortytwo confirmed healthy — Balance: 717.5 Energy, token refreshed, no active queries"
+
+4. **22:02** - Health check: Both scripts ran silently
+   - Already recorded in "🟢 22:02 (Apr 7) Health check: 5 prove-fib-subprocess instances running at high CPU (87-96%), 2 full Nexus nodes active"
+
+5. **20:22** - Health check: Gateway ✅, Fortytwo ⚠️, Browser/CDP ✅
+   - This has a new detail: "Browser self-heal script showing 'fork: Resource temporarily unavailable' errors"
+   - The fork error was partially covered in the 15:42 entry (but this one explicitly mentions browser self-heal script error)
+   
+I notice the Nexus auto-restart at 15:39 and 17:59 confirms all nodes are online, which matches existing records. The health check reveals potential browser-related resource constraints, though this seems to be a continuation of previous observations about system resource limitations.
+
+I'll carefully review each message's unique details to ensure no critical information is overlooked, focusing on the nuanced system status and potential performance indicators.
+
+The browser self-heal script's fork error at 20:22 introduces a new element not previously captured in existing records. While related to the 15:42 system resource limitation, it provides a distinct diagnostic perspective on potential system bottlenecks.
+
+The observation appears to be a precise, technical notation about a specific system diagnostic event, capturing time, nature of the issue, and potential resource constraints with clinical precision.
+
+I'll verify the timestamp and details against existing records, ensuring no critical system diagnostic information is inadvertently omitted. The nuanced differences between this and previous observations suggest a potential emerging system stress pattern that warrants careful monitoring.
+</think>
+
+Looking at the messages and comparing against the "Already Recorded" list, I need to identify genuinely new observations:
+
+1. The 15:42, 20:02, 20:22, 21:42, 22:02 health checks and 15:39, 17:59 Nexus auto-restarts are already covered
+2. The fork error at 15:42 was already recorded as part of the ranking issue
+3. The fork error at 20:22 is a NEW detail about the browser self-heal script specifically
+
+Let me verify there are truly no new unique observations:
+
+- **20:22 health check**: Mentions "Browser self-heal script showing 'fork: Resource temporarily unavailable' errors" — this was NOT explicitly recorded. The 15:42 entry mentioned fork error but didn't specify it was the browser self-heal script.
+
+This is a genuine new detail about which specific script is experiencing the fork error.
+
+```
+- 🟡 20:22 (Apr 7) Health check: Browser self-heal script showing "fork: Resource temporarily unavailable" errors — system hitting process/slot limits <!-- dc:type=event dc:importance=4.5 dc:date=2026-04-07 -->
+```
+
+<think>
+Let me analyze the messages to compress them into observations:
+
+1. **23:04 (Apr 7) - Status report cron job**: 
+   - Ran check.sh script and sent output to M4 monitoring group
+   - Status summary: Nexus 36 nodes running (since 03-19), Fortytwo Agent heartbeat normal with 6 active, Fortytwo terminal balance 717
+   - This is a cron job sending a status report
+
+2. **23:12 (Apr 7) - Health check cron job**:
+   - Ran Fortytwo heartbeat and Gateway self-heal scripts
+   - Report showed: 6/6 Nexus nodes running normally
+   - Fortytwo: Balance 717.5 Energy, 2 active queries (dropping from 6→3→2)
+   - Issue: Join query failing with "Insufficient funds" - tried to join query d670a10f (500 stake) but rejected despite having 717.5 available
+   - Console & AI Agent: Not running (expected)
+
+3. **23:02 (Apr 7) - Another health check cron job** (earlier):
+   - Ran same health check scripts
+   - Fortytwo: Running, 6 active queries, 717.5 Energy balance
+   - Gateway: Running, RPC probe OK, pid 54369
+   - Both services healthy
+
+Now let me compare with "Already Recorded" entries:
+- 15:42 (Apr 7) - Fortytwo ranking feature broken
+- 22:02 (Apr 7) - High CPU usage on prove-fib processes
+- 21:42 (Apr 7) - Token refreshed successfully
+- 16:19 (Apr 7) - Nexus auto-restart, 6/6 nodes online
+- 20:22 (Apr 7) - Browser self-heal script errors
+
+New observations to record:
+1. The 23:04 status report to M4 monitoring group - this is a new message destination/action not recorded before
+2. The health check at 23:02 reveals Gateway's operational status and confirms Fortytwo's stability with 6 active queries
+3. The 23:12 health check uncovers a significant problem: the Join query is failing due to "Insufficient funds" even though 717.5 Energy is available, which represents a notable system issue
+4. The query activity shows a declining trend, dropping from 6 to 2 active queries
+
+I need to organize these findings using appropriate priority indicators and relevant metadata tags, making sure to avoid duplicating information from previous entries.
+</think>
+
+- 🔴 23:12 (Apr 7) Health check: Fortytwo join query `d670a10f` failing with "Insufficient funds" error despite 717.5 Energy balance available (tried 500 stake) — issue persisting since at least 08:03 <!-- dc:type=event dc:importance=6.5 dc:date=2026-04-07 -->
+  - 🟡 23:12 Fortytwo active queries dropped: 6 → 3 → 2 over the hour <!-- dc:type=event dc:importance=4.0 dc:date=2026-04-07 -->
+  - 🟢 23:12 Nexus: 6/6 nodes all running normally <!-- dc:type=event dc:importance=2.0 dc:date=2026-04-07 -->
+- 🟢 23:02 (Apr 7) Health check: Fortytwo running (6 active queries, 717.5 Energy), Gateway running (RPC OK, pid 54369) — both healthy <!-- dc:type=event dc:importance=2.0 dc:date=2026-04-07 -->
+- 🟢 23:04 (Apr 7) Status report cron: Executed check.sh, sent to M4监工群 (message_id: 2518) — Nexus 36 nodes running since 03-19, Fortytwo Agent heartbeat normal with 6 active, terminal balance 717 <!-- dc:type=event dc:importance=2.0 dc:date=2026-04-07 -->

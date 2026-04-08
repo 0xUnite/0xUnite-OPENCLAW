@@ -1,0 +1,24 @@
+
+> flint-studio@0.55.0-beta start
+> concurrently --kill-others "npm run start:next" "npm run start:worker"
+
+[0] 
+[0] > flint-studio@0.55.0-beta start:next
+[0] > next start -H 0.0.0.0
+[0] 
+[1] 
+[1] > flint-studio@0.55.0-beta start:worker
+[1] > tsx --env-file=.env src/lib/workers/index.ts
+[1] 
+[0]  ⨯ Failed to start server
+[0] Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+[0]     at <unknown> (Error: listen EADDRINUSE: address already in use 0.0.0.0:3000) {
+[0]   code: 'EADDRINUSE',
+[0]   errno: -48,
+[0]   syscall: 'listen',
+[0]   address: '0.0.0.0',
+[0]   port: 3000
+[0] }
+[0] npm run start:next exited with code 1
+--> Sending SIGTERM to other processes..
+[1] npm run start:worker exited with code 143
