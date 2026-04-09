@@ -3,10 +3,10 @@
     "email": null,
     "calendar": null,
     "weather": null,
-    "heartbeat": 1744170600
+    "heartbeat": 1744172580
   },
-  "lastHeartbeat": "2026-04-09T08:30:00Z",
+  "lastHeartbeat": "2026-04-09T09:03:00Z",
   "notes": {
-    "heartbeat-2026-04-09-0830": "08:30 KST. Nexus 6 nodes all online ✅. Gateway healthy ✅. sync.sh 不存在 - backup cron未配置. daily-automation.sh 存在但无cron触发器."
+    "heartbeat-2026-04-09-0903": "09:03 KST. Nexus 6 nodes all online ✅ (36 processes). Gateway healthy ✅. Fortytwo running ✅ (3 pending, 1 active). daily-automation.sh ran at 9:00 ✅. sync.sh still missing - backup is via daily-automation.sh git push."
   }
 }

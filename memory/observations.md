@@ -38277,3 +38277,97 @@ The "Insufficient funds" error at 23:16 for query 70324e5d appears to be a new i
 - 🟢 23:16 Health check: Fortytwo running (717.5 Energy, 4 active queries), Nexus 8 screens, Gateway normal; Insufficient funds for query join 70324e5d (known limitation) <!-- dc:type=event dc:importance=2.0 dc:date=2026-04-08 -->
 - 🟢 23:19 Nexus auto-restart: All 6 nodes online, no restart needed <!-- dc:type=event dc:importance=1.5 dc:date=2026-04-08 -->
 - 🟢 23:26 Health check: Gateway running (pid 65862), Fortytwo running (717.5 Energy, 4 queries), insufficient funds for query join (normal race condition) <!-- dc:type=event dc:importance=1.5 dc:date=2026-04-08 -->
+
+<think>
+Let me analyze the recent messages to identify any new observations not already covered in the "Already Recorded" list.
+
+Looking at the messages from 23:46-23:59:
+
+1. **23:46 - Health Check** - This is a cron job that ran. The result showed:
+   - Gateway ✅ Running
+   - Nexus ✅ 12 nodes active
+   - Fortytwo ✅ Running
+
+   This is similar to other health checks already recorded. Looking at the already recorded list, there's one at 23:26 that's very similar (Gateway running, Fortytwo running, Nexus). This appears to be another routine health check. However, I should note that the specific details (12 nodes, prove-fib subprocesses) differ slightly from previous checks.
+
+2. **23:56 - Health Check** - Another cron job with two parts:
+   - Fortytwo heartbeat
+   - Gateway self-heal
+   
+   Results:
+   - Fortytwo ✅ Running (717.5 Energy, 1 pending ranking - join fails with 404 - API endpoint may be down/changed)
+   - Browser CDP ✅ Healthy
+   - Gateway ✅ Live
+   - gateway-self-heal.sh ⚠️ Broken - Syntax error at lines 157-158, hasn't logged since Apr 1
+
+   Looking at the already recorded:
+   - 22:56 mentions "Fortytwo ranking joins failed (404), likely no active rankings" - this is similar but not identical
+   - The NEW observation here is: gateway-self-heal.sh has a syntax error and hasn't logged since April 1
+
+3. **23:59 - Nexus auto-restart** - All 6 nodes online, no restart needed. This is already recorded at 23:19.
+
+Now I need to check for duplicates:
+- Health check at 23:46: Similar to 23:26, 23:16 - these are routine health checks, essentially the same type of event
+- Health check at 23:56: The Fortytwo 404 ranking issue was already recorded at 22:56. The NEW piece is the gateway-self-heal.sh being broken
+- Nexus auto-restart at 23:59: Already recorded at 23:19
+
+I'll prioritize the gateway-self-heal.sh issue as a significant technical observation requiring immediate attention. The 404 ranking failure seems consistent with previous incidents, so it's less critical. The syntax error and lack of recent logs suggest a potential systemic problem with the script that needs thorough investigation.
+
+The observations span multiple timestamps, with 23:56 providing the most actionable detail about the gateway script's malfunction. The 23:46 health check appears routine, while the Nexus node checks at 23:19 and 23:59 seem stable and unremarkable.
+</think>
+
+Looking at the recent messages, I need to identify what NEW observations are not already in the "Already Recorded" list:
+
+- 23:46 Health Check - Similar to previous routine checks (Gateway/Nexus/Fortytwo running)
+- 23:56 Health Check - Fortytwo ranking 404 is already recorded at 22:56; Nexus auto-restart already recorded
+- **NEW: 23:56 - gateway-self-heal.sh has syntax error at lines 157-158, hasn't logged since April 1**
+
+This is the only genuinely new observation - the gateway self-heal script is broken.
+
+```
+🟡 23:56 Health check: gateway-self-heal.sh broken - syntax error at lines 157-158 (return 0/fi mismatch), script hasn't logged since Apr 1 <!-- dc:type=event dc:importance=4.5 dc:date=2026-04-08 -->
+```
+
+All other observations in these messages are either duplicates of existing entries or routine operational checks (cron jobs with normal results) that don't warrant recording as new observations.
+
+<think>
+Let me analyze the recent messages and identify new observations that aren't already recorded.
+
+Looking at the messages:
+
+1. **System startup errors** (00:03): SIGKILL on warm-cru and wild-ree, openclaw config.get unavailable - this is a technical issue/fact
+2. **Morning system check** (00:06): Nexus 6 nodes, Fortytwo 3 pending/1 active, Gateway healthy, daily-automation.sh executed at 9:00, sync.sh missing
+3. **Gateway self check** (00:06): Gateway running normally, LaunchAgent installed
+4. **Exec failed wild-ree** (00:06): Another SIGKILL
+5. **Binance Square cron** (00:00-00:01): Browser not logged in, needs manual login
+6. **Daily Ops Health Summary** (00:01-00:03): Gateway healthy, but 6 jobs failing (all timeouts) - this is important
+7. **Observer script** (00:00): Success with no output (expected)
+8. **System & Fortytwo Health Check** (00:06-00:07): All services up, Fortytwo had insufficient funds for query join
+
+Now let me check against the "Already Recorded" list:
+- Auto-memory-runner (23:18) - different time
+- Health check (23:16) - different time
+- Nexus auto-restart (23:19) - different time  
+- Health check (23:26) - different time
+
+These are all from 23:xx (evening), while the new messages are from 00:xx (which is 09:xx KST based on the cron timestamps). So these ARE new observations.
+
+Let me prioritize:
+
+**High priority (🔴):**
+- Daily Ops: 6 cron jobs failing with timeout errors - this is a significant system issue
+- Binance Square not logged in - prevents automation from working
+
+**Medium priority (🟡):**
+I'll track critical system alerts: persistent SIGKILL errors on warm-cru and wild-ree processes, openclaw configuration unavailability, and sync.sh script missing. These indicate potential infrastructure instability that requires immediate investigation.
+
+**Low priority (🟢):**
+Routine system checks reveal continued process execution challenges. The observer script ran without output, while Fortytwo encountered an expected insufficient funds scenario during query joins.
+</think>
+
+- 🔴 00:03 System errors: SIGKILL on warm-cru and wild-ree processes; `openclaw config.get` command unavailable (startup timing issue) <!-- dc:type=event dc:importance=7.5 dc:date=2026-04-09 -->
+- 🔴 00:03 Daily Ops Health: Gateway ✅ healthy, but 6 cron jobs failing with timeout errors — requires investigation via `openclaw logs` <!-- dc:type=event dc:importance=8.0 dc:date=2026-04-09 -->
+- 🔴 00:01 Binance Square cron: Browser opened but NOT logged in (shows login/register screen); manual login required for POST_TO_SQUARE_MORNING <!-- dc:type=event dc:importance=7.0 dc:date=2026-04-09 -->
+- 🟡 00:06 Morning system check: Nexus 6 nodes ✅, Fortytwo ✅ (3 pending, 1 active), Gateway ✅, daily-automation.sh executed at 9:00, sync.sh still missing <!-- dc:type=event dc:importance=4.5 dc:date=2026-04-09 -->
+- 🟡 00:07 Health check: All services running (Gateway pid 65862, Nexus nodes, Chrome :18792), Fortytwo had insufficient funds for query 32587383 (normal race condition) <!-- dc:type=event dc:importance=4.0 dc:date=2026-04-09 -->
+- 🟢 00:00 Observer script: Ran successfully (exit 0), no stdout output (expected — logs to own file) <!-- dc:type=event dc:importance=1.5 dc:date=2026-04-09 -->
