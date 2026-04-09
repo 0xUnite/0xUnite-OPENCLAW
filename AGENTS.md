@@ -13,9 +13,10 @@ This folder is home. Treat it that way.
 - Action:
   1. Remove ONLY the "GPT" token from the message
   2. Spawn subagent with `model: "openai-codex/gpt-5.4"`
-  3. Pass remaining text as task
-  4. Return subagent result
-  5. **STOP** - Do NOT answer with MiniMax
+  3. **IMPORTANT: Set `runTimeoutSeconds: 0` (no timeout)** — GPT需要多久就多久，不要主动超时
+  4. Pass remaining text as task
+  5. Return subagent result
+  6. **STOP** - Do NOT answer with MiniMax
 
 ### GO Trigger (Whole Word Only)  
 - Pattern: whole-word `GO` (case-insensitive)

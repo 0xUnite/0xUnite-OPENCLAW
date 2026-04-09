@@ -38371,3 +38371,80 @@ Routine system checks reveal continued process execution challenges. The observe
 - 🟡 00:06 Morning system check: Nexus 6 nodes ✅, Fortytwo ✅ (3 pending, 1 active), Gateway ✅, daily-automation.sh executed at 9:00, sync.sh still missing <!-- dc:type=event dc:importance=4.5 dc:date=2026-04-09 -->
 - 🟡 00:07 Health check: All services running (Gateway pid 65862, Nexus nodes, Chrome :18792), Fortytwo had insufficient funds for query 32587383 (normal race condition) <!-- dc:type=event dc:importance=4.0 dc:date=2026-04-09 -->
 - 🟢 00:00 Observer script: Ran successfully (exit 0), no stdout output (expected — logs to own file) <!-- dc:type=event dc:importance=1.5 dc:date=2026-04-09 -->
+
+<think>
+Let me analyze these messages and create compressed observations:
+
+1. **Nexus Auto-Restart (00:19)** - Script ran, found all 6 nodes online, no restart needed
+2. **Auto-Memory-Runner (00:18)** - Completed with issues: checkpoint failed (LLM call failed), motivation check OK, weekly tasks skipped (not Sunday)
+3. **Notification Check (00:17)** - No pending notifications, all normal
+4. **Health Check (00:16)** - Gateway healthy, Fortytwo running (717.5 Energy), ranking API returning "Not Found" for 3 pending rankings (server-side issue)
+5. **Health Check (00:26)** - Another health check triggered
+
+Now let me check against "Already Recorded" items:
+- System errors (SIGKILL, config.get unavailable) - NOT covered in new messages
+- Daily Ops Health (Gateway ✅, 6 cron jobs failing) - Already recorded, but the health check at 00:16 shows Gateway healthy and mentions ranking API issue
+- Binance Square cron (not logged in) - NOT in new messages
+- Morning system check (00:06) - Already recorded
+- Health check (00:07) - Already recorded  
+- Observer script (00:00) - NOT in new messages
+
+New observations to record:
+1. Nexus auto-restart: All 6 nodes online, no restart needed
+2. Auto-memory-runner: Checkpoint failed (LLM call failed), motivation check OK, weekly tasks skipped (not Sunday)
+3. Notification check: No pending notifications
+4. Health check (00:16): Gateway healthy, Fortytwo running, ranking API "Not Found" error (server-side)
+5. Health check (00:26): Duplicate of above essentially
+
+Let me score these:
+- Nexus all nodes online: This is a positive status update, but it's good news - 3-4
+- Auto-memory-runner checkpoint failure indicates a potential LLM connectivity problem requiring investigation - 5
+- Notification check: routine system maintenance, minimal priority - 2
+- Health check reveals Fortytwo ranking API server-side issue - 4-5
+- Duplicate health check redundant, no new information
+
+Considering early morning timestamp (00:16-00:26) during system maintenance window, capturing system operational status with nuanced details about potential technical challenges.
+
+Ranking API returning "Not Found" errors suggests a specific server-side problem requiring targeted troubleshooting, despite overall system health appearing stable.
+</think>
+
+- 🔴 00:19 Nexus auto-restart: All 6 nodes online (5500030, 36355716, 35691962, 36729716, 36445748, 37599871), no restart needed <!-- dc:type=event dc:importance=3.5 dc:date=2026-04-09 -->
+  - 🟡 00:18 Auto-memory-runner: Checkpoint ❌ (LLM call failed), Motivation ✅, weekly tasks ⏭️ (skipped — Thursday, not Sunday) <!-- dc:type=event dc:importance=5.0 dc:date=2026-04-09 -->
+  - 🟢 00:17 Notification check: No pending notifications, all normal <!-- dc:type=event dc:importance=2.0 dc:date=2026-04-09 -->
+  - 🟡 00:16 Health check: Gateway ✅ healthy, Fortytwo ✅ running (717.5 Energy), ranking API returning `{"detail":"Not Found"}` for 3 pending rankings — server-side issue <!-- dc:type=event dc:importance=4.5 dc:date=2026-04-09 -->
+
+<think>
+Let me analyze these messages to extract new observations not already recorded:
+
+1. [00:30] ASSISTANT: "All good. Updating state and wrapping up. 09:30 KST status: Nexus: 6 nodes running ✅, Fortytwo: monitor running ✅, 09:00 daily-automation.sh executed ✅"
+   - This is similar to what's already recorded (morning system check, daily-automation.sh executed at 9:00). NOT NEW.
+
+2. [00:32] USER: "System (untrusted): Exec failed (tender-l, signal SIGKILL)"
+   - NEW error event: tender-l process was SIGKILLed
+   - But this seems related to the existing "System errors: SIGKILL on warm-cru and wild-ree processes" - let me check if tender-l was already mentioned
+   - The existing record mentions "warm-cru and wild-ree" - tender-l is NEW
+   - This is a NEW error event - should be recorded
+
+3. [00:36] USER: cron job - Fortytwo heartbeat and Gateway self-heal
+   - Already covered by health check at 00:16 and 00:18
+
+4. [00:36] ASSISTANT: "✅ Fortytwo: Healthy. Balance: 717.5 Energy, 3 active queries. Last heartbeat completed normally. ✅ Gateway: All processes running normally. Notes: Fortytwo shows 'Insufficient funds' when trying to join a query requiring 500 stake — that's expected behavior, not an error."
+   - Similar to existing records (00:16, 00:18 health checks)
+   - The "insufficient funds" note is already covered in existing records
+
+5. [00:39] USER: nexus-auto-restart script call
+   - Already covered by "Nexus auto-restart: All 6 nodes online" at 00:19
+
+6. [00:39] ASSISTANT: "Script completed, no output means all Nexus nodes online, no restart needed"
+   - Duplicate of the nexus-auto-restart event
+
+I'll continue investigating the SIGKILL event, noting the specific process name and potential system-level implications. The tender-l process termination appears distinct from previous process failures, warranting a closer examination of system stability and potential underlying issues.
+
+The cron message provides additional context about the process termination, specifically highlighting the SIGKILL signal. This suggests an external intervention or critical system management action that forcibly ended the process, which differs from typical system errors or routine health checks.
+
+The key observation centers on the unexpected process termination, its unique identifier (tender-l), and the need to understand the precise circumstances leading to this signal-based interruption.
+</think>
+
+- 🔴 00:32 System error: Process "tender-l" received SIGKILL (distinct from previously recorded warm-cru and wild-ree SIGKILLs) <!-- dc:type=event dc:importance=7.5 dc:date=2026-04-09 -->
+  - 🟡 00:32 User reminder: Read HEARTBEAT.md from workspace path /Users/sudi/.openclaw/workspace/HEARTBEAT.md (exact case), follow strictly, don't infer from prior chats <!-- dc:type=rule dc:importance=6.0 dc:date=2026-04-09 -->
+- 🟢 00:30 Total Recall observer script: Completed successfully (exit code 0), no output (expected — logs to own file) <!-- dc:type=event dc:importance=1.5 dc:date=2026-04-09 -->
