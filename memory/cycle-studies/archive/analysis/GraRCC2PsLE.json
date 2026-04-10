@@ -1,0 +1,26 @@
+{
+  "video_title": "带量上涨，多头亮剑！比特币回光返照还是暴涨？盯紧这个位置。",
+  "video_date": "2026-04-06",
+  "video_id": "GraRCC2PsLE",
+  "stage1_notes": [
+    "核心判断:更适合等强势确认后的顺势跟随",
+    "走势阶段:优先确认当前是趋势段还是震荡段",
+    "关键区域:目标 712",
+    "做法1:等结构确认后再跟,不抢情绪单",
+    "做法2:点分析趋势行情再聊句的交易计划在昨天的快频当中往",
+    "风险:最怕把短线拉扯误判成单边行情"
+  ],
+  "price_zone_hints": [
+    "目标 712",
+    "跌破 200",
+    "支撑 100",
+    "突破 2,155"
+  ],
+  "stage1_used_fallback": true,
+  "stage1_error": "LLM 请求失败: HTTP 500 {\"type\":\"error\",\"error\":{\"type\":\"api_error\",\"message\":\"unknown error, 520 (1000)\"},\"request_id\":\"0627db00b76c1cb3c2b50cab35d8de44\"}",
+  "stage2_used_fallback": true,
+  "stage2_error": "LLM 请求失败: HTTP 529 {\"type\":\"error\",\"error\":{\"type\":\"overloaded_error\",\"message\":\"overloaded_error (529)\"},\"request_id\":\"0627db2414f7814167e1c2dee8a54dd1\"}",
+  "post_validation": {
+    "issues": []
+  }
+}

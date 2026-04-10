@@ -540,3 +540,152 @@ Deleting original file /tmp/cycle-studies.3KTChz/cycle-audio.webm (pass -k to ke
 [2026-04-08 18:26] 📋 文案长度: 309 字符
 [2026-04-08 18:26] 🗂️ 草稿已保存: /Users/sudi/.openclaw/workspace/memory/cycle-studies/archive/drafts/yFPma3VPen8.md
 [2026-04-08 18:26] 🧪 NO_POST=1，仅生成草稿，不实际发布
+[2026-04-10 10:03] 🔍 检查 CycleStudies 最新视频...
+[2026-04-10 10:03] 📺 发现新视频: [2026-04-09] 这根线就是多头的命根子。
+[2026-04-10 10:03] 🎬 开始处理新视频...
+[2026-04-10 10:03] ⬇️ 下载音频...
+[youtube] Extracting URL: https://youtu.be/UjMv739S8C8
+[youtube] UjMv739S8C8: Downloading webpage
+[youtube] UjMv739S8C8: Downloading android vr player API JSON
+[youtube] UjMv739S8C8: Downloading web player API JSON
+[youtube] UjMv739S8C8: Downloading web safari player API JSON
+[info] UjMv739S8C8: Downloading 1 format(s): 251
+[download] Destination: /tmp/cycle-studies.mAFXZ2/cycle-audio.webm
+[download]   0.0% of   11.60MiB at  Unknown B/s ETA Unknown[download]   0.0% of   11.60MiB at    2.85MiB/s ETA 00:04  [download]   0.1% of   11.60MiB at    5.83MiB/s ETA 00:01[download]   0.1% of   11.60MiB at   11.46MiB/s ETA 00:01[download]   0.3% of   11.60MiB at    4.98MiB/s ETA 00:02[download]   0.5% of   11.60MiB at    4.52MiB/s ETA 00:02[download]   1.1% of   11.60MiB at    4.66MiB/s ETA 00:02[download]   2.1% of   11.60MiB at    4.53MiB/s ETA 00:02[download]   4.3% of   11.60MiB at    3.10MiB/s ETA 00:03[download]   8.6% of   11.60MiB at    5.30MiB/s ETA 00:02[download]  17.2% of   11.60MiB at    9.51MiB/s ETA 00:01[download]  34.5% of   11.60MiB at   15.91MiB/s ETA 00:00[download]  69.0% of   11.60MiB at   11.06MiB/s ETA 00:00[download]  83.2% of   11.60MiB at    9.03MiB/s ETA 00:00[download]  83.2% of   11.60MiB at  Unknown B/s ETA Unknown[download]  83.3% of   11.60MiB at  Unknown B/s ETA Unknown[download]  83.3% of   11.60MiB at  Unknown B/s ETA Unknown[download]  83.4% of   11.60MiB at   13.69MiB/s ETA 00:00  [download]  83.5% of   11.60MiB at   22.85MiB/s ETA 00:00[download]  83.8% of   11.60MiB at   39.31MiB/s ETA 00:00[download]  84.3% of   11.60MiB at   68.00MiB/s ETA 00:00[download]  85.4% of   11.60MiB at   62.07MiB/s ETA 00:00[download]  87.5% of   11.60MiB at    2.33MiB/s ETA 00:00[download]  91.8% of   11.60MiB at    4.02MiB/s ETA 00:00[download] 100.0% of   11.60MiB at    5.32MiB/s ETA 00:00[download] 100% of   11.60MiB in 00:00:01 at 7.03MiB/s   
+[ExtractAudio] Destination: /tmp/cycle-studies.mAFXZ2/cycle-audio.mp3
+Deleting original file /tmp/cycle-studies.mAFXZ2/cycle-audio.webm (pass -k to keep)
+[2026-04-10 10:04] 📝 优先尝试提取字幕...
+[youtube] Extracting URL: https://youtu.be/UjMv739S8C8
+[youtube] UjMv739S8C8: Downloading webpage
+[youtube] UjMv739S8C8: Downloading android vr player API JSON
+[youtube] UjMv739S8C8: Downloading web player API JSON
+[youtube] UjMv739S8C8: Downloading web safari player API JSON
+[info] UjMv739S8C8: Downloading 1 format(s): 399+251
+[info] There are no subtitles for the requested languages
+[2026-04-10 10:04] 🎙️ 使用 Whisper 转录（模型: base）...
+[2026-04-10 10:05] ✅ 转录完成 (3738 字符)
+[2026-04-10 10:05] 📈 获取当前盘面...
+[2026-04-10 10:05] ✍️  生成价格分析文案...
+[2026-04-10 15:38] 🔍 检查 CycleStudies 最新视频...
+[2026-04-10 15:38] 📺 发现新视频: [2026-04-10] 一根均线走天下：不破就格局，破了就割肉。
+[2026-04-10 15:38] 🎬 开始处理新视频...
+[2026-04-10 15:38] ⬇️ 下载音频...
+[youtube] Extracting URL: https://youtu.be/IQZ73zl57Ao
+[youtube] IQZ73zl57Ao: Downloading webpage
+[youtube] IQZ73zl57Ao: Downloading android vr player API JSON
+[youtube] IQZ73zl57Ao: Downloading web player API JSON
+[youtube] IQZ73zl57Ao: Downloading web safari player API JSON
+[info] IQZ73zl57Ao: Downloading 1 format(s): 251
+[download] Destination: /tmp/cycle-studies.9MvrRZ/cycle-audio.webm
+[download]   0.0% of   12.46MiB at  Unknown B/s ETA Unknown[download]   0.0% of   12.46MiB at  Unknown B/s ETA Unknown[download]   0.1% of   12.46MiB at  Unknown B/s ETA Unknown[download]   0.1% of   12.46MiB at   11.12MiB/s ETA 00:01  [download]   0.2% of   12.46MiB at   16.31MiB/s ETA 00:00[download]   0.5% of   12.46MiB at    8.36MiB/s ETA 00:01[download]   1.0% of   12.46MiB at    1.35MiB/s ETA 00:09[download]   2.0% of   12.46MiB at    2.35MiB/s ETA 00:05[download]   4.0% of   12.46MiB at    4.08MiB/s ETA 00:02[download]   8.0% of   12.46MiB at    7.25MiB/s ETA 00:01[download]  16.0% of   12.46MiB at    9.88MiB/s ETA 00:01[download]  32.1% of   12.46MiB at    5.37MiB/s ETA 00:01[download]  61.7% of   12.46MiB at    4.59MiB/s ETA 00:01[download]  78.3% of   12.46MiB at    4.81MiB/s ETA 00:00[download]  78.3% of   12.46MiB at  Unknown B/s ETA Unknown[download]  78.3% of   12.46MiB at  Unknown B/s ETA Unknown[download]  78.3% of   12.46MiB at  Unknown B/s ETA Unknown[download]  78.4% of   12.46MiB at  Unknown B/s ETA Unknown[download]  78.5% of   12.46MiB at  Unknown B/s ETA Unknown[download]  78.8% of   12.46MiB at  Unknown B/s ETA Unknown[download]  79.3% of   12.46MiB at  Unknown B/s ETA Unknown[download]  80.3% of   12.46MiB at    1.30MiB/s ETA 00:01  [download]  82.3% of   12.46MiB at    2.42MiB/s ETA 00:00[download]  86.3% of   12.46MiB at    4.11MiB/s ETA 00:00[download]  94.3% of   12.46MiB at    5.70MiB/s ETA 00:00[download] 100.0% of   12.46MiB at    4.88MiB/s ETA 00:00[download] 100% of   12.46MiB in 00:00:02 at 4.17MiB/s   
+[ExtractAudio] Destination: /tmp/cycle-studies.9MvrRZ/cycle-audio.mp3
+Deleting original file /tmp/cycle-studies.9MvrRZ/cycle-audio.webm (pass -k to keep)
+[2026-04-10 15:38] 📝 优先尝试提取字幕...
+[youtube] Extracting URL: https://youtu.be/IQZ73zl57Ao
+[youtube] IQZ73zl57Ao: Downloading webpage
+[youtube] IQZ73zl57Ao: Downloading android vr player API JSON
+[youtube] IQZ73zl57Ao: Downloading web player API JSON
+[youtube] IQZ73zl57Ao: Downloading web safari player API JSON
+[info] IQZ73zl57Ao: Downloading 1 format(s): 399+251
+[info] There are no subtitles for the requested languages
+[2026-04-10 15:38] 🎙️ 使用 Whisper 转录（模型: base）...
+[2026-04-10 15:40] ✅ 转录完成 (3435 字符)
+[2026-04-10 15:40] 📈 获取当前盘面...
+[2026-04-10 15:40] ✍️  生成价格分析文案...
+[2026-04-10 15:40] 📋 文案长度: 296 字符
+[2026-04-10 15:40] 🗂️ 草稿已保存: /Users/sudi/.openclaw/workspace/memory/cycle-studies/archive/drafts/IQZ73zl57Ao.md
+[2026-04-10 15:40] 📤 发布到 Binance Square...
+[2026-04-10 15:40] ✅ 发布成功! Post ID: 310935669701377
+[2026-04-10 16:20] 🔍 检查 CycleStudies 最新视频...
+[2026-04-10 16:20] 📺 发现新视频: [2026-04-09] 这根线就是多头的命根子。
+[2026-04-10 16:20] 🎬 开始处理新视频...
+[2026-04-10 16:20] ⬇️ 下载音频...
+[youtube] Extracting URL: https://youtu.be/UjMv739S8C8
+[youtube] UjMv739S8C8: Downloading webpage
+[youtube] UjMv739S8C8: Downloading android vr player API JSON
+[youtube] UjMv739S8C8: Downloading web player API JSON
+[youtube] UjMv739S8C8: Downloading web safari player API JSON
+[info] UjMv739S8C8: Downloading 1 format(s): 251
+[download] Destination: /tmp/cycle-studies.zEPYn7/cycle-audio.webm
+[download]   0.0% of   11.60MiB at  Unknown B/s ETA Unknown[download]   0.0% of   11.60MiB at  Unknown B/s ETA Unknown[download]   0.1% of   11.60MiB at    6.18MiB/s ETA 00:01  [download]   0.1% of   11.60MiB at   11.19MiB/s ETA 00:01[download]   0.3% of   11.60MiB at    4.74MiB/s ETA 00:02[download]   0.5% of   11.60MiB at    6.95MiB/s ETA 00:01[download]   1.1% of   11.60MiB at    6.96MiB/s ETA 00:01[download]   2.1% of   11.60MiB at    8.26MiB/s ETA 00:01[download]   4.3% of   11.60MiB at    4.18MiB/s ETA 00:02[download]   8.6% of   11.60MiB at    7.44MiB/s ETA 00:01[download]  17.2% of   11.60MiB at   12.98MiB/s ETA 00:00[download]  34.5% of   11.60MiB at   15.78MiB/s ETA 00:00[download]  69.0% of   11.60MiB at   24.76MiB/s ETA 00:00[download]  83.3% of   11.60MiB at   27.81MiB/s ETA 00:00[download]  83.3% of   11.60MiB at  Unknown B/s ETA Unknown[download]  83.4% of   11.60MiB at  Unknown B/s ETA Unknown[download]  83.4% of   11.60MiB at    6.67MiB/s ETA 00:00  [download]  83.5% of   11.60MiB at   11.23MiB/s ETA 00:00[download]  83.6% of   11.60MiB at   19.05MiB/s ETA 00:00[download]  83.9% of   11.60MiB at   31.04MiB/s ETA 00:00[download]  84.4% of   11.60MiB at   52.89MiB/s ETA 00:00[download]  85.5% of   11.60MiB at   64.95MiB/s ETA 00:00[download]  87.6% of   11.60MiB at   67.62MiB/s ETA 00:00[download]  91.9% of   11.60MiB at   64.25MiB/s ETA 00:00[download] 100.0% of   11.60MiB at   63.90MiB/s ETA 00:00[download] 100% of   11.60MiB in 00:00:00 at 19.35MiB/s  
+[ExtractAudio] Destination: /tmp/cycle-studies.zEPYn7/cycle-audio.mp3
+Deleting original file /tmp/cycle-studies.zEPYn7/cycle-audio.webm (pass -k to keep)
+[2026-04-10 16:20] 📝 优先尝试提取字幕...
+[youtube] Extracting URL: https://youtu.be/UjMv739S8C8
+[youtube] UjMv739S8C8: Downloading webpage
+[youtube] UjMv739S8C8: Downloading android vr player API JSON
+[youtube] UjMv739S8C8: Downloading web player API JSON
+[youtube] UjMv739S8C8: Downloading web safari player API JSON
+[info] UjMv739S8C8: Downloading 1 format(s): 399+251
+[info] There are no subtitles for the requested languages
+[2026-04-10 16:20] 🎙️ 使用 Whisper 转录(模型: base)...
+[2026-04-10 16:21] ✅ 转录完成 (3738 字符)
+[2026-04-10 16:21] 📈 获取当前盘面...
+[2026-04-10 16:21] ✍️  生成价格分析文案...
+[2026-04-10 16:23] 📋 文案长度: 290 字符
+[2026-04-10 16:23] 🗂️ 草稿已保存: /Users/sudi/.openclaw/workspace/memory/cycle-studies/archive/drafts/UjMv739S8C8.md
+[2026-04-10 16:23] 📤 发布到 Binance Square...
+[2026-04-10 16:23] ✅ 发布成功! Post ID: 310946236506481
+[2026-04-10 16:27] 🔍 检查 CycleStudies 最新视频...
+[2026-04-10 16:27] 📺 发现新视频: [2026-04-08] 懂王怂了，比特币硬了！
+[2026-04-10 16:27] 🎬 开始处理新视频...
+[2026-04-10 16:27] ⬇️ 下载音频...
+[youtube] Extracting URL: https://youtu.be/yFPma3VPen8
+[youtube] yFPma3VPen8: Downloading webpage
+[youtube] yFPma3VPen8: Downloading android vr player API JSON
+[youtube] yFPma3VPen8: Downloading web player API JSON
+[youtube] yFPma3VPen8: Downloading web safari player API JSON
+[info] yFPma3VPen8: Downloading 1 format(s): 251
+[download] Destination: /tmp/cycle-studies.Ej2t5f/cycle-audio.webm
+[download]   0.0% of   12.24MiB at  Unknown B/s ETA Unknown[download]   0.0% of   12.24MiB at  Unknown B/s ETA Unknown[download]   0.1% of   12.24MiB at    5.60MiB/s ETA 00:02  [download]   0.1% of   12.24MiB at   10.35MiB/s ETA 00:01[download]   0.2% of   12.24MiB at    4.76MiB/s ETA 00:02[download]   0.5% of   12.24MiB at    6.34MiB/s ETA 00:01[download]   1.0% of   12.24MiB at    7.78MiB/s ETA 00:01[download]   2.0% of   12.24MiB at   10.64MiB/s ETA 00:01[download]   4.1% of   12.24MiB at   16.36MiB/s ETA 00:00[download]   8.2% of   12.24MiB at   24.52MiB/s ETA 00:00[download]  16.3% of   12.24MiB at   33.59MiB/s ETA 00:00[download]  32.7% of   12.24MiB at   38.59MiB/s ETA 00:00[download]  65.4% of   12.24MiB at   30.18MiB/s ETA 00:00[download]  78.6% of   12.24MiB at   32.56MiB/s ETA 00:00[download]  78.6% of   12.24MiB at  Unknown B/s ETA Unknown[download]  78.6% of   12.24MiB at  Unknown B/s ETA Unknown[download]  78.6% of   12.24MiB at  Unknown B/s ETA Unknown[download]  78.7% of   12.24MiB at  Unknown B/s ETA Unknown[download]  78.8% of   12.24MiB at   28.13MiB/s ETA 00:00  [download]  79.1% of   12.24MiB at   15.16MiB/s ETA 00:00[download]  79.6% of   12.24MiB at   27.32MiB/s ETA 00:00[download]  80.6% of   12.24MiB at   42.13MiB/s ETA 00:00[download]  82.7% of   12.24MiB at    5.41MiB/s ETA 00:00[download]  86.7% of   12.24MiB at   10.17MiB/s ETA 00:00[download]  94.9% of   12.24MiB at   16.63MiB/s ETA 00:00[download] 100.0% of   12.24MiB at   20.14MiB/s ETA 00:00[download] 100% of   12.24MiB in 00:00:00 at 23.60MiB/s  
+[ExtractAudio] Destination: /tmp/cycle-studies.Ej2t5f/cycle-audio.mp3
+Deleting original file /tmp/cycle-studies.Ej2t5f/cycle-audio.webm (pass -k to keep)
+[2026-04-10 16:27] 📝 优先尝试提取字幕...
+[youtube] Extracting URL: https://youtu.be/yFPma3VPen8
+[youtube] yFPma3VPen8: Downloading webpage
+[youtube] yFPma3VPen8: Downloading android vr player API JSON
+[youtube] yFPma3VPen8: Downloading web player API JSON
+[youtube] yFPma3VPen8: Downloading web safari player API JSON
+[info] yFPma3VPen8: Downloading 1 format(s): 401+251
+[info] There are no subtitles for the requested languages
+[2026-04-10 16:27] 🎙️ 使用 Whisper 转录(模型: base)...
+[2026-04-10 16:29] ✅ 转录完成 (3486 字符)
+[2026-04-10 16:29] 📈 获取当前盘面...
+[2026-04-10 16:29] ✍️  生成价格分析文案...
+[2026-04-10 16:30] 📋 文案长度: 248 字符
+[2026-04-10 16:30] 🗂️ 草稿已保存: /Users/sudi/.openclaw/workspace/memory/cycle-studies/archive/drafts/yFPma3VPen8.md
+[2026-04-10 16:30] 📤 发布到 Binance Square...
+[2026-04-10 16:30] ✅ 发布成功! Post ID: 310947914382657
+[2026-04-10 16:32] 🔍 检查 CycleStudies 最新视频...
+[2026-04-10 16:32] 📺 发现新视频: [2026-04-06] 带量上涨，多头亮剑！比特币回光返照还是暴涨？盯紧这个位置。
+[2026-04-10 16:32] 🎬 开始处理新视频...
+[2026-04-10 16:32] ⬇️ 下载音频...
+[youtube] Extracting URL: https://youtu.be/GraRCC2PsLE
+[youtube] GraRCC2PsLE: Downloading webpage
+[youtube] GraRCC2PsLE: Downloading android vr player API JSON
+[youtube] GraRCC2PsLE: Downloading web player API JSON
+[youtube] GraRCC2PsLE: Downloading web safari player API JSON
+[info] GraRCC2PsLE: Downloading 1 format(s): 251
+[download] Destination: /tmp/cycle-studies.47jKH2/cycle-audio.webm
+[download]   0.0% of   11.25MiB at  170.53KiB/s ETA 01:07[download]   0.0% of   11.25MiB at  478.84KiB/s ETA 00:24[download]   0.1% of   11.25MiB at    1.05MiB/s ETA 00:10[download]   0.1% of   11.25MiB at    2.20MiB/s ETA 00:05[download]   0.3% of   11.25MiB at  754.27KiB/s ETA 00:15[download]   0.5% of   11.25MiB at  857.84KiB/s ETA 00:13[download]   1.1% of   11.25MiB at    1.11MiB/s ETA 00:10[download]   2.2% of   11.25MiB at    1.61MiB/s ETA 00:06[download]   4.4% of   11.25MiB at    2.59MiB/s ETA 00:04[download]   8.9% of   11.25MiB at    3.26MiB/s ETA 00:03[download]  17.8% of   11.25MiB at    5.41MiB/s ETA 00:01[download]  35.5% of   11.25MiB at    7.92MiB/s ETA 00:00[download]  71.1% of   11.25MiB at   12.80MiB/s ETA 00:00[download]  87.5% of   11.25MiB at   14.75MiB/s ETA 00:00[download]  87.5% of   11.25MiB at  Unknown B/s ETA Unknown[download]  87.6% of   11.25MiB at  Unknown B/s ETA Unknown[download]  87.6% of   11.25MiB at  Unknown B/s ETA Unknown[download]  87.7% of   11.25MiB at  Unknown B/s ETA Unknown[download]  87.8% of   11.25MiB at   25.42MiB/s ETA 00:00  [download]  88.1% of   11.25MiB at   35.12MiB/s ETA 00:00[download]  88.6% of   11.25MiB at   60.51MiB/s ETA 00:00[download]  89.7% of   11.25MiB at    4.69MiB/s ETA 00:00[download]  92.0% of   11.25MiB at    6.96MiB/s ETA 00:00[download]  96.4% of   11.25MiB at    9.57MiB/s ETA 00:00[download] 100.0% of   11.25MiB at    7.26MiB/s ETA 00:00[download] 100% of   11.25MiB in 00:00:01 at 8.28MiB/s   
+[ExtractAudio] Destination: /tmp/cycle-studies.47jKH2/cycle-audio.mp3
+Deleting original file /tmp/cycle-studies.47jKH2/cycle-audio.webm (pass -k to keep)
+[2026-04-10 16:32] 📝 优先尝试提取字幕...
+[youtube] Extracting URL: https://youtu.be/GraRCC2PsLE
+[youtube] GraRCC2PsLE: Downloading webpage
+[youtube] GraRCC2PsLE: Downloading android vr player API JSON
+[youtube] GraRCC2PsLE: Downloading web player API JSON
+[youtube] GraRCC2PsLE: Downloading web safari player API JSON
+WARNING: [youtube] GraRCC2PsLE: Some android_vr client https formats have been skipped as they are missing a URL. YouTube may have enabled the SABR-only streaming experiment for the current session. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+[info] GraRCC2PsLE: Downloading 1 format(s): 18
+[info] There are no subtitles for the requested languages
+[2026-04-10 16:32] 🎙️ 使用 Whisper 转录(模型: base)...
+[2026-04-10 16:34] ✅ 转录完成 (3175 字符)
+[2026-04-10 16:34] 📈 获取当前盘面...
+[2026-04-10 16:34] ✍️  生成价格分析文案...
+[2026-04-10 16:35] 📋 文案长度: 305 字符
+[2026-04-10 16:35] 🗂️ 草稿已保存: /Users/sudi/.openclaw/workspace/memory/cycle-studies/archive/drafts/GraRCC2PsLE.md
+[2026-04-10 16:35] 📤 发布到 Binance Square...
+[2026-04-10 16:35] ✅ 发布成功! Post ID: 310949074211906
+[2026-04-10 17:10] 🔍 检查 CycleStudies 最新视频...
+[2026-04-10 17:10] ⏭️ 没有新视频,跳过

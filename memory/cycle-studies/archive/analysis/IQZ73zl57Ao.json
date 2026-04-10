@@ -1,0 +1,21 @@
+{
+  "video_title": "一根均线走天下：不破就格局，破了就割肉。",
+  "video_date": "2026-04-10",
+  "video_id": "IQZ73zl57Ao",
+  "stage1_notes": [
+    "核心判断：更适合等强势确认后的顺势跟随",
+    "走势阶段：优先确认当前是趋势段还是震荡段",
+    "关键区域：关键位置优先看前高前低、均线和区间边界",
+    "做法1：等结构确认后再跟，不抢情绪单",
+    "做法2：在聊句的交替化只有当比特币有效突破结构前高",
+    "风险：最怕把短线拉扯误判成单边行情"
+  ],
+  "price_zone_hints": [],
+  "stage1_used_fallback": true,
+  "stage1_error": "LLM 请求失败: HTTP 529 {\"type\":\"error\",\"error\":{\"type\":\"overloaded_error\",\"message\":\"overloaded_error (529)\"},\"request_id\":\"0627ce58b3f610f239b4597278bc80b8\"}",
+  "stage2_used_fallback": true,
+  "stage2_error": "LLM 请求失败: HTTP 529 {\"type\":\"error\",\"error\":{\"type\":\"overloaded_error\",\"message\":\"overloaded_error (529)\"},\"request_id\":\"0627ce5b6139f7acff94817a12a1a60e\"}",
+  "post_validation": {
+    "issues": []
+  }
+}

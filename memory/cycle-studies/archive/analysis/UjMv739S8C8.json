@@ -1,0 +1,23 @@
+{
+  "video_title": "这根线就是多头的命根子。",
+  "video_date": "2026-04-09",
+  "video_id": "UjMv739S8C8",
+  "stage1_notes": [
+    "核心判断:更适合等强势确认后的顺势跟随",
+    "走势阶段:优先确认当前是趋势段还是震荡段",
+    "关键区域:前高 200",
+    "做法1:等结构确认后再跟,不抢情绪单",
+    "做法2:如果昨天的价格上养,你赶到交绿,今天的回彻让你赶",
+    "风险:最怕把短线拉扯误判成单边行情"
+  ],
+  "price_zone_hints": [
+    "前高 200"
+  ],
+  "stage1_used_fallback": true,
+  "stage1_error": "LLM 请求失败: HTTP 529 {\"type\":\"error\",\"error\":{\"type\":\"overloaded_error\",\"message\":\"overloaded_error (529)\"},\"request_id\":\"0627d82714198b171eb313766a68d58b\"}",
+  "stage2_used_fallback": true,
+  "stage2_error": "LLM 请求失败: HTTP 529 {\"type\":\"error\",\"error\":{\"type\":\"overloaded_error\",\"message\":\"overloaded_error (529)\"},\"request_id\":\"0627d83940a6c6518a57edf78a238426\"}",
+  "post_validation": {
+    "issues": []
+  }
+}
