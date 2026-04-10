@@ -41273,3 +41273,44 @@ The 19:00 memory backup task is scheduled to run automatically, indicating a rou
 - 🟡 19:03 Weekly Memory Compound: 超时，4/13再试 <!-- dc:type=event dc:importance=4.0 dc:date=2026-04-10 -->
 - 🟢 19:08 Nexus auto-restart: 全部6节点在线(5500030/36355716/35691962/36729716/36445748/37599871)，无需重启 <!-- dc:type=event dc:importance=2.0 dc:date=2026-04-10 -->
 - 🟢 19:13 Health Check: Gateway(pid 20035)运行中 · Fortytwo(pid 60086)运行中~329h · Nexus 4节点活跃 <!-- dc:type=event dc:importance=2.5 dc:date=2026-04-10 -->
+
+<think>
+Let me analyze these recent messages for new observations:
+
+1. **11:33 Health Check** - Cron job ran Fortytwo heartbeat and Gateway self-heal
+   - All services healthy: Fortytwo (717.5 Energy), Nexus (6/6 nodes), Gateway (pid 20035)
+   - This is a routine health check - should score low (1-2)
+
+2. **11:43 Health Check** - Another cron health check 10 minutes later
+   - Gateway running
+   - Nexus 5 nodes active + prove-fib workers running
+   - FortytwoNode running
+   - ⚠️ Fortytwo Heartbeat script failing with KeyError on access_token, refresh_token, available keys
+   - Last successful balance: 717.5 Energy at 20:43:15
+   - This has new information: the Fortytwo Heartbeat is failing with a KeyError
+
+Now checking against "Already Recorded":
+- 09:54 Health Check - already recorded
+- 09:48 Nexus restart - already recorded
+- 10:01 Micro-Sync - already recorded
+- 19:13 Gateway启动 - already recorded
+- 19:03备用LLM状态 - already recorded
+- 19:03 HACKAI mint问题 - already recorded
+- 19:03 Weekly Memory Compound - already recorded
+- 19:08 Nexus auto-restart - already recorded
+- 19:13 Health Check - already recorded
+
+What's new:
+1. The 11:33 health check is essentially a repeat of earlier health checks - no new info
+2. The 11:43 health check reveals a NEW issue: Fortytwo Heartbeat script failing with KeyError
+
+Wait, but I need to think about this more carefully. The "Already Recorded" items include health checks from 09:54 and 19:13. The cron health checks at 11:33 and 11:43 are routine automated checks. The 11:43 one shows a new issue (KeyError on Fortytwo heartbeat).
+ 
+The output structure requires careful consideration. I'll focus on the key error details, ensuring I capture the critical information while maintaining the structured format. The Fortytwo Heartbeat script's KeyError needs precise documentation, highlighting the specific keys that failed and the last successful balance reading.
+
+I'm noticing this is an evening health check, which adds temporal context to the technical details. The script failure occurs late at night, potentially indicating a specific time-sensitive issue with system monitoring.
+</think>
+
+- 🔴 20:43 Fortytwo Heartbeat失败: KeyError on `access_token`, `refresh_token`, `available` keys (上次成功: 717.5 Energy at 20:43:15) <!-- dc:type=event dc:importance=6.0 dc:date=2026-04-10 -->
+  - 🟡 20:43 Gateway运行中(pid 20035, RPC probe ok) · Nexus 5节点活跃 + prove-fib workers运行中 <!-- dc:type=fact dc:importance=3.5 dc:date=2026-04-10 -->
+  - 🟢 20:33 Health Check: Fortytwo正常运行(717.5 Energy) · Nexus 6/6节点 · Gateway运行中 <!-- dc:type=event dc:importance=1.5 dc:date=2026-04-10 -->
