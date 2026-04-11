@@ -2,33 +2,14 @@
   "lastChecks": {
     "email": null,
     "calendar": null,
-    "weather": null,
-    "heartbeat": 1744310461
+    "projects": 1775900400,
+    "web3": 1775900400
   },
-  "lastHeartbeat": "2026-04-10 21:07 KST. All services running ✅. Daily automation 21:00 ✅ completed. Nexus, Fortytwo, molt-mint active. No issues.",
   "notes": {
-    "heartbeat-2026-04-10-0900": "09:15 KST. Daily automation ✅ completed. All services running.",
-    "heartbeat-2026-04-10-0945": "09:46 KST. Memory backup to GitHub ✅. Nexus running (10+ nodes). Fortytwo running.",
-    "heartbeat-2026-04-10-1002": "10:02 KST. All normal. Nexus 38 nodes ✅, Fortytwo 3 processes ✅. Daily automation 09:00 ✅ ran Binance Square post (BTC $71,782). 22 cron tasks, 20 ✅, 2 ❌ (weekly tasks - expected). No urgent issues.",
-    "heartbeat-2026-04-10-1101": "11:01 KST. Periodic check. Nexus proving processes active ✅, 3+ nodes running ✅. No issues detected.",
-    "heartbeat-2026-04-10-1231": "12:31 KST. Midday periodic check. Nexus proving active (5 fib-subprocess running at 1:16PM) ✅, Nexus nodes 6+ running ✅, FortytwoProtocol + FortytwoCapsule ✅. All normal.",
-    "heartbeat-2026-04-10-1315": "13:15 KST. Periodic check. Nexus proving active (5 fib-subprocess running at 1:50PM) ✅, Nexus nodes running ✅, Fortytwo running ✅. All normal.",
-    "heartbeat-2026-04-10-1349": "13:49 KST. Periodic check. Nexus proving active (6 fib-subprocess running at 1:50PM) ✅, Nexus nodes running ✅, Fortytwo running ✅. All normal. No urgent issues.",
-    "heartbeat-2026-04-10-1430": "14:30 KST. Periodic check. Nexus proving active (5 fib-subprocess running at 2:30PM) ✅, Nexus nodes 6+ running ✅, FortytwoProtocol + FortytwoCapsule ✅. All normal.",
-    "heartbeat-2026-04-10-1519": "15:19 KST. Periodic check. Nexus nodes running ✅ (6/6). FortytwoProtocol + FortytwoCapsule actually running ✅ (safe-run check was wrong). molt-mint.sh started. All normal.",
-    "heartbeat-2026-04-10-1601": "16:01 KST. Heartbeat check. Nexus nodes running ✅ (SCREEN sessions active), Fortytwo running ✅ (safe-run log clean). All services normal.",
-    "heartbeat-2026-04-10-1616": "16:16 KST. Periodic check. Nexus nodes running ✅, Fortytwo running ✅ (balance polling active), molt-mint running ✅ (last post 16:12). All services normal.",
-    "heartbeat-2026-04-10-1642": "16:42 KST. Periodic check. Nexus proving active (5 fib-subprocess at 4:42PM) ✅, Nexus nodes running ✅ (6+ nodes), FortytwoProtocol + FortytwoCapsule ✅, molt-mint ✅. All services normal.",
-    "heartbeat-2026-04-10-1715": "17:15 KST. Periodic check. Nexus nodes running ✅, Fortytwo running ✅, molt-mint ✅ (last post 17:11). All services normal.",
-    "heartbeat-2026-04-10-1722": "17:22 KST. Periodic check. Nexus nodes running ✅ (PIDs visible), Fortytwo running ✅, molt-mint running ✅ (PID 28313, started 3:21PM). All services normal.",
-    "heartbeat-2026-04-10-1731": "17:31 KST. Periodic check. Nexus 6 nodes running ✅ (screen sessions active), FortytwoProtocol + FortytwoCapsule ✅, molt-mint ✅ (active, last post 17:30). All services normal.",
-    "heartbeat-2026-04-10-1914": "19:14 KST. Periodic check. All services running ✅. Nexus (PIDs: 907-5527+), Fortytwo (3 processes), molt-mint (PID 28313). All normal.",
-    "heartbeat-2026-04-10-1930": "19:30 KST. Evening check. All services normal ✅. Nexus nodes running (20 PIDs), Fortytwo (3 procs), molt-mint (PID 28313). Web3 airdrops active: Backpack, Polymarket, OpenSea, Linea, Miden (April 2026). No urgent issues.",
-    "heartbeat-2026-04-10-2000": "20:00 KST. Periodic check. All services running ✅ (PIDs visible). All normal.",
-    "heartbeat-2026-04-10-2015": "20:15 KST. Evening automation check. Daily automation ran ✅. Nexus running (30+ PIDs), Fortytwo running, molt-mint running (PID 28313). All services normal.",
-    "heartbeat-2026-04-10-2030": "20:30 KST. Evening heartbeat. All services running ✅ (30+ PIDs). Nexus, Fortytwo, molt-mint active. No issues.",
-    "heartbeat-2026-04-10-2107": "21:07 KST. Evening heartbeat. All services running ✅ (30+ PIDs). Nexus, Fortytwo, molt-mint active. No issues.",
-    "heartbeat-2026-04-10-2201": "22:01 KST. Night heartbeat. All services running ✅. Nexus (30+ PIDs), Fortytwo (3 procs), molt-mint (PID 28313, minting HACKAI - some failures but minting active). Daily automation 21:00 ✅ completed. Web3 airdrops April 2026: Monday.Trade, Shape, Oro Gold (Monad/Ethereum/Solana) worth watching. No urgent issues."
-  },
-  "heartbeat-2026-04-10-2100": "21:00 KST. Evening heartbeat. All services running ✅ (30+ PIDs). Nexus, Fortytwo, molt-mint active. No issues."
+    "hackai_mint_issue": "Molt mint HACKAI failing Bad Request consistently since 22:16 KST - likely project done or mint closed",
+    "17:00_check": "Nexus and Fortytwo both active and processing requests normally",
+    "17:15_check": "Nexus prove-fib active (high CPU), Fortytwo running, all healthy",
+    "18:00_check": "Nexus prove-fib still running high CPU, Fortytwo normal - all healthy",
+    "19:00_check": "6x Nexus prove-fib subprocesses still running high CPU (normal for compute tasks), Fortytwo normal - all healthy"
+  }
 }
