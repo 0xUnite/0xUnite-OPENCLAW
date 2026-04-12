@@ -2,14 +2,17 @@
   "lastChecks": {
     "email": null,
     "calendar": null,
-    "projects": 1775900400,
-    "web3": 1775900400
+    "projects": 1744382724,
+    "web3": 1744382724
   },
   "notes": {
     "hackai_mint_issue": "Molt mint HACKAI failing Bad Request consistently since 22:16 KST - likely project done or mint closed",
     "17:00_check": "Nexus and Fortytwo both active and processing requests normally",
     "17:15_check": "Nexus prove-fib active (high CPU), Fortytwo running, all healthy",
     "18:00_check": "Nexus prove-fib still running high CPU, Fortytwo normal - all healthy",
-    "19:00_check": "6x Nexus prove-fib subprocesses still running high CPU (normal for compute tasks), Fortytwo normal - all healthy"
+    "19:00_check": "6x Nexus prove-fib subprocesses still running high CPU (normal for compute tasks), Fortytwo normal - all healthy",
+    "21:16_check": "Nexus: 6x prove-fib subprocesses active (high CPU normal), 3x node processes running. Fortytwo: processing requests normally. All healthy.",
+    "22:01_check": "Gateway OK. Nexus: all 6 stuck at 'Fetching task' since 02:53 KST (~20h, possibly no tasks). Fortytwo: running (22:02 restart), balance blank. Molt: running PID 25698. Molt HACKAI mint still failing. sync.sh missing - HEARTBEAT.md references non-existent script.",
+    "22:45_check": "Nexus: 6x prove-fib subprocesses still running high CPU (normal), 3x node processes stuck 'Fetching task' ~20h (likely no new tasks). Fortytwo: actively processing requests (22:45 log shows new requests). Molt: not running (mint stopped after repeated failures). All stable, nothing urgent."
   }
 }
